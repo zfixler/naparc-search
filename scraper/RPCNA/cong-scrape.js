@@ -5,11 +5,14 @@ const urlList = require('./url-list.json');
 const { v4: uuidv4 } = require('uuid');
 
 function getData(html) {
+
 	const $ = cheerio.load(html);
 
 	const el = $('.church_info');
 
-	const congName = $(el).find('h1').text();
+	const congName = $(el).find('h1').html().replace(/\<.*/g, '');
+
+	console.log(congName)
 
 	const pastor = $(el).find('p').first().text();
 
@@ -57,6 +60,7 @@ function getData(html) {
 
 	const congregation = {
 		id: uuidv4(),
+		denom: 'RPCNA',
 		name: congName,
 		pastor: pastor,
 		phone: phone,
@@ -64,8 +68,9 @@ function getData(html) {
 		website: website,
 		address: address,
 	};
+	
 	console.log(churchArray.length)
-	console.log(urlList.length)
+
 	return congregation;
 }
 
