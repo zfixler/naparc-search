@@ -1,18 +1,29 @@
+import { useState, useEffect } from 'react';
+import rpcna from './api/rpcna.json';
+import Header from './components/Header';
+import Search from './components/Search';
+import Card from './components/Card';
 
-import rpcna from './api/rpcna.json'
 
 function App() {
+	const [searchTerm, setSearchTerm] = useState('');
+	const [allCong, setAllCong] = useState([]);
 
-const display = rpcna.map(cong => <h2 key={cong.id}>{cong.name}</h2>)
+	useEffect(() => {
+		setAllCong(rpcna);
+	}, []);
 
+	const display = allCong.map((cong) => <Card key={cong.id} props={cong} />);
 
+	console.log(searchTerm);
 
-  return (
-    <div>
-      <h1 style={{textAlign: 'center'}}>Hello World</h1>
-      {display}
-    </div>
-  );
+	return (
+		<>
+			<Header />
+			<Search props={({ searchTerm }, { setSearchTerm })} />
+			<main>{display}</main>
+		</>
+	);
 }
 
 export default App;

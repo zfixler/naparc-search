@@ -1,0 +1,129 @@
+@import './resets';
+@import './typography';
+@import './variables';
+
+body {
+	background-color: $primary-background;
+	color: $primary-color;
+}
+
+h1 {
+	margin: 0;
+}
+
+header {
+	padding: 3em 1em;
+	text-align: center;
+
+	h1 {
+		font-size: 5rem;
+		letter-spacing: 5px;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	
+	@media (max-width: 500px){
+		h1 {
+			font-size: 3rem;
+		}
+	}
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: fit-content;
+	margin: 0 auto 4em;
+	position: relative;
+
+    input {
+        font-family: 'Montserrat', sans-serif;
+		color: $primary-color;
+        padding: 1.5em 1.5em 1.5em 4.5em;
+        border-radius: 1.5em;
+        outline: none;
+        border: none;
+		box-shadow: $box-shadow;
+		transition: scale 250ms ease;
+		transform: scale(1);
+
+		&:hover, &:focus {
+			transform: scale(1.05);
+		}
+    }
+
+	.search-glass {
+		fill: $primary-color;
+		z-index: 100;
+		height: 2.5em;
+		width: auto;
+		margin: .5em .5em .5em .6em;
+		position: absolute;
+		left: 0;
+	}
+}
+
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 2em;
+	justify-items: center;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.card {
+	max-width: 300px;
+	max-height: 450px;
+	background-color: white;
+	box-shadow: $box-shadow;
+	border-radius: 5px;
+	padding: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	
+	h2 {
+		margin: 0;
+		padding-top: .6em;
+		text-align: center;
+	}
+
+	.card-btns {
+		margin: 1em 1em 2em;
+	}
+
+	.denom {
+		position: absolute;
+		font-size: .75rem;
+		color: $accent-color;
+		font-weight: bold;
+		letter-spacing: 1px;
+		top: -8px;
+		right: 8px;
+	}
+}
+
+.btn {
+	text-decoration: none;
+	color: #FFF;
+	padding: .5em 1.25em;
+	background: linear-gradient(270deg, rgba(5,102,141,0.7290266448376226) 0%, rgba(5,102,141,1) 100%);
+	border-radius: 1em;
+	margin: 10px;
+	position: relative;
+	transition: all 250ms ease;
+
+	&:hover, &:focus {
+		box-shadow: 0px 0px 3px 1px rgba(216,49,91,0.6);
+		color: $accent-color;
+		outline: none;
+	}
+}
