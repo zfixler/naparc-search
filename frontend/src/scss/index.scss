@@ -78,12 +78,13 @@ main {
 }
 
 .card {
+	justify-self: center;
 	max-width: 300px;
 	max-height: 450px;
 	background-color: white;
 	box-shadow: $box-shadow;
 	border-radius: 5px;
-	padding: 1.5em;
+	padding: 1.5em 2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
