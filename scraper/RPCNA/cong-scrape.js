@@ -5,14 +5,13 @@ const urlList = require('./url-list.json');
 const { v4: uuidv4 } = require('uuid');
 
 function getData(html) {
-
 	const $ = cheerio.load(html);
 
 	const el = $('.church_info');
 
-	const congName = $(el).find('h1').html().replace(/\<.*/g, '');
+	const congName = $(el).find('h1').html().replace(/\<.*/g, '').trim();
 
-	console.log(congName)
+	console.log(congName);
 
 	const pastor = $(el).find('p').first().text();
 
@@ -68,8 +67,8 @@ function getData(html) {
 		website: website,
 		address: address,
 	};
-	
-	console.log(churchArray.length)
+
+	console.log(churchArray.length);
 
 	return congregation;
 }
@@ -85,7 +84,6 @@ async function createArray(url) {
 		(error) => console.log(error);
 	}
 
-	
 	if (churchArray.length === urlList.length) {
 		const data = JSON.stringify(churchArray);
 		fs.writeFileSync('../../frontend/src/api/rpcna.json', data);

@@ -13,6 +13,7 @@ function App() {
 
 	const searchRef = useRef(null);
 
+
 	useEffect(() => {
 		setAllCong(opc.concat(rpcna));
 		searchRef.current.focus()
@@ -23,19 +24,14 @@ function App() {
 		const options = {
 			includeScore: true,
 			ignoreLocation: true,
-			isCaseSensitive: true,
+			isCaseSensitive: false,
 			keys: ['denom', 'name', 'pastor', 'address'],
 		};
 
 		const fuse = new Fuse(allCong, options);
+		const result = fuse.search(searchTerm);
+		setSearchResult(result);
 
-		if (searchTerm.length > 1) {
-			const result = fuse.search(searchTerm);
-			setSearchResult(result);
-		} else {
-			setSearchResult([])
-		}
-		
 	}, [searchTerm, allCong]);
 
 	const display = searchResult.slice(0, 10).map((cong) => (
