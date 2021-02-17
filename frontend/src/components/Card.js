@@ -13,7 +13,7 @@ function Card({props}) {
             </div>
             <div className="card-btns">
                 <a className="btn" href={`mailto:${props.email}`}>Email</a>
-                <a className="btn" href={props.website}>Website</a>
+                <a className="btn" href={props.website} target="_blank">Website</a>
             </div>
             
         </div>

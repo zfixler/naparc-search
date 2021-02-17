@@ -1,116 +1,6 @@
 [
 	{
-		"id": "d2028570-8f1c-4616-8152-4253d18133e3",
-		"denom": "OPC",
-		"name": "DELTA OAKS",
-		"pastor": "Pastor: Michael D. Dengerink",
-		"phone": "925-516-2735",
-		"email": "dengerink.1@opc.org",
-		"website": "http://www.deltaoaks.org",
-		"address": "993 Randy Way Brentwood, CA 94513-5411"
-	},
-	{
-		"id": "2e806cc7-1088-43ee-a0a8-1636043b1354",
-		"denom": "OPC",
-		"name": "BONITA",
-		"pastor": "Pastor: Joseph Puglia",
-		"phone": "619-475-3752",
-		"email": "puglia.1@opc.org",
-		"website": "http://www.bonitaopc.org",
-		"address": "5111 Central Ave. Bonita, CA 91902-2639"
-	},
-	{
-		"id": "2246ee1e-622c-41de-96dc-2cf24e7160f9",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Wayne K. Forkner",
-		"phone": "510-845-7315",
-		"email": "forkner.1@opc.org",
-		"website": "http://berkeleyopc.org",
-		"address": "1623 University Ave. Berkeley, CA 94703-1424"
-	},
-	{
-		"id": "e381d4bb-4684-4bbd-9c49-39314ef73f67",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Joshua P. Lyon",
-		"phone": "310-320-2232; 775-351-4430",
-		"email": "lyon.1@opc.org",
-		"website": "https://gracecarson.org/",
-		"address": "22511 South Figueroa St. Carson, CA 90745-4412"
-	},
-	{
-		"id": "40bb56de-765b-4c24-aae0-344e4e43c834",
-		"denom": "OPC",
-		"name": "BAYVIEW",
-		"pastor": "Pastor: Roger Wagner",
-		"phone": "619-421-1003",
-		"email": "wagner.1@opc.org",
-		"website": "http://www.bayviewopc.org/",
-		"address": "505 East Naples St. Chula Vista, CA 91911-2518"
-	},
-	{
-		"id": "60adeae1-2763-4780-8d14-efc88f071d17",
-		"denom": "OPC",
-		"name": "THEOPHILUS",
-		"pastor": "Pastor: Yousik Hong (Korean)",
-		"phone": "714-308-6477 (Korean) Phone: 714-443-1121 (English)",
-		"email": "office@theophilusopc.org",
-		"website": "http://theophilusopc.org/",
-		"address": "2660 W. Woodland Dr., Ste. #140 Anaheim, CA 92801-2647"
-	},
-	{
-		"id": "baa66585-2daf-4335-a3ed-d1eea4e4b890",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: David L. Thibault",
-		"phone": "714-983-7995",
-		"email": "thibault.1@opc.org",
-		"website": "http://www.grace-opc.org/",
-		"address": "P.O. Box 205 Placentia, CA 92871-0205"
-	},
-	{
-		"id": "b97fe8d7-0c10-4ae7-a54d-d9028d1ab61d",
-		"denom": "OPC",
-		"name": "CALVIN",
-		"pastor": "Pastor: Michael L. Babcock",
-		"phone": "602-992-4454",
-		"email": "babcock.1@opc.org",
-		"website": "http://www.calvinopc.org",
-		"address": "3218 E. Bell Road, #221 Phoenix, AZ 85032"
-	},
-	{
-		"id": "f3ae9e56-e5f3-4b7f-b0cb-c2278b3139ce",
-		"denom": "OPC",
-		"name": "ESCONDIDO",
-		"pastor": "Pastor: Zachary R. Keele",
-		"phone": "760-580-4419",
-		"email": "keele.1@opc.org",
-		"website": "http://escondidoopc.org",
-		"address": "345 Aspen Way Escondido, CA 92026-3024"
-	},
-	{
-		"id": "2700e0f3-d1dd-4c2f-8c05-a8fed89fe278",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Darren S. Thole",
-		"phone": "256-722-0227",
-		"email": "thole.2@opc.org",
-		"website": "http://www.providencehuntsville.com",
-		"address": "7745 Hwy 72 West (University Dr.) Madison, AL 35758-8751"
-	},
-	{
-		"id": "dadf72b0-6eb0-43b9-bff6-2fd1ed15c212",
-		"denom": "OPC",
-		"name": "PRESCOTT",
-		"pastor": "Pastor: Charles K. Perkins",
-		"phone": "928-778-2538",
-		"email": "perkins.1@opc.org",
-		"website": "http://www.prespres.org",
-		"address": "137 N. Marina St. Prescott, AZ 86301-3207"
-	},
-	{
-		"id": "b029fe3f-6e65-4825-b51f-ad5d3c1be35e",
+		"id": "cbe2e9b1-b618-42d5-9969-5d34dd5c2d7a",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: Curtis Moleterno",
@@ -120,7 +10,107 @@
 		"address": "P.O. Box 873741 Wasilla, AK 99687-3741"
 	},
 	{
-		"id": "240787ed-0ca5-40bc-bd03-0c8b02a4857f",
+		"id": "a1b53b12-bac5-4aca-ada4-a6f80342c563",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Darren S. Thole",
+		"phone": "256-722-0227",
+		"email": "thole.2@opc.org",
+		"website": "http://www.providencehuntsville.com",
+		"address": "7745 Hwy 72 West (University Dr.) Madison, AL 35758-8751"
+	},
+	{
+		"id": "0491cd03-a00a-487c-98b7-0c961e299074",
+		"denom": "OPC",
+		"name": "CALVIN",
+		"pastor": "Pastor: Michael L. Babcock",
+		"phone": "602-992-4454",
+		"email": "babcock.1@opc.org",
+		"website": "http://www.calvinopc.org",
+		"address": "3218 E. Bell Road, #221 Phoenix, AZ 85032"
+	},
+	{
+		"id": "128e7619-5903-4aa5-9315-ce7f06ad00dc",
+		"denom": "OPC",
+		"name": "PRESCOTT",
+		"pastor": "Pastor: Charles K. Perkins",
+		"phone": "928-778-2538",
+		"email": "perkins.1@opc.org",
+		"website": "http://www.prespres.org",
+		"address": "137 N. Marina St. Prescott, AZ 86301-3207"
+	},
+	{
+		"id": "ce1763c7-31eb-4ba2-bf3d-62907f3c6f41",
+		"denom": "OPC",
+		"name": "DELTA OAKS",
+		"pastor": "Pastor: Michael D. Dengerink",
+		"phone": "925-516-2735",
+		"email": "dengerink.1@opc.org",
+		"website": "http://www.deltaoaks.org",
+		"address": "993 Randy Way Brentwood, CA 94513-5411"
+	},
+	{
+		"id": "742882be-7691-44f9-8fe8-3028101345c0",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Wayne K. Forkner",
+		"phone": "510-845-7315",
+		"email": "forkner.1@opc.org",
+		"website": "http://berkeleyopc.org",
+		"address": "1623 University Ave. Berkeley, CA 94703-1424"
+	},
+	{
+		"id": "0dc47bf7-4008-4904-b9ce-1276ad852416",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Joshua P. Lyon",
+		"phone": "310-320-2232; 775-351-4430",
+		"email": "lyon.1@opc.org",
+		"website": "https://gracecarson.org/",
+		"address": "22511 South Figueroa St. Carson, CA 90745-4412"
+	},
+	{
+		"id": "3f86d05d-1d90-41e5-9bdd-a65cf692c82f",
+		"denom": "OPC",
+		"name": "BONITA",
+		"pastor": "Pastor: Joseph Puglia",
+		"phone": "619-475-3752",
+		"email": "puglia.1@opc.org",
+		"website": "http://www.bonitaopc.org",
+		"address": "5111 Central Ave. Bonita, CA 91902-2639"
+	},
+	{
+		"id": "c1799f12-e2e1-4a11-8461-fd9dab174259",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: David L. Thibault",
+		"phone": "714-983-7995",
+		"email": "thibault.1@opc.org",
+		"website": "http://www.grace-opc.org/",
+		"address": "P.O. Box 205 Placentia, CA 92871-0205"
+	},
+	{
+		"id": "b8eeef8d-ac30-423e-aeb9-15e7c15f9977",
+		"denom": "OPC",
+		"name": "BAYVIEW",
+		"pastor": "Pastor: Roger Wagner",
+		"phone": "619-421-1003",
+		"email": "wagner.1@opc.org",
+		"website": "http://www.bayviewopc.org/",
+		"address": "505 East Naples St. Chula Vista, CA 91911-2518"
+	},
+	{
+		"id": "798adcbd-b537-4164-9fab-729db1634a81",
+		"denom": "OPC",
+		"name": "ESCONDIDO",
+		"pastor": "Pastor: Zachary R. Keele",
+		"phone": "760-580-4419",
+		"email": "keele.1@opc.org",
+		"website": "http://escondidoopc.org",
+		"address": "345 Aspen Way Escondido, CA 92026-3024"
+	},
+	{
+		"id": "76459140-8664-41de-a299-8358feb6e807",
 		"denom": "OPC",
 		"name": "EL CAMINO",
 		"pastor": "Pastor: Jeremy R. Allen",
@@ -130,17 +120,7 @@
 		"address": "7526 Calle Real Goleta, CA 93117-1948"
 	},
 	{
-		"id": "2a2ca48d-4154-451d-afac-0a9ebb273bfc",
-		"denom": "OPC",
-		"name": "NEW HOPE",
-		"pastor": "Pastor: Arthur J. Fox",
-		"phone": "559-587-9057",
-		"email": "fox.1@opc.org",
-		"website": "https://newhopehanford.org",
-		"address": "P.O. Box 601  Hanford, CA 93232-0601"
-	},
-	{
-		"id": "dd26d4d5-2b69-4497-b434-5a486244c970",
+		"id": "7899aad4-e5d3-492d-830f-ec01c2bd80b0",
 		"denom": "OPC",
 		"name": "SOVEREIGN GRACE COMMUNITY",
 		"pastor": "Pastor: Mark R. Wheat",
@@ -150,17 +130,7 @@
 		"address": "P.O. Box 1301 Hughson, CA 95326-1301"
 	},
 	{
-		"id": "6b0659e1-2d1f-45fb-ba44-ff799d545704",
-		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: James T. Lim",
-		"phone": "562-427-1653",
-		"email": "Office@faithopc.org",
-		"website": "http://www.faithopc.org/",
-		"address": "500 East San Antonio Dr. Long Beach, CA 90807-2794"
-	},
-	{
-		"id": "ef5e216c-2a4f-43a8-b29a-98f385f52b95",
+		"id": "56bb6f44-7d75-45d9-9583-e43e3dc10f02",
 		"denom": "OPC",
 		"name": "CALVARY",
 		"pastor": "Pastor: Martin Emmrich",
@@ -170,7 +140,37 @@
 		"address": "12206 La Mirada Blvd. La Mirada, CA 90638-1306"
 	},
 	{
-		"id": "bf4ff1bc-d29d-444d-ba2e-be92f1f067a4",
+		"id": "438ff4da-a04e-45b3-8f6c-729f3af984a2",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: James T. Lim",
+		"phone": "562-427-1653",
+		"email": "Office@faithopc.org",
+		"website": "http://www.faithopc.org/",
+		"address": "500 East San Antonio Dr. Long Beach, CA 90807-2794"
+	},
+	{
+		"id": "fd430f62-0144-499c-9121-a3be0d29b12a",
+		"denom": "OPC",
+		"name": "THEOPHILUS",
+		"pastor": "Pastor: Yousik Hong (Korean)",
+		"phone": "714-308-6477 (Korean) Phone: 714-443-1121 (English)",
+		"email": "office@theophilusopc.org",
+		"website": "http://theophilusopc.org/",
+		"address": "2660 W. Woodland Dr., Ste. #140 Anaheim, CA 92801-2647"
+	},
+	{
+		"id": "d2688205-fbe8-44e0-bd84-fc7347cd5e7e",
+		"denom": "OPC",
+		"name": "NEW HOPE",
+		"pastor": "Pastor: Arthur J. Fox",
+		"phone": "559-587-9057",
+		"email": "fox.1@opc.org",
+		"website": "https://newhopehanford.org",
+		"address": "P.O. Box 601  Hanford, CA 93232-0601"
+	},
+	{
+		"id": "d002b71e-09c4-4857-beaf-dd8088b6fcfb",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: P. Shaun Bryant",
@@ -180,7 +180,7 @@
 		"address": "1448 Standiford Ave. Modesto, CA 95350-0722"
 	},
 	{
-		"id": "6b39b5e7-a389-4a80-a87d-2b36c6bcc6d5",
+		"id": "d397128a-340c-4233-91aa-b596246d61a0",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Joel C. Robbins",
@@ -190,7 +190,7 @@
 		"address": "P.O. Box 746 Marina, CA 93933"
 	},
 	{
-		"id": "e831c5b7-cbeb-412d-aabe-8e676ae09b05",
+		"id": "f24076ad-8707-4f73-a0f2-dc134d958be9",
 		"denom": "OPC",
 		"name": "SOVEREIGN GRACE",
 		"pastor": "Pastor: Peter Moelker",
@@ -200,17 +200,7 @@
 		"address": "1665 Moss Rose Way Beaumont, CA 92223"
 	},
 	{
-		"id": "13681062-5020-4f25-b72d-f6ff2158249d",
-		"denom": "OPC",
-		"name": "COVENANT OF GRACE",
-		"pastor": "Pastor: Mark C. Mueller",
-		"phone": "805-985-9684",
-		"email": "mueller.2@opc.org",
-		"website": "http://www.covgrace.com",
-		"address": "P.O. Box 1702 Oxnard, CA 93032-1702"
-	},
-	{
-		"id": "e933d905-3b01-49c5-96e7-19ddc8095eda",
+		"id": "b5da2285-d657-4ecb-b36c-a1a798dfa797",
 		"denom": "OPC",
 		"name": "TRINITY",
 		"pastor": "Pastor: W. Reid Hankins",
@@ -220,7 +210,17 @@
 		"address": "845 Olive Ave., Suite 209 Novato, CA 94945"
 	},
 	{
-		"id": "9b2ce604-7167-43ae-b6ed-dc14bdf4a828",
+		"id": "39443498-1213-4f45-83ac-52776b97c8fa",
+		"denom": "OPC",
+		"name": "COVENANT OF GRACE",
+		"pastor": "Pastor: Mark C. Mueller",
+		"phone": "805-985-9684",
+		"email": "mueller.2@opc.org",
+		"website": "http://www.covgrace.com",
+		"address": "P.O. Box 1702 Oxnard, CA 93032-1702"
+	},
+	{
+		"id": "748b255d-d0b6-4b35-9021-cf1c46b6c59d",
 		"denom": "OPC",
 		"name": "REFORMATION FELLOWSHIP",
 		"pastor": "Pastor: Kevin W. Van Der Linden",
@@ -230,7 +230,7 @@
 		"address": "P.O. Box 1182 Roseville, CA 95678"
 	},
 	{
-		"id": "ce990387-33de-466c-b004-9c50f457683c",
+		"id": "e7e93c8b-75d4-44e8-88cd-2b7a2d5b5578",
 		"denom": "OPC",
 		"name": "FIRST",
 		"pastor": "Pastor: J. Glenn Ferrell",
@@ -240,7 +240,7 @@
 		"address": "1350 Lawton St. San Francisco, CA 94122-3438"
 	},
 	{
-		"id": "9ff49065-54cb-4f85-b730-09199f2e0741",
+		"id": "1879b21c-7277-4a86-bec9-af17cc291490",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Jeffery A. Landis",
@@ -250,7 +250,7 @@
 		"address": "2350 Leigh Ave. San Jose, CA 95124-1033"
 	},
 	{
-		"id": "00b65fb7-f8d8-4b0b-bfcf-8ec701562372",
+		"id": "df341d0f-d065-4e52-8083-a104f459474d",
 		"denom": "OPC",
 		"name": "REDEEMER",
 		"pastor": "Pastor: Joshua E. Martin",
@@ -260,7 +260,7 @@
 		"address": "P.O. Box 2473 Santa Maria, CA 93457-2473"
 	},
 	{
-		"id": "fa055c3a-dd05-485c-8672-1ea752e7a1d1",
+		"id": "ce0fc3c8-2b9b-44bc-9124-ef654b66d0d8",
 		"denom": "OPC",
 		"name": "OAK HILL",
 		"pastor": "Pastor: David P. Bush",
@@ -270,7 +270,7 @@
 		"address": "14892 Peaceful Valley Rd. (Highway 108 at Standard Rd.) Sonora, CA 95370-2805"
 	},
 	{
-		"id": "03809409-1402-4e36-832b-bb2613034d26",
+		"id": "929dd1ac-5a8a-4613-9b44-d7a54b234abc",
 		"denom": "OPC",
 		"name": "NEW COVENANT",
 		"pastor": "Pastor: Michael Grasso",
@@ -280,7 +280,7 @@
 		"address": "186 Country Club Dr. South San Francisco,  CA 94080-4336"
 	},
 	{
-		"id": "f1832651-197d-4eb3-92c9-c0861ebfc053",
+		"id": "1f3a9b6b-ce2a-49d0-98d0-aa82a1438196",
 		"denom": "OPC",
 		"name": "FIRST",
 		"pastor": "Pastor: Calvin Goligher",
@@ -290,247 +290,7 @@
 		"address": "1210 Brookfield Ave. Sunnyvale, CA 94087-1529"
 	},
 	{
-		"id": "c7a23d7f-1d8a-4c5b-8670-7b448d367e50",
-		"denom": "OPC",
-		"name": "BRANCH OF HOPE",
-		"pastor": "Pastor: Paul Viggiano",
-		"phone": "310-212-6999",
-		"email": "viggiano.1@opc.org",
-		"website": "http://branchofhope.org",
-		"address": "2370 W. Carson St.Suite 100 Torrance, CA 90501-7104"
-	},
-	{
-		"id": "7cf78216-367e-4578-83b6-999632a3a15a",
-		"denom": "OPC",
-		"name": "HARVEST",
-		"pastor": "Pastor: Mark A. Schroeder",
-		"phone": "760-731-4949 or 760-468-1778",
-		"email": "schroeder.1@opc.org",
-		"website": "http://www.hopc.org/",
-		"address": "380 Mulberry Drive San Marcos, CA 92069-1951"
-	},
-	{
-		"id": "c4d2047e-1772-4bf8-ae70-ca8da5e7d906",
-		"denom": "OPC",
-		"name": "WESTMINSTER",
-		"pastor": "Pastor: William. J. Gorrell",
-		"phone": "714-531-9950",
-		"email": "gorrell.1@opc.org",
-		"website": "http://www.wopc.net/",
-		"address": "10101 Cunningham Ave. Westminster, CA 92683-7001"
-	},
-	{
-		"id": "0a576868-b245-40a6-977c-e3b758a3a2e4",
-		"denom": "OPC",
-		"name": "RESURRECTION (Vietnamese)",
-		"pastor": "Contact: Truyen Tran",
-		"phone": "714-553-9099",
-		"email": "truyenhtran@yahoo.com",
-		"website": "http://www.hoithanhphucsinh.com/",
-		"address": "10101 Cunningham Ave. Westminster, CA 92683-7001"
-	},
-	{
-		"id": "78b5ee36-58ab-4739-9e72-579066fea18d",
-		"denom": "OPC",
-		"name": "BETHEL PRESBYTERIAN",
-		"pastor": "Pastor: Gregory L. Thurston",
-		"phone": "303-469-6912",
-		"email": "thurston.1@opc.org",
-		"website": "http://www.bethelpreschurch.org",
-		"address": "P.O. Box 1536 Broomfield, CO 80038-1536"
-	},
-	{
-		"id": "7f560dea-3b73-46cf-9466-efd340e40956",
-		"denom": "OPC",
-		"name": "PARK HILL",
-		"pastor": "Pastor: Eric Cuer de Andrade",
-		"phone": "303-356-3092",
-		"email": "cuerdeandrade.1@opc.org",
-		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=parkhillopc",
-		"address": "7403 Glenstorm Rd Wellington,  CO 80549"
-	},
-	{
-		"id": "de7cb792-8c71-4615-91c5-acf0ba71f45f",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Shawn C. Mathis",
-		"phone": "303-900-2027",
-		"email": "mathis.1@opc.org",
-		"website": "http://www.denverprovidence.org/",
-		"address": "15974 Burrowing Owl Ct. Morrison, CO 80465"
-	},
-	{
-		"id": "1d3feca5-9ec2-462a-974f-05945ba43802",
-		"denom": "OPC",
-		"name": "EMMAUS",
-		"pastor": "Pastor: Archibald A. Allison",
-		"phone": "970-308-5268 or 970-282-8011",
-		"email": "allison.1@opc.org",
-		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=emmausopc",
-		"address": "3808 Ziegler Rd. Fort Collins,  CO 80525-9012"
-	},
-	{
-		"id": "bfcee878-d40d-413f-bebf-94249ecf9850",
-		"denom": "OPC",
-		"name": "WESTMINSTER",
-		"pastor": "Pastor: Jonathan Holst",
-		"phone": "203-288-8161",
-		"email": "holst.1@opc.org",
-		"website": "https://westminsterhamden.org/",
-		"address": "565 Shepard Ave.  Hamden, CT 06514-1603"
-	},
-	{
-		"id": "14df1ff6-3a47-49f9-a45f-2f3c19ebfc2f",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Robert P. Harting, Jr.",
-		"phone": "302-378-4215 or 302-545-5038",
-		"email": "harting.1@opc.org",
-		"website": "http://www.gracemiddletownde.com ",
-		"address": "Box 381 Middletown, DE 19709-0381"
-	},
-	{
-		"id": "3dc1ba8b-4d6a-4369-8768-b7faf7dfdf30",
-		"denom": "OPC",
-		"name": "EMMANUEL",
-		"pastor": "Pastor: David W. Landow",
-		"phone": "302-478-7776",
-		"email": "office@eopc.org",
-		"website": "http://www.eopc.org",
-		"address": "1006 Wilson Rd. Wilmington, DE 19803-3449"
-	},
-	{
-		"id": "00230128-a6d4-4d9f-9d6b-9c287c9dde0c",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Michael Borg",
-		"phone": "941-301-9403",
-		"email": "borg.1@opc.org",
-		"website": "http://www.providence-opc.org",
-		"address": "4455 30th St. East Bradenton, FL 34203-3807"
-	},
-	{
-		"id": "6a7c737c-6aab-4b9a-9e49-e4cc8b1104f4",
-		"denom": "OPC",
-		"name": "SHARON",
-		"pastor": "Pastor: Jeffrey K. Boer",
-		"phone": "305-439-9694",
-		"email": "boer.1@opc.org",
-		"website": "http://www.sharonopc.weebly.com",
-		"address": "6270 W. 6th Ave. Hialeah, FL 33012-6529"
-	},
-	{
-		"id": "8dc753a0-4d52-4997-b9fb-917838cf7b03",
-		"denom": "OPC",
-		"name": "COVENANT REFORMED PRESBYTERIAN",
-		"pastor": "Contact: Elder Brad Brown",
-		"phone": "561-756-0604",
-		"email": "contact@covenantreformed.com",
-		"website": "http://www.crpcfp.com",
-		"address": "5150 Oleander Ave Fort Pierce, FL 34982-4028"
-	},
-	{
-		"id": "5e209732-e178-4321-b237-5da3935f0ef1",
-		"denom": "OPC",
-		"name": "KEYS",
-		"pastor": "Pastor: William V. Welzien",
-		"phone": "305-294-8256",
-		"email": "welzien.1@opc.org",
-		"website": "http://keys-christians.org",
-		"address": "Keys Bible Center 1000 Coppitt Rd. Key West, FL 33040-5462"
-	},
-	{
-		"id": "adde746e-341e-4374-a95e-37ee177fe8ac",
-		"denom": "OPC",
-		"name": "FELLOWSHIP",
-		"pastor": "Pastor: Henry Stanke",
-		"phone": "561-965-2731",
-		"email": "fellowshipopc@gmail.com",
-		"website": "http://www.fellowshipopc.org",
-		"address": "5536 Hypoluxo Rd. Lake Worth, FL 33463-7302"
-	},
-	{
-		"id": "4d93c26d-7706-4e81-9b64-a366b5b8a610",
-		"denom": "OPC",
-		"name": "LAKE SHERWOOD",
-		"pastor": "Pastor: Geoffrey M. Downey",
-		"phone": "407-295-3631",
-		"email": "downey.1@opc.org",
-		"website": "http://www.lsopc.org",
-		"address": "8200 Balboa Dr. Orlando, FL 32818-5774"
-	},
-	{
-		"id": "2ee0c21b-daec-4a15-a11e-5b2016a89153",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: John Schortmann",
-		"phone": "850-206-8157",
-		"email": "schortmann.1@opc.org ",
-		"website": "http://www.covenantpensacola.org/",
-		"address": "2885 E. Olive Rd. Pensacola, FL 32514-6233"
-	},
-	{
-		"id": "7ab35ed8-35a3-4df6-9f10-12ccaf4a6c7a",
-		"denom": "OPC",
-		"name": "CALVARY",
-		"pastor": "Pastor: John A. Sharpe",
-		"phone": "850-222-8553",
-		"email": "sharpe.1@opc.org",
-		"website": "http://www.calvaryopc.net",
-		"address": "814 N. Gadsden St. Tallahassee, FL 32303-6314"
-	},
-	{
-		"id": "7cae918a-6c2b-46f7-b3b0-634240c65edc",
-		"denom": "OPC",
-		"name": "REDEEMER",
-		"pastor": "Pastor: Zecharias A. Weldeyesus",
-		"phone": "770-938-7272",
-		"email": "weldeyesus.1@opc.org",
-		"website": "http://www.ropc.org",
-		"address": "3930 Chamblee-Tucker Rd. Atlanta, GA 30340-4529"
-	},
-	{
-		"id": "271d8fa4-0917-45a0-b672-31d146cbba15",
-		"denom": "OPC",
-		"name": "REFORMATION",
-		"pastor": "Pastor: Stephen J. Oharek",
-		"phone": "407-227-9490",
-		"email": "oharek.1@opc.org",
-		"website": "http://www.refopc.org",
-		"address": "2200 Backwater Ct. Oviedo, FL 32766"
-	},
-	{
-		"id": "3c46fe95-9eb6-42ff-ac08-c1da4060b6db",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: A. Boyd Miller, IV",
-		"phone": "706-845-0546",
-		"email": "miller.4@opc.org",
-		"website": "http://www.covenantlagrange.org/",
-		"address": "P.O. Box 667 LaGrange, GA 30241"
-	},
-	{
-		"id": "27e85b82-d156-4af7-9ced-e9b52d714128",
-		"denom": "OPC",
-		"name": "CHRIST",
-		"pastor": "Pastor: Ken B. Montgomery",
-		"phone": "770-956-7572",
-		"email": "montgomery.1@opc.org",
-		"website": "http://www.genevaopc.org/",
-		"address": "495 Terrell Mill Rd. SE Marietta, GA 30067"
-	},
-	{
-		"id": "0a62326d-4590-4b9d-87d2-3315ab4bf34e",
-		"denom": "OPC",
-		"name": "GRACE REFORMED",
-		"pastor": "Pastor: Edward E. Jensen",
-		"phone": "515-274-9911",
-		"email": "jensen.1@opc.org",
-		"website": "http://www.gracedsm.org",
-		"address": "4601 38th St. Des Moines, IA 50310-4301"
-	},
-	{
-		"id": "97e11ee7-dc5e-4531-80c8-ab5082ab91ee",
+		"id": "e105b008-f2e6-42c5-b9e9-ad84329d1a58",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: Jesse Pirschel",
@@ -540,87 +300,237 @@
 		"address": "P.O. Box 891165 Temecula, CA 92589-1165"
 	},
 	{
-		"id": "123dc6c3-bb1f-4a08-8ae0-dfe7142dad0e",
+		"id": "852a42dd-c485-4cef-a30f-407919b962f5",
 		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: James R. Megchelsen",
-		"phone": "630-934-5003",
-		"email": "megchelsen.1@opc.org",
-		"website": "http://www.graceelburn.org",
-		"address": "200 N. Main St. Elburn, IL 60119"
+		"name": "BRANCH OF HOPE",
+		"pastor": "Pastor: Paul Viggiano",
+		"phone": "310-212-6999",
+		"email": "viggiano.1@opc.org",
+		"website": "http://branchofhope.org",
+		"address": "2370 W. Carson St.Suite 100 Torrance, CA 90501-7104"
 	},
 	{
-		"id": "e2051a64-85ca-45e1-93ee-a23ccdac771d",
+		"id": "ffc0a09d-cf4c-4764-b285-b29fd93e9c60",
 		"denom": "OPC",
-		"name": "NEW GENEVA",
-		"pastor": "Pastor: David A. Bass",
-		"phone": "208-523-0196",
-		"email": "bass.1@opc.org",
-		"website": "http://www.newgenevaopc.org/",
-		"address": "101 4th St. Idaho Falls, ID 83401-3910"
+		"name": "HARVEST",
+		"pastor": "Pastor: Mark A. Schroeder",
+		"phone": "760-731-4949 or 760-468-1778",
+		"email": "schroeder.1@opc.org",
+		"website": "http://www.hopc.org/",
+		"address": "380 Mulberry Drive San Marcos, CA 92069-1951"
 	},
 	{
-		"id": "c38b96f4-b2d8-4b5f-bb45-c67e458646d3",
+		"id": "4533e145-e177-4109-9ee2-f68ddd8b1d44",
 		"denom": "OPC",
-		"name": "HOPE",
-		"pastor": "Pastor: Adam A. York",
-		"phone": "847-752-8108; 224-875–1101",
-		"email": "york.1@opc.org",
-		"website": "http://hopeopc.com",
-		"address": "18215 W. Belvidere Rd. (Route 120) Grayslake, IL 60030"
+		"name": "RESURRECTION (Vietnamese)",
+		"pastor": "Contact: Truyen Tran",
+		"phone": "714-553-9099",
+		"email": "truyenhtran@yahoo.com",
+		"website": "http://www.hoithanhphucsinh.com/",
+		"address": "10101 Cunningham Ave. Westminster, CA 92683-7001"
 	},
 	{
-		"id": "19a9c88d-7355-4001-a5b3-cc576d7b35f8",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Andrew W. Fortenberry",
-		"phone": "630-837-1699",
-		"email": "fortenberry.1@opc.org",
-		"website": "http://GraceOPChurch.org",
-		"address": "1510 Greenbrook Blvd. Hanover Park, IL 60133-5343"
-	},
-	{
-		"id": "cff4f72f-0b59-4795-b99c-79705ae9194b",
+		"id": "8369c961-e5ba-454b-a41f-93f76e779ade",
 		"denom": "OPC",
 		"name": "WESTMINSTER",
-		"pastor": "Pastor: Robert E. Tarullo",
-		"phone": "708-784-9601",
-		"email": "tarullo.1@opc.org",
-		"website": "http://www.westminsteropc.org/",
-		"address": "6871 Joliet Rd. Indian Head Park, IL 60525-4433"
+		"pastor": "Pastor: William. J. Gorrell",
+		"phone": "714-531-9950",
+		"email": "gorrell.1@opc.org",
+		"website": "http://www.wopc.net/",
+		"address": "10101 Cunningham Ave. Westminster, CA 92683-7001"
 	},
 	{
-		"id": "933b2c35-2228-40d9-bd26-0de6cd0a53d0",
+		"id": "475b6fe3-9a0e-4c1c-9143-101c7f6cd690",
 		"denom": "OPC",
-		"name": "NEW COVENANT COMMUNITY",
-		"pastor": "Contact: Elder Keith LeMahieu",
-		"phone": "815-630-2175",
-		"email": "ncccopc@gmail.com",
-		"website": "http://www.nccopc.org/",
-		"address": "Joliet, IL 60433"
+		"name": "PARK HILL",
+		"pastor": "Pastor: Eric Cuer de Andrade",
+		"phone": "303-356-3092",
+		"email": "cuerdeandrade.1@opc.org",
+		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=parkhillopc",
+		"address": "7403 Glenstorm Rd Wellington,  CO 80549"
 	},
 	{
-		"id": "8793f6d9-ab14-4270-a8bd-93b2d9cf9923",
+		"id": "60ae5a5f-0cf4-46c1-aa02-3d357485398d",
+		"denom": "OPC",
+		"name": "BETHEL PRESBYTERIAN",
+		"pastor": "Pastor: Gregory L. Thurston",
+		"phone": "303-469-6912",
+		"email": "thurston.1@opc.org",
+		"website": "http://www.bethelpreschurch.org",
+		"address": "P.O. Box 1536 Broomfield, CO 80038-1536"
+	},
+	{
+		"id": "c08ef1e5-312e-4856-8864-3ea6e3a62844",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Shawn C. Mathis",
+		"phone": "303-900-2027",
+		"email": "mathis.1@opc.org",
+		"website": "http://www.denverprovidence.org/",
+		"address": "15974 Burrowing Owl Ct. Morrison, CO 80465"
+	},
+	{
+		"id": "ae8ef2c2-6b95-4643-b315-1b414d9f1557",
+		"denom": "OPC",
+		"name": "EMMAUS",
+		"pastor": "Pastor: Archibald A. Allison",
+		"phone": "970-308-5268 or 970-282-8011",
+		"email": "allison.1@opc.org",
+		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=emmausopc",
+		"address": "3808 Ziegler Rd. Fort Collins,  CO 80525-9012"
+	},
+	{
+		"id": "56a105b1-cdb5-48ef-9a10-f5dcd3f48d74",
+		"denom": "OPC",
+		"name": "WESTMINSTER",
+		"pastor": "Pastor: Jonathan Holst",
+		"phone": "203-288-8161",
+		"email": "holst.1@opc.org",
+		"website": "https://westminsterhamden.org/",
+		"address": "565 Shepard Ave.  Hamden, CT 06514-1603"
+	},
+	{
+		"id": "f43e8f74-fc45-4fb6-bccc-8622405e9ffb",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Robert P. Harting, Jr.",
+		"phone": "302-378-4215 or 302-545-5038",
+		"email": "harting.1@opc.org",
+		"website": "http://www.gracemiddletownde.com ",
+		"address": "Box 381 Middletown, DE 19709-0381"
+	},
+	{
+		"id": "d1542b9c-c7ba-4211-a5e1-677bf9339391",
+		"denom": "OPC",
+		"name": "EMMANUEL",
+		"pastor": "Pastor: David W. Landow",
+		"phone": "302-478-7776",
+		"email": "office@eopc.org",
+		"website": "http://www.eopc.org",
+		"address": "1006 Wilson Rd. Wilmington, DE 19803-3449"
+	},
+	{
+		"id": "fb2aff03-9ef0-4e44-b241-65aff217bf80",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Michael Borg",
+		"phone": "941-301-9403",
+		"email": "borg.1@opc.org",
+		"website": "http://www.providence-opc.org",
+		"address": "4455 30th St. East Bradenton, FL 34203-3807"
+	},
+	{
+		"id": "b4945e15-75ce-44f7-bac2-7980aff3da8e",
+		"denom": "OPC",
+		"name": "COVENANT REFORMED PRESBYTERIAN",
+		"pastor": "Contact: Elder Brad Brown",
+		"phone": "561-756-0604",
+		"email": "contact@covenantreformed.com",
+		"website": "http://www.crpcfp.com",
+		"address": "5150 Oleander Ave Fort Pierce, FL 34982-4028"
+	},
+	{
+		"id": "cf764522-877b-4564-9036-dd57bf6520d8",
+		"denom": "OPC",
+		"name": "KEYS",
+		"pastor": "Pastor: William V. Welzien",
+		"phone": "305-294-8256",
+		"email": "welzien.1@opc.org",
+		"website": "http://keys-christians.org",
+		"address": "Keys Bible Center 1000 Coppitt Rd. Key West, FL 33040-5462"
+	},
+	{
+		"id": "a354129b-1131-4797-ba92-3112ff40a227",
+		"denom": "OPC",
+		"name": "SHARON",
+		"pastor": "Pastor: Jeffrey K. Boer",
+		"phone": "305-439-9694",
+		"email": "boer.1@opc.org",
+		"website": "http://www.sharonopc.weebly.com",
+		"address": "6270 W. 6th Ave. Hialeah, FL 33012-6529"
+	},
+	{
+		"id": "e4f4459e-0591-46ef-98e8-e07a10a415df",
+		"denom": "OPC",
+		"name": "FELLOWSHIP",
+		"pastor": "Pastor: Henry Stanke",
+		"phone": "561-965-2731",
+		"email": "fellowshipopc@gmail.com",
+		"website": "http://www.fellowshipopc.org",
+		"address": "5536 Hypoluxo Rd. Lake Worth, FL 33463-7302"
+	},
+	{
+		"id": "7c899c78-a9be-4d09-87c9-0a2af1259fda",
+		"denom": "OPC",
+		"name": "LAKE SHERWOOD",
+		"pastor": "Pastor: Geoffrey M. Downey",
+		"phone": "407-295-3631",
+		"email": "downey.1@opc.org",
+		"website": "http://www.lsopc.org",
+		"address": "8200 Balboa Dr. Orlando, FL 32818-5774"
+	},
+	{
+		"id": "1e2c7df3-1cb1-4287-9ab4-0477d9b8169c",
+		"denom": "OPC",
+		"name": "REFORMATION",
+		"pastor": "Pastor: Stephen J. Oharek",
+		"phone": "407-227-9490",
+		"email": "oharek.1@opc.org",
+		"website": "http://www.refopc.org",
+		"address": "2200 Backwater Ct. Oviedo, FL 32766"
+	},
+	{
+		"id": "a6e04d90-3ad6-4ac6-b722-cb111838c2f8",
 		"denom": "OPC",
 		"name": "COVENANT",
-		"pastor": "Pastor: Iain A. M. Wright",
-		"phone": "708-403-3404",
-		"email": "wright.1@opc.org",
-		"website": "http://www.covenantop.org",
-		"address": "9340 W. 147th St. Orland Park, IL 60462-2712"
+		"pastor": "Pastor: John Schortmann",
+		"phone": "850-206-8157",
+		"email": "schortmann.1@opc.org ",
+		"website": "http://www.covenantpensacola.org/",
+		"address": "2885 E. Olive Rd. Pensacola, FL 32514-6233"
 	},
 	{
-		"id": "7c778115-f816-4dfa-815b-53e502cf540e",
+		"id": "41952ae4-14d1-4996-b416-1b92c2d9d416",
 		"denom": "OPC",
-		"name": "BETHEL",
-		"pastor": "Pastor: Deryck Barson",
-		"phone": "Deryck Barson Phone: 630-665-5577",
-		"email": "",
-		"website": "http://www.bethelopc.org",
-		"address": "1401 S. Naperville Rd. Wheaton, IL 60189-6421"
+		"name": "CALVARY",
+		"pastor": "Pastor: John A. Sharpe",
+		"phone": "850-222-8553",
+		"email": "sharpe.1@opc.org",
+		"website": "http://www.calvaryopc.net",
+		"address": "814 N. Gadsden St. Tallahassee, FL 32303-6314"
 	},
 	{
-		"id": "847bd3b1-aa7c-410e-b9c5-6e9cb9da899d",
+		"id": "d41398b3-783d-4e12-8dbd-fb1ba8975b51",
+		"denom": "OPC",
+		"name": "REDEEMER",
+		"pastor": "Pastor: Zecharias A. Weldeyesus",
+		"phone": "770-938-7272",
+		"email": "weldeyesus.1@opc.org",
+		"website": "http://www.ropc.org",
+		"address": "3930 Chamblee-Tucker Rd. Atlanta, GA 30340-4529"
+	},
+	{
+		"id": "dab019ce-8958-4056-b07e-4a0d4ad52acd",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: A. Boyd Miller, IV",
+		"phone": "706-845-0546",
+		"email": "miller.4@opc.org",
+		"website": "http://www.covenantlagrange.org/",
+		"address": "P.O. Box 667 LaGrange, GA 30241"
+	},
+	{
+		"id": "cae4e7b4-8167-44bc-9d40-2d3b749728d8",
+		"denom": "OPC",
+		"name": "CHRIST",
+		"pastor": "Pastor: Ken B. Montgomery",
+		"phone": "770-956-7572",
+		"email": "montgomery.1@opc.org",
+		"website": "http://www.genevaopc.org/",
+		"address": "495 Terrell Mill Rd. SE Marietta, GA 30067"
+	},
+	{
+		"id": "81f7ce13-062c-4e00-9706-47074f9113ed",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Michael J. Kearney",
@@ -630,7 +540,97 @@
 		"address": "2009 Crescent Dr. Cedar Falls, IA 50613-1824"
 	},
 	{
-		"id": "0aec1ad4-bae5-4506-83a7-a92614486795",
+		"id": "1fcaa05c-12f2-453e-a038-7bf4f5be3e5d",
+		"denom": "OPC",
+		"name": "GRACE REFORMED",
+		"pastor": "Pastor: Edward E. Jensen",
+		"phone": "515-274-9911",
+		"email": "jensen.1@opc.org",
+		"website": "http://www.gracedsm.org",
+		"address": "4601 38th St. Des Moines, IA 50310-4301"
+	},
+	{
+		"id": "b3c6f3fd-b434-41f4-a6ad-4b699ba0a3fc",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: James R. Megchelsen",
+		"phone": "630-934-5003",
+		"email": "megchelsen.1@opc.org",
+		"website": "http://www.graceelburn.org",
+		"address": "200 N. Main St. Elburn, IL 60119"
+	},
+	{
+		"id": "fd642eaf-32fd-42e8-8e4a-58417b7dc353",
+		"denom": "OPC",
+		"name": "NEW GENEVA",
+		"pastor": "Pastor: David A. Bass",
+		"phone": "208-523-0196",
+		"email": "bass.1@opc.org",
+		"website": "http://www.newgenevaopc.org/",
+		"address": "101 4th St. Idaho Falls, ID 83401-3910"
+	},
+	{
+		"id": "c62928a9-7bd5-41ec-b8a7-5097535a25c8",
+		"denom": "OPC",
+		"name": "HOPE",
+		"pastor": "Pastor: Adam A. York",
+		"phone": "847-752-8108; 224-875–1101",
+		"email": "york.1@opc.org",
+		"website": "http://hopeopc.com",
+		"address": "18215 W. Belvidere Rd. (Route 120) Grayslake, IL 60030"
+	},
+	{
+		"id": "26c4f36a-b901-4b8e-975f-33cbda500252",
+		"denom": "OPC",
+		"name": "NEW COVENANT COMMUNITY",
+		"pastor": "Contact: Elder Keith LeMahieu",
+		"phone": "815-630-2175",
+		"email": "ncccopc@gmail.com",
+		"website": "http://www.nccopc.org/",
+		"address": "Joliet, IL 60433"
+	},
+	{
+		"id": "2e20eede-cf06-4e61-b51a-838e72edd604",
+		"denom": "OPC",
+		"name": "WESTMINSTER",
+		"pastor": "Pastor: Robert E. Tarullo",
+		"phone": "708-784-9601",
+		"email": "tarullo.1@opc.org",
+		"website": "http://www.westminsteropc.org/",
+		"address": "6871 Joliet Rd. Indian Head Park, IL 60525-4433"
+	},
+	{
+		"id": "d3ddeb36-5789-4f0b-b825-d16d3ec7656f",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Iain A. M. Wright",
+		"phone": "708-403-3404",
+		"email": "wright.1@opc.org",
+		"website": "http://www.covenantop.org",
+		"address": "9340 W. 147th St. Orland Park, IL 60462-2712"
+	},
+	{
+		"id": "49f497d6-c530-4c39-a8cc-9e64e8611ef5",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Andrew W. Fortenberry",
+		"phone": "630-837-1699",
+		"email": "fortenberry.1@opc.org",
+		"website": "http://GraceOPChurch.org",
+		"address": "1510 Greenbrook Blvd. Hanover Park, IL 60133-5343"
+	},
+	{
+		"id": "66700afb-46f9-41a6-bbdf-e0ddd8141339",
+		"denom": "OPC",
+		"name": "BETHEL",
+		"pastor": "Pastor: Deryck Barson",
+		"phone": "Deryck Barson Phone: 630-665-5577",
+		"email": "",
+		"website": "http://www.bethelopc.org",
+		"address": "1401 S. Naperville Rd. Wheaton, IL 60189-6421"
+	},
+	{
+		"id": "cf77fa67-fe8f-4579-82c9-b2c130122367",
 		"denom": "OPC",
 		"name": "CHRIST COVENANT",
 		"pastor": "Pastor: Tim McClymonds",
@@ -640,7 +640,7 @@
 		"address": "6070 N. 900 E. Sheridan, IN 46069-8847"
 	},
 	{
-		"id": "3b647322-70fa-44ec-b4d3-294f5c5c0b79",
+		"id": "74dc6da0-babe-45a1-85f2-3b753e35364e",
 		"denom": "OPC",
 		"name": "GRACE REFORMED CHURCH",
 		"pastor": "Pastor: Matthew Barker",
@@ -650,17 +650,7 @@
 		"address": "P.O. Box 105 Walkerton, IN 46574-0105"
 	},
 	{
-		"id": "4a3d6a81-6ee3-4caf-be15-07dd07d0450e",
-		"denom": "OPC",
-		"name": "NEON REFORMED PRESBYTERIAN",
-		"pastor": "Pastor: M. Jay Bennett",
-		"phone": "770-362-4780",
-		"email": "neonopc@gmail.com",
-		"website": "http://www.neonreformed.com",
-		"address": "P.O. Box 11 Neon, KY 41840-0011"
-	},
-	{
-		"id": "c8d04b39-9e06-4f6f-b3a1-28e4ac1fda3e",
+		"id": "d4fa68d7-978f-4dce-873e-bb8344d82ce8",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Warren R. Bennett III",
@@ -670,17 +660,7 @@
 		"address": "100 Jefferson St. Natchitoches, LA 71457-4351"
 	},
 	{
-		"id": "636195f4-31d8-4ad4-a12b-cf69cc27b13b",
-		"denom": "OPC",
-		"name": "PINEVILLE",
-		"pastor": "Contact: Joe Screpetis",
-		"phone": "318-640-5642",
-		"email": "DrJoe@theclinics.us",
-		"website": "http://pineville-opc.org",
-		"address": "2522 Military Hwy. Pineville, LA 71360-4361"
-	},
-	{
-		"id": "58dda911-9e12-4ddb-9f64-99e559c13f67",
+		"id": "326c4549-35ce-41e4-b532-104708964dbc",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Contact: Wayne Houk",
@@ -690,47 +670,17 @@
 		"address": "253 Palmer St. New Bedford, MA 02740"
 	},
 	{
-		"id": "e1b8d9e4-a9c3-47df-903a-fe67ef074165",
+		"id": "98e5a35b-af13-4ecc-972b-61ccf0b27288",
 		"denom": "OPC",
-		"name": "PRESBYTERIAN CHURCH OF CAPE COD",
-		"pastor": "Pastor: James A. La Belle",
-		"phone": "508-362-2011",
-		"email": "labelle.1@opc.org",
-		"website": "http://www.presbyterianchurchofcapecod.com",
-		"address": "P.O. Box 836 West Barnstable, MA 02668-0836"
+		"name": "NEON REFORMED PRESBYTERIAN",
+		"pastor": "Pastor: M. Jay Bennett",
+		"phone": "770-362-4780",
+		"email": "neonopc@gmail.com",
+		"website": "http://www.neonreformed.com",
+		"address": "P.O. Box 11 Neon, KY 41840-0011"
 	},
 	{
-		"id": "c04ab87a-8e28-4e66-9ec8-c9ab19859d46",
-		"denom": "OPC",
-		"name": "NEW HOPE",
-		"pastor": "Pastor: Francis VanDelden",
-		"phone": "301-694-3595",
-		"email": "vandelden.1@opc.org",
-		"website": "http://www.newhopeopc.org",
-		"address": "5305A Jefferson Pike Frederick, MD 21703-6982"
-	},
-	{
-		"id": "01b3fc03-cf75-47d2-9155-ab3817c0985a",
-		"denom": "OPC",
-		"name": "KNOX",
-		"pastor": "Pastor: Thomas A. Martin",
-		"phone": "301-587-6637",
-		"email": "martin.1@opc.org",
-		"website": "http://www.knoxopc.org/",
-		"address": "410 Granville Dr. Silver Spring, MD 20901-3237"
-	},
-	{
-		"id": "b376609f-83d5-4982-b8b8-75e14d9fabe3",
-		"denom": "OPC",
-		"name": "PILGRIM",
-		"pastor": "Pastor: Russell J. Hamilton",
-		"phone": "207-942-8054",
-		"email": "hamilton.1@opc.org",
-		"website": "http://www.pilgrimopc.org",
-		"address": "375 Mt. Hope Ave. Bangor, ME 04401-4210"
-	},
-	{
-		"id": "f8faa908-8322-47f3-b67e-b7e8f59a5702",
+		"id": "94c7e993-099f-44a4-affa-dcca04bcb1f0",
 		"denom": "OPC",
 		"name": "MERRIMACK VALLEY",
 		"pastor": "Pastor: David A. Booth",
@@ -740,37 +690,47 @@
 		"address": "P.O. Box 655 North Andover, MA 01845-0655"
 	},
 	{
-		"id": "22403779-9745-47bd-a90d-169a747717d2",
+		"id": "9aa4210b-8f2a-4c94-8f2b-9ab480435b44",
 		"denom": "OPC",
-		"name": "SECOND PARISH",
-		"pastor": "Pastor: Daniel F. Patterson",
-		"phone": "207-772-0848",
-		"email": "patterson.1@opc.org",
-		"website": "http://www.2ndparish.org",
-		"address": "32 Neal St. Portland, ME 04102-3527"
+		"name": "PRESBYTERIAN CHURCH OF CAPE COD",
+		"pastor": "Pastor: James A. La Belle",
+		"phone": "508-362-2011",
+		"email": "labelle.1@opc.org",
+		"website": "http://www.presbyterianchurchofcapecod.com",
+		"address": "P.O. Box 836 West Barnstable, MA 02668-0836"
 	},
 	{
-		"id": "0acc1692-19f1-4b56-b1ff-b8e1a0224f85",
+		"id": "00006c78-068d-4bc1-aaa5-078095c3e2f3",
 		"denom": "OPC",
-		"name": "LAKEVIEW",
-		"pastor": "Pastor: Stephen J. Tracey",
-		"phone": "207-594-2264",
-		"email": "tracey.1@opc.org",
-		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=lopcme",
-		"address": "188 Rockland St. Rockport, ME 04856-4806"
+		"name": "PINEVILLE",
+		"pastor": "Contact: Joe Screpetis",
+		"phone": "318-640-5642",
+		"email": "DrJoe@theclinics.us",
+		"website": "http://pineville-opc.org",
+		"address": "2522 Military Hwy. Pineville, LA 71360-4361"
 	},
 	{
-		"id": "82d41063-9a3d-4340-a6c2-32dc6be8e31b",
+		"id": "279b6d05-1201-4862-b3f7-da57841038fa",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Douglas B. Doll",
-		"phone": "810-599-4232",
-		"email": "doll.1@opc.org",
-		"website": "http://www.opcbrighton.org/",
-		"address": "P.O. Box 556 Brighton, MI 48116-0556"
+		"name": "NEW HOPE",
+		"pastor": "Pastor: Francis VanDelden",
+		"phone": "301-694-3595",
+		"email": "vandelden.1@opc.org",
+		"website": "http://www.newhopeopc.org",
+		"address": "5305A Jefferson Pike Frederick, MD 21703-6982"
 	},
 	{
-		"id": "7203e0d0-97ed-423e-8814-3942c5845bee",
+		"id": "2e692b8b-2c5b-477a-9dcc-54500e7743df",
+		"denom": "OPC",
+		"name": "KNOX",
+		"pastor": "Pastor: Thomas A. Martin",
+		"phone": "301-587-6637",
+		"email": "martin.1@opc.org",
+		"website": "http://www.knoxopc.org/",
+		"address": "410 Granville Dr. Silver Spring, MD 20901-3237"
+	},
+	{
+		"id": "ad161fad-56fb-48d6-8208-1fe815944d27",
 		"denom": "OPC",
 		"name": "TRINITY REFORMED",
 		"pastor": "Contact: Elder Alejandro Calderon",
@@ -780,57 +740,7 @@
 		"address": "9630 Annapolis Rd. Lanham, MD 20706-2006"
 	},
 	{
-		"id": "8d0105e8-8bf7-4095-bd96-10c9e8bd4233",
-		"denom": "OPC",
-		"name": "CHAIN",
-		"pastor": "Pastor: Bruce G. Buchanan",
-		"phone": "231-544-8128",
-		"email": "buchanan.2@opc.org",
-		"website": "http://www.chainolakesopc.org",
-		"address": "3711 Ellsworth Rd. Central Lake, MI 49622-9726"
-	},
-	{
-		"id": "ba2f11e3-3cac-4188-ad46-ec0f9732d420",
-		"denom": "OPC",
-		"name": "OAKLAND HILLS COMMUNITY",
-		"pastor": "Pastor: Ralph A. Rebandt II",
-		"phone": "248-478-5001",
-		"email": "rebandt.1@opc.org",
-		"website": "http://www.ohcc.net/",
-		"address": "37150 West Eight Mile Rd. Farmington Hills, MI 48335-0834"
-	},
-	{
-		"id": "eb019fd1-e5a2-4d9a-97ca-1925a2a1a792",
-		"denom": "OPC",
-		"name": "LITTLE FARMS CHAPEL",
-		"pastor": "Pastor: Robert M. Van Manen",
-		"phone": "616-677-6170",
-		"email": "vanmanen.1@opc.org",
-		"website": "http://www.littlefarmschapel.org/index.php/sermons",
-		"address": "2518 Arthur St. E. Coopersville, MI 49404-9498"
-	},
-	{
-		"id": "37ef206a-828e-4794-ac3f-04c4698bca5f",
-		"denom": "OPC",
-		"name": "HARVEST",
-		"pastor": "Pastor: Dale A. Van Dyke",
-		"phone": "616-261-0327",
-		"email": "pastor@harvestopc.org",
-		"website": "http://www.harvestopc.org/",
-		"address": "930 52nd St. SW Wyoming, MI 49509-9725"
-	},
-	{
-		"id": "1d862edd-65c9-47d5-90a1-79aa9e1ff3a0",
-		"denom": "OPC",
-		"name": "LIVING HOPE (formerly Merrymeeting Bay)",
-		"pastor": "Pastor: Gordon H. Cook, Jr.",
-		"phone": "207-725-2022",
-		"email": "cook.1@opc.org",
-		"website": "http://www.livinghopemaine.org",
-		"address": "142 Pleasant St. Brunswick, ME 04011"
-	},
-	{
-		"id": "d9e8ef57-503b-4622-9086-2da4e2bd190a",
+		"id": "df21d13e-2ccc-44cd-bf2b-071c4fb51dda",
 		"denom": "OPC",
 		"name": "PLEASANT MOUNTAIN",
 		"pastor": "Pastor: Stephen M. Michaud",
@@ -840,27 +750,27 @@
 		"address": "30 North High St., Route 302 Bridgton, ME 04009"
 	},
 	{
-		"id": "010bad3e-61a0-428b-b661-fe8a1dafc6d7",
+		"id": "49934c03-2e06-49ed-b311-d48392b16d7d",
 		"denom": "OPC",
-		"name": "COMMUNITY",
-		"pastor": "Pastor: Jonathan L. Cruse",
-		"phone": "814-932-6630",
-		"email": "jcruse@kalamazoocpc.org",
-		"website": "http://www.kalamazoocpc.org",
-		"address": "2131 Alamo Ave. Kalamazoo, MI 49006-2660"
+		"name": "LIVING HOPE (formerly Merrymeeting Bay)",
+		"pastor": "Pastor: Gordon H. Cook, Jr.",
+		"phone": "207-725-2022",
+		"email": "cook.1@opc.org",
+		"website": "http://www.livinghopemaine.org",
+		"address": "142 Pleasant St. Brunswick, ME 04011"
 	},
 	{
-		"id": "ff2534cb-827e-46a4-aa9e-2209e64e2f74",
+		"id": "8e8f0e62-4b4f-41ed-9f6e-3162b302e65c",
 		"denom": "OPC",
-		"name": "CEDAR",
-		"pastor": "Pastor: Stephen W. Igo",
-		"phone": "616-669-9151",
-		"email": "igo.1@opc.org",
-		"website": "http://www.cedarchurch.org",
-		"address": "2025 Baldwin St. Jenison, MI 49428"
+		"name": "LAKEVIEW",
+		"pastor": "Pastor: Stephen J. Tracey",
+		"phone": "207-594-2264",
+		"email": "tracey.1@opc.org",
+		"website": "http://www.sermonaudio.com/source_detail.asp?sourceid=lopcme",
+		"address": "188 Rockland St. Rockport, ME 04856-4806"
 	},
 	{
-		"id": "8881d5ee-3d18-4d03-959b-da4bcdf751b3",
+		"id": "93e7872a-5da2-43a8-847b-c636718a8fcc",
 		"denom": "OPC",
 		"name": "REDEEMER",
 		"pastor": "Pastor: Jeffrey D. De Boer",
@@ -870,37 +780,77 @@
 		"address": "P.O. Box 865 Ada, MI 49301-0865"
 	},
 	{
-		"id": "34f5cc82-7494-41f2-bc44-d94cc9b48ad2",
+		"id": "e431f7a1-b2d5-4c9e-8ce6-b4a48e03b873",
 		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Stephen Pribble",
-		"phone": "517-703-3291",
-		"email": "pribble.1@opc.org",
-		"website": "http://www.all-of-grace.org/",
-		"address": "1301 W. Wieland Rd. Lansing, MI 48906-1895"
+		"name": "COVENANT",
+		"pastor": "Pastor: Douglas B. Doll",
+		"phone": "810-599-4232",
+		"email": "doll.1@opc.org",
+		"website": "http://www.opcbrighton.org/",
+		"address": "P.O. Box 556 Brighton, MI 48116-0556"
 	},
 	{
-		"id": "9197b052-319c-4005-842e-0b881ef15792",
+		"id": "da897e93-1d9e-4474-8da0-6d9a449c47ee",
+		"denom": "OPC",
+		"name": "CHAIN",
+		"pastor": "Pastor: Bruce G. Buchanan",
+		"phone": "231-544-8128",
+		"email": "buchanan.2@opc.org",
+		"website": "http://www.chainolakesopc.org",
+		"address": "3711 Ellsworth Rd. Central Lake, MI 49622-9726"
+	},
+	{
+		"id": "2e927651-3eaf-4a32-addf-5f07ae68ba2b",
 		"denom": "OPC",
 		"name": "PILGRIM",
-		"pastor": "Pastor: John Belden",
-		"phone": "810-678-2171",
-		"email": "belden.1@opc.org",
-		"website": "http://www.pilgrimmetamora.org",
-		"address": "58 W. High St. Metamora, MI 48455-9785"
+		"pastor": "Pastor: Russell J. Hamilton",
+		"phone": "207-942-8054",
+		"email": "hamilton.1@opc.org",
+		"website": "http://www.pilgrimopc.org",
+		"address": "375 Mt. Hope Ave. Bangor, ME 04401-4210"
 	},
 	{
-		"id": "84646706-17a9-47d2-ad87-89e51b5190d6",
+		"id": "cb545502-9b62-4abe-91fa-a0baa414d24c",
 		"denom": "OPC",
-		"name": "ROCKFORD SPRINGS COMMUNITY",
-		"pastor": "Pastor: David A. Vander Meer",
-		"phone": "616-696-3656",
-		"email": "vandermeer.1@opc.org",
-		"website": "http://www.rockfordsprings.org/",
-		"address": "5815 14 Mile Rd. N.E. Rockford, MI 49341-9718"
+		"name": "LITTLE FARMS CHAPEL",
+		"pastor": "Pastor: Robert M. Van Manen",
+		"phone": "616-677-6170",
+		"email": "vanmanen.1@opc.org",
+		"website": "http://www.littlefarmschapel.org/index.php/sermons",
+		"address": "2518 Arthur St. E. Coopersville, MI 49404-9498"
 	},
 	{
-		"id": "df439b3f-ea02-4621-b6d4-921148877e99",
+		"id": "988d1388-9334-4de9-86c0-f867dc640f06",
+		"denom": "OPC",
+		"name": "OAKLAND HILLS COMMUNITY",
+		"pastor": "Pastor: Ralph A. Rebandt II",
+		"phone": "248-478-5001",
+		"email": "rebandt.1@opc.org",
+		"website": "http://www.ohcc.net/",
+		"address": "37150 West Eight Mile Rd. Farmington Hills, MI 48335-0834"
+	},
+	{
+		"id": "bc8e5669-7d62-4dbe-ad0f-f74e64bbd11a",
+		"denom": "OPC",
+		"name": "HARVEST",
+		"pastor": "Pastor: Dale A. Van Dyke",
+		"phone": "616-261-0327",
+		"email": "pastor@harvestopc.org",
+		"website": "http://www.harvestopc.org/",
+		"address": "930 52nd St. SW Wyoming, MI 49509-9725"
+	},
+	{
+		"id": "37ece4f9-3638-40cf-b963-b62f42bbdc3d",
+		"denom": "OPC",
+		"name": "SECOND PARISH",
+		"pastor": "Pastor: Daniel F. Patterson",
+		"phone": "207-772-0848",
+		"email": "patterson.1@opc.org",
+		"website": "http://www.2ndparish.org",
+		"address": "32 Neal St. Portland, ME 04102-3527"
+	},
+	{
+		"id": "50fb5b78-a294-4309-b815-115659fd219d",
 		"denom": "OPC",
 		"name": "SPENCER MILLS",
 		"pastor": "Pastor: Alan M. Flowers",
@@ -910,107 +860,17 @@
 		"address": "12710 17 Mile Rd. NE Gowen, MI 49326-9419"
 	},
 	{
-		"id": "2f82afef-4afe-4369-a6b7-a46625fc145a",
+		"id": "78174547-8736-4aff-88c9-6798c16f32d0",
 		"denom": "OPC",
-		"name": "MISSION",
-		"pastor": "Pastor: Michael J. Seufert",
-		"phone": "651-771-0125",
-		"email": "info@missionopc.org",
-		"website": "http://www.missionopc.org/",
-		"address": "1040 Como Ave. Saint Paul, MN 55103-1044"
+		"name": "CEDAR",
+		"pastor": "Pastor: Stephen W. Igo",
+		"phone": "616-669-9151",
+		"email": "igo.1@opc.org",
+		"website": "http://www.cedarchurch.org",
+		"address": "2025 Baldwin St. Jenison, MI 49428"
 	},
 	{
-		"id": "61269399-601a-48e5-a1da-0d4105233c3b",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Jeffrey B. Wilson",
-		"phone": "248-547-9585",
-		"email": "wilson.3@opc.org",
-		"website": "http://www.popc.org/",
-		"address": "18451 W 10 Mile Rd Southfield, MI 48075-2614"
-	},
-	{
-		"id": "52be61ad-9db4-4b8b-ad42-371c8a9984ab",
-		"denom": "OPC",
-		"name": "MEADOW SPRINGS COMMUNITY",
-		"pastor": "Pastor: Gerald J. Neumair",
-		"phone": "616-455-5672",
-		"email": "neumair.1@opc.org",
-		"website": "http://meadowspringschurch.org/",
-		"address": "1811 Jeffrey St. SE Kentwood, MI 49508-6425"
-	},
-	{
-		"id": "fc7e838b-911f-4a73-8bba-bf66f7268b7c",
-		"denom": "OPC",
-		"name": "RESURRECTION",
-		"pastor": "Pastor: T. Nathan Trice",
-		"phone": "704-847-2544",
-		"email": "trice.1@opc.org",
-		"website": "http://RPCMatthews.org",
-		"address": "2701 Rice Rd. Matthews, NC 28105-3718"
-	},
-	{
-		"id": "7fd1a474-dfad-4351-b007-31b55753a521",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Michael A. Kooy",
-		"phone": "603-915-6755",
-		"email": "ppcopcmi@gmail.com",
-		"website": "http://www.providencepc.net",
-		"address": "1275 Cornell St.  Manistee, MI 49660"
-	},
-	{
-		"id": "1fc08029-4d35-4dbd-ae9c-74184e700159",
-		"denom": "OPC",
-		"name": "SOVEREIGN GRACE REFORMED PRESBYTERIAN CHURCH",
-		"pastor": "Pastor: Jeffrey S. Carter",
-		"phone": "828-381-8008",
-		"email": "carter.2@opc.org",
-		"website": "http://www.sgrpc.org",
-		"address": "P.O. Box 2985 Hickory, NC 28603-2985"
-	},
-	{
-		"id": "61229d18-3c94-4dca-9bc3-0e4d860b1f90",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: M. Daniel Fincham",
-		"phone": "252-635-1506",
-		"email": "fincham.1@opc.org",
-		"website": "http://www.covenant-opc.com",
-		"address": "130 Market St. New Bern, NC 28560-6704"
-	},
-	{
-		"id": "7ea28486-2dd4-4a8c-a105-e22aa24fce68",
-		"denom": "OPC",
-		"name": "PILGRIM",
-		"pastor": "Pastor: Casey M. Bessette",
-		"phone": "919-782-0484",
-		"email": "bessette.1@opc.org",
-		"website": "https://www.pilgrimpres.com",
-		"address": "5420 Ebenezer Church Rd. Raleigh, NC 27612-7608"
-	},
-	{
-		"id": "5eed4b8d-52c5-49ad-bcbe-5fa4543213ff",
-		"denom": "OPC",
-		"name": "REDEEMER",
-		"pastor": "Pastor: Cliff Blair",
-		"phone": "704-841-9411",
-		"email": "blair.1@opc.org",
-		"website": "http://www.rpc.opc.org",
-		"address": "13527 Lipizzan Ct. Matthews, NC 28105-3949"
-	},
-	{
-		"id": "d7f6840f-fe15-4a59-a670-62cde9696354",
-		"denom": "OPC",
-		"name": "BETHEL",
-		"pastor": "Pastor: Bruce L. Prentice",
-		"phone": "701-751-1107",
-		"email": "prentice.1@opc.org",
-		"website": "http://www.bethelopc.net",
-		"address": "211 2nd Ave. NW Mandan, ND 58554"
-	},
-	{
-		"id": "82872058-f0f1-4e56-a470-541f853ffb5e",
+		"id": "d0ebdb9d-3f28-42eb-a3ca-504dc9fe025c",
 		"denom": "OPC",
 		"name": "NEW LIFE FELLOWSHIP",
 		"pastor": "Pastor: Martin A. Novak",
@@ -1020,37 +880,97 @@
 		"address": "2725 Meadow Dr. Zeeland, MI 49464-9025"
 	},
 	{
-		"id": "2aca35e9-c6f7-437b-9e6f-74a65fe15a1e",
+		"id": "cae0e40c-c7e1-409e-be42-24d6aca1a6be",
 		"denom": "OPC",
-		"name": "COVENANT REFORMED",
-		"pastor": "Pastor: Scott Willet",
-		"phone": "336-673-3176",
-		"email": "willet.1@opc.org",
-		"website": "http://www.mtairyopc.org",
-		"address": "495 S. Franklin Rd. Mount Airy, NC 27030-4219"
+		"name": "COMMUNITY",
+		"pastor": "Pastor: Jonathan L. Cruse",
+		"phone": "814-932-6630",
+		"email": "jcruse@kalamazoocpc.org",
+		"website": "http://www.kalamazoocpc.org",
+		"address": "2131 Alamo Ave. Kalamazoo, MI 49006-2660"
 	},
 	{
-		"id": "ac0fb69a-8758-4901-9344-159c24077e41",
+		"id": "79a44bb6-4962-4d49-9891-94a338dac4f5",
 		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: LeRoy E. Miller",
-		"phone": "402-423-1433",
-		"email": "miller.1@opc.org",
-		"website": "http://www.faithopc.com",
-		"address": "5640 Salt Valley View St. Lincoln, NE 68512-1142"
+		"name": "GRACE",
+		"pastor": "Pastor: Stephen Pribble",
+		"phone": "517-703-3291",
+		"email": "pribble.1@opc.org",
+		"website": "http://www.all-of-grace.org/",
+		"address": "1301 W. Wieland Rd. Lansing, MI 48906-1895"
 	},
 	{
-		"id": "d63a874d-9425-4b9e-aa9c-b56ea3bc293f",
+		"id": "0d8fad2a-ff47-4a77-8c38-6b21c39c45bd",
 		"denom": "OPC",
-		"name": "JAFFREY",
-		"pastor": "Pastor: Stephen A. Migotsky",
-		"phone": "603-532-4381",
-		"email": "migotsky.1@opc.org",
-		"website": "http://www.jaffreyopc.org/",
-		"address": "14 School St. Jaffrey, NH 03452-6164"
+		"name": "MEADOW SPRINGS COMMUNITY",
+		"pastor": "Pastor: Gerald J. Neumair",
+		"phone": "616-455-5672",
+		"email": "neumair.1@opc.org",
+		"website": "http://meadowspringschurch.org/",
+		"address": "1811 Jeffrey St. SE Kentwood, MI 49508-6425"
 	},
 	{
-		"id": "a7bf9d99-f3f2-43ad-b231-6fb2f1c18b63",
+		"id": "2ea46d68-a35d-4995-9261-d0c1b18d9de3",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Michael A. Kooy",
+		"phone": "603-915-6755",
+		"email": "ppcopcmi@gmail.com",
+		"website": "http://www.providencepc.net",
+		"address": "1275 Cornell St.  Manistee, MI 49660"
+	},
+	{
+		"id": "32c91726-0b3e-40de-9412-c72bd1c0156f",
+		"denom": "OPC",
+		"name": "PILGRIM",
+		"pastor": "Pastor: John Belden",
+		"phone": "810-678-2171",
+		"email": "belden.1@opc.org",
+		"website": "http://www.pilgrimmetamora.org",
+		"address": "58 W. High St. Metamora, MI 48455-9785"
+	},
+	{
+		"id": "aae6a4b3-92e7-46d0-8131-164eb1243a4f",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Jeffrey B. Wilson",
+		"phone": "248-547-9585",
+		"email": "wilson.3@opc.org",
+		"website": "http://www.popc.org/",
+		"address": "18451 W 10 Mile Rd Southfield, MI 48075-2614"
+	},
+	{
+		"id": "8fc8b3bb-089e-4050-a0e5-68e7073c54a1",
+		"denom": "OPC",
+		"name": "MISSION",
+		"pastor": "Pastor: Michael J. Seufert",
+		"phone": "651-771-0125",
+		"email": "info@missionopc.org",
+		"website": "http://www.missionopc.org/",
+		"address": "1040 Como Ave. Saint Paul, MN 55103-1044"
+	},
+	{
+		"id": "76973b2e-21c9-40aa-87eb-1989975bdc5d",
+		"denom": "OPC",
+		"name": "ROCKFORD SPRINGS COMMUNITY",
+		"pastor": "Pastor: David A. Vander Meer",
+		"phone": "616-696-3656",
+		"email": "vandermeer.1@opc.org",
+		"website": "http://www.rockfordsprings.org/",
+		"address": "5815 14 Mile Rd. N.E. Rockford, MI 49341-9718"
+	},
+	{
+		"id": "82d64563-a809-484b-91e2-335c3e11b201",
+		"denom": "OPC",
+		"name": "RESURRECTION",
+		"pastor": "Pastor: T. Nathan Trice",
+		"phone": "704-847-2544",
+		"email": "trice.1@opc.org",
+		"website": "http://RPCMatthews.org",
+		"address": "2701 Rice Rd. Matthews, NC 28105-3718"
+	},
+	{
+		"id": "324419ac-524d-4523-959e-34d40518e4a8",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: Arie van Eyk V",
@@ -1060,7 +980,77 @@
 		"address": "4600 Lake Brandt Rd. Greensboro, NC 27455"
 	},
 	{
-		"id": "bba0867d-9610-4c1a-924d-44500e601497",
+		"id": "44b17797-7da7-44b9-bab8-b0ac0b3bcc8e",
+		"denom": "OPC",
+		"name": "SOVEREIGN GRACE REFORMED PRESBYTERIAN CHURCH",
+		"pastor": "Pastor: Jeffrey S. Carter",
+		"phone": "828-381-8008",
+		"email": "carter.2@opc.org",
+		"website": "http://www.sgrpc.org",
+		"address": "P.O. Box 2985 Hickory, NC 28603-2985"
+	},
+	{
+		"id": "c618c37e-4100-498a-93d1-2c7819ba52a3",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: M. Daniel Fincham",
+		"phone": "252-635-1506",
+		"email": "fincham.1@opc.org",
+		"website": "http://www.covenant-opc.com",
+		"address": "130 Market St. New Bern, NC 28560-6704"
+	},
+	{
+		"id": "568168d9-f062-4b65-9c7f-2c225d87f47d",
+		"denom": "OPC",
+		"name": "REDEEMER",
+		"pastor": "Pastor: Cliff Blair",
+		"phone": "704-841-9411",
+		"email": "blair.1@opc.org",
+		"website": "http://www.rpc.opc.org",
+		"address": "13527 Lipizzan Ct. Matthews, NC 28105-3949"
+	},
+	{
+		"id": "3a8adb05-2461-427c-8f36-cd8b754e9b01",
+		"denom": "OPC",
+		"name": "PILGRIM",
+		"pastor": "Pastor: Casey M. Bessette",
+		"phone": "919-782-0484",
+		"email": "bessette.1@opc.org",
+		"website": "https://www.pilgrimpres.com",
+		"address": "5420 Ebenezer Church Rd. Raleigh, NC 27612-7608"
+	},
+	{
+		"id": "f65fd8e5-47ac-4a84-a545-9751248402f7",
+		"denom": "OPC",
+		"name": "BETHEL",
+		"pastor": "Pastor: Bruce L. Prentice",
+		"phone": "701-751-1107",
+		"email": "prentice.1@opc.org",
+		"website": "http://www.bethelopc.net",
+		"address": "211 2nd Ave. NW Mandan, ND 58554"
+	},
+	{
+		"id": "27c45f8f-4996-42b2-9181-32500e34f69d",
+		"denom": "OPC",
+		"name": "JAFFREY",
+		"pastor": "Pastor: Stephen A. Migotsky",
+		"phone": "603-532-4381",
+		"email": "migotsky.1@opc.org",
+		"website": "http://www.jaffreyopc.org/",
+		"address": "14 School St. Jaffrey, NH 03452-6164"
+	},
+	{
+		"id": "ff0a94a2-207a-479e-ac35-0a983e1cea2d",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: LeRoy E. Miller",
+		"phone": "402-423-1433",
+		"email": "miller.1@opc.org",
+		"website": "http://www.faithopc.com",
+		"address": "5640 Salt Valley View St. Lincoln, NE 68512-1142"
+	},
+	{
+		"id": "47fd06f5-1032-4855-a021-ab9a0efea94d",
 		"denom": "OPC",
 		"name": "AMOSKEAG",
 		"pastor": "Contact: Elder Tom Armor",
@@ -1070,17 +1060,17 @@
 		"address": "95 Brook St. Manchester, NH 03104"
 	},
 	{
-		"id": "bd69107e-86ca-4be8-ac82-aca3822f702a",
+		"id": "d572332d-1a72-4ccd-91cf-88d1f088e159",
 		"denom": "OPC",
-		"name": "IMMANUEL",
-		"pastor": "Pastor: Matthew D. Cole",
-		"phone": "856-931-2436",
-		"email": "cole.1@opc.org",
-		"website": "http://www.immanuelopc.org",
-		"address": "11 Park Dr. Bellmawr, NJ 08031-2822"
+		"name": "COVENANT REFORMED",
+		"pastor": "Pastor: Scott Willet",
+		"phone": "336-673-3176",
+		"email": "willet.1@opc.org",
+		"website": "http://www.mtairyopc.org",
+		"address": "495 S. Franklin Rd. Mount Airy, NC 27030-4219"
 	},
 	{
-		"id": "73236fb8-8c4b-4d28-9ae0-ca48dd2d69dd",
+		"id": "df37c8c8-0cfb-4b32-adcb-6dd894221bad",
 		"denom": "OPC",
 		"name": "NEW HOPE",
 		"pastor": "Pastor: Claude A. Taylor III",
@@ -1090,17 +1080,7 @@
 		"address": "65 Hitchner Ave. Bridgeton, NJ 08302-4566"
 	},
 	{
-		"id": "f7fc0b64-275f-4c4f-b298-f3d91dcd3c37",
-		"denom": "OPC",
-		"name": "CHURCH OF THE COVENANT",
-		"pastor": "Pastor: Ronald E. Pearce",
-		"phone": "908-850-8910",
-		"email": "pearce.1@opc.org",
-		"website": "http://www.churchofthecovenant.net",
-		"address": "319 Blau Rd. Hackettstown, NJ 07840-5227"
-	},
-	{
-		"id": "100b19e6-cbdb-4bc8-8431-afecbaf7d8fb",
+		"id": "46aea96e-10f5-4819-9cb9-e027d408f5cd",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: John Keegan",
@@ -1110,37 +1090,7 @@
 		"address": "151 S. Broadway Fair Lawn, NJ 07410-5530"
 	},
 	{
-		"id": "017e9f52-b85a-4acc-bc22-26f3802d0af1",
-		"denom": "OPC",
-		"name": "RIVER OF LIFE",
-		"pastor": "Pastor: William O. Slack II",
-		"phone": "908-213-1377",
-		"email": "slack.1@opc.org",
-		"website": "/locator.html?presbytery_id=15&search_go=Y",
-		"address": "445 S. Main St. Phillipsburg, NJ 08865-3030"
-	},
-	{
-		"id": "10ea4359-4666-4b42-857a-d6449f6229a1",
-		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Richard N. Ellis",
-		"phone": "856-358-3183",
-		"email": "ellis.1@opc.org",
-		"website": "http://faithopchurch.org",
-		"address": "545 Daretown Rd. Elmer, NJ 08318-2724"
-	},
-	{
-		"id": "c6476911-3c2a-4b2a-a607-4d0840f6bd65",
-		"denom": "OPC",
-		"name": "MT. CARMEL",
-		"pastor": "Pastor: Gregory A. Pilato",
-		"phone": "732-846-8777",
-		"email": "mtcarmel8@verizon.net",
-		"website": "http://mtcarmelopc.com",
-		"address": "P.O. Box 126 Somerset, NJ 08875-0126"
-	},
-	{
-		"id": "ecc06719-f796-4e2c-8d43-4f4d6d9313d8",
+		"id": "bda594cf-4c84-4455-af3d-ee28eea1109f",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: Carl S. “Steve” McDaniel, Jr. ",
@@ -1150,37 +1100,17 @@
 		"address": "230 Shadow Place Mantua, NJ 08051-1018"
 	},
 	{
-		"id": "770d5fd2-b51b-4c15-b091-0f7e8721c1bf",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Contact: Elder Edward Duffy",
-		"phone": "856-691-0206",
-		"email": "prrgg1@verizon.net",
-		"website": "/locator.html?presbytery_id=15&search_go=Y",
-		"address": "P.O. Box 217 Vineland, NJ 08360-0217"
-	},
-	{
-		"id": "7e29986b-20a0-48b1-ade1-fd607c9f0182",
+		"id": "7068360b-67ad-45e3-a1f4-17e5e6fcc38e",
 		"denom": "OPC",
 		"name": "IMMANUEL",
-		"pastor": "Pastor: Joseph Trombetta",
-		"phone": "856-854-8323",
-		"email": "trombetta.1@opc.org",
-		"website": "http://www.iopc.org/",
-		"address": "1200 Newton Ave. Haddon Twp., NJ 08107"
+		"pastor": "Pastor: Matthew D. Cole",
+		"phone": "856-931-2436",
+		"email": "cole.1@opc.org",
+		"website": "http://www.immanuelopc.org",
+		"address": "11 Park Dr. Bellmawr, NJ 08031-2822"
 	},
 	{
-		"id": "3349c0df-e2a2-4951-b789-278d6aa8b931",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Timothy Ferguson",
-		"phone": "908-232-4403",
-		"email": "ferguson.3@opc.org",
-		"website": "http://www.graceopcwestfieldnj.org",
-		"address": "1100 Boulevard Westfield, NJ 07090-2724"
-	},
-	{
-		"id": "dbb6813b-ba40-4ae4-95c9-8f84222ba652",
+		"id": "224f5dc6-7dd8-42f9-8ec1-a1dd20517ad0",
 		"denom": "OPC",
 		"name": "CALVARY COMMUNITY",
 		"pastor": "Pastor: Michael W. Bobick",
@@ -1190,7 +1120,17 @@
 		"address": "4 Old Church Rd. Phillipsburg, NJ 08865-9597"
 	},
 	{
-		"id": "c390fc8f-c0c1-49b0-8083-ae280f5c940f",
+		"id": "3f9d78ba-5bac-460a-9a10-c51b62faec59",
+		"denom": "OPC",
+		"name": "CHURCH OF THE COVENANT",
+		"pastor": "Pastor: Ronald E. Pearce",
+		"phone": "908-850-8910",
+		"email": "pearce.1@opc.org",
+		"website": "http://www.churchofthecovenant.net",
+		"address": "319 Blau Rd. Hackettstown, NJ 07840-5227"
+	},
+	{
+		"id": "ae9cdd47-d1a2-4eeb-87ef-eb0d5b7fec80",
 		"denom": "OPC",
 		"name": "CENTRAL BIBLE CHURCH",
 		"pastor": "Pastor: James Allay",
@@ -1200,17 +1140,17 @@
 		"address": "123 E. 18th Ave. North Wildwood, NJ 08260-5540"
 	},
 	{
-		"id": "cd60cc19-0a35-4b8d-8af4-e922c32bd84d",
+		"id": "4f321cea-8a96-4f69-85c4-6c3f36404adc",
 		"denom": "OPC",
-		"name": "CALVARY",
-		"pastor": "Pastor: James A. Zozzaro",
-		"phone": "609-522-8489",
-		"email": "zozzaro.1@opc.org",
-		"website": "http://www.copccapemay.weebly.com",
-		"address": "308 E. Hand Ave Wildwood, NJ 08260"
+		"name": "RIVER OF LIFE",
+		"pastor": "Pastor: William O. Slack II",
+		"phone": "908-213-1377",
+		"email": "slack.1@opc.org",
+		"website": "/locator.html?presbytery_id=15&search_go=Y",
+		"address": "445 S. Main St. Phillipsburg, NJ 08865-3030"
 	},
 	{
-		"id": "4595a373-cbec-4c91-b398-a214098fa523",
+		"id": "847674b8-3a78-4683-96f6-2ad0aa5dd164",
 		"denom": "OPC",
 		"name": "CALVARY",
 		"pastor": "Pastor: Christopher Bush",
@@ -1220,7 +1160,27 @@
 		"address": "24 US Highway 202 Ringoes, NJ 08551-1819"
 	},
 	{
-		"id": "a26a4524-f8e6-4dad-ba99-e6d970c172a9",
+		"id": "e0c1a541-f695-4d58-ab95-27beddf94144",
+		"denom": "OPC",
+		"name": "MT. CARMEL",
+		"pastor": "Pastor: Gregory A. Pilato",
+		"phone": "732-846-8777",
+		"email": "mtcarmel8@verizon.net",
+		"website": "http://mtcarmelopc.com",
+		"address": "P.O. Box 126 Somerset, NJ 08875-0126"
+	},
+	{
+		"id": "2b65f403-49e9-46bd-a28b-ac487eb0ea7d",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: Richard N. Ellis",
+		"phone": "856-358-3183",
+		"email": "ellis.1@opc.org",
+		"website": "http://faithopchurch.org",
+		"address": "545 Daretown Rd. Elmer, NJ 08318-2724"
+	},
+	{
+		"id": "70682585-ca8f-498e-8f18-235398175f3f",
 		"denom": "OPC",
 		"name": "FAITH BIBLE CHURCH",
 		"pastor": "Pastor: Todd Smith",
@@ -1230,17 +1190,7 @@
 		"address": "58 Red Wing Ave. Brick, NJ 08723"
 	},
 	{
-		"id": "1a03544c-6304-433e-8819-70fd4412f463",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Timothy H. Gregson",
-		"phone": "518-842-5301",
-		"email": "ccovenantopc@nycap.rr.com",
-		"website": "http://covenant-pres-amsterdam.org",
-		"address": "9 Trinity Pl. Amsterdam, NY 12010-0608"
-	},
-	{
-		"id": "c7116c65-560f-4905-910e-bd2eaccbaad7",
+		"id": "6ceaf16d-bd0d-42b0-b798-66be90234aff",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: Travis A. Yonkman",
@@ -1250,7 +1200,47 @@
 		"address": "416 White Horse Ave. Trenton, NJ 08610-1414"
 	},
 	{
-		"id": "93004814-ae65-41b6-a339-c293efddbea5",
+		"id": "93ee1b49-8614-43e3-b5d5-cf3aadf183a3",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Contact: Elder Edward Duffy",
+		"phone": "856-691-0206",
+		"email": "prrgg1@verizon.net",
+		"website": "/locator.html?presbytery_id=15&search_go=Y",
+		"address": "P.O. Box 217 Vineland, NJ 08360-0217"
+	},
+	{
+		"id": "af15349e-60bc-46e6-b5ed-cdfec8e5ee2c",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Timothy Ferguson",
+		"phone": "908-232-4403",
+		"email": "ferguson.3@opc.org",
+		"website": "http://www.graceopcwestfieldnj.org",
+		"address": "1100 Boulevard Westfield, NJ 07090-2724"
+	},
+	{
+		"id": "41a51757-a479-43fe-8b31-a53b18fdc2c6",
+		"denom": "OPC",
+		"name": "IMMANUEL",
+		"pastor": "Pastor: Joseph Trombetta",
+		"phone": "856-854-8323",
+		"email": "trombetta.1@opc.org",
+		"website": "http://www.iopc.org/",
+		"address": "1200 Newton Ave. Haddon Twp., NJ 08107"
+	},
+	{
+		"id": "d33c975e-9254-4723-854c-ff5e57254f3f",
+		"denom": "OPC",
+		"name": "CALVARY",
+		"pastor": "Pastor: James A. Zozzaro",
+		"phone": "609-522-8489",
+		"email": "zozzaro.1@opc.org",
+		"website": "http://www.copccapemay.weebly.com",
+		"address": "308 E. Hand Ave Wildwood, NJ 08260"
+	},
+	{
+		"id": "2c15f899-7a83-4321-bb5b-e6d71062dd11",
 		"denom": "OPC",
 		"name": "BOARDWALK CHAPEL",
 		"pastor": "Contact: James Zozzaro, Director",
@@ -1260,27 +1250,7 @@
 		"address": "P.O. Box 602 Wildwood, NJ 08260-0602"
 	},
 	{
-		"id": "bc94f1f9-21ab-4488-910b-462b2e5ec4eb",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Alan J. Dueck",
-		"phone": "775-455-0101",
-		"email": "dueck.1@opc.org",
-		"website": "/locator.html?presbytery_id=4&search_go=Y",
-		"address": "45 E. 4th St. Battle Mountain, NV 89820-2022"
-	},
-	{
-		"id": "b996e876-f8f7-425c-a46d-69c112f82b28",
-		"denom": "OPC",
-		"name": "OPC in BOHEMIA",
-		"pastor": "Phone: 631-218-1583",
-		"phone": "631-218-1583",
-		"email": "",
-		"website": "/locator.html?presbytery_id=7&search_go=Y",
-		"address": "906 Church St. Bohemia, NY 11716-5008"
-	},
-	{
-		"id": "cfe89aed-2923-4d8b-9f21-d5d64bf7fe49",
+		"id": "488e5213-5995-43e2-b9e8-fa9c044b669b",
 		"denom": "OPC",
 		"name": "ALBUQUERQUE REFORMED CHURCH",
 		"pastor": "Pastor: John R. Hunt, Jr.",
@@ -1290,27 +1260,37 @@
 		"address": "10828 Wasatch Rd. SE Albuquerque, NM 87123"
 	},
 	{
-		"id": "d8575193-b19d-40b4-8bfb-55ed35e30bb9",
+		"id": "9d467929-b0cb-4e1e-9c14-ce143d13cb04",
 		"denom": "OPC",
-		"name": "WESTCHESTER",
-		"pastor": "Pastor: Charles M. Oliveira",
-		"phone": "914-664-5858",
-		"email": "oliveira.1@opc.org",
-		"website": "http://www.westchesteropc.org",
-		"address": "17 Cole Ter. New Rochelle, NY 10801-1503"
+		"name": "GRACE",
+		"pastor": "Pastor: Alan J. Dueck",
+		"phone": "775-455-0101",
+		"email": "dueck.1@opc.org",
+		"website": "/locator.html?presbytery_id=4&search_go=Y",
+		"address": "45 E. 4th St. Battle Mountain, NV 89820-2022"
 	},
 	{
-		"id": "e435f283-a453-4159-be81-f9b945275f6b",
+		"id": "e7a7c9b5-7b13-4a0c-addd-c261b414c7ab",
 		"denom": "OPC",
-		"name": "CORNERSTONE",
-		"pastor": "Pastor: Kevin M. Kisler",
-		"phone": "585-865-3917",
-		"email": "kisler.1@opc.org",
-		"website": "http://www.cornerstonepresbyterian.org ",
-		"address": "3201 Dewey Ave. Rochester, NY 14616-3740"
+		"name": "COVENANT",
+		"pastor": "Pastor: Timothy H. Gregson",
+		"phone": "518-842-5301",
+		"email": "ccovenantopc@nycap.rr.com",
+		"website": "http://covenant-pres-amsterdam.org",
+		"address": "9 Trinity Pl. Amsterdam, NY 12010-0608"
 	},
 	{
-		"id": "faf0ee12-bd52-4718-ac1e-461bacde315c",
+		"id": "0ca1635f-6c6c-46f3-a04f-c8a39b58bcda",
+		"denom": "OPC",
+		"name": "OPC in BOHEMIA",
+		"pastor": "Phone: 631-218-1583",
+		"phone": "631-218-1583",
+		"email": "",
+		"website": "/locator.html?presbytery_id=7&search_go=Y",
+		"address": "906 Church St. Bohemia, NY 11716-5008"
+	},
+	{
+		"id": "32216742-ee60-4d59-8389-796a57548600",
 		"denom": "OPC",
 		"name": "ORTHODOX PRESBYTERIAN CHURCH",
 		"pastor": "Pastor: Lloyd J. Sterrett",
@@ -1320,27 +1300,7 @@
 		"address": "971 Sobo Avenue Franklin Square, NY 11010"
 	},
 	{
-		"id": "ef69dafe-7538-430e-bc93-3743990fa52d",
-		"denom": "OPC",
-		"name": "HOPE",
-		"pastor": "Pastor: Michael L. Shingler",
-		"phone": "315-469-4673",
-		"email": "shingler.1@opc.org",
-		"website": "http://hopeopc.org/",
-		"address": "4962 W. Seneca Tpke. Syracuse, NY 13215-2214"
-	},
-	{
-		"id": "ef63c547-4782-4970-ab4e-7511554234ba",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: William B. Kessler",
-		"phone": "614-451-7610",
-		"email": "kessler.1@opc.org",
-		"website": "http://www.graceopc.com",
-		"address": "5099 Postlewaite Rd. Columbus, OH 43235-3470"
-	},
-	{
-		"id": "6a88af76-2607-4b1d-b3c3-1f77673a009f",
+		"id": "a7d53efe-d415-4f66-a22c-d0102e436f40",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: Patrick R. Severson",
@@ -1350,17 +1310,27 @@
 		"address": "6675 County Route 10 Lisbon, NY 13658-3295"
 	},
 	{
-		"id": "deb24141-ab18-447e-9e08-e0f1f832b657",
+		"id": "d28b6bba-2556-428f-8163-c3e93a2c92c7",
 		"denom": "OPC",
-		"name": "REDEEMER",
-		"pastor": "Pastor: Robert S. Arendale",
-		"phone": "937-427-1562",
-		"email": "arendale.1@opc.org",
-		"website": "http://www.daytonopc.org/",
-		"address": "22 South Fairfield Rd. Beavercreek, OH 45440"
+		"name": "WESTCHESTER",
+		"pastor": "Pastor: Charles M. Oliveira",
+		"phone": "914-664-5858",
+		"email": "oliveira.1@opc.org",
+		"website": "http://www.westchesteropc.org",
+		"address": "17 Cole Ter. New Rochelle, NY 10801-1503"
 	},
 	{
-		"id": "ad06608e-8d0b-435b-b45c-ce2e5695462e",
+		"id": "0a854711-3050-4bba-bc91-047266beb6a9",
+		"denom": "OPC",
+		"name": "CORNERSTONE",
+		"pastor": "Pastor: Kevin M. Kisler",
+		"phone": "585-865-3917",
+		"email": "kisler.1@opc.org",
+		"website": "http://www.cornerstonepresbyterian.org ",
+		"address": "3201 Dewey Ave. Rochester, NY 14616-3740"
+	},
+	{
+		"id": "2c986201-7bf5-48ba-bd70-4f0966409b02",
 		"denom": "OPC",
 		"name": "CALVARY",
 		"pastor": "Pastor: Thomas Trouwborst",
@@ -1370,7 +1340,27 @@
 		"address": "1230 Rugby Rd. Schenectady, NY 12308-2400"
 	},
 	{
-		"id": "5c969e9e-f6be-42ab-bedd-99f4153852ee",
+		"id": "e0ec77a1-914b-4c2f-9ca4-9fdd2cbc570e",
+		"denom": "OPC",
+		"name": "HOPE",
+		"pastor": "Pastor: Michael L. Shingler",
+		"phone": "315-469-4673",
+		"email": "shingler.1@opc.org",
+		"website": "http://hopeopc.org/",
+		"address": "4962 W. Seneca Tpke. Syracuse, NY 13215-2214"
+	},
+	{
+		"id": "d5546aa5-c949-4de2-a641-6751a316ff96",
+		"denom": "OPC",
+		"name": "REDEEMER",
+		"pastor": "Pastor: Robert S. Arendale",
+		"phone": "937-427-1562",
+		"email": "arendale.1@opc.org",
+		"website": "http://www.daytonopc.org/",
+		"address": "22 South Fairfield Rd. Beavercreek, OH 45440"
+	},
+	{
+		"id": "5335d7bc-027c-4bc1-a604-93aed7439363",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Dylan J. Rowland",
@@ -1380,27 +1370,7 @@
 		"address": "473 W. Cook Rd. Mansfield, OH 44907-2352"
 	},
 	{
-		"id": "dde7e0c0-04f5-4ff0-b65a-a662a83d2bd5",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Stephen J. Dufresne",
-		"phone": "740-927-1331",
-		"email": "dufresne.1@opc.org",
-		"website": "http://www.providenceopc.us",
-		"address": "7095 Summit Rd. SW Pataskala, OH 43062"
-	},
-	{
-		"id": "d008a093-b14c-4e31-918b-e70f878c4dee",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Matthew Patton",
-		"phone": "937-387-6699",
-		"email": "patton.1@opc.org",
-		"website": "http://www.CPCVandalia.com",
-		"address": "101 E. National Rd. (Hwy. 40) Vandalia, OH 45377"
-	},
-	{
-		"id": "380f6618-9e8c-4a53-b2d4-aff971c48c51",
+		"id": "5fd7aa7d-94cd-4767-a159-634482ce29c6",
 		"denom": "OPC",
 		"name": "WESTMINSTER",
 		"pastor": "Pastor: Clarence E. Veld",
@@ -1410,67 +1380,37 @@
 		"address": "1001 S.E. Adams Blvd. Bartlesville, OK 74003-5208"
 	},
 	{
-		"id": "feb1d714-5ca0-4e27-b413-d67c3891d1c6",
+		"id": "ad2f11bd-3ce2-4e67-84d2-c4b02fbfd22a",
 		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Karl E. Thompson",
-		"phone": "Karl E. Thompson Contact: thompson.1@opc.org Phone: 541-479-7863; 541-205-8727",
-		"email": "",
-		"website": "http://faithgp.org/",
-		"address": "2033 Harbeck Rd. Grants Pass, OR 97527-5615"
+		"name": "GRACE",
+		"pastor": "Pastor: William B. Kessler",
+		"phone": "614-451-7610",
+		"email": "kessler.1@opc.org",
+		"website": "http://www.graceopc.com",
+		"address": "5099 Postlewaite Rd. Columbus, OH 43235-3470"
 	},
 	{
-		"id": "90cd74d1-477d-4496-970b-dd6a540a64bd",
+		"id": "92ff8045-1c10-4a75-b3b3-c2977b001457",
 		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Brian H. Nicholson",
-		"phone": "541-772-3655 or 541-770-6597",
-		"email": "nicholson.1@opc.org",
-		"website": "http://trinity-opc.org/",
-		"address": "100 Windsor Ave. Medford, OR 97504"
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Stephen J. Dufresne",
+		"phone": "740-927-1331",
+		"email": "dufresne.1@opc.org",
+		"website": "http://www.providenceopc.us",
+		"address": "7095 Summit Rd. SW Pataskala, OH 43062"
 	},
 	{
-		"id": "04b0620d-dca8-4d4b-8969-64b4031560df",
+		"id": "87a4ab66-6d5c-498c-b949-0b644cfdf234",
 		"denom": "OPC",
-		"name": "FIRST",
-		"pastor": "Pastor: Andrew M. Farr",
-		"phone": "503-253-0695",
-		"email": "pastor@firstopcportland.org",
-		"website": "http://www.firstopcportland.org/",
-		"address": "8245 N.E. Fremont St. Portland, OR 97220-5147"
+		"name": "COVENANT",
+		"pastor": "Pastor: Matthew Patton",
+		"phone": "937-387-6699",
+		"email": "patton.1@opc.org",
+		"website": "http://www.CPCVandalia.com",
+		"address": "101 E. National Rd. (Hwy. 40) Vandalia, OH 45377"
 	},
 	{
-		"id": "f6422a62-7c0a-463b-88d7-613b8286c6f6",
-		"denom": "OPC",
-		"name": "LIVING HOPE",
-		"pastor": "Pastor: Anthony C. Phelps",
-		"phone": "610-530-1925",
-		"email": "phelps.1@opc.org",
-		"website": "http://www.livinghopeopc.org",
-		"address": "P.O. Box 3522 Allentown, PA 18106"
-	},
-	{
-		"id": "11361b0c-1459-407f-9293-1162a9a1e6a7",
-		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Lane G. Tipton",
-		"phone": "610-253-2272",
-		"email": "tipton.1@opc.org",
-		"website": "http://trinityopc-easton.org/",
-		"address": "531 Milford St. Easton, PA 18045-5270"
-	},
-	{
-		"id": "a826210f-bc3f-459f-9cb9-a17e7336e10d",
-		"denom": "OPC",
-		"name": "REDEEMER",
-		"pastor": "Contact: Elder Gregory Rudder",
-		"phone": "717-218-1009; 215-908-0829",
-		"email": "rusticrudders@aol.com",
-		"website": "http://www.redeemeropc.org",
-		"address": "101 Petersburg Rd. Carlisle, PA 17013"
-	},
-	{
-		"id": "c47c36c6-a2cd-433e-9537-0fa069ba43dd",
+		"id": "024ae0ba-08d8-4626-a4e0-beaf83879ae9",
 		"denom": "OPC",
 		"name": "GRACE REFORMED",
 		"pastor": "Pastor: Daniel J. Dillard",
@@ -1480,17 +1420,27 @@
 		"address": "62162 Hamby Rd. Bend, OR 97701-9530"
 	},
 	{
-		"id": "f32bef14-ae14-4fbb-b400-575b2ef9cade",
+		"id": "45d32264-5cb9-47c1-9e8c-0b278508f0e0",
 		"denom": "OPC",
-		"name": "LIVING HOPE",
-		"pastor": "Pastor: John D. Van Meerbeke",
-		"phone": "717-334-7157",
-		"email": "vanmeerbeke.1@opc.org",
-		"website": "http://gettysburglivinghope.org/",
-		"address": "155 Early Ave. Gettysburg, PA 17325-3104"
+		"name": "TRINITY",
+		"pastor": "Pastor: Brian H. Nicholson",
+		"phone": "541-772-3655 or 541-770-6597",
+		"email": "nicholson.1@opc.org",
+		"website": "http://trinity-opc.org/",
+		"address": "100 Windsor Ave. Medford, OR 97504"
 	},
 	{
-		"id": "bfe3c358-e7f3-44f1-bdfb-6d77b4dad2e9",
+		"id": "369c4a17-0a5a-4dd8-b8df-ffa2520f41fc",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: Karl E. Thompson",
+		"phone": "Karl E. Thompson Contact: thompson.1@opc.org Phone: 541-479-7863; 541-205-8727",
+		"email": "",
+		"website": "http://faithgp.org/",
+		"address": "2033 Harbeck Rd. Grants Pass, OR 97527-5615"
+	},
+	{
+		"id": "df59cdcb-f576-45d2-b4f9-e16bd1184b62",
 		"denom": "OPC",
 		"name": "TRINITY",
 		"pastor": "Pastor: John W. Mahaffy",
@@ -1500,27 +1450,17 @@
 		"address": "600 E. Columbia Dr. Newberg, OR 97132-1612"
 	},
 	{
-		"id": "193f837c-5263-46df-8b10-f040d69d93ff",
+		"id": "f1d031b5-dc4a-4fed-be23-a0b417e5e6f0",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Jeremy Jones",
-		"phone": "724-458-6630",
-		"email": "jones.2@opc.org",
-		"website": "http://www.covenantopcgc.org",
-		"address": "P.O. Box 1016 Grove City, PA 16127-0630"
+		"name": "FIRST",
+		"pastor": "Pastor: Andrew M. Farr",
+		"phone": "503-253-0695",
+		"email": "pastor@firstopcportland.org",
+		"website": "http://www.firstopcportland.org/",
+		"address": "8245 N.E. Fremont St. Portland, OR 97220-5147"
 	},
 	{
-		"id": "c01ff59f-c0e3-4ffb-93d4-f23d05fd710b",
-		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Larry J. Westerveld",
-		"phone": "215-675-1811",
-		"email": "westerveld.1@opc.org",
-		"website": "http://www.trinityopchurch.org/",
-		"address": "151 W. County Line Rd. Hatboro, PA 19040-1807"
-	},
-	{
-		"id": "37d0e42f-db56-4b80-9a16-42fd2d56fb69",
+		"id": "4d4f1d4d-3460-4189-a643-b3d5bc5e7a7c",
 		"denom": "OPC",
 		"name": "COVENANT GRACE",
 		"pastor": "Pastor: Jeffrey M. Scott",
@@ -1530,147 +1470,37 @@
 		"address": "489 SE Oakbriar Ave., Roseburg, OR 97470"
 	},
 	{
-		"id": "fba8bd64-74ce-4411-bf17-a1c07549ddf2",
+		"id": "4bf3133b-13d0-4cdf-814b-4990c6947dcc",
 		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Douglas W. Snyder",
-		"phone": "724-464-2210",
-		"email": "snyder.1@opc.org",
-		"website": "http://www.faithopcindianapa.org/",
-		"address": "1654 Old Route 119 Highway N. Indiana, PA 15701-8558"
+		"name": "LIVING HOPE",
+		"pastor": "Pastor: Anthony C. Phelps",
+		"phone": "610-530-1925",
+		"email": "phelps.1@opc.org",
+		"website": "http://www.livinghopeopc.org",
+		"address": "P.O. Box 3522 Allentown, PA 18106"
 	},
 	{
-		"id": "b49391da-279d-45d9-9261-59cf16162716",
+		"id": "e3cb749b-9aae-4f8b-bed2-03530c986462",
 		"denom": "OPC",
-		"name": "CALVARY",
-		"pastor": "Pastor: Peter J. Puliatti",
-		"phone": "724-735-4523",
-		"email": "puliatti.1@opc.org",
-		"website": "http://www.harrisvilleopc.org/",
-		"address": "P.O. Box 59 Harrisville, PA 16038-0059"
+		"name": "TRINITY",
+		"pastor": "Pastor: Lane G. Tipton",
+		"phone": "610-253-2272",
+		"email": "tipton.1@opc.org",
+		"website": "http://trinityopc-easton.org/",
+		"address": "531 Milford St. Easton, PA 18045-5270"
 	},
 	{
-		"id": "7c948c51-d49f-40a3-9496-92dd75b66ce6",
+		"id": "273ec4c0-6499-4808-9d6e-3947e25326c5",
 		"denom": "OPC",
-		"name": "KNOX",
-		"pastor": "Contact: Andrew Duggan",
-		"phone": "610-622-5008",
-		"email": "duggan.1@opc.org",
-		"website": "https://knox-presbyterian.org",
-		"address": "311 N. Lansdowne Ave. Lansdowne, PA 19050-1017"
+		"name": "REDEEMER",
+		"pastor": "Contact: Elder Gregory Rudder",
+		"phone": "717-218-1009; 215-908-0829",
+		"email": "rusticrudders@aol.com",
+		"website": "http://www.redeemeropc.org",
+		"address": "101 Petersburg Rd. Carlisle, PA 17013"
 	},
 	{
-		"id": "d73fe2bb-4a02-4580-9f7b-1ca5acc72fe3",
-		"denom": "OPC",
-		"name": "CALVARY",
-		"pastor": "Pastor: J. Mark Sallade",
-		"phone": "215-884-0912",
-		"email": "sallade.1@opc.org",
-		"website": "http://www.calvaryopcglenside.org",
-		"address": "734 Willow Grove Ave.  (at Church Rd. - Rt. 73) Glenside, PA 19038"
-	},
-	{
-		"id": "819ffd05-100d-47c4-bd4d-960a3ac12747",
-		"denom": "OPC",
-		"name": "CORNERSTONE",
-		"pastor": "Contact: Sandy Finlayson",
-		"phone": "215-591-9401",
-		"email": "office@cornerstoneopc.com",
-		"website": "http://www.cornerstoneopc.com",
-		"address": "701 Pen-Ambler Rd Ambler, PA 19002"
-	},
-	{
-		"id": "97364a43-6428-4cc1-a286-cb2e40b9fb42",
-		"denom": "OPC",
-		"name": "WESTMINSTER",
-		"pastor": "Pastor: Chad Mullinix",
-		"phone": "Chad Mullinix Contact: mullinix.1@opc.org Phone: 814-944-8642",
-		"email": "",
-		"website": "http://www.hollidaysburgopc.org",
-		"address": "P.O. Box 104 Hollidaysburg, PA 16648-0104"
-	},
-	{
-		"id": "d1c593c1-974f-43b9-9ada-613be6f3a58a",
-		"denom": "OPC",
-		"name": "NASHUA",
-		"pastor": "Pastor: D. Patrick Ramsey",
-		"phone": "724-698-4452",
-		"email": "ramsey.1@opc.org",
-		"website": "/locator.html?presbytery_id=10&search_go=Y",
-		"address": "6893 State Route 551 Edinburg, PA 16116-5607"
-	},
-	{
-		"id": "5bce6255-00a7-46ac-80a0-4f5e92f30682",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: F. Allan Story, Jr.",
-		"phone": "412-741-3430",
-		"email": "story.1@opc.org",
-		"website": "http://www.graceopcpgh.org",
-		"address": "1419 Beaver St. Sewickley, PA 15143-2009"
-	},
-	{
-		"id": "a55b23e7-95e2-4225-8798-69a274c1b1a7",
-		"denom": "OPC",
-		"name": "POCONO",
-		"pastor": "Pastor: Thomas A. Foh",
-		"phone": "570-992-3152",
-		"email": "foh.1@opc.org",
-		"website": "/locator.html?presbytery_id=5&search_go=Y",
-		"address": "735 Rt. 115 Saylorsburg, PA 18353-9238"
-	},
-	{
-		"id": "77552d29-f74f-4f56-a21c-9f8c08f59256",
-		"denom": "OPC",
-		"name": "NEW LIFE",
-		"pastor": "Pastor: Paul N. Browne",
-		"phone": "570-326-0364",
-		"email": "browne.1@opc.org",
-		"website": "http://www.newlifeopcwilliamsport.org/",
-		"address": "1500 Hidden Valley Dr. Montoursville, PA 17754-9318"
-	},
-	{
-		"id": "42c478f1-3b6e-4ac7-a544-03b470dea214",
-		"denom": "OPC",
-		"name": "IMMANUEL",
-		"pastor": "Pastor: Mark A. Garcia",
-		"phone": "412-592-5472",
-		"email": "garcia.1@opc.org",
-		"website": "http://www.immanuelopcpgh.org/",
-		"address": "1014 Ridge Ave. Coraopolis, PA 15108"
-	},
-	{
-		"id": "c0bea154-3c76-4b42-8797-b067116a4a74",
-		"denom": "OPC",
-		"name": "QUARRYVILLE PRAYER MEETING",
-		"pastor": "Contact: Stephen L. Phillips",
-		"phone": "717-786-8589",
-		"email": "phillips.2@opc.org",
-		"website": "/locator.html?presbytery_id=5&search_go=Y",
-		"address": "625 Robert Fulton Hwy. Quarryville, PA 17566-1400"
-	},
-	{
-		"id": "db88a323-da91-465a-bf6a-34a3b7d62d34",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Peter C. VanDoodewaard",
-		"phone": "864-416-7150",
-		"email": "vandoodewaard.1@opc.org",
-		"website": "http://www.CovenantTaylors.org",
-		"address": "P.O. Box 475 Taylors, SC 29687-0008"
-	},
-	{
-		"id": "c969f46c-3fdc-455d-806a-199b0e611d0f",
-		"denom": "OPC",
-		"name": "MURDOCK MEMORIAL",
-		"pastor": "Phone: 605-546-2258",
-		"phone": "605-546-2258",
-		"email": "",
-		"website": "/locator.html?presbytery_id=6&search_go=Y",
-		"address": "104 W. 5th St. Bancroft, SD 57353-5005"
-	},
-	{
-		"id": "be4df863-a914-43e1-a579-c690e518eaf3",
+		"id": "deb38b8e-c85c-484a-b602-ec3389214aed",
 		"denom": "OPC",
 		"name": "FAITH",
 		"pastor": "Pastor: Jeffrey Waddington",
@@ -1680,87 +1510,97 @@
 		"address": "405 N. Market St. Fawn Grove, PA 17321-9565"
 	},
 	{
-		"id": "2444b645-29f7-4ad0-8e6d-5226096e898c",
+		"id": "b0f02660-a09b-41bf-a759-6b21cc321b33",
+		"denom": "OPC",
+		"name": "LIVING HOPE",
+		"pastor": "Pastor: John D. Van Meerbeke",
+		"phone": "717-334-7157",
+		"email": "vanmeerbeke.1@opc.org",
+		"website": "http://gettysburglivinghope.org/",
+		"address": "155 Early Ave. Gettysburg, PA 17325-3104"
+	},
+	{
+		"id": "2c094d0d-2116-4c59-883c-3c7ac9cb9986",
 		"denom": "OPC",
 		"name": "CALVARY",
-		"pastor": "Contact: James Kleinjan",
-		"phone": "James Kleinjan Phone: 605-627-9140",
-		"email": "",
-		"website": "http://www.volgaopc.com/",
-		"address": "P.O. Box 276 Volga, SD 57071-0276"
+		"pastor": "Pastor: J. Mark Sallade",
+		"phone": "215-884-0912",
+		"email": "sallade.1@opc.org",
+		"website": "http://www.calvaryopcglenside.org",
+		"address": "734 Willow Grove Ave.  (at Church Rd. - Rt. 73) Glenside, PA 19038"
 	},
 	{
-		"id": "1c7848e4-f770-4939-9c53-b8f433467e95",
-		"denom": "OPC",
-		"name": "CORNERSTONE",
-		"pastor": "Pastor: Nicholas J. Thompson",
-		"phone": "423-762-3861",
-		"email": "CstoneOPC@gmail.com",
-		"website": "http://www.cornerstone-opc.org",
-		"address": "98 N. Victor Dr. Flintstone, GA 30725"
-	},
-	{
-		"id": "b555af0d-2f72-49e0-ba88-533b3a9571a7",
-		"denom": "OPC",
-		"name": "WESTMINSTER",
-		"pastor": "Phone: 605-842-2543",
-		"phone": "605-842-2543",
-		"email": "",
-		"website": "/locator.html?presbytery_id=6&search_go=Y",
-		"address": "32422 E St. Hamill, SD 57534-6908"
-	},
-	{
-		"id": "2e61fef8-f776-4a54-b837-d6eab7a41cd2",
-		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Matthew Figura",
-		"phone": "931-239-6561",
-		"email": "figura.1@opc.org",
-		"website": "http://www.faith-opc.org",
-		"address": "9177 Roberts Rd. Silver Point, TN 38582"
-	},
-	{
-		"id": "4c3fa8b9-3ff2-424d-b466-6e1cc37e63b5",
-		"denom": "OPC",
-		"name": "SANDY SPRINGS",
-		"pastor": "Pastor: James H. Ganzevoort",
-		"phone": "865-681-3622",
-		"email": "ganzevoort.1@opc.org",
-		"website": "http://www.sandyspringschurch.org",
-		"address": "1201 Montvale Station Rd. Maryville, TN 37803-5811"
-	},
-	{
-		"id": "f0648e95-e148-493a-badc-7e15f0bc42ce",
+		"id": "deaa90cb-b676-494b-a5ed-2b64f74db114",
 		"denom": "OPC",
 		"name": "COVENANT",
-		"pastor": "Pastor: Todd P. Dole",
-		"phone": "325-698-1704",
-		"email": "dole.1@opc.org",
-		"website": "http://www.covopc.org/",
-		"address": "2742 Buffalo Gap Rd. Abilene, TX 79605-6802"
+		"pastor": "Pastor: Jeremy Jones",
+		"phone": "724-458-6630",
+		"email": "jones.2@opc.org",
+		"website": "http://www.covenantopcgc.org",
+		"address": "P.O. Box 1016 Grove City, PA 16127-0630"
 	},
 	{
-		"id": "83ef050e-1798-464a-94d2-afc55da999c2",
+		"id": "81d55c23-5925-44c8-a843-b30e12dd5696",
 		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Glen Clary",
-		"phone": "512-989-3500",
-		"email": "clary.1@opc.org",
-		"website": "http://ppcaustin.org",
-		"address": "17712 Heatherwilde Blvd. Pflugerville, TX 78660-5193"
+		"name": "CORNERSTONE",
+		"pastor": "Contact: Sandy Finlayson",
+		"phone": "215-591-9401",
+		"email": "office@cornerstoneopc.com",
+		"website": "http://www.cornerstoneopc.com",
+		"address": "701 Pen-Ambler Rd Ambler, PA 19002"
 	},
 	{
-		"id": "0a6cba55-b5b6-40b0-a8d8-6b0fc70d82a5",
+		"id": "ae67c49f-8bec-4b70-bf33-bbaca5b64628",
 		"denom": "OPC",
 		"name": "CALVARY",
-		"pastor": "Pastor: Adam R. Wells",
-		"phone": "760-238-2687; 717-985-0818",
-		"email": "wells.1@opc.org",
-		"website": "http://www.calvaryopc.com",
-		"address": "10 Spruce St. Middletown, PA 17057-1851"
+		"pastor": "Pastor: Peter J. Puliatti",
+		"phone": "724-735-4523",
+		"email": "puliatti.1@opc.org",
+		"website": "http://www.harrisvilleopc.org/",
+		"address": "P.O. Box 59 Harrisville, PA 16038-0059"
 	},
 	{
-		"id": "af4d7ec2-7958-458e-a02d-c5ae3cfa39e8",
+		"id": "92b849c9-ba63-4e8d-8093-76b8010cb937",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: Douglas W. Snyder",
+		"phone": "724-464-2210",
+		"email": "snyder.1@opc.org",
+		"website": "http://www.faithopcindianapa.org/",
+		"address": "1654 Old Route 119 Highway N. Indiana, PA 15701-8558"
+	},
+	{
+		"id": "005f60fa-1cef-4191-96d4-03565292ed02",
+		"denom": "OPC",
+		"name": "TRINITY",
+		"pastor": "Pastor: Larry J. Westerveld",
+		"phone": "215-675-1811",
+		"email": "westerveld.1@opc.org",
+		"website": "http://www.trinityopchurch.org/",
+		"address": "151 W. County Line Rd. Hatboro, PA 19040-1807"
+	},
+	{
+		"id": "c15559cd-ee86-47d6-9b43-5e1befc40f3a",
+		"denom": "OPC",
+		"name": "WESTMINSTER",
+		"pastor": "Pastor: Chad Mullinix",
+		"phone": "Chad Mullinix Contact: mullinix.1@opc.org Phone: 814-944-8642",
+		"email": "",
+		"website": "http://www.hollidaysburgopc.org",
+		"address": "P.O. Box 104 Hollidaysburg, PA 16648-0104"
+	},
+	{
+		"id": "9fcc8d34-3826-43eb-bd3f-534a9aa4113f",
+		"denom": "OPC",
+		"name": "KNOX",
+		"pastor": "Contact: Andrew Duggan",
+		"phone": "610-622-5008",
+		"email": "duggan.1@opc.org",
+		"website": "https://knox-presbyterian.org",
+		"address": "311 N. Lansdowne Ave. Lansdowne, PA 19050-1017"
+	},
+	{
+		"id": "746f3a3b-19c6-4c8b-bb95-9ea3cae1132e",
 		"denom": "OPC",
 		"name": "FIRST",
 		"pastor": "Pastor: Richard Scott MacLaren",
@@ -1770,37 +1610,27 @@
 		"address": "441 Dorchester Ln. Perkasie, PA 18944-1886"
 	},
 	{
-		"id": "42517351-1da9-49e8-ae87-3acc05ec77fa",
+		"id": "29a6e767-e334-4ce8-b18e-9c38e3c9c29c",
 		"denom": "OPC",
-		"name": "WINNER",
-		"pastor": "Pastor: Nicholas K. Barnes",
-		"phone": "605-840-0963",
-		"email": "barnes.1@opc.org",
-		"website": "http://www.winneropc.org/",
-		"address": "505 Lincoln St. Winner, SD 57580-2037"
+		"name": "CALVARY",
+		"pastor": "Pastor: Adam R. Wells",
+		"phone": "760-238-2687; 717-985-0818",
+		"email": "wells.1@opc.org",
+		"website": "http://www.calvaryopc.com",
+		"address": "10 Spruce St. Middletown, PA 17057-1851"
 	},
 	{
-		"id": "aa39410e-cc77-4fd8-b3b8-5b598494294d",
+		"id": "d66e8353-9737-4e49-a9b1-c2e9a8eeed9a",
 		"denom": "OPC",
-		"name": "CHRIST COVENANT",
-		"pastor": "Pastor: Jeremy Boothby",
-		"phone": "806-463-1255",
-		"email": "boothby.1@opc.org",
-		"website": "http://www.ccopc.org/",
-		"address": "7801 W. 34th Ave. Amarillo, TX 79121-1055"
+		"name": "QUARRYVILLE PRAYER MEETING",
+		"pastor": "Contact: Stephen L. Phillips",
+		"phone": "717-786-8589",
+		"email": "phillips.2@opc.org",
+		"website": "/locator.html?presbytery_id=5&search_go=Y",
+		"address": "625 Robert Fulton Hwy. Quarryville, PA 17566-1400"
 	},
 	{
-		"id": "df517506-a58e-4439-950c-dbb28b7b867d",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Todd V. Wagenmaker",
-		"phone": "817-989-9800",
-		"email": "wagenmaker.1@opc.org",
-		"website": "http://www.opcfw.com",
-		"address": "10750 Westpoint Blvd. Fort Worth, TX 76108-4636"
-	},
-	{
-		"id": "e4bca558-3054-4a38-8e5c-4a1454f0b131",
+		"id": "057ac9ee-d00b-463c-9377-16e2868deb62",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Jonathan F. Peters",
@@ -1810,277 +1640,77 @@
 		"address": "1201 Yerger Boulevard Sinking Spring, PA 19608"
 	},
 	{
-		"id": "eef14536-ae09-4083-b367-c799b317da5e",
+		"id": "2f424a81-db70-4152-a1ef-80f9853b0f2b",
 		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Chad E. Bond",
-		"phone": "469-443-6720",
-		"email": "bond.1@opc.org",
-		"website": "http://www.faithopcdallas.org",
-		"address": "418 Cashmere Dr Garland, TX 75041"
+		"name": "NASHUA",
+		"pastor": "Pastor: D. Patrick Ramsey",
+		"phone": "724-698-4452",
+		"email": "ramsey.1@opc.org",
+		"website": "/locator.html?presbytery_id=10&search_go=Y",
+		"address": "6893 State Route 551 Edinburg, PA 16116-5607"
 	},
 	{
-		"id": "9dfa5a25-e4a1-4e8c-9812-372bf5fe12c3",
+		"id": "7ae74e6f-f7d5-4c8d-b6fd-3d9ac8163d23",
 		"denom": "OPC",
-		"name": "MID CITIES",
-		"pastor": "Pastor: Joseph Troutman",
-		"phone": "817-494-8433, 817-488-1133",
-		"email": "troutman.1@opc.org",
-		"website": "http://www.mcopc.org/",
-		"address": "P.O. Box 311 Bedford, TX 76095-0311"
+		"name": "POCONO",
+		"pastor": "Pastor: Thomas A. Foh",
+		"phone": "570-992-3152",
+		"email": "foh.1@opc.org",
+		"website": "/locator.html?presbytery_id=5&search_go=Y",
+		"address": "735 Rt. 115 Saylorsburg, PA 18353-9238"
 	},
 	{
-		"id": "7958c74c-6c01-45d5-8122-f8c0b35a009d",
-		"denom": "OPC",
-		"name": "CHRIST COVENANT",
-		"pastor": "Pastor: Joseph A. Keller",
-		"phone": "214-293-7820",
-		"email": "keller.4@opc.org",
-		"website": "http://www.ccc-opc.org",
-		"address": "949 Dunkirk Lane Arlington, TX 76017"
-	},
-	{
-		"id": "7037371c-0271-45b9-9c2a-07e91c232d8d",
+		"id": "dc10cf69-a188-4179-b3dc-516ba2b93fc6",
 		"denom": "OPC",
 		"name": "GRACE",
-		"pastor": "Pastor: Nathan J. Hornfeld",
-		"phone": "210-690-6360",
-		"email": "hornfeld.1@opc.org",
-		"website": "http://www.sagrace.org",
-		"address": "5602 Utex Blvd. San Antonio, TX 78249-1611"
+		"pastor": "Email: ",
+		"phone": "412-741-3430",
+		"email": "graceopcpgh@gmail.com ",
+		"website": "http://www.graceopcpgh.org",
+		"address": "1419 Beaver St. Sewickley, PA 15143-2009"
 	},
 	{
-		"id": "ced82572-26f0-441e-9d82-cb7d9c779d03",
+		"id": "e4607045-baaa-49d7-a4ae-f9be7d5720c8",
 		"denom": "OPC",
-		"name": "CHRIST THE KING",
-		"pastor": "Contact: Phillip D. Hodson",
-		"phone": "903-251-9191",
-		"email": "hodson.1@opc.org",
-		"website": "http://www.LongviewOPC.org",
-		"address": "5648 Gilmer Rd (Hwy. 300) Longview, TX 75604-7126"
+		"name": "IMMANUEL",
+		"pastor": "Pastor: Mark A. Garcia",
+		"phone": "412-592-5472",
+		"email": "garcia.1@opc.org",
+		"website": "http://www.immanuelopcpgh.org/",
+		"address": "1014 Ridge Ave. Coraopolis, PA 15108"
 	},
 	{
-		"id": "032bb462-9339-4a0e-a3b8-2d9ebf9496cb",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Tony Monaghan",
-		"phone": "434-284-7529",
-		"email": "monaghan.1@opc.org",
-		"website": "http://www.popc-cville.org",
-		"address": "P.O. Box 7026 Charlottesville, VA 22906-7026"
-	},
-	{
-		"id": "7221c796-3b20-4a8a-b35e-b1b0e12b5dfb",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Hank L. Belfield",
-		"phone": "276-243-8881",
-		"email": "belfield.1@opc.org",
-		"website": "http://www.ProvidenceOPC.net",
-		"address": "P.O. Box 390 Chilhowie, VA 24319-0390"
-	},
-	{
-		"id": "d650f7a1-384f-411b-b655-bb08cd5b5547",
-		"denom": "OPC",
-		"name": "TYLER",
-		"pastor": "Pastor: John H. Johnson",
-		"phone": "903-839-3535",
-		"email": "johnson.1@opc.org",
-		"website": "http://www.TylerOPC.org",
-		"address": "P.O. Box 131573 Tyler, TX 75713-1573"
-	},
-	{
-		"id": "f0b0cdab-df98-43ef-867e-4f862cfdc7b7",
-		"denom": "OPC",
-		"name": "BETHEL REFORMED",
-		"pastor": "Pastor: Andrew J. Miller",
-		"phone": "540-898-8081",
-		"email": "BRPCFredericksburg@gmail.com",
-		"website": "http://www.bethelrpc.org",
-		"address": "9304 Onyx Court Fredericksburg, VA 22407-9329"
-	},
-	{
-		"id": "ff74cd21-d208-44a8-841b-31157f0011c1",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Bennie Castle",
-		"phone": "434-237-2034",
-		"email": "castle.1@opc.org",
-		"website": "http://lynchburgopc.org",
-		"address": "3300 Carroll Ave. Lynchburg, VA 24502-2433"
-	},
-	{
-		"id": "91db8df5-5cd9-43ff-9d73-3aa96203e583",
-		"denom": "OPC",
-		"name": "STAUNTON",
-		"pastor": "Pastor: Ethan Allison",
-		"phone": "540-885-0004",
-		"email": "allison.3@opc.org",
-		"website": "http://www.stauntonopc.org",
-		"address": "2408 Hickory St. Staunton, VA 24401-2766"
-	},
-	{
-		"id": "9aab615d-ef32-4e16-98c0-8ad7e98d5705",
-		"denom": "OPC",
-		"name": "BETHEL",
-		"pastor": "Pastor: George C. Hammond",
-		"phone": "703-777-4221",
-		"email": "hammond.1@opc.org",
-		"website": "http://www.bethelpres.com/",
-		"address": "19856 Evergreen Mill Rd. Leesburg, VA 20175-8739"
-	},
-	{
-		"id": "e02b5b28-b265-48f0-8145-c47aee924da2",
+		"id": "67b27211-4075-4ca5-997b-45bcd7daf2dc",
 		"denom": "OPC",
 		"name": "COVENANT",
-		"pastor": "Pastor: Carl A. P. Durham",
-		"phone": "802-479-2010",
-		"email": "durham.1@opc.org",
-		"website": "http://www.copcvt.org/",
-		"address": "249 Airport Rd. Barre, VT 05641"
+		"pastor": "Pastor: Peter C. VanDoodewaard",
+		"phone": "864-416-7150",
+		"email": "vandoodewaard.1@opc.org",
+		"website": "http://www.CovenantTaylors.org",
+		"address": "P.O. Box 475 Taylors, SC 29687-0008"
 	},
 	{
-		"id": "f4f8291e-2c38-4abe-b928-711283fa15b7",
+		"id": "36cbb17b-dbe6-4e09-811c-c42e04564c6b",
 		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Marc J. Renkema",
-		"phone": "425-483-1151",
-		"email": "renkema.1@opc.org",
-		"website": "http://www.opc.us",
-		"address": "23211 Meridian Ave. S. Bothell, WA 98021-8720"
+		"name": "NEW LIFE",
+		"pastor": "Pastor: Paul N. Browne",
+		"phone": "570-326-0364",
+		"email": "browne.1@opc.org",
+		"website": "http://www.newlifeopcwilliamsport.org/",
+		"address": "1500 Hidden Valley Dr. Montoursville, PA 17754-9318"
 	},
 	{
-		"id": "d105f968-9244-484a-86d6-3d68a2e6ed1a",
+		"id": "9a5b7a7e-94b6-4785-8210-dc6c2b0a712b",
 		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Daniel P. Clifford",
-		"phone": "703-560-6336",
-		"email": "clifford.1@opc.org",
-		"website": "http://www.gracevienna.org/",
-		"address": "2381 Cedar Ln. Vienna, VA 22180-5210"
-	},
-	{
-		"id": "1a60536a-eb0f-49dc-ac67-b139f876a1b2",
-		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Mark A. Collingridge",
-		"phone": "509-492-1282",
-		"email": "collingridge.1@opc.org",
-		"website": "http://www.copctricities.org/",
-		"address": "PO Box 4423 Pasco, WA 99302"
-	},
-	{
-		"id": "d9dd38ba-b442-47bf-8c8c-d8d4a172f9f0",
-		"denom": "OPC",
-		"name": "GARST MILL",
-		"pastor": "Pastor: James W. Clark",
-		"phone": "540-774-8281",
-		"email": "clark.1@opc.org",
-		"website": "http://www.garstmillopc.org",
-		"address": "3739 Willetta Dr. Roanoke, VA 24018"
-	},
-	{
-		"id": "f29ec0f7-e0fd-4c9f-a729-2d7466af93b6",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Phone: 281-846-5573",
-		"phone": "281-846-5573",
+		"name": "MURDOCK MEMORIAL",
+		"pastor": "Phone: 605-546-2258",
+		"phone": "605-546-2258",
 		"email": "",
-		"website": "http://www.providencepres.com",
-		"address": "P.O. Box 6826 Kingwood, TX 77325-6826"
+		"website": "/locator.html?presbytery_id=6&search_go=Y",
+		"address": "104 W. 5th St. Bancroft, SD 57353-5005"
 	},
 	{
-		"id": "f3e82fef-7736-4eaa-8afb-3ddb0c5f5237",
-		"denom": "OPC",
-		"name": "STERLING",
-		"pastor": "Pastor: Philip T. Proctor",
-		"phone": "571-485-2750",
-		"email": "pastor@sterlingopc.org",
-		"website": "http://www.sterlingopc.org",
-		"address": "20 Bentley Dr. Sterling, VA 20165"
-	},
-	{
-		"id": "3d1c0b04-2dd7-4d95-bd0d-9c0e476a1069",
-		"denom": "OPC",
-		"name": "CHRIST",
-		"pastor": "Pastor: D. Jason Wallace",
-		"phone": "801-969-7948",
-		"email": "wallace.2@opc.org",
-		"website": "http://www.gospelutah.org",
-		"address": "3824 S. Claudia St. Salt Lake City, UT 84120-2710"
-	},
-	{
-		"id": "6e2edadb-04a9-4f99-acad-559aefd1dab7",
-		"denom": "OPC",
-		"name": "SOVEREIGN GRACE",
-		"pastor": "Pastor: Robert C. Van Kooten",
-		"phone": "360-679-8893",
-		"email": "vankooten.1@opc.org",
-		"website": "http://www.sgopc.org/",
-		"address": "P.O. Box 1886 Oak Harbor, WA 98277-1886"
-	},
-	{
-		"id": "fccf882f-ebcf-4512-8de7-6d050f7f7f61",
-		"denom": "OPC",
-		"name": "REFORMATION",
-		"pastor": "Pastor: Brett McNeill",
-		"phone": "360-545-3038",
-		"email": "mcneill.1@opc.org",
-		"website": "http://www.ropcolympia.org/",
-		"address": "2306 26th Ave NW Olympia, WA 98502"
-	},
-	{
-		"id": "cd132130-1c25-4410-9359-28c33c7471ee",
-		"denom": "OPC",
-		"name": "EMMANUEL",
-		"pastor": "Pastor: William D. Dennison",
-		"phone": "425-793-8473",
-		"email": "office@eopckent.org",
-		"website": "http://www.eopckent.org/",
-		"address": "21628 116th Ave SE Kent, WA 98031"
-	},
-	{
-		"id": "81a1272e-1109-4cde-a2c4-bfac9e6795bd",
-		"denom": "OPC",
-		"name": "LYNNWOOD",
-		"pastor": "Pastor: Benjamin W. Swinburnson",
-		"phone": "425-397-6165",
-		"email": "swinburnson.1@opc.org",
-		"website": "http://www.lynnwoodopc.org",
-		"address": "17711 Spruce Way Lynnwood, WA 98037-7431"
-	},
-	{
-		"id": "afaa74ea-156b-4289-9f3a-2e3030a9e213",
-		"denom": "OPC",
-		"name": "REDEEMING GRACE",
-		"pastor": "Pastor: Andrew M. Elam",
-		"phone": "360-504-1950",
-		"email": "elam.1@opc.org",
-		"website": "http://www.rgopc.org",
-		"address": "P.O. Box 2759 Port Angeles, WA 98362"
-	},
-	{
-		"id": "f3de7198-6a12-4703-8ec0-a3be72d062a0",
-		"denom": "OPC",
-		"name": "CALVARY",
-		"pastor": "Phone: 920-668-6463",
-		"phone": "920-668-6463",
-		"email": "",
-		"website": "http://www.calvarychurchcg.com",
-		"address": "P.O. Box 279 Cedar Grove, WI 53013-1350"
-	},
-	{
-		"id": "0c3c5148-b40d-4419-95d0-46a4c4e186a1",
-		"denom": "OPC",
-		"name": "CHRIST",
-		"pastor": "Pastor: Patrick J. Morgan",
-		"phone": "608-755-1088",
-		"email": "morgan.1@opc.org",
-		"website": "http://christ-opc.org",
-		"address": "3625 Skyview Dr. Janeville, WI 53546-2026"
-	},
-	{
-		"id": "e79bd1b3-d165-4193-bc6b-009b7758afe6",
+		"id": "183eb91e-5857-444b-b5c0-04ecda3ce9b8",
 		"denom": "OPC",
 		"name": "BETHLEHEM REFORMED",
 		"pastor": "Pastor: Thomas Brown",
@@ -2090,47 +1720,247 @@
 		"address": "P.O. Box 519 Freeman, SD 57029-0519"
 	},
 	{
-		"id": "1f40ec07-df7b-4248-9871-c956837d03f2",
+		"id": "455b6a9d-8d42-4d6b-85f4-eab058f74f0e",
+		"denom": "OPC",
+		"name": "CALVARY",
+		"pastor": "Contact: James Kleinjan",
+		"phone": "James Kleinjan Phone: 605-627-9140",
+		"email": "",
+		"website": "http://www.volgaopc.com/",
+		"address": "P.O. Box 276 Volga, SD 57071-0276"
+	},
+	{
+		"id": "e0e5f601-0f03-41c9-9418-1de072a50025",
+		"denom": "OPC",
+		"name": "WINNER",
+		"pastor": "Pastor: Nicholas K. Barnes",
+		"phone": "605-840-0963",
+		"email": "barnes.1@opc.org",
+		"website": "http://www.winneropc.org/",
+		"address": "505 Lincoln St. Winner, SD 57580-2037"
+	},
+	{
+		"id": "44fd7ecb-8a69-411e-be3e-6c0b794742ba",
+		"denom": "OPC",
+		"name": "WESTMINSTER",
+		"pastor": "Phone: 605-842-2543",
+		"phone": "605-842-2543",
+		"email": "",
+		"website": "/locator.html?presbytery_id=6&search_go=Y",
+		"address": "32422 E St. Hamill, SD 57534-6908"
+	},
+	{
+		"id": "bbdeaa25-f792-45f3-8db7-d5d6a664acf2",
+		"denom": "OPC",
+		"name": "CORNERSTONE",
+		"pastor": "Pastor: Nicholas J. Thompson",
+		"phone": "423-762-3861",
+		"email": "CstoneOPC@gmail.com",
+		"website": "http://www.cornerstone-opc.org",
+		"address": "98 N. Victor Dr. Flintstone, GA 30725"
+	},
+	{
+		"id": "19c7ec62-e9b1-4f5a-ae39-2b7df89e9b81",
+		"denom": "OPC",
+		"name": "FAITH",
+		"pastor": "Pastor: Matthew Figura",
+		"phone": "931-239-6561",
+		"email": "figura.1@opc.org",
+		"website": "http://www.faith-opc.org",
+		"address": "9177 Roberts Rd. Silver Point, TN 38582"
+	},
+	{
+		"id": "37000713-a7ba-48f1-bda5-cdd7b5105967",
+		"denom": "OPC",
+		"name": "SANDY SPRINGS",
+		"pastor": "Pastor: James H. Ganzevoort",
+		"phone": "865-681-3622",
+		"email": "ganzevoort.1@opc.org",
+		"website": "http://www.sandyspringschurch.org",
+		"address": "1201 Montvale Station Rd. Maryville, TN 37803-5811"
+	},
+	{
+		"id": "7738e005-916a-4e9f-8783-b799de66292c",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
-		"pastor": "Pastor: C. Mark Jenkins",
-		"phone": "608-237-6265",
-		"email": "jenkins.1@opc.org",
-		"website": "http://providenceopchurch.org",
-		"address": "602 Diving Hawk Tr. Madison, WI 53713"
+		"pastor": "Pastor: Glen Clary",
+		"phone": "512-989-3500",
+		"email": "clary.1@opc.org",
+		"website": "http://ppcaustin.org",
+		"address": "17712 Heatherwilde Blvd. Pflugerville, TX 78660-5193"
 	},
 	{
-		"id": "b8864927-b022-48d7-8a39-bc316703c075",
+		"id": "d15fc366-a99c-4089-9d51-bc90b8ed4561",
 		"denom": "OPC",
-		"name": "NEW HOPE",
-		"pastor": "Pastor: James E. Ferguson",
-		"phone": "920-468-8565",
-		"email": "ferguson.2@opc.org",
-		"website": "http://www.nhopc.org",
-		"address": "2401 Deckner Ave. Green Bay, WI 54302-4410"
+		"name": "CHRIST COVENANT",
+		"pastor": "Pastor: Jeremy Boothby",
+		"phone": "806-463-1255",
+		"email": "boothby.1@opc.org",
+		"website": "http://www.ccopc.org/",
+		"address": "7801 W. 34th Ave. Amarillo, TX 79121-1055"
 	},
 	{
-		"id": "f9ee2e35-5776-467b-a073-b0b16ae6c859",
+		"id": "6c644c33-90dc-49a7-ae95-7fa99835353a",
 		"denom": "OPC",
-		"name": "OLD STOCKBRIDGE",
-		"pastor": "Pastor: Micah Shin",
-		"phone": "920-383-1516",
-		"email": "shin.1@opc.org",
-		"website": "/locator.html?presbytery_id=8&search_go=Y",
-		"address": "N8004 Morgan Rd. Gresham, WI 54128-8984"
+		"name": "FAITH",
+		"pastor": "Pastor: Chad E. Bond",
+		"phone": "469-443-6720",
+		"email": "bond.1@opc.org",
+		"website": "http://www.faithopcdallas.org",
+		"address": "418 Cashmere Dr Garland, TX 75041"
 	},
 	{
-		"id": "f3ca7bbd-e9ef-4dd2-9924-c5f888c8e1d6",
+		"id": "18bbd67d-5db3-4cee-bbd6-dec4082a5020",
 		"denom": "OPC",
-		"name": "FIVE SOLAS",
-		"pastor": "Pastor: Christian McShaffrey",
-		"phone": "608-524-5856",
-		"email": "mcshaffrey.1@opc.org",
-		"website": "http://www.reedsburgchurch.org",
-		"address": "S4021 State Rd. 23 Reedsburg, WI 53959"
+		"name": "COVENANT",
+		"pastor": "Pastor: Todd P. Dole",
+		"phone": "325-698-1704",
+		"email": "dole.1@opc.org",
+		"website": "http://www.covopc.org/",
+		"address": "2742 Buffalo Gap Rd. Abilene, TX 79605-6802"
 	},
 	{
-		"id": "5d46bf43-0c82-4f48-bf15-8d714949ed76",
+		"id": "e57d4f2d-8263-4ff6-9630-0c4e710cf0be",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Phone: 281-846-5573",
+		"phone": "281-846-5573",
+		"email": "",
+		"website": "http://www.providencepres.com",
+		"address": "P.O. Box 6826 Kingwood, TX 77325-6826"
+	},
+	{
+		"id": "d7232f4f-0505-4da0-932b-cd076c317b7f",
+		"denom": "OPC",
+		"name": "CHRIST THE KING",
+		"pastor": "Contact: Phillip D. Hodson",
+		"phone": "903-251-9191",
+		"email": "hodson.1@opc.org",
+		"website": "http://www.LongviewOPC.org",
+		"address": "5648 Gilmer Rd (Hwy. 300) Longview, TX 75604-7126"
+	},
+	{
+		"id": "5dd65177-cd46-43f5-b13b-4afde3ff7e4b",
+		"denom": "OPC",
+		"name": "MID CITIES",
+		"pastor": "Pastor: Joseph Troutman",
+		"phone": "817-494-8433, 817-488-1133",
+		"email": "troutman.1@opc.org",
+		"website": "http://www.mcopc.org/",
+		"address": "P.O. Box 311 Bedford, TX 76095-0311"
+	},
+	{
+		"id": "e13c99e5-0d4c-4f22-8c98-12010dbea69f",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Todd V. Wagenmaker",
+		"phone": "817-989-9800",
+		"email": "wagenmaker.1@opc.org",
+		"website": "http://www.opcfw.com",
+		"address": "10750 Westpoint Blvd. Fort Worth, TX 76108-4636"
+	},
+	{
+		"id": "2165f68e-540b-46ac-8c0b-58ca51bd84c0",
+		"denom": "OPC",
+		"name": "CHRIST COVENANT",
+		"pastor": "Pastor: Joseph A. Keller",
+		"phone": "214-293-7820",
+		"email": "keller.4@opc.org",
+		"website": "http://www.ccc-opc.org",
+		"address": "949 Dunkirk Lane Arlington, TX 76017"
+	},
+	{
+		"id": "0da80a35-0b0f-4e51-9e6c-bf731031cb95",
+		"denom": "OPC",
+		"name": "TYLER",
+		"pastor": "Pastor: John H. Johnson",
+		"phone": "903-839-3535",
+		"email": "johnson.1@opc.org",
+		"website": "http://www.TylerOPC.org",
+		"address": "P.O. Box 131573 Tyler, TX 75713-1573"
+	},
+	{
+		"id": "22a0519a-9004-4abb-8f03-7366412ffba0",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Nathan J. Hornfeld",
+		"phone": "210-690-6360",
+		"email": "hornfeld.1@opc.org",
+		"website": "http://www.sagrace.org",
+		"address": "5602 Utex Blvd. San Antonio, TX 78249-1611"
+	},
+	{
+		"id": "93c80f61-217b-4170-95d3-e48603b06e9a",
+		"denom": "OPC",
+		"name": "CHRIST",
+		"pastor": "Pastor: D. Jason Wallace",
+		"phone": "801-969-7948",
+		"email": "wallace.2@opc.org",
+		"website": "http://www.gospelutah.org",
+		"address": "3824 S. Claudia St. Salt Lake City, UT 84120-2710"
+	},
+	{
+		"id": "4883ea53-e7dd-44c2-bd6e-ce44d8ad8402",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Tony Monaghan",
+		"phone": "434-284-7529",
+		"email": "monaghan.1@opc.org",
+		"website": "http://www.popc-cville.org",
+		"address": "P.O. Box 7026 Charlottesville, VA 22906-7026"
+	},
+	{
+		"id": "b36ce53a-0795-4fd5-8f73-ec00965d90c5",
+		"denom": "OPC",
+		"name": "BETHEL REFORMED",
+		"pastor": "Pastor: Andrew J. Miller",
+		"phone": "540-898-8081",
+		"email": "BRPCFredericksburg@gmail.com",
+		"website": "http://www.bethelrpc.org",
+		"address": "9304 Onyx Court Fredericksburg, VA 22407-9329"
+	},
+	{
+		"id": "674b1308-c62a-4f07-aa17-a18269695ef0",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Hank L. Belfield",
+		"phone": "276-243-8881",
+		"email": "belfield.1@opc.org",
+		"website": "http://www.ProvidenceOPC.net",
+		"address": "P.O. Box 390 Chilhowie, VA 24319-0390"
+	},
+	{
+		"id": "a5feb7b7-ed3e-459e-8796-1d9ae87b7cc7",
+		"denom": "OPC",
+		"name": "BETHEL",
+		"pastor": "Pastor: George C. Hammond",
+		"phone": "703-777-4221",
+		"email": "hammond.1@opc.org",
+		"website": "http://www.bethelpres.com/",
+		"address": "19856 Evergreen Mill Rd. Leesburg, VA 20175-8739"
+	},
+	{
+		"id": "c0bad5f2-f9d4-4a40-bec4-55a0a49a6cfa",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Bennie Castle",
+		"phone": "434-237-2034",
+		"email": "castle.1@opc.org",
+		"website": "http://lynchburgopc.org",
+		"address": "3300 Carroll Ave. Lynchburg, VA 24502-2433"
+	},
+	{
+		"id": "a40e190b-98eb-477d-b55d-b568456d3075",
+		"denom": "OPC",
+		"name": "GARST MILL",
+		"pastor": "Pastor: James W. Clark",
+		"phone": "540-774-8281",
+		"email": "clark.1@opc.org",
+		"website": "http://www.garstmillopc.org",
+		"address": "3739 Willetta Dr. Roanoke, VA 24018"
+	},
+	{
+		"id": "bdb52191-68b0-43f4-ba50-0a4fe31bab5c",
 		"denom": "OPC",
 		"name": "KETOCTIN COVENANT",
 		"pastor": "Pastor: Charles R. Biggs",
@@ -2140,47 +1970,57 @@
 		"address": "P.O. Box 1270 Purcellville, VA 20134"
 	},
 	{
-		"id": "09cb4a5e-0094-4927-8450-df12289185ce",
+		"id": "7652f994-b714-4268-987d-ffc8a7508660",
+		"denom": "OPC",
+		"name": "STAUNTON",
+		"pastor": "Pastor: Ethan Allison",
+		"phone": "540-885-0004",
+		"email": "allison.3@opc.org",
+		"website": "http://www.stauntonopc.org",
+		"address": "2408 Hickory St. Staunton, VA 24401-2766"
+	},
+	{
+		"id": "3bbc38d8-9975-422f-84d9-ae82077928e1",
 		"denom": "OPC",
 		"name": "GRACE",
-		"pastor": "Pastor: Brian L. DeJong",
-		"phone": "920-565-2160; 920-377-0242",
-		"email": "dejong.2@opc.org",
-		"website": "http://www.graceopcsheboygan.com",
-		"address": "4930 Green Valley Ln. Sheboygan, WI 53083-1837"
+		"pastor": "Pastor: Daniel P. Clifford",
+		"phone": "703-560-6336",
+		"email": "clifford.1@opc.org",
+		"website": "http://www.gracevienna.org/",
+		"address": "2381 Cedar Ln. Vienna, VA 22180-5210"
 	},
 	{
-		"id": "c78f028a-ca27-4b82-b5c7-76ca7bf8ebce",
+		"id": "af11cffb-56be-49ca-8ff6-12e157d76f01",
 		"denom": "OPC",
-		"name": "REFORMATION",
-		"pastor": "Pastor: Jonathan E. Hutchison",
-		"phone": "304-276-6850",
-		"email": "hutchison.1@opc.org",
-		"website": "http://www.ropcmorgantown.org",
-		"address": "451 Madigan Ave. Morgantown, WV 26501-6426"
+		"name": "COVENANT",
+		"pastor": "Pastor: Carl A. P. Durham",
+		"phone": "802-479-2010",
+		"email": "durham.1@opc.org",
+		"website": "http://www.copcvt.org/",
+		"address": "249 Airport Rd. Barre, VT 05641"
 	},
 	{
-		"id": "59c804a7-dbf4-468a-9348-4260eed02052",
+		"id": "84888a3c-b628-447b-befe-405d443e2fbf",
 		"denom": "OPC",
-		"name": "FALLS",
-		"pastor": "Pastor: Benjamin J. Snodgrass",
-		"phone": "262-255-1111",
-		"email": "snodgrass.1@opc.org",
-		"website": "http://www.fallsopc.org",
-		"address": "P.O. Box 582 Menomonee Falls, WI 53052-0582"
+		"name": "STERLING",
+		"pastor": "Pastor: Philip T. Proctor",
+		"phone": "571-485-2750",
+		"email": "pastor@sterlingopc.org",
+		"website": "http://www.sterlingopc.org",
+		"address": "20 Bentley Dr. Sterling, VA 20165"
 	},
 	{
-		"id": "c6577788-1a51-498b-adc6-6c8b70420e84",
+		"id": "d964264c-c155-46ac-896d-e389f4c8ccf7",
 		"denom": "OPC",
-		"name": "LIVING HOPE",
-		"pastor": "Pastor: Douglas L. Bylsma",
-		"phone": "905-563-0975",
-		"email": "bylsma.1@opc.org",
-		"website": "http://www.livinghope-opc.org",
-		"address": "5132 Crimson King Way Beamsville, Ontario L0R 1B8"
+		"name": "TRINITY",
+		"pastor": "Pastor: Marc J. Renkema",
+		"phone": "425-483-1151",
+		"email": "renkema.1@opc.org",
+		"website": "http://www.opc.us",
+		"address": "23211 Meridian Ave. S. Bothell, WA 98021-8720"
 	},
 	{
-		"id": "f9d750a2-7290-4793-b23b-4ad2c72382f3",
+		"id": "cbfa241e-1d2e-4026-bb9a-09e5b316f6f8",
 		"denom": "OPC",
 		"name": "EMMANUEL",
 		"pastor": "Pastor: Ryan D. Woods",
@@ -2190,77 +2030,67 @@
 		"address": "508 N. Oak St. (at E. 5th Ave.) Colville, WA 99114-3020"
 	},
 	{
-		"id": "a620da46-2e30-4952-9a13-19e178397570",
-		"denom": "OPC",
-		"name": "BETHEL",
-		"pastor": "Pastor: David L. Veldhorst",
-		"phone": "920-564-2300",
-		"email": "veldhorst.1@opc.org",
-		"website": "http://www.oostburgopc.org",
-		"address": "P.O. Box 700155 Oostburg, WI 53070-1432"
-	},
-	{
-		"id": "50232790-c70d-4cea-8ece-824313a99f93",
+		"id": "edefdf70-cee2-4414-a84c-95512c813fe0",
 		"denom": "OPC",
 		"name": "EMMANUEL",
-		"pastor": "Contact: Ryan Kidd",
-		"phone": "416-319-1593",
-		"email": "info@emmanuelopc.ca",
-		"website": "http://www.emmanuelopc.ca",
-		"address": "155538 7th Line Markdale, ON N0C 1H0"
+		"pastor": "Pastor: William D. Dennison",
+		"phone": "425-793-8473",
+		"email": "office@eopckent.org",
+		"website": "http://www.eopckent.org/",
+		"address": "21628 116th Ave SE Kent, WA 98031"
 	},
 	{
-		"id": "87f95bae-c618-4bbc-8f81-314f6a9a657d",
+		"id": "6cf18b57-487f-4a64-ac9b-b7821d3a7347",
 		"denom": "OPC",
 		"name": "COVENANT",
-		"pastor": "Pastor: Frank J. Marsh",
-		"phone": "414-541-3282",
-		"email": "marsh.1@opc.org",
-		"website": "http://www.covenant-opc.org",
-		"address": "4895 S. Calhoun Rd. New Berlin, WI 53151"
+		"pastor": "Pastor: Mark A. Collingridge",
+		"phone": "509-492-1282",
+		"email": "collingridge.1@opc.org",
+		"website": "http://www.copctricities.org/",
+		"address": "PO Box 4423 Pasco, WA 99302"
 	},
 	{
-		"id": "392a8274-c205-4131-a26d-b6ba40be9f2a",
+		"id": "58e5a3a0-96b9-4a44-a45a-54aa37acbce4",
 		"denom": "OPC",
-		"name": "MENOMINEE",
-		"pastor": "Pastor: Micah Shin",
-		"phone": "920-383-1516",
-		"email": "shin.1@opc.org",
-		"website": "/locator.html?presbytery_id=8&search_go=Y",
-		"address": "P.O. Box 254 Neopit, WI 54150-0254"
+		"name": "LYNNWOOD",
+		"pastor": "Pastor: Benjamin W. Swinburnson",
+		"phone": "425-397-6165",
+		"email": "swinburnson.1@opc.org",
+		"website": "http://www.lynnwoodopc.org",
+		"address": "17711 Spruce Way Lynnwood, WA 98037-7431"
 	},
 	{
-		"id": "7e71f9ca-b698-46fb-8dd5-3642aec057b0",
+		"id": "3ff61a3f-d85a-40b6-b397-699ae458b9d2",
 		"denom": "OPC",
-		"name": "MOUNT ROSE REFORMED PRESBYTERIAN",
-		"pastor": "Pastor: Scott Johnson",
-		"phone": "775-686-3699",
-		"email": "johnson.3@opc.org",
-		"website": "http://www.mtroseopc.org",
-		"address": "P. O. Box 17890 Reno, NV 89511"
+		"name": "SOVEREIGN GRACE",
+		"pastor": "Pastor: Robert C. Van Kooten",
+		"phone": "360-679-8893",
+		"email": "vankooten.1@opc.org",
+		"website": "http://www.sgopc.org/",
+		"address": "P.O. Box 1886 Oak Harbor, WA 98277-1886"
 	},
 	{
-		"id": "9fc60145-5ad7-4415-a3ce-4986633c550f",
+		"id": "ffc32269-9c9e-4f1e-8c30-be9917f59e12",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: John R. Ferguson",
-		"phone": "519-672-1674",
-		"email": "ferguson.1@opc.org",
-		"website": "http://www.covenantopc.ca",
-		"address": "271 Quaker Lane, RR 2 Ilderton, Ont., Canada N0M 2A0"
+		"name": "REFORMATION",
+		"pastor": "Pastor: Brett McNeill",
+		"phone": "360-545-3038",
+		"email": "mcneill.1@opc.org",
+		"website": "http://www.ropcolympia.org/",
+		"address": "2306 26th Ave NW Olympia, WA 98502"
 	},
 	{
-		"id": "eb7b6201-74dc-4f14-ae97-b0d0da3f08b6",
+		"id": "301c8a20-600e-45eb-8135-985e1a7e34e6",
 		"denom": "OPC",
-		"name": "GRACE COVENANT CHURCH",
-		"pastor": "Contact: Elder Bill Kroesbergen",
-		"phone": "",
-		"email": "session@gcc-opc.org",
-		"website": "http://gcc-opc.org",
-		"address": "Box 12-4 1260 Sheffield Rd. Sheffield, Ontario L0R 1Z0"
+		"name": "REDEEMING GRACE",
+		"pastor": "Pastor: Andrew M. Elam",
+		"phone": "360-504-1950",
+		"email": "elam.1@opc.org",
+		"website": "http://www.rgopc.org",
+		"address": "P.O. Box 2759 Port Angeles, WA 98362"
 	},
 	{
-		"id": "c046e89c-6fbb-4328-9493-fd0d2d6be1bf",
+		"id": "ad624467-1584-4da1-9f0f-3cc73241d8f9",
 		"denom": "OPC",
 		"name": "APPLE VALLEY",
 		"pastor": "Pastor: John A. Hartley",
@@ -2270,17 +2100,157 @@
 		"address": "1750 Olde Buggy Dr. Neenah, WI 54956-1197"
 	},
 	{
-		"id": "4ccc1ecb-3472-43f8-8e7d-913ff3a0fb3b",
+		"id": "916d294f-0e7a-489a-9017-59296054ae6d",
 		"denom": "OPC",
-		"name": "LIVING HOPE",
-		"pastor": "Pastor: Clark H. Brooking",
-		"phone": "443-487-4400",
-		"email": "brooking.1@opc.org",
-		"website": "http://www.livinghopepres.org",
-		"address": "P.O. Box 67 Simpsonville, MD 21150-0067"
+		"name": "CHRIST",
+		"pastor": "Pastor: Patrick J. Morgan",
+		"phone": "608-755-1088",
+		"email": "morgan.1@opc.org",
+		"website": "http://christ-opc.org",
+		"address": "3625 Skyview Dr. Janeville, WI 53546-2026"
 	},
 	{
-		"id": "d6ebd473-dcb8-49a9-981b-f6c0d3e25062",
+		"id": "daaa0616-1a66-4cf5-871c-187be6945ba0",
+		"denom": "OPC",
+		"name": "CALVARY",
+		"pastor": "Phone: 920-668-6463",
+		"phone": "920-668-6463",
+		"email": "",
+		"website": "http://www.calvarychurchcg.com",
+		"address": "P.O. Box 279 Cedar Grove, WI 53013-1350"
+	},
+	{
+		"id": "10fe0ff2-c99d-4a63-916d-a7bb45be33ea",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: C. Mark Jenkins",
+		"phone": "608-237-6265",
+		"email": "jenkins.1@opc.org",
+		"website": "http://providenceopchurch.org",
+		"address": "602 Diving Hawk Tr. Madison, WI 53713"
+	},
+	{
+		"id": "bb6fb2f3-1b30-42e8-9b17-6e43388765f5",
+		"denom": "OPC",
+		"name": "NEW HOPE",
+		"pastor": "Pastor: James E. Ferguson",
+		"phone": "920-468-8565",
+		"email": "ferguson.2@opc.org",
+		"website": "http://www.nhopc.org",
+		"address": "2401 Deckner Ave. Green Bay, WI 54302-4410"
+	},
+	{
+		"id": "2bf4b106-1937-432a-8111-da8fdf180bf1",
+		"denom": "OPC",
+		"name": "FALLS",
+		"pastor": "Pastor: Benjamin J. Snodgrass",
+		"phone": "262-255-1111",
+		"email": "snodgrass.1@opc.org",
+		"website": "http://www.fallsopc.org",
+		"address": "P.O. Box 582 Menomonee Falls, WI 53052-0582"
+	},
+	{
+		"id": "65fd2c85-ee92-4373-9836-eb24f8724b7c",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Frank J. Marsh",
+		"phone": "414-541-3282",
+		"email": "marsh.1@opc.org",
+		"website": "http://www.covenant-opc.org",
+		"address": "4895 S. Calhoun Rd. New Berlin, WI 53151"
+	},
+	{
+		"id": "750d91ea-5c98-4359-b9ec-ed01eeb2f1ae",
+		"denom": "OPC",
+		"name": "OLD STOCKBRIDGE",
+		"pastor": "Pastor: Micah Shin",
+		"phone": "920-383-1516",
+		"email": "shin.1@opc.org",
+		"website": "/locator.html?presbytery_id=8&search_go=Y",
+		"address": "N8004 Morgan Rd. Gresham, WI 54128-8984"
+	},
+	{
+		"id": "9837eef8-400b-4963-b1c7-5818516c9ff7",
+		"denom": "OPC",
+		"name": "BETHEL",
+		"pastor": "Pastor: David L. Veldhorst",
+		"phone": "920-564-2300",
+		"email": "veldhorst.1@opc.org",
+		"website": "http://www.oostburgopc.org",
+		"address": "P.O. Box 700155 Oostburg, WI 53070-1432"
+	},
+	{
+		"id": "3cc38665-a27a-4cd8-83a8-2f67efc46dc7",
+		"denom": "OPC",
+		"name": "FIVE SOLAS",
+		"pastor": "Pastor: Christian McShaffrey",
+		"phone": "608-524-5856",
+		"email": "mcshaffrey.1@opc.org",
+		"website": "http://www.reedsburgchurch.org",
+		"address": "S4021 State Rd. 23 Reedsburg, WI 53959"
+	},
+	{
+		"id": "2f6f68a4-b686-4040-96f5-24ce725ba223",
+		"denom": "OPC",
+		"name": "MENOMINEE",
+		"pastor": "Pastor: Micah Shin",
+		"phone": "920-383-1516",
+		"email": "shin.1@opc.org",
+		"website": "/locator.html?presbytery_id=8&search_go=Y",
+		"address": "P.O. Box 254 Neopit, WI 54150-0254"
+	},
+	{
+		"id": "e7dfcd89-f586-433b-bd26-72031695210e",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Brian L. DeJong",
+		"phone": "920-565-2160; 920-377-0242",
+		"email": "dejong.2@opc.org",
+		"website": "http://www.graceopcsheboygan.com",
+		"address": "4930 Green Valley Ln. Sheboygan, WI 53083-1837"
+	},
+	{
+		"id": "944a86dd-964c-4374-904f-51d973734d49",
+		"denom": "OPC",
+		"name": "LIVING HOPE",
+		"pastor": "Pastor: Douglas L. Bylsma",
+		"phone": "905-563-0975",
+		"email": "bylsma.1@opc.org",
+		"website": "http://www.livinghope-opc.org",
+		"address": "5132 Crimson King Way Beamsville, Ontario L0R 1B8"
+	},
+	{
+		"id": "dada3b80-1eeb-422d-af65-403373bf4106",
+		"denom": "OPC",
+		"name": "REFORMATION",
+		"pastor": "Pastor: Jonathan E. Hutchison",
+		"phone": "304-276-6850",
+		"email": "hutchison.1@opc.org",
+		"website": "http://www.ropcmorgantown.org",
+		"address": "451 Madigan Ave. Morgantown, WV 26501-6426"
+	},
+	{
+		"id": "499dfca9-76d1-4522-a7d9-58f67b142fcf",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: John R. Ferguson",
+		"phone": "519-672-1674",
+		"email": "ferguson.1@opc.org",
+		"website": "http://www.covenantopc.ca",
+		"address": "271 Quaker Lane, RR 2 Ilderton, Ont., Canada N0M 2A0"
+	},
+	{
+		"id": "f112836b-a730-48a2-8454-9bc2ca1e8661",
+		"denom": "OPC",
+		"name": "EMMANUEL",
+		"pastor": "Contact: Ryan Kidd",
+		"phone": "416-319-1593",
+		"email": "info@emmanuelopc.ca",
+		"website": "http://www.emmanuelopc.ca",
+		"address": "155538 7th Line Markdale, ON N0C 1H0"
+	},
+	{
+		"id": "340071c0-9913-42c4-9228-8bab5f8d403e",
 		"denom": "OPC",
 		"name": "WESTMINSTER",
 		"pastor": "Pastor: Charles Williams",
@@ -2290,37 +2260,37 @@
 		"address": "P.O. Box 2188 Corvallis, OR 97339-2188"
 	},
 	{
-		"id": "bddd7da4-9efc-4f4f-80e0-d7ff8f73c1de",
+		"id": "fd981081-0135-400f-b3e1-7b80fc33c612",
 		"denom": "OPC",
-		"name": "IMMANUEL",
-		"pastor": "Pastor: David J. Harr",
-		"phone": "609-417-4570",
-		"email": "harr.1@opc.org",
-		"website": "http://www.immanuelonline.org",
-		"address": "101 Medford-Mt. Holly Rd. Medford, NJ 08055"
+		"name": "LIVING HOPE",
+		"pastor": "Pastor: Clark H. Brooking",
+		"phone": "443-487-4400",
+		"email": "brooking.1@opc.org",
+		"website": "http://www.livinghopepres.org",
+		"address": "P.O. Box 67 Simpsonville, MD 21150-0067"
 	},
 	{
-		"id": "5469cd76-8902-4ef1-9d78-9a5f22f25ab9",
+		"id": "6f7d4d98-2b71-4518-b3dd-40b3e4de530c",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Shane Lems",
-		"phone": "715-796-2555",
-		"email": "lems.1@opc.org",
-		"website": "http://www.covenantopc.net/",
-		"address": "680 Broadway St. (Rt. 12) Hammond, WI 54015"
+		"name": "GRACE COVENANT CHURCH",
+		"pastor": "Contact: Elder Bill Kroesbergen",
+		"phone": "",
+		"email": "session@gcc-opc.org",
+		"website": "http://gcc-opc.org",
+		"address": "Box 12-4 1260 Sheffield Rd. Sheffield, Ontario L0R 1Z0"
 	},
 	{
-		"id": "56b915be-b151-4040-8f2c-2da72de2f4c7",
+		"id": "0eb744fa-8886-497b-90c6-5de56a6cdb8c",
 		"denom": "OPC",
-		"name": "MOMENCE OPC",
-		"pastor": "Pastor: Lane Keister",
-		"phone": "803-402-7307",
-		"email": "keister.1@opc.org",
-		"website": "https://momenceopchurch.com/",
-		"address": "4132 N. Rt. 1-17 Momence, IL 60954-3481"
+		"name": "MOUNT ROSE REFORMED PRESBYTERIAN",
+		"pastor": "Pastor: Scott Johnson",
+		"phone": "775-686-3699",
+		"email": "johnson.3@opc.org",
+		"website": "http://www.mtroseopc.org",
+		"address": "P. O. Box 17890 Reno, NV 89511"
 	},
 	{
-		"id": "bc21b687-1183-46dc-903a-a628c67f44c4",
+		"id": "21556e02-99e8-45e5-a65e-410bc1a8d8b5",
 		"denom": "OPC",
 		"name": "GRACE AND PEACE PRESBYTERIAN",
 		"pastor": "Pastor: S. Edd Cathey",
@@ -2330,7 +2300,27 @@
 		"address": "22646 Benswood Rd California, MD 20619-2148"
 	},
 	{
-		"id": "5d40ac44-6502-49f0-afc3-53c6612381df",
+		"id": "4332e035-931a-4039-b57e-68fe90e67b28",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Shane Lems",
+		"phone": "715-796-2555",
+		"email": "lems.1@opc.org",
+		"website": "http://www.covenantopc.net/",
+		"address": "680 Broadway St. (Rt. 12) Hammond, WI 54015"
+	},
+	{
+		"id": "cf7be525-cf30-406f-adaf-db134e7ba5f7",
+		"denom": "OPC",
+		"name": "IMMANUEL",
+		"pastor": "Pastor: David J. Harr",
+		"phone": "609-417-4570",
+		"email": "harr.1@opc.org",
+		"website": "http://www.immanuelonline.org",
+		"address": "101 Medford-Mt. Holly Rd. Medford, NJ 08055"
+	},
+	{
+		"id": "df73d1d9-c85c-4e59-8dc9-0931bcbd9836",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: Christopher L. Post",
@@ -2340,7 +2330,7 @@
 		"address": "8480 State Rt. 304 Mifflinburg, PA 17844"
 	},
 	{
-		"id": "ffa2f71b-847d-43a9-a55b-4810940e4456",
+		"id": "f21506e9-f9f1-4d11-a59b-00d0eef7b65f",
 		"denom": "OPC",
 		"name": "REDEEMER",
 		"pastor": "Pastor: Roth Reason",
@@ -2350,7 +2340,7 @@
 		"address": "1820 Montour Blvd. Danville, PA 17821"
 	},
 	{
-		"id": "b30dd5a6-ed50-4e68-a22b-f59316afe27c",
+		"id": "392ffbcc-b318-4f4f-a411-6dd3588cc383",
 		"denom": "OPC",
 		"name": "CHRIST",
 		"pastor": "Pastor: Michael J. Matossian",
@@ -2360,7 +2350,17 @@
 		"address": "2154 Bluestone Dr. St. Charles, MO 63303"
 	},
 	{
-		"id": "c1324e6f-2b8b-42a4-bf77-41e508fc0995",
+		"id": "bbd9fb0d-052b-44f2-84c4-163c67ddeb7a",
+		"denom": "OPC",
+		"name": "MOMENCE OPC",
+		"pastor": "Pastor: Lane Keister",
+		"phone": "803-402-7307",
+		"email": "keister.1@opc.org",
+		"website": "https://momenceopchurch.com/",
+		"address": "4132 N. Rt. 1-17 Momence, IL 60954-3481"
+	},
+	{
+		"id": "2980a726-b251-4fd2-b8a5-acfd30ac3367",
 		"denom": "OPC",
 		"name": "REDEEMER",
 		"pastor": "Pastor: Douglas L. Watson",
@@ -2370,27 +2370,7 @@
 		"address": "P.O. Box 595 Pearl City, HI 96782"
 	},
 	{
-		"id": "eb9a877f-005c-4f9e-9708-b8a43f0d092a",
-		"denom": "OPC",
-		"name": "HOLY TRINITY",
-		"pastor": "Pastor: D. Christian Khanda",
-		"phone": "786-584-6075",
-		"email": "khanda.1@opc.org",
-		"website": "http://www.holytrinityopc.org",
-		"address": "839 NW 45th St Pompano Beach, FL 33064"
-	},
-	{
-		"id": "c598969a-b3d6-4ed5-8f45-de5d20c92f6b",
-		"denom": "OPC",
-		"name": "PRIMERA IGLESIA PRESBITERIANA ORTODOXA, JESUS ES LA VERDAD",
-		"pastor": "Pastor: Roberto Quiñones Cardona",
-		"phone": "787-649-3932",
-		"email": "quinones.1@opc.org",
-		"website": "http://www.jesuseslaverdad.com",
-		"address": "P.O. Box 11477 San Juan, PR 00922-1477"
-	},
-	{
-		"id": "acfacd4d-ad87-41db-a34a-55acdba19442",
+		"id": "b7456f62-32a6-4f0a-b9e6-1740bb6e6d87",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: John R. Hilbelink",
@@ -2400,27 +2380,7 @@
 		"address": "3705 Burrmont Rd. Rockford, IL 61107-2167"
 	},
 	{
-		"id": "20700222-7545-442e-b865-13b31b29273e",
-		"denom": "OPC",
-		"name": "IGREJA PRESBITERIANA BRASILEIRA EM MELROSE",
-		"pastor": "Pastor: Roberto Laranjo",
-		"phone": "978-726-5020",
-		"email": "laranjo.1@opc.org",
-		"website": "/locator.html?presbytery_id=13&search_go=Y",
-		"address": "600 Merrill Lane, Apt. 3 Dracut , MA 01826-4447"
-	},
-	{
-		"id": "c43e81fa-fcf0-410d-8b1c-a4c0dd35e599",
-		"denom": "OPC",
-		"name": "REDEMPTION",
-		"pastor": "Pastor: Joel D. Fick",
-		"phone": "352-327-8127",
-		"email": "fick.1@opc.org",
-		"website": "http://www.redemptionopc.org",
-		"address": "6418 NW 33rd Terrace Gainesville, FL   32653-1323"
-	},
-	{
-		"id": "36610386-8a63-483e-b2c5-e72d3f6c0be2",
+		"id": "3315f55d-9fc3-41a4-82ed-a9a773d54370",
 		"denom": "OPC",
 		"name": "CHRIST AND HEAVEN",
 		"pastor": "Pastor: Yong H. Kim",
@@ -2430,87 +2390,7 @@
 		"address": "P.O. Box 80961 Rancho Santa Margarita, CA 92688-0961"
 	},
 	{
-		"id": "10f1b6e5-700c-4e87-987b-d271c9e98e09",
-		"denom": "OPC",
-		"name": "HILLSDALE",
-		"pastor": "Pastor: Everett A. Henes",
-		"phone": "517-437-4462",
-		"email": "henes.1@opc.org",
-		"website": "http://www.hillsdaleopc.org ",
-		"address": "P. O. Box 236 Hillsdale, MI 49242-0236"
-	},
-	{
-		"id": "8649b49b-295a-4621-9de3-4d5e801d1b20",
-		"denom": "OPC",
-		"name": "REDDING REFORMED FELLOWSHIP",
-		"pastor": "Pastor: Gene L. Crow",
-		"phone": "530-275-6188",
-		"email": "crow.1@opc.org",
-		"website": "http://reddingreformed.org/",
-		"address": "PO Box 491855 Redding, CA 96049-1855"
-	},
-	{
-		"id": "795e7348-206a-465a-b7f3-4186c1186a61",
-		"denom": "OPC",
-		"name": "HOPE REFORMED PRESBYTERIAN",
-		"pastor": "Pastor: Zechariah Schiebout",
-		"phone": "641-295-9264",
-		"email": "schiebout.1@opc.org",
-		"website": "https://hopereformedpella.com/",
-		"address": "P.O. Box 217 Pella, IA 50219"
-	},
-	{
-		"id": "9ee3c6f5-9dbd-4a8c-8a4c-0232153c6fab",
-		"denom": "OPC",
-		"name": "LAKE OPC",
-		"pastor": "Pastor: Geoffrey L. Willour",
-		"phone": "440-264-3805",
-		"email": "willour.1@opc.org",
-		"website": "http://lakeopc.net",
-		"address": "5247 Wilson Mills Rd. #424 Cleveland, OH 44143-3016"
-	},
-	{
-		"id": "b6fca94b-5f2e-4f43-989c-6b0e5b7a6c87",
-		"denom": "OPC",
-		"name": "RIO RANCHO",
-		"pastor": "Pastor: Thomas Tkach",
-		"phone": "843-812-6701",
-		"email": "tkach.1@opc.org",
-		"website": "http://www.rropc.org",
-		"address": "P.O. Box 44247 Rio Rancho, NM 87174-4247"
-	},
-	{
-		"id": "63ebba46-bf7e-42af-8c3b-56dac02991ed",
-		"denom": "OPC",
-		"name": "GRACE",
-		"pastor": "Pastor: Samuel Alvira",
-		"phone": "609-273-7267",
-		"email": "alvira.2@opc.org",
-		"website": "http://www.graceopchurch.com",
-		"address": "50 N. Hook Rd Pennsville, NJ 08070-1906"
-	},
-	{
-		"id": "015a9360-e863-424f-a680-ecaa3dce06ca",
-		"denom": "OPC",
-		"name": "BETHEL REFORMED",
-		"pastor": "Pastor: Vernon Picknally",
-		"phone": "231-245-6601",
-		"email": "picknally.1@opc.org",
-		"website": "http://fremontopc.org",
-		"address": "P.O. Box 202 Fremont, MI 49412-0202"
-	},
-	{
-		"id": "9646b324-c330-4214-825e-b9fe83d0bdeb",
-		"denom": "OPC",
-		"name": "IGLESIA PRESBITERIANA REFORMADA DEL CARIBE OPC",
-		"pastor": "Pastor: Rev. Carlos Cruz",
-		"phone": "787-649-8253 / 787-410-7899",
-		"email": "jaimedzapata@gmail.com",
-		"website": "http://presbiterianareformadapr.org",
-		"address": "P.O. Box 363864 San Juan, PR 00936-3864"
-	},
-	{
-		"id": "1e7adaa2-0672-48b2-98d7-b0a5a74e0dde",
+		"id": "3f889602-073e-41c1-884a-eeb0241d218e",
 		"denom": "OPC",
 		"name": "PILGRIM",
 		"pastor": "Pastor: David Koenig",
@@ -2520,97 +2400,77 @@
 		"address": "52 Whitehouse Rd. Rochester, NH 03867"
 	},
 	{
-		"id": "dd066b76-c270-4e3c-aec8-62a74b015270",
+		"id": "adc58e7e-486b-40e5-a7a4-fb45397acee9",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Christopher J. Chelpka",
-		"phone": "520-425-2688",
-		"email": "chelpka.1@opc.org",
-		"website": "https://covenantopctucson.org/",
-		"address": "P.O. Box 36721 Tucson, AZ 85740"
+		"name": "HOLY TRINITY",
+		"pastor": "Pastor: D. Christian Khanda",
+		"phone": "786-584-6075",
+		"email": "khanda.1@opc.org",
+		"website": "http://www.holytrinityopc.org",
+		"address": "839 NW 45th St Pompano Beach, FL 33064"
 	},
 	{
-		"id": "2d32cf03-ab78-452b-9312-1d728dc1dbc4",
+		"id": "267f8446-142a-4032-9726-cec13dbabda8",
 		"denom": "OPC",
-		"name": "HIGH PLAINS",
-		"pastor": "Pastor: David A. Bosch",
-		"phone": "970-613-0461, 970-402-8972",
-		"email": "bosch.1@opc.org",
-		"website": "/locator.html?presbytery_id=6&search_go=Y",
-		"address": "2032 Sitka Ct. Loveland, CO 80538-4055"
+		"name": "REDEMPTION",
+		"pastor": "Pastor: Joel D. Fick",
+		"phone": "352-327-8127",
+		"email": "fick.1@opc.org",
+		"website": "http://www.redemptionopc.org",
+		"address": "6418 NW 33rd Terrace Gainesville, FL   32653-1323"
 	},
 	{
-		"id": "7d6c7078-ee60-4c34-b453-b35cdfcae7a5",
+		"id": "6c8ef497-7fb1-48b2-8e18-314471ba677a",
 		"denom": "OPC",
-		"name": "FIRELANDS GRACE",
-		"pastor": "Pastor: Larry Oldaker",
-		"phone": "419-271-1112",
-		"email": "graceopchurch@gmail.com",
-		"website": "http://www.graceop.org",
-		"address": "PO Box 162 Huron, OH 44839"
+		"name": "PRIMERA IGLESIA PRESBITERIANA ORTODOXA, JESUS ES LA VERDAD",
+		"pastor": "Pastor: Roberto Quiñones Cardona",
+		"phone": "787-649-3932",
+		"email": "quinones.1@opc.org",
+		"website": "http://www.jesuseslaverdad.com",
+		"address": "P.O. Box 11477 San Juan, PR 00922-1477"
 	},
 	{
-		"id": "38d5708c-0a86-4dba-bc2b-d8a72a0759a4",
+		"id": "d53477df-a882-4c3d-b395-4a884dbd65f5",
 		"denom": "OPC",
-		"name": "IMMANUEL CHAPEL",
-		"pastor": "Pastor: Mark A. Marquis",
-		"phone": "508-529-4468",
-		"email": "marquis.1@opc.org",
-		"website": "http://www.immanuel-chapel.org",
-		"address": "P.O. Box 265 Upton, MA 01568-0265"
+		"name": "IGREJA PRESBITERIANA BRASILEIRA EM MELROSE",
+		"pastor": "Pastor: Roberto Laranjo",
+		"phone": "978-726-5020",
+		"email": "laranjo.1@opc.org",
+		"website": "/locator.html?presbytery_id=13&search_go=Y",
+		"address": "600 Merrill Lane, Apt. 3 Dracut , MA 01826-4447"
 	},
 	{
-		"id": "d7656c4e-897d-448b-9007-e441781042a7",
+		"id": "0008710c-a8fe-4059-82aa-fc86f5fafdbe",
 		"denom": "OPC",
-		"name": "CHRIST COVENANT",
-		"pastor": "Pastor: Brandon Wilkins",
-		"phone": "815-354-5156",
-		"email": "wilkins.1@opc.org",
-		"website": "http://www.christcovenantpresbyterian.org",
-		"address": "9414 IL Route 176 Crystal Lake, IL 60014-3941"
+		"name": "HOPE REFORMED PRESBYTERIAN",
+		"pastor": "Pastor: Zechariah Schiebout",
+		"phone": "641-295-9264",
+		"email": "schiebout.1@opc.org",
+		"website": "https://hopereformedpella.com/",
+		"address": "P.O. Box 217 Pella, IA 50219"
 	},
 	{
-		"id": "ca9905ab-a020-469b-b434-0bc62e8ebc8c",
+		"id": "0cef6497-f306-4faf-8f62-f96f4c5a6014",
 		"denom": "OPC",
-		"name": "WOLF RIVER",
-		"pastor": "Pastor: Mark Winder",
-		"phone": "901-853-5556",
-		"email": "winder.1@opc.org",
-		"website": "http://www.wolfriverchurch.org",
-		"address": "767 Silverman Dr Collierville, TN 38017"
+		"name": "RIO RANCHO",
+		"pastor": "Pastor: Thomas Tkach",
+		"phone": "843-812-6701",
+		"email": "tkach.1@opc.org",
+		"website": "http://www.rropc.org",
+		"address": "P.O. Box 44247 Rio Rancho, NM 87174-4247"
 	},
 	{
-		"id": "b1c571d3-3fe4-4a3b-b525-557f4f80e468",
+		"id": "4114cf5d-61ef-43cf-8ce1-7d20e01f237a",
 		"denom": "OPC",
-		"name": "REFORMATION",
-		"pastor": "Pastor: Samuel S. Chung",
-		"phone": "718-404-9410",
-		"email": "chung.1@opc.org",
-		"website": "http://www.refpres.com",
-		"address": "P.O. Box 656806 Fresh Meadows, NY 11365"
+		"name": "REDDING REFORMED FELLOWSHIP",
+		"pastor": "Pastor: Gene L. Crow",
+		"phone": "530-275-6188",
+		"email": "crow.1@opc.org",
+		"website": "http://reddingreformed.org/",
+		"address": "PO Box 491855 Redding, CA 96049-1855"
 	},
 	{
-		"id": "006c6aa7-1961-4a02-821b-ad9cf31f0cdc",
-		"denom": "OPC",
-		"name": "SHILOH",
-		"pastor": "Pastor: Matthew Holst",
-		"phone": "919-578-1331",
-		"email": "info@shilohopc.org",
-		"website": "http://www.shilohopc.org",
-		"address": "524 E Whitaker Mill Rd. Raleigh, NC 27608"
-	},
-	{
-		"id": "94ce784d-f733-4329-becf-7a3466f5674e",
-		"denom": "OPC",
-		"name": "BEREAN",
-		"pastor": "Contact: Donald W. King",
-		"phone": "Donald W. King Phone: 801-821-1180",
-		"email": "",
-		"website": "http://bereanopc.blogspot.com/",
-		"address": "925 E 4100 So. South Ogden, UT 84403"
-	},
-	{
-		"id": "3ba8651c-d7c0-4f94-a24c-4838ba5522e8",
+		"id": "3d489782-6b55-444b-b1eb-ad0cbf77e600",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Eric B. Watkins",
@@ -2620,27 +2480,107 @@
 		"address": "1965 State Rd. 16 St. Augustine, FL 32084-0811"
 	},
 	{
-		"id": "bdd02591-c51e-4069-9489-a6416d9f7804",
+		"id": "aca90f2e-fc7b-4787-8e29-5a87f43ef326",
 		"denom": "OPC",
-		"name": "REDEEMER",
-		"pastor": "Pastor: Greg Hoadley",
-		"phone": "403-862-2674",
-		"email": "hoadley.1@opc.org",
-		"website": "http://redeemeropcairdrie.ca/",
-		"address": "P.O. Box 10207 Airdrie, Alberta T4B 0H5"
+		"name": "HILLSDALE",
+		"pastor": "Pastor: Everett A. Henes",
+		"phone": "517-437-4462",
+		"email": "henes.1@opc.org",
+		"website": "http://www.hillsdaleopc.org ",
+		"address": "P. O. Box 236 Hillsdale, MI 49242-0236"
 	},
 	{
-		"id": "953f64e9-a993-4a66-a60e-575ac38b7ca2",
+		"id": "28e22990-d010-49da-a783-5617790ac87e",
 		"denom": "OPC",
-		"name": "SOVEREIGN GRACE REFORMED CHURCH",
-		"pastor": "Pastor: Kent W. Harding",
-		"phone": "",
-		"email": "harding.1@opc.org",
-		"website": "http://sovereigngracereformedchurch.com",
-		"address": "827 Ripley K-2 Doniphan, MO 63935"
+		"name": "LAKE OPC",
+		"pastor": "Pastor: Geoffrey L. Willour",
+		"phone": "440-264-3805",
+		"email": "willour.1@opc.org",
+		"website": "http://lakeopc.net",
+		"address": "5247 Wilson Mills Rd. #424 Cleveland, OH 44143-3016"
 	},
 	{
-		"id": "7d4c5d54-6c61-4b2d-8b22-0c616382c4a2",
+		"id": "9a12a878-5767-4045-ad9c-de15b1208318",
+		"denom": "OPC",
+		"name": "IGLESIA PRESBITERIANA REFORMADA DEL CARIBE OPC",
+		"pastor": "Pastor: Rev. Carlos Cruz",
+		"phone": "787-649-8253 / 787-410-7899",
+		"email": "jaimedzapata@gmail.com",
+		"website": "http://presbiterianareformadapr.org",
+		"address": "P.O. Box 363864 San Juan, PR 00936-3864"
+	},
+	{
+		"id": "3df7e0f7-d5e9-456e-a279-d7dc6c2a534d",
+		"denom": "OPC",
+		"name": "GRACE",
+		"pastor": "Pastor: Samuel Alvira",
+		"phone": "609-273-7267",
+		"email": "alvira.2@opc.org",
+		"website": "http://www.graceopchurch.com",
+		"address": "50 N. Hook Rd Pennsville, NJ 08070-1906"
+	},
+	{
+		"id": "16f30033-16d2-4307-bf07-2074c5a189b2",
+		"denom": "OPC",
+		"name": "HIGH PLAINS",
+		"pastor": "Pastor: David A. Bosch",
+		"phone": "970-613-0461, 970-402-8972",
+		"email": "bosch.1@opc.org",
+		"website": "/locator.html?presbytery_id=6&search_go=Y",
+		"address": "2032 Sitka Ct. Loveland, CO 80538-4055"
+	},
+	{
+		"id": "4a02f873-13c5-407a-bd13-677c7736d365",
+		"denom": "OPC",
+		"name": "COVENANT",
+		"pastor": "Pastor: Christopher J. Chelpka",
+		"phone": "520-425-2688",
+		"email": "chelpka.1@opc.org",
+		"website": "https://covenantopctucson.org/",
+		"address": "P.O. Box 36721 Tucson, AZ 85740"
+	},
+	{
+		"id": "51a8cfe7-8bf7-43dc-b07f-a6c0245a7191",
+		"denom": "OPC",
+		"name": "FIRELANDS GRACE",
+		"pastor": "Pastor: Larry Oldaker",
+		"phone": "419-271-1112",
+		"email": "graceopchurch@gmail.com",
+		"website": "http://www.graceop.org",
+		"address": "PO Box 162 Huron, OH 44839"
+	},
+	{
+		"id": "a7c40634-5062-4a63-92ee-8b22fc404a2a",
+		"denom": "OPC",
+		"name": "REFORMATION",
+		"pastor": "Pastor: Samuel S. Chung",
+		"phone": "718-404-9410",
+		"email": "chung.1@opc.org",
+		"website": "http://www.refpres.com",
+		"address": "P.O. Box 656806 Fresh Meadows, NY 11365"
+	},
+	{
+		"id": "5a79a327-11ac-47af-b7e1-2a2d9e030613",
+		"denom": "OPC",
+		"name": "BETHEL REFORMED",
+		"pastor": "Pastor: Vernon Picknally",
+		"phone": "231-245-6601",
+		"email": "picknally.1@opc.org",
+		"website": "http://fremontopc.org",
+		"address": "P.O. Box 202 Fremont, MI 49412-0202"
+	},
+	{
+		"id": "06130fe4-5bf3-42d7-a908-a02f24be7f11",
+		"denom": "OPC",
+		"name": "BEREAN",
+		"pastor": "Contact: Donald W. King",
+		"phone": "Donald W. King Phone: 801-821-1180",
+		"email": "",
+		"website": "http://bereanopc.blogspot.com/",
+		"address": "925 E 4100 So. South Ogden, UT 84403"
+	},
+	{
+		"id": "6a8323dc-67e1-4a19-bf2d-a6ff325af2dc",
 		"denom": "OPC",
 		"name": "SOVEREIGN GRACE",
 		"pastor": "Pastor: Kenneth R. Golden",
@@ -2650,87 +2590,57 @@
 		"address": "2234 Jebens Ave. Davenport, IA 52804-2524"
 	},
 	{
-		"id": "96e9147b-d3bf-47d8-a96f-0e3181ba6fbe",
+		"id": "9bbfca92-f3f9-456b-bb53-07e08b938890",
 		"denom": "OPC",
-		"name": "CORNERSTONE",
-		"pastor": "Pastor: Todd S. Bordow",
-		"phone": "505-259-3457",
-		"email": "bordow.1@opc.org",
-		"website": "http://www.csopc.org",
-		"address": "12515 Ann Ln. Houston, Texas 77064"
+		"name": "CHRIST COVENANT",
+		"pastor": "Pastor: Brandon Wilkins",
+		"phone": "815-354-5156",
+		"email": "wilkins.1@opc.org",
+		"website": "http://www.christcovenantpresbyterian.org",
+		"address": "9414 IL Route 176 Crystal Lake, IL 60014-3941"
 	},
 	{
-		"id": "9d21a356-2ea2-4138-b3ed-c8145ec781ab",
+		"id": "839600c8-8643-4bbd-a810-f01e6716133a",
 		"denom": "OPC",
-		"name": "SAN ANTONIO REFORMED",
-		"pastor": "Pastor: Andrew Moody",
-		"phone": "210-833-3891",
-		"email": "moody.1@opc.org",
-		"website": "http://www.SAReformed.org",
-		"address": "PO Box 17305 San Antonio, Texas 78217"
+		"name": "IMMANUEL CHAPEL",
+		"pastor": "Pastor: Mark A. Marquis",
+		"phone": "508-529-4468",
+		"email": "marquis.1@opc.org",
+		"website": "http://www.immanuel-chapel.org",
+		"address": "P.O. Box 265 Upton, MA 01568-0265"
 	},
 	{
-		"id": "ab860385-5306-4d02-9506-9645b7e512f4",
+		"id": "d59929c7-b863-4b61-bb21-01e1e7ca2ea7",
 		"denom": "OPC",
-		"name": "OMEGA",
-		"pastor": "Pastor: Drew Adcock",
-		"phone": "570-651-3449",
-		"email": "adcock.1@opc.org",
-		"website": "http://omegaopc.org/",
-		"address": "313 Grimesville Rd. Williamsport, PA 17701"
+		"name": "WOLF RIVER",
+		"pastor": "Pastor: Mark Winder",
+		"phone": "901-853-5556",
+		"email": "winder.1@opc.org",
+		"website": "http://www.wolfriverchurch.org",
+		"address": "767 Silverman Dr Collierville, TN 38017"
 	},
 	{
-		"id": "5809d89f-97c9-4d7f-b5e6-cdf89ed0fa6b",
+		"id": "0c992341-5c33-4a38-ad66-5844fd54001f",
 		"denom": "OPC",
-		"name": "HERITAGE",
-		"pastor": "Pastor: Michael Myers",
-		"phone": "Michael Myers Contact: myers.1@opc.org Phone: 706-567-0387",
-		"email": "",
-		"website": "http://heritageopc.org/",
-		"address": "82 Franklin Springs St. Royston, GA 30662"
+		"name": "REDEEMER",
+		"pastor": "Pastor: Greg Hoadley",
+		"phone": "403-862-2674",
+		"email": "hoadley.1@opc.org",
+		"website": "http://redeemeropcairdrie.ca/",
+		"address": "P.O. Box 10207 Airdrie, Alberta T4B 0H5"
 	},
 	{
-		"id": "b42e94c4-8f99-44c9-b71e-e2d79ef7ab30",
+		"id": "df7681fa-9444-42fe-af0b-c1d5243b9494",
 		"denom": "OPC",
-		"name": "RESURRECTION",
-		"pastor": "Pastor: Zachary M. Simmons",
-		"phone": "814-206-0186",
-		"email": "info@resurrectionopc.org",
-		"website": "http://www.resurrectionopc.org",
-		"address": "P.O. Box 584 State College, PA 16804"
+		"name": "SHILOH",
+		"pastor": "Pastor: Matthew Holst",
+		"phone": "919-578-1331",
+		"email": "info@shilohopc.org",
+		"website": "http://www.shilohopc.org",
+		"address": "524 E Whitaker Mill Rd. Raleigh, NC 27608"
 	},
 	{
-		"id": "446e7a26-b88c-4ebd-b5c6-6a5beb10a301",
-		"denom": "OPC",
-		"name": "LIMINGTON",
-		"pastor": "Pastor: D. Leonard Gulstrom",
-		"phone": "207-637-2061",
-		"email": "gulstrom.1@opc.org",
-		"website": "http://www.lopcreformed.org ",
-		"address": "P.O. Box 305 Limington, ME 04049"
-	},
-	{
-		"id": "7546da4f-80a0-4c77-a7f0-5a3cc53cc191",
-		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Benjamin W. Miller",
-		"phone": "631-629-4528",
-		"email": "miller.8@opc.org",
-		"website": "http://trinitychurchlongisland.com/",
-		"address": "320 1st St. East Northport, NY 11731"
-	},
-	{
-		"id": "f296021e-910b-4a37-9495-54ea8821b393",
-		"denom": "OPC",
-		"name": "TRINITY",
-		"pastor": "Pastor: Jonathan B. Moersch",
-		"phone": "949-421-9725",
-		"email": "moersch.1@opc.org",
-		"website": "http://www.tpresbyterian.com/",
-		"address": "P.O. Box 4384 San Clemente, CA 92674-4384"
-	},
-	{
-		"id": "0792c5da-5229-4756-bbb5-e487042af356",
+		"id": "e18861bb-fc91-48b7-aebe-4335e947a1b6",
 		"denom": "OPC",
 		"name": "REFORMATION",
 		"pastor": "Pastor: Joseph H. Fowler, Jr.",
@@ -2740,17 +2650,97 @@
 		"address": "1509 Laurel Lane Gastonia, NC 28054-5764"
 	},
 	{
-		"id": "076553eb-9ae9-4459-b265-b4a4c6c5a934",
+		"id": "36402ce0-84a4-4406-a4d3-d911ea2edf9e",
+		"denom": "OPC",
+		"name": "RESURRECTION",
+		"pastor": "Pastor: Zachary M. Simmons",
+		"phone": "814-206-0186",
+		"email": "info@resurrectionopc.org",
+		"website": "http://www.resurrectionopc.org",
+		"address": "P.O. Box 584 State College, PA 16804"
+	},
+	{
+		"id": "608b6679-283b-4183-83a6-2b87013fa2c2",
+		"denom": "OPC",
+		"name": "OMEGA",
+		"pastor": "Pastor: Drew Adcock",
+		"phone": "570-651-3449",
+		"email": "adcock.1@opc.org",
+		"website": "http://omegaopc.org/",
+		"address": "313 Grimesville Rd. Williamsport, PA 17701"
+	},
+	{
+		"id": "cbeb9214-8165-4d08-b688-aba2dc3081b0",
+		"denom": "OPC",
+		"name": "CORNERSTONE",
+		"pastor": "Pastor: Todd S. Bordow",
+		"phone": "505-259-3457",
+		"email": "bordow.1@opc.org",
+		"website": "http://www.csopc.org",
+		"address": "12515 Ann Ln. Houston, Texas 77064"
+	},
+	{
+		"id": "b3d13bdb-e43b-4ae3-b25a-d68969dd7480",
+		"denom": "OPC",
+		"name": "SOVEREIGN GRACE REFORMED CHURCH",
+		"pastor": "Pastor: Kent W. Harding",
+		"phone": "",
+		"email": "harding.1@opc.org",
+		"website": "http://sovereigngracereformedchurch.com",
+		"address": "827 Ripley K-2 Doniphan, MO 63935"
+	},
+	{
+		"id": "8ccbd0a8-21df-4d0a-92c8-a818349c09eb",
+		"denom": "OPC",
+		"name": "SAN ANTONIO REFORMED",
+		"pastor": "Pastor: Andrew Moody",
+		"phone": "210-833-3891",
+		"email": "moody.1@opc.org",
+		"website": "http://www.SAReformed.org",
+		"address": "PO Box 17305 San Antonio, Texas 78217"
+	},
+	{
+		"id": "ff482845-9175-44a7-8978-898ee1da5e22",
+		"denom": "OPC",
+		"name": "TRINITY",
+		"pastor": "Pastor: Benjamin W. Miller",
+		"phone": "631-629-4528",
+		"email": "miller.8@opc.org",
+		"website": "http://trinitychurchlongisland.com/",
+		"address": "320 1st St. East Northport, NY 11731"
+	},
+	{
+		"id": "74d04a36-a428-4803-b57c-337f0cd0b075",
 		"denom": "OPC",
 		"name": "KNOX",
 		"pastor": "Pastor: Jeremy Logan",
 		"phone": "419-295-6533",
 		"email": "logan.2@opc.org",
 		"website": "http://www.knox-church.org",
-		"address": "18049 Murray Rd. Mount Vernon, OH 43050"
+		"address": "202 Spruce St. Mount Vernon, OH 43050"
 	},
 	{
-		"id": "cf58fa3e-9bb3-43dc-933a-ffa2533dd4b2",
+		"id": "faf5185f-68db-4bfc-8b0f-68af4204d4f9",
+		"denom": "OPC",
+		"name": "LIMINGTON",
+		"pastor": "Pastor: D. Leonard Gulstrom",
+		"phone": "207-637-2061",
+		"email": "gulstrom.1@opc.org",
+		"website": "http://www.lopcreformed.org ",
+		"address": "P.O. Box 305 Limington, ME 04049"
+	},
+	{
+		"id": "4dba6f70-36e9-428a-b4a9-c96aecfad2d9",
+		"denom": "OPC",
+		"name": "HERITAGE",
+		"pastor": "Pastor: Michael Myers",
+		"phone": "Michael Myers Contact: myers.1@opc.org Phone: 706-567-0387",
+		"email": "",
+		"website": "http://heritageopc.org/",
+		"address": "82 Franklin Springs St. Royston, GA 30662"
+	},
+	{
+		"id": "8de19d6f-41f1-4a4c-83a4-97d4bfa06615",
 		"denom": "OPC",
 		"name": "PROVIDENCE",
 		"pastor": "Pastor: Jim G. Stevenson",
@@ -2760,7 +2750,17 @@
 		"address": "9014 S. Darlington Ave. Tulsa, OK 74137"
 	},
 	{
-		"id": "cb2fd535-ebb8-4a1a-86fc-84cf6839faad",
+		"id": "0561fdb0-26a7-49e4-a2a5-3dc0ea9d36d0",
+		"denom": "OPC",
+		"name": "TRINITY",
+		"pastor": "Pastor: Jonathan B. Moersch",
+		"phone": "949-421-9725",
+		"email": "moersch.1@opc.org",
+		"website": "http://www.tpresbyterian.com/",
+		"address": "P.O. Box 4384 San Clemente, CA 92674-4384"
+	},
+	{
+		"id": "28ba539e-64be-4bc2-9907-138404532041",
 		"denom": "OPC",
 		"name": "GRACE REFORMED FELLOWSHIP",
 		"pastor": "Pastor: Philip B. Strong",
@@ -2770,7 +2770,7 @@
 		"address": "P.O. Box 1899 Lander, WY 82520"
 	},
 	{
-		"id": "e48c8c36-64b9-4bea-8ffa-48b661231055",
+		"id": "b317b8f0-ca3e-4d63-92ca-2b3b6b9cd875",
 		"denom": "OPC",
 		"name": "CONCHO VALLEY",
 		"pastor": "Pastor: Stephen Larson",
@@ -2780,7 +2780,7 @@
 		"address": "P.O. Box 1010 Concho, AZ 85924-1010"
 	},
 	{
-		"id": "9692e6cb-bed0-41c9-8385-b2ab898fe9ef",
+		"id": "2e2e1b5f-311b-4b01-a451-f74910240901",
 		"denom": "OPC",
 		"name": "CHRIST THE KING",
 		"pastor": "Pastor: Eric R. Hausler",
@@ -2790,7 +2790,7 @@
 		"address": "3400 Radio Rd., Suite 107 Naples, FL 34104"
 	},
 	{
-		"id": "21f48dce-3eb1-4449-be24-b5e887cd919b",
+		"id": "61f1cfa3-89a3-4c2d-9f0c-8ec10ab943c3",
 		"denom": "OPC",
 		"name": "REFORMATION",
 		"pastor": "Pastor: Lowell Ivey",
@@ -2800,7 +2800,7 @@
 		"address": "5298 Barharbor Dr. Norfolk, VA 23502"
 	},
 	{
-		"id": "d285d326-ca81-43cc-8671-858d7d811611",
+		"id": "f236da05-a71b-4aad-810e-0a928210f8d9",
 		"denom": "OPC",
 		"name": "COVENANT LIFE",
 		"pastor": "Pastor: Gordon Oliver",
@@ -2810,7 +2810,7 @@
 		"address": "1415 E. Green Bay St., Suite 121B Shawano, WI 54166"
 	},
 	{
-		"id": "bb4369eb-c56f-4b8e-ba97-392d58807818",
+		"id": "409ce4b4-b03b-4af7-bf64-543c969c8bc6",
 		"denom": "OPC",
 		"name": "GOOD SHEPHERD",
 		"pastor": "Pastor: Christopher Malamisuro",
@@ -2820,57 +2820,7 @@
 		"address": "11688 Mill Rd. Cincinnati, OH 45240"
 	},
 	{
-		"id": "c5440a4a-2181-4f1b-931d-94603b17c28f",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Timothy G. Herndon",
-		"phone": "603-667-1053",
-		"email": "herndon.1@opc.org",
-		"website": "http://providencenh.org/",
-		"address": "P.O. Box 5236 West Lebanon, NH 03784"
-	},
-	{
-		"id": "bd730315-5e18-4f9d-b3c3-46149a05ddf9",
-		"denom": "OPC",
-		"name": "LIVING HOPE FELLOWSHIP",
-		"pastor": "Contact: Benjamin Ward",
-		"phone": "724-699-3397",
-		"email": "ward.1@opc.org",
-		"website": "https://livinghopesharon.org/",
-		"address": "292 Independence Ct. Sharon, PA 16146"
-	},
-	{
-		"id": "60ef5867-a55b-4ee9-a01e-fdd9385bb8fc",
-		"denom": "OPC",
-		"name": "SOUTH AUSTIN",
-		"pastor": "Pastor: James J. Cassidy",
-		"phone": "512-758-9867",
-		"email": "cassidy.1@opc.org",
-		"website": "http://www.southaustinpres.org/",
-		"address": "8708 Verona Trail Austin, TX 79749"
-	},
-	{
-		"id": "b062fbbc-9ab0-4a9e-962f-1600d43ec2e5",
-		"denom": "OPC",
-		"name": "NEW CITY FELLOWSHIP",
-		"pastor": "Contact: Dave Werner",
-		"phone": "616-427-3088",
-		"email": "admin@newcitygr.org, werner888@sbcglobal.net",
-		"website": "/locator.html?presbytery_id=11&search_go=Y",
-		"address": "700 Burton St. S.E Grand Rapids, MI 49507"
-	},
-	{
-		"id": "18cc1c46-adc7-4912-bfa2-58ac2920d98a",
-		"denom": "OPC",
-		"name": "GRACE REFORMED PRESBYTERIAN",
-		"pastor": "Pastor: Micah Bickford",
-		"phone": "207-314-2642",
-		"email": "info@gracereformedopc.org",
-		"website": "http://www.gracereformedopc.org",
-		"address": "270 Smithfield Road Oakland, ME 04963"
-	},
-	{
-		"id": "7fcf2310-190c-4ad0-81a6-269540c10bfc",
+		"id": "bf3afaab-a9d0-496a-999d-f2890daa4b31",
 		"denom": "OPC",
 		"name": "IMMANUEL",
 		"pastor": "Pastor: James Hoekstra",
@@ -2880,37 +2830,17 @@
 		"address": "PO Box 32 Andover, MN 55304"
 	},
 	{
-		"id": "9759d95d-5f01-40cb-b4e2-5a8c8c8b03c6",
+		"id": "62732419-4203-4363-aac6-076974a09495",
 		"denom": "OPC",
-		"name": "FIRST CHURCH OF MERRIMACK",
-		"pastor": "Pastor: Allen C. Tomlinson",
-		"phone": "603-424-3133; 603-424-3947",
-		"email": "pastorallen@firstchurchofmerrimack.org",
-		"website": "http://www.firstchurchofmerrimack.org",
-		"address": "P.O. Box 507 Merrimack, NH 03054"
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Timothy G. Herndon",
+		"phone": "603-667-1053",
+		"email": "herndon.1@opc.org",
+		"website": "http://providencenh.org/",
+		"address": "P.O. Box 5236 West Lebanon, NH 03784"
 	},
 	{
-		"id": "5034e517-e614-409b-b19e-e7fd6622b544",
-		"denom": "OPC",
-		"name": "COVENANT FAMILY",
-		"pastor": "Pastor: Peter Bringe",
-		"phone": "303-656-5577; 636-466-5272",
-		"email": "bringe.1@opc.org",
-		"website": "http://www.covenantfamilychurch.net",
-		"address": "PO Box 568 Wentzville, MO 63385"
-	},
-	{
-		"id": "ff4a1a54-042c-4136-833a-4d3dd66b6396",
-		"denom": "OPC",
-		"name": "EMMANUEL",
-		"pastor": "Pastor: Timothy Marinelli",
-		"phone": "720-600-2880",
-		"email": "marinelli.1@opc.org",
-		"website": "http://www.emmanuelopc.com",
-		"address": "P.O. Box 1803 Castle Rock, CO 80104"
-	},
-	{
-		"id": "c46618f5-3cab-419a-a062-3d6155d1f038",
+		"id": "045bd4b0-e0b1-4e48-81cd-a75f26835307",
 		"denom": "OPC",
 		"name": "ANAHEIM HILLS",
 		"pastor": "Pastor: Christopher D. Hartshorn",
@@ -2920,87 +2850,77 @@
 		"address": "617 N. Lincoln Fullerton, CA 92831"
 	},
 	{
-		"id": "a7129957-fa7e-4e3e-a5d9-cfdd4823b3d9",
+		"id": "4325e4dc-72b2-4d1c-814f-5649b326cdbe",
 		"denom": "OPC",
-		"name": "COVENANT",
-		"pastor": "Pastor: Christopher B. Strevel, Sr.",
-		"phone": "770-614-0209",
-		"email": "strevel.1@opc.org",
-		"website": "http://covenant-presbyterian.church",
-		"address": "1420 Rock Springs Rd. Buford, GA 30519"
+		"name": "LIVING HOPE FELLOWSHIP",
+		"pastor": "Contact: Benjamin Ward",
+		"phone": "724-699-3397",
+		"email": "ward.1@opc.org",
+		"website": "https://livinghopesharon.org/",
+		"address": "292 Independence Ct. Sharon, PA 16146"
 	},
 	{
-		"id": "7a273ec0-b859-4714-b519-7d836a151ccb",
+		"id": "bf07583e-8c0e-4620-9f81-aca8a3be8daa",
 		"denom": "OPC",
-		"name": "Trinity",
-		"pastor": "Pastor: Miller Ansell",
-		"phone": "254-374-0774",
-		"email": "ansell.1@opc.org",
-		"website": "http://trinitywaco.org/",
-		"address": "208 Hewitt Dr., Suite 103-169 Waco, TX 76712"
+		"name": "GRACE REFORMED PRESBYTERIAN",
+		"pastor": "Pastor: Micah Bickford",
+		"phone": "207-314-2642",
+		"email": "info@gracereformedopc.org",
+		"website": "http://www.gracereformedopc.org",
+		"address": "270 Smithfield Road Oakland, ME 04963"
 	},
 	{
-		"id": "73264358-6f0d-4785-91fb-1e77125833bf",
+		"id": "333c0b81-4f25-4299-93e7-73d67bcc69f6",
 		"denom": "OPC",
-		"name": "HARVEST",
-		"pastor": "Pastor: Calvin Keller",
-		"phone": "336-331-5126; 706-406-8485",
-		"email": "keller.1@opc.org",
-		"website": "https://harvestopc.com/",
-		"address": "746 Lynn Dee Dr. Winston Salem, NC 27106"
+		"name": "NEW CITY FELLOWSHIP",
+		"pastor": "Contact: Dave Werner",
+		"phone": "616-427-3088",
+		"email": "admin@newcitygr.org, werner888@sbcglobal.net",
+		"website": "/locator.html?presbytery_id=11&search_go=Y",
+		"address": "700 Burton St. S.E Grand Rapids, MI 49507"
 	},
 	{
-		"id": "a0db14ae-df89-4bb3-9806-5b9a73d2297a",
+		"id": "15bd45fe-f113-4ae6-bae0-b60385f3fd42",
 		"denom": "OPC",
-		"name": "YUMA",
-		"pastor": "Pastor: Jeremy R. Baker",
-		"phone": "928-446-0883",
-		"email": "yumaopc@outlook.com",
-		"website": "http://www.yumaopc.com/",
-		"address": "598 S. 7th Ave Yuma, AZ 85364"
+		"name": "SOUTH AUSTIN",
+		"pastor": "Pastor: James J. Cassidy",
+		"phone": "512-758-9867",
+		"email": "cassidy.1@opc.org",
+		"website": "http://www.southaustinpres.org/",
+		"address": "8708 Verona Trail Austin, TX 79749"
 	},
 	{
-		"id": "6d3ebad4-5944-450b-b90a-edf4b4fe9506",
+		"id": "58def600-c659-4be2-840c-12f34d2364a8",
 		"denom": "OPC",
-		"name": "FAITH",
-		"pastor": "Pastor: Christopher D. Drew",
-		"phone": "701-215-3337",
-		"email": "drew.1@opc.org",
-		"website": "http://www.faithpresbyteriangf.org/",
-		"address": "1726 Washington St. South, Ste #41 Grand Forks, ND 58201"
+		"name": "EMMANUEL",
+		"pastor": "Pastor: Timothy Marinelli",
+		"phone": "720-600-2880",
+		"email": "marinelli.1@opc.org",
+		"website": "http://www.emmanuelopc.com",
+		"address": "P.O. Box 1803 Castle Rock, CO 80104"
 	},
 	{
-		"id": "0341b08b-f7f5-430e-a896-59c3deb698f9",
+		"id": "46ebe0a3-5b5d-4200-9eed-584c0b1cefbb",
 		"denom": "OPC",
-		"name": "MISSION",
-		"pastor": "Pastor: Ryan Cavanaugh",
-		"phone": "219-488-9252",
-		"email": "cavanaugh.1@opc.org",
-		"website": "https://www.missionchurchopc.org/",
-		"address": "P.O. Box 10091 Merrillville, IN 46411"
+		"name": "COVENANT FAMILY",
+		"pastor": "Pastor: Peter Bringe",
+		"phone": "303-656-5577; 636-466-5272",
+		"email": "bringe.1@opc.org",
+		"website": "http://www.covenantfamilychurch.net",
+		"address": "PO Box 568 Wentzville, MO 63385"
 	},
 	{
-		"id": "736991ed-eddd-458a-870e-42d045f0d408",
+		"id": "48a515f8-381b-4c9c-8e46-4dc8fa0f31d2",
 		"denom": "OPC",
-		"name": "COEUR D'LENE REFORMED",
-		"pastor": "Pastor: David G. Graves",
-		"phone": "937-789-8042",
-		"email": "graves.1@opc.org",
-		"website": "https://cdareformed.com",
-		"address": "5781 N Carlisle Rd. Coeur d'Alene, ID 83815"
+		"name": "FIRST CHURCH OF MERRIMACK",
+		"pastor": "Pastor: Allen C. Tomlinson",
+		"phone": "603-424-3133; 603-424-3947",
+		"email": "pastorallen@firstchurchofmerrimack.org",
+		"website": "http://www.firstchurchofmerrimack.org",
+		"address": "P.O. Box 507 Merrimack, NH 03054"
 	},
 	{
-		"id": "69781871-d0e0-4417-9817-19000627398f",
-		"denom": "OPC",
-		"name": "CHRIST",
-		"pastor": "Pastor: Greg O’Brien",
-		"phone": "737-703-8319",
-		"email": "obrien.1@opc.org",
-		"website": "https://www.downingtownopc.org/",
-		"address": "1006 Wilson Dr. Wilmington, DE 19803"
-	},
-	{
-		"id": "3e6c78bf-dff7-4061-a51d-57dbde6f2128",
+		"id": "bd2a9e61-0d9a-4d83-8551-622d20cc8acf",
 		"denom": "OPC",
 		"name": "LIVING WATER",
 		"pastor": "Pastor: Daniel Doleys",
@@ -3010,127 +2930,87 @@
 		"address": "1910 Saint Paris Pike Springfield, OH 45504"
 	},
 	{
-		"id": "af7d41ac-a297-45f9-88cb-fc610ac6e882",
+		"id": "b51f70b6-ccd3-4b39-a0f7-751e3c46867d",
 		"denom": "OPC",
-		"name": "Northern Calvert Reformed Mission",
-		"pastor": "Contact: Rev. Steve Doe",
-		"phone": "540-846-8081",
-		"email": "doe.1@opc.org",
-		"website": "http://www.joiningtheharvest.org",
-		"address": "9 Yosemite La. Fredericksburg, VA 22408"
+		"name": "COVENANT",
+		"pastor": "Pastor: Christopher B. Strevel, Sr.",
+		"phone": "770-614-0209",
+		"email": "strevel.1@opc.org",
+		"website": "http://covenant-presbyterian.church",
+		"address": "1420 Rock Springs Rd. Buford, GA 30519"
 	},
 	{
-		"id": "2754eb64-bffb-4b93-89a2-baffca36bc46",
+		"id": "4a094126-4970-4ac8-92c6-627c81e157e5",
 		"denom": "OPC",
-		"name": "GOOD SHEPHERD OPC",
-		"pastor": "Contact: Mark Sumpter",
-		"phone": "541-450-1982",
-		"email": "sumpter.1@opc.org",
-		"website": "https://gsopc.org",
-		"address": "16107 Kensington Drive, Box 192 Sugar Land, TX 77479-4224"
+		"name": "HARVEST",
+		"pastor": "Pastor: Calvin Keller",
+		"phone": "336-331-5126; 706-406-8485",
+		"email": "keller.1@opc.org",
+		"website": "https://harvestopc.com/",
+		"address": "746 Lynn Dee Dr. Winston Salem, NC 27106"
 	},
 	{
-		"id": "aa5624be-1831-49bb-a2b8-dac2fb52c5a8",
+		"id": "c96b1dc4-bf3e-4f46-bc23-7fcd6f82d791",
 		"denom": "OPC",
-		"name": "CORONA",
-		"pastor": "Pastor: Andrew Canavan",
-		"phone": "951-444-1309",
-		"email": "canavan.1@opc.org",
-		"website": "http://www.coronaopc.com",
-		"address": "9490 Nickellaus Ct Corona, CA 92883"
+		"name": "Trinity",
+		"pastor": "Pastor: Miller Ansell",
+		"phone": "254-374-0774",
+		"email": "ansell.1@opc.org",
+		"website": "http://trinitywaco.org/",
+		"address": "208 Hewitt Dr., Suite 103-169 Waco, TX 76712"
 	},
 	{
-		"id": "d25137a9-172b-4cc2-9f52-8a63e37e9dbb",
+		"id": "d71ee221-3db9-4548-8605-9e1b2857121a",
 		"denom": "OPC",
-		"name": "PASADENA",
-		"pastor": "Pastor: Matthew E. Cotta",
-		"phone": "630-967-8301",
-		"email": "cotta.1@opc.org",
-		"website": "http://www.pasadenaopc.com/",
-		"address": "330 San Miguel Dr. Arcadia, CA 91007"
+		"name": "YUMA",
+		"pastor": "Pastor: Jeremy R. Baker",
+		"phone": "928-446-0883",
+		"email": "yumaopc@outlook.com",
+		"website": "http://www.yumaopc.com/",
+		"address": "598 S. 7th Ave Yuma, AZ 85364"
 	},
 	{
-		"id": "ba79a327-b481-443e-bdd5-ffa0b1c08551",
+		"id": "029af842-07d7-4888-8a54-e08f961029b7",
 		"denom": "OPC",
-		"name": "REFORMATION",
-		"pastor": "Pastor: Joel M. Ellis, Jr.",
-		"phone": "706-957-5782, 480-352-6453",
-		"email": "ellis.2@opc.org",
-		"website": "http://www.reformationopcaz.org",
-		"address": "P.O. Box 4290 Apache Junction, AZ 85178"
+		"name": "COEUR D'LENE REFORMED",
+		"pastor": "Pastor: David G. Graves",
+		"phone": "937-789-8042",
+		"email": "graves.1@opc.org",
+		"website": "https://cdareformed.com",
+		"address": "5781 N Carlisle Rd. Coeur d'Alene, ID 83815"
 	},
 	{
-		"id": "d2f03a94-0d9f-4439-befe-7df822255073",
+		"id": "85117322-bd7f-4e6c-828c-cc7635e6144c",
 		"denom": "OPC",
-		"name": "NEW BRAUNFELS",
-		"pastor": "Pastor: Carl W. Miller",
-		"phone": "830-358-7020",
-		"email": "miller.7@opc.org",
-		"website": "https://nbopc.org",
-		"address": "1495 N. Business 35, Ste. 110 New Braunfels, TX 78130"
+		"name": "FAITH",
+		"pastor": "Pastor: Christopher D. Drew",
+		"phone": "701-215-3337",
+		"email": "drew.1@opc.org",
+		"website": "http://www.faithpresbyteriangf.org/",
+		"address": "1726 Washington St. South, Ste #41 Grand Forks, ND 58201"
 	},
 	{
-		"id": "ecef35a4-0361-437e-8273-7c6a214b5239",
+		"id": "bd2cda09-fe97-4525-8489-98523e24700e",
 		"denom": "OPC",
-		"name": "HERITAGE",
-		"pastor": "Pastor: Ethan Bolyard",
-		"phone": "864-608-8442",
-		"email": "ethan@heritageopc.com",
-		"website": "http://heritageopc.com/",
-		"address": "4208 Forwalt Pl. Wilmington, NC 28409"
+		"name": "MISSION",
+		"pastor": "Pastor: Ryan Cavanaugh",
+		"phone": "219-488-9252",
+		"email": "cavanaugh.1@opc.org",
+		"website": "https://www.missionchurchopc.org/",
+		"address": "P.O. Box 10091 Merrillville, IN 46411"
 	},
 	{
-		"id": "afd473bf-060d-4cbc-9aee-2b789e16c6c9",
+		"id": "31e397c9-8e37-4b9a-bcbf-0f33d5d9361f",
 		"denom": "OPC",
-		"name": "GRACE AND TRUTH",
-		"pastor": "Pastor: Ronald Beabout",
-		"phone": "240-751-2699",
-		"email": "beabout.1@opc.org",
-		"website": "http://graceandtruthopc.org",
-		"address": "217 Stoney Creek Dr. Ste. 59 Mifflintown, PA 17059"
+		"name": "CHRIST",
+		"pastor": "Pastor: Greg O’Brien",
+		"phone": "737-703-8319",
+		"email": "obrien.1@opc.org",
+		"website": "https://www.downingtownopc.org/",
+		"address": "1006 Wilson Dr. Wilmington, DE 19803"
 	},
 	{
-		"id": "32caae8c-1ce1-43b9-a462-73d1c2c2c76e",
-		"denom": "OPC",
-		"name": "CHRIST COVENANT",
-		"pastor": "Pastor: David Sarafolean",
-		"phone": "989-839-6563",
-		"email": "sarafolean.1@opc.org",
-		"website": "http://www.midlandopc.org",
-		"address": "2821 Ashman St. Midand, MI 48640"
-	},
-	{
-		"id": "1354b326-55fb-445a-802c-90db70eef236",
-		"denom": "OPC",
-		"name": "WEST SIDE BIBLE FELLOWSHIP",
-		"pastor": "Pastor: Bruce Kuiper",
-		"phone": "616-706-2198",
-		"email": "bruce@gracelegacybuilders.org",
-		"website": "https://westsidebiblefellowship.com",
-		"address": "507 Broadway Ave. NW Grand Rapids, MI 49504"
-	},
-	{
-		"id": "49e9c266-d5c0-4e91-87cf-a6142de8d113",
-		"denom": "OPC",
-		"name": "LIVING STONE FELLOWSHIP",
-		"pastor": "Contact: Jaron Judd",
-		"phone": "940-839-6860",
-		"email": "livingstonefellowshipwf@gmail.com",
-		"website": "https://www.livingstonewf.org/",
-		"address": "1530 PB Ln #L3456 Wichita Falls, TX 76302"
-	},
-	{
-		"id": "1237aa52-aaf9-48eb-8667-5ac61579c07b",
-		"denom": "OPC",
-		"name": "PROVIDENCE",
-		"pastor": "Pastor: Kevin Medcalf",
-		"phone": "770-880-6987",
-		"email": "medcalf.1@opc.org",
-		"website": "https://toglorifygod.org/",
-		"address": "2035 Buford Dam Rd. Cumming, GA 30041"
-	},
-	{
-		"id": "aacf5bde-4865-47d8-9ea1-4a521417010d",
+		"id": "00e30d98-a0d4-416f-bd67-236551ee4cb9",
 		"denom": "OPC",
 		"name": "RESURRECTION",
 		"pastor": "Pastor: Robert Holda",
@@ -3140,7 +3020,107 @@
 		"address": "1205 Congress Avenue Oshkosh, WI 54901"
 	},
 	{
-		"id": "7670cb66-89f4-4490-b016-5ace2aef682e",
+		"id": "c3263f48-48f2-4558-b261-89398f91ced0",
+		"denom": "OPC",
+		"name": "REFORMATION",
+		"pastor": "Pastor: Joel M. Ellis, Jr.",
+		"phone": "706-957-5782, 480-352-6453",
+		"email": "ellis.2@opc.org",
+		"website": "http://www.reformationopcaz.org",
+		"address": "P.O. Box 4290 Apache Junction, AZ 85178"
+	},
+	{
+		"id": "bde7a3e6-0c23-4ae2-aef4-a6b61bdd55a6",
+		"denom": "OPC",
+		"name": "CORONA",
+		"pastor": "Pastor: Andrew Canavan",
+		"phone": "951-444-1309",
+		"email": "canavan.1@opc.org",
+		"website": "http://www.coronaopc.com",
+		"address": "9490 Nickellaus Ct Corona, CA 92883"
+	},
+	{
+		"id": "6e75c168-5974-462b-825a-a68310332060",
+		"denom": "OPC",
+		"name": "GOOD SHEPHERD OPC",
+		"pastor": "Contact: Mark Sumpter",
+		"phone": "541-450-1982",
+		"email": "sumpter.1@opc.org",
+		"website": "https://gsopc.org",
+		"address": "16107 Kensington Drive, Box 192 Sugar Land, TX 77479-4224"
+	},
+	{
+		"id": "ccd56981-e13c-4e29-86c2-cf090088b5cd",
+		"denom": "OPC",
+		"name": "Northern Calvert Reformed Mission",
+		"pastor": "Contact: Rev. Steve Doe",
+		"phone": "540-846-8081",
+		"email": "doe.1@opc.org",
+		"website": "http://www.joiningtheharvest.org",
+		"address": "9 Yosemite La. Fredericksburg, VA 22408"
+	},
+	{
+		"id": "12d2c31a-37f6-4283-b66b-6924d2654c9e",
+		"denom": "OPC",
+		"name": "NEW BRAUNFELS",
+		"pastor": "Pastor: Carl W. Miller",
+		"phone": "830-358-7020",
+		"email": "miller.7@opc.org",
+		"website": "https://nbopc.org",
+		"address": "1495 N. Business 35, Ste. 110 New Braunfels, TX 78130"
+	},
+	{
+		"id": "b03cf350-59c0-4b55-9b0a-4fe9e8dc0529",
+		"denom": "OPC",
+		"name": "PASADENA",
+		"pastor": "Pastor: Matthew E. Cotta",
+		"phone": "630-967-8301",
+		"email": "cotta.1@opc.org",
+		"website": "http://www.pasadenaopc.com/",
+		"address": "330 San Miguel Dr. Arcadia, CA 91007"
+	},
+	{
+		"id": "21b81bed-13fb-43e4-b834-50c6e31ab278",
+		"denom": "OPC",
+		"name": "HERITAGE",
+		"pastor": "Pastor: Ethan Bolyard",
+		"phone": "864-608-8442",
+		"email": "ethan@heritageopc.com",
+		"website": "http://heritageopc.com/",
+		"address": "4208 Forwalt Pl. Wilmington, NC 28409"
+	},
+	{
+		"id": "6b2484a1-2ae9-4a32-a0a7-5be81cbc349e",
+		"denom": "OPC",
+		"name": "CHRIST COVENANT",
+		"pastor": "Pastor: David Sarafolean",
+		"phone": "989-839-6563",
+		"email": "sarafolean.1@opc.org",
+		"website": "http://www.midlandopc.org",
+		"address": "2821 Ashman St. Midand, MI 48640"
+	},
+	{
+		"id": "9ed25734-d6dc-4f7a-9e1d-f0f1bb90e1f9",
+		"denom": "OPC",
+		"name": "GRACE AND TRUTH",
+		"pastor": "Pastor: Ronald Beabout",
+		"phone": "240-751-2699",
+		"email": "beabout.1@opc.org",
+		"website": "http://graceandtruthopc.org",
+		"address": "217 Stoney Creek Dr. Ste. 59 Mifflintown, PA 17059"
+	},
+	{
+		"id": "0981bd63-fc86-454f-bc87-0b82c10fa540",
+		"denom": "OPC",
+		"name": "PROVIDENCE",
+		"pastor": "Pastor: Kevin Medcalf",
+		"phone": "770-880-6987",
+		"email": "medcalf.1@opc.org",
+		"website": "https://toglorifygod.org/",
+		"address": "2035 Buford Dam Rd. Cumming, GA 30041"
+	},
+	{
+		"id": "d093d1cb-993d-4c95-a9b5-541ab02209f4",
 		"denom": "OPC",
 		"name": "CHRIST PRESBYTERIAN CHURCH",
 		"pastor": "Pastor: John Canales",
@@ -3150,7 +3130,17 @@
 		"address": "3410 Peters Colony Rd. Flower Mound, TX 75022"
 	},
 	{
-		"id": "c303cbac-46fa-465e-9e40-f5a2c81498b4",
+		"id": "9ef447b8-078c-48b5-bb35-7f88d60ee447",
+		"denom": "OPC",
+		"name": "WEST SIDE BIBLE FELLOWSHIP",
+		"pastor": "Pastor: Bruce Kuiper",
+		"phone": "616-706-2198",
+		"email": "bruce@gracelegacybuilders.org",
+		"website": "https://westsidebiblefellowship.com",
+		"address": "507 Broadway Ave. NW Grand Rapids, MI 49504"
+	},
+	{
+		"id": "29814eca-aec9-4a00-a398-d905524e2068",
 		"denom": "OPC",
 		"name": "REFORMATION",
 		"pastor": "Pastor: Shane M. Bennett",
@@ -3160,17 +3150,17 @@
 		"address": "2565 Forest Hill Ave SE, Suite 101 Grand Rapids, MI 49546"
 	},
 	{
-		"id": "be60aa79-8388-43cc-836e-ef6aa224c581",
+		"id": "7cb56d41-b000-435f-b158-67defd8e9162",
 		"denom": "OPC",
-		"name": "THE HAVEN",
-		"pastor": "Pastor: William Shishko",
-		"phone": "516-581-5242",
-		"email": "WShishko@gmail.com",
-		"website": "https://www.thehavenli.com",
-		"address": "65 Weber Ave. Malverne, NY 11565"
+		"name": "LIVING STONE FELLOWSHIP",
+		"pastor": "Contact: Jaron Judd",
+		"phone": "940-839-6860",
+		"email": "livingstonefellowshipwf@gmail.com",
+		"website": "https://www.livingstonewf.org/",
+		"address": "1530 PB Ln #L3456 Wichita Falls, TX 76302"
 	},
 	{
-		"id": "efdb47f9-6243-45cc-9094-0fe60b329990",
+		"id": "88bdb0fd-af6a-44b4-a151-ff6281a9260e",
 		"denom": "OPC",
 		"name": "FIRST STREET REFORMED FELLOWSHIP",
 		"pastor": "Pastor: Tyler Detrick",
@@ -3180,17 +3170,17 @@
 		"address": "59 Burgess Ave Dayton, OH 45415"
 	},
 	{
-		"id": "92d20877-ef1b-415e-8663-183e4957564d",
+		"id": "e92d9875-1e49-49d9-a15a-7b091a6fcd35",
 		"denom": "OPC",
-		"name": "PILGRIM",
-		"pastor": "Pastor: Benjamin Rochester",
-		"phone": "619-328-7555",
-		"email": "pilgrimpres@gmail.com",
-		"website": "/locator.html?presbytery_id=3&search_go=Y",
-		"address": "925 St. George Court Spring Valley, CA 91977"
+		"name": "THE HAVEN",
+		"pastor": "Pastor: William Shishko",
+		"phone": "516-581-5242",
+		"email": "WShishko@gmail.com",
+		"website": "https://www.thehavenli.com",
+		"address": "65 Weber Ave. Malverne, NY 11565"
 	},
 	{
-		"id": "bd2c634f-b97b-4a5f-8fb3-21e7928291f7",
+		"id": "c3dbcddb-85ca-452a-9046-26befa14c834",
 		"denom": "OPC",
 		"name": "WESTMINSTER PRESBYTERIAN FELLOWSHIP",
 		"pastor": "Contact: Dave Holmlund",
@@ -3200,67 +3190,7 @@
 		"address": "526 Robbins Way Mountain Top, PA 18707"
 	},
 	{
-		"id": "102c09c2-1e9e-4ee7-bc6e-e4ac604801ff",
-		"denom": "OPC",
-		"name": "IGLESIA PRESBITERIANA SOLA ESCRITURA",
-		"pastor": "Pastor: Bradney Lopez",
-		"phone": "787-271-6152",
-		"email": "lopez.1@opc.org",
-		"website": "/locator.html?presbytery_id=15&search_go=Y",
-		"address": "P.O. Box 1073  Arroyo, PR 00714"
-	},
-	{
-		"id": "1adc5be8-f159-4c78-9b9c-6186701b1912",
-		"denom": "OPC",
-		"name": "GRACE FELLOWSHIP",
-		"pastor": "Pastor: Michael Schout",
-		"phone": "616-401-3203",
-		"email": "pastor@gracefellowshipopc.com",
-		"website": "https://www.gracefellowshipopc.com",
-		"address": "PO Box 62 Zeeland, MI 49464"
-	},
-	{
-		"id": "8fdac2a8-d6e3-4b97-a859-916e6d53aad1",
-		"denom": "OPC",
-		"name": "SOVEREIGN GRACE FELLOWSHIP",
-		"pastor": "Contact: Peder Kling",
-		"phone": "928-651-9688",
-		"email": "sovereigngracewilliams@gmail.com",
-		"website": "https://www.sovereigngracewilliams.com/",
-		"address": "P.O. Box 1305 Ash Fork, AZ 86320-1305"
-	},
-	{
-		"id": "c04e35d7-adce-4505-9168-5a8305c5a765",
-		"denom": "OPC",
-		"name": "PENINSULA REFORMED PRESBYTERIAN CHURCH",
-		"pastor": "Contact: Rev. Lowell Ivey",
-		"phone": "757-286-7929",
-		"email": "ivey.1@opc.org",
-		"website": "https://peninsulareformed.com",
-		"address": "5298 Barharbor Dr Norfolk, VA 23502"
-	},
-	{
-		"id": "f3ad00a3-4895-4b7e-a2a2-343c162e14b6",
-		"denom": "OPC",
-		"name": "JEHOASH",
-		"pastor": "Pastor: Gerald Malkus, Stated Supply",
-		"phone": "315-727-9638",
-		"email": "malkus.1@opc.org",
-		"website": "https://jehoashpres.com/",
-		"address": "9304 Onyx Ct. Fredericksburg, VA 22407"
-	},
-	{
-		"id": "4449325d-48e3-4d73-bf87-7bf8657e7a8f",
-		"denom": "OPC",
-		"name": "LANDIS",
-		"pastor": "Contact: Elder Mike Cloy",
-		"phone": "828-756-7470; 803-673-4645",
-		"email": "opcmikecloy@gmail.com",
-		"website": "https://landischurch.org/",
-		"address": "4975 US-221 North Marion, NC 28752"
-	},
-	{
-		"id": "9c30c1b1-1431-4ab2-8838-b21874d04e99",
+		"id": "b2036326-effc-4bb4-b48b-192eb70bf9af",
 		"denom": "OPC",
 		"name": "WILMINGTON REFORMED CHURCH",
 		"pastor": "Pastor: Stephen Lauer",
@@ -3270,17 +3200,47 @@
 		"address": "550 Virginia Cir. Wilmington, OH 45177"
 	},
 	{
-		"id": "e78af06c-6c19-48a9-81f2-daebc85154bf",
+		"id": "3338f567-1db8-4bf5-952b-cb74743b0d9e",
 		"denom": "OPC",
-		"name": "Crosby Area OPC Bible Study",
-		"pastor": "Contact: Rev. Nick Lammé",
-		"phone": "Rev. Nick Lammé Phone: 346-323-8771 - call for location",
-		"email": "",
-		"website": "/locator.html?presbytery_id=16&search_go=Y",
-		"address": "19703 Big Timber Dr. Humble, TX 77346"
+		"name": "JEHOASH",
+		"pastor": "Pastor: Gerald Malkus, Stated Supply",
+		"phone": "315-727-9638",
+		"email": "malkus.1@opc.org",
+		"website": "https://jehoashpres.com/",
+		"address": "9304 Onyx Ct. Fredericksburg, VA 22407"
 	},
 	{
-		"id": "fd2bebbc-942d-476e-b022-ec03117a1aa9",
+		"id": "523cd3ba-96b2-4a34-9b2f-b5fd60031310",
+		"denom": "OPC",
+		"name": "PENINSULA REFORMED PRESBYTERIAN CHURCH",
+		"pastor": "Contact: Rev. Lowell Ivey",
+		"phone": "757-286-7929",
+		"email": "ivey.1@opc.org",
+		"website": "https://peninsulareformed.com",
+		"address": "5298 Barharbor Dr Norfolk, VA 23502"
+	},
+	{
+		"id": "14248c94-0eaa-4efc-bfc7-e79b9e22546e",
+		"denom": "OPC",
+		"name": "GRACE FELLOWSHIP",
+		"pastor": "Pastor: Michael Schout",
+		"phone": "616-401-3203",
+		"email": "pastor@gracefellowshipopc.com",
+		"website": "https://www.gracefellowshipopc.com",
+		"address": "PO Box 62 Zeeland, MI 49464"
+	},
+	{
+		"id": "94165fc0-2894-4e83-ab33-5aa7ceb8666c",
+		"denom": "OPC",
+		"name": "IGLESIA PRESBITERIANA SOLA ESCRITURA",
+		"pastor": "Pastor: Bradney Lopez",
+		"phone": "787-271-6152",
+		"email": "lopez.1@opc.org",
+		"website": "/locator.html?presbytery_id=15&search_go=Y",
+		"address": "P.O. Box 1073  Arroyo, PR 00714"
+	},
+	{
+		"id": "b5cfaa35-82ad-43e8-b0ec-b98ae2e43908",
 		"denom": "OPC",
 		"name": "GRACE",
 		"pastor": "Pastor: Andrew Wilson",
@@ -3290,27 +3250,27 @@
 		"address": "174 Province St Laconia, NH 03246"
 	},
 	{
-		"id": "ae394a86-567e-40c8-ae86-3d2c47526211",
+		"id": "bf6eb7f0-601c-4c6d-8426-a02be2fd6347",
 		"denom": "OPC",
-		"name": "MISSION OPC CULPEPER BIBLE STUDY",
-		"pastor": "Contact: Andrew Miller",
-		"phone": "540-898-8081",
-		"email": "BRPCfredericksburg@gmail.com",
-		"website": "/locator.html?presbytery_id=14&search_go=Y",
-		"address": "22701"
+		"name": "LANDIS",
+		"pastor": "Contact: Elder Mike Cloy",
+		"phone": "828-756-7470; 803-673-4645",
+		"email": "opcmikecloy@gmail.com",
+		"website": "https://landischurch.org/",
+		"address": "4975 US-221 North Marion, NC 28752"
 	},
 	{
-		"id": "f00e2c7b-a48c-498d-b90a-399c6da09b8b",
+		"id": "19983ff4-2226-4dc2-a315-2a1983c918c5",
 		"denom": "OPC",
-		"name": "COVENANT REFORMED CHURCH",
-		"pastor": "Pastor: Paul Mourreale",
-		"phone": "417-414-0895",
-		"email": "mourreale.1@opc.org",
-		"website": "https://covenantreformedopc.org",
-		"address": "10044 County Road 8490 West Plains, MO 65775"
+		"name": "PILGRIM",
+		"pastor": "Pastor: Benjamin Rochester",
+		"phone": "619-328-7555",
+		"email": "pilgrimpres@gmail.com",
+		"website": "/locator.html?presbytery_id=3&search_go=Y",
+		"address": "925 St. George Court Spring Valley, CA 91977"
 	},
 	{
-		"id": "4cfb6038-e05c-48bf-abab-99e00536d9b6",
+		"id": "8ccd0c6b-fa44-4601-9944-828971f24cf5",
 		"denom": "OPC",
 		"name": "COVENANT",
 		"pastor": "Pastor: Dr. Ron Gleason",
@@ -3320,7 +3280,27 @@
 		"address": "39 Sheridan Park Cir., Unit 8 Bluffton, SC 29910"
 	},
 	{
-		"id": "0a28f9c0-81aa-469d-a174-13b0af1eb9a7",
+		"id": "992b0343-3a0e-4003-9e40-aca29a0679fd",
+		"denom": "OPC",
+		"name": "KNOX REFORMED PRESBYTERIAN CHURCH",
+		"pastor": "Pastor: Jeff Downs",
+		"phone": "804-779-7608",
+		"email": "downs.1@opc.org",
+		"website": "http://www.knoxreformedpres.org",
+		"address": "4883 Southard Ln. Mechanicsville, VA 23116"
+	},
+	{
+		"id": "3c191cd0-db22-46ba-804f-5754843184a5",
+		"denom": "OPC",
+		"name": "Crosby Area OPC Bible Study",
+		"pastor": "Contact: Rev. Nick Lammé",
+		"phone": "Rev. Nick Lammé Phone: 346-323-8771 - call for location",
+		"email": "",
+		"website": "/locator.html?presbytery_id=16&search_go=Y",
+		"address": "19703 Big Timber Dr. Humble, TX 77346"
+	},
+	{
+		"id": "36b2c80c-06fe-4345-a460-2fa4b73182e4",
 		"denom": "OPC",
 		"name": "OPC BIBLE STUDY",
 		"pastor": "Contact: Andrew Miller",
@@ -3330,37 +3310,37 @@
 		"address": "23233"
 	},
 	{
-		"id": "7324cac6-68f2-4eec-9e1c-71a4cc853378",
+		"id": "b557ee9a-19ea-455b-9784-eb5f8bf806da",
 		"denom": "OPC",
-		"name": "CENTRAL BUCKS OPC MISSION",
-		"pastor": "Contact: Regional Home Missionary ",
-		"phone": "215-237-5514",
-		"email": "daveholmlund@gmail.com",
-		"website": "/locator.html?presbytery_id=5&search_go=Y",
-		"address": "3040 Yorkshire Rd. Doylestown, PA 18902"
+		"name": "MISSION OPC CULPEPER BIBLE STUDY",
+		"pastor": "Contact: Andrew Miller",
+		"phone": "540-898-8081",
+		"email": "BRPCfredericksburg@gmail.com",
+		"website": "/locator.html?presbytery_id=14&search_go=Y",
+		"address": "22701"
 	},
 	{
-		"id": "4ed8b2c2-e3e2-4b44-b235-18d1638eb220",
+		"id": "5cd98162-72a3-43bb-8eab-a3262a7482eb",
 		"denom": "OPC",
-		"name": "MONROE COUNTY OPC",
-		"pastor": "Contact: Christian McShaffrey",
-		"phone": "608-524-5856",
-		"email": "mcshaffrey.1@opc.org",
-		"website": "https://kendallreformedchurch.com/",
-		"address": "104 E Hall St. PO Box 274 Kendall, WI 54638"
+		"name": "SOVEREIGN GRACE FELLOWSHIP",
+		"pastor": "Contact: Peder Kling",
+		"phone": "928-651-9688",
+		"email": "sovereigngracewilliams@gmail.com",
+		"website": "https://www.sovereigngracewilliams.org",
+		"address": "P.O. Box 1305 Ash Fork, AZ 86320-1305"
 	},
 	{
-		"id": "73e331de-576b-46e0-b6e5-a458bb710442",
+		"id": "44c151a4-5684-485e-b380-0a61c259cf62",
 		"denom": "OPC",
-		"name": "Living Hope",
-		"pastor": "Pastor: Alan Pontier, Stated Supply",
-		"phone": "562-405-9440",
-		"email": "office@livinghopeopc.com",
-		"website": "https://www.livinghopeopc.com",
-		"address": "18100 Dumont Ave Cerritos, CA 90703"
+		"name": "COVENANT REFORMED CHURCH",
+		"pastor": "Pastor: Paul Mourreale",
+		"phone": "417-414-0895",
+		"email": "mourreale.1@opc.org",
+		"website": "https://covenantreformedopc.org",
+		"address": "10044 County Road 8490 West Plains, MO 65775"
 	},
 	{
-		"id": "f370df32-36be-4ad2-9f2e-e0ee952a16b7",
+		"id": "3a7142a3-2ebd-49b8-83e0-21f7f673a360",
 		"denom": "OPC",
 		"name": "THOUSAND OAKS",
 		"pastor": "Contact: Caleb Smith",
@@ -3370,19 +3350,35 @@
 		"address": "180 Whitworth St. Thousand Oaks, CA 91360"
 	},
 	{
-		"id": "f9517fdb-c320-4242-9b8f-a019c83cb9c1",
+		"id": "65ac22a0-f3b9-4ddf-8084-08801a251741",
 		"denom": "OPC",
-		"name": "KNOX REFORMED PRESBYTERIAN CHURCH",
-		"pastor": "Pastor: Jeff Downs",
-		"phone": "804-779-7608",
-		"email": "downs.1@opc.org",
-		"website": "http://www.knoxreformedpres.org",
-		"address": "4883 Southard Ln. Mechanicsville, VA 23116"
+		"name": "CENTRAL BUCKS OPC MISSION",
+		"pastor": "Contact: Regional Home Missionary ",
+		"phone": "215-237-5514",
+		"email": "daveholmlund@gmail.com",
+		"website": "/locator.html?presbytery_id=5&search_go=Y",
+		"address": "3040 Yorkshire Rd. Doylestown, PA 18902"
 	},
-	null,
-	null,
-	null,
-	null,
+	{
+		"id": "72b7ea07-0351-4e04-b059-897a7047768b",
+		"denom": "OPC",
+		"name": "Living Hope",
+		"pastor": "Pastor: Alan Pontier, Stated Supply",
+		"phone": "562-405-9440",
+		"email": "office@livinghopeopc.com",
+		"website": "https://www.livinghopeopc.com",
+		"address": "18100 Dumont Ave Cerritos, CA 90703"
+	},
+	{
+		"id": "0ab068f8-f8ca-4d47-86ca-a86de1e5f657",
+		"denom": "OPC",
+		"name": "MONROE COUNTY OPC",
+		"pastor": "Contact: Christian McShaffrey",
+		"phone": "608-524-5856",
+		"email": "mcshaffrey.1@opc.org",
+		"website": "https://kendallreformedchurch.com/",
+		"address": "104 E Hall St. PO Box 274 Kendall, WI 54638"
+	},
 	null,
 	null,
 	null,

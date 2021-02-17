@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import rpcna from './api/rpcna.json';
 import opc from './api/opc.json'
+import hrc from './api/hrc.json'
 import Header from './components/Header';
 import Search from './components/Search';
 import Card from './components/Card';
@@ -15,7 +16,7 @@ function App() {
 
 
 	useEffect(() => {
-		setAllCong(opc.concat(rpcna));
+		setAllCong(opc.concat(rpcna).concat(hrc));
 		searchRef.current.focus()
 
 	}, []);

@@ -10,7 +10,7 @@ let totalRejects = 0;
 function writeJson(num1, num2) {
 	console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
 
-	if (num1 + num2 === 599) {
+	if (num1 + num2 === 595) {
 		const data = JSON.stringify(churchArray);
 		fs.writeFileSync('../../frontend/src/api/opc.json', data);
 		console.log('JSON Created');
@@ -30,7 +30,6 @@ function getURL(res) {
 			.text()
 			.replace(/\-.*/g, '')
 			.replace(/\s\s+/g, '')
-			.toLowerCase()
 			.trim();
 
 		const address = card

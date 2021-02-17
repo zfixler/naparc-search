@@ -8,12 +8,26 @@ export default function Search({props}) {
 	const ref = useRef(null)
 
 	const scroll = () => {
-		if(window.scrollY >= 225){
-			setHasScrolled(true)
+		if(window.innerWidth > 500){
+			if(window.scrollY >= 225){
+				setHasScrolled(true)
+			} else {
+				setHasScrolled(false)
+			}
 		} else {
-			setHasScrolled(false)
+			if(window.scrollY >= 184){
+				setHasScrolled(true)
+			} else {
+				setHasScrolled(false)
+			}
 		}
+	
 	}
+
+	useEffect(() => {
+		window.addEventListener('scroll', scroll)
+		return () => { window.removeEventListener('scroll', scroll)}
+	}, [])
 
 	window.addEventListener('scroll', scroll)
 
