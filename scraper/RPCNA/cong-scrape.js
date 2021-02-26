@@ -1,8 +1,9 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const fs = require('fs');
-const urlList = require('./url-list.json');
 const { v4: uuidv4 } = require('uuid');
+
+const urlList = []
 
 function getData(html) {
 	const $ = cheerio.load(html);
@@ -11,9 +12,7 @@ function getData(html) {
 
 	const congName = $(el).find('h1').html().replace(/\<.*/g, '').trim();
 
-	console.log(congName);
-
-	const pastor = $(el).find('p').first().text();
+	const pastor = $(el).find('p').first().text().replace(/,.*/g, '').trim();
 
 	const phone = $(el)
 		.find('table')
@@ -23,7 +22,8 @@ function getData(html) {
 		.children()
 		.last()
 		.text()
-		.replace(/\s\s+/g, ' ');
+		.replace(/\s\s+/g, ' ')
+		.trim();
 
 	const email = $(el)
 		.find('table')
@@ -68,7 +68,9 @@ function getData(html) {
 		address: address,
 	};
 
-	console.log(churchArray.length);
+	console.log(`${churchArray.length} of ${urlList.length} scraped.`);
+	console.log(congregation)
+
 
 	return congregation;
 }
@@ -91,6 +93,21 @@ async function createArray(url) {
 	}
 }
 
-urlList.forEach((url) => {
-	createArray(url);
-});
+async function getURL() {
+	const page = await fetch('https://reformedpresbyterian.org/congregations/list/category/usa')
+	const html = await page.text()
+	
+	const $ = cheerio.load(html);
+	
+
+	$('.church_directory table tbody tr').each((i, el) => {
+		const churchURL = $(el).find('a').first().attr('href');
+		urlList.push(churchURL);
+	});
+
+	urlList.forEach((url) => {
+		createArray(url);
+	});
+}
+
+getURL()

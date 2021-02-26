@@ -43,7 +43,7 @@ function getURL(res) {
 			return $(this).text().trim() === 'Contact Information';
 		});
 
-		const pastor = contact.next().html().replace(/\<.*/g, '');
+		const pastor = contact.next().html().replace(/\<.*/g, '').replace(/Pastor:/, '').trim();
 
 		const email = contact.next().find('a').text();
 
@@ -71,10 +71,10 @@ function getURL(res) {
 		writeJson(totalHits, totalRejects);
 		console.log(congregation);
 		return congregation;
+
 	} else {
 		totalRejects += 1;
 		writeJson(totalHits, totalRejects);
-		console.log('Nada');
 	}
 }
 

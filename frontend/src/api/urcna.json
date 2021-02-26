@@ -1,0 +1,1162 @@
+[
+	{
+		"id": "ccd7954f-f730-40fe-ba46-8d14de47310a",
+		"name": "Adoration United Reformed Church",
+		"denom": "URCNA",
+		"address": "B-3327 Menno Street Vineland ON L0R 2C0",
+		"pastor": "Bryce De Zwarte",
+		"phone": "(905) 321-0083",
+		"email": "clerk@adorationurc.ca",
+		"website": "http://www.adorationurc.ca"
+	},
+	{
+		"id": "7e998198-e701-4773-ad35-51e30555faf9",
+		"name": "Anchor of Hope Reformed Church",
+		"denom": "URCNA",
+		"address": "10625 Ridgetop Blvd Silverdale WA 98383",
+		"pastor": "Rev. Jacob Meadows",
+		"phone": "(360) 698-9487",
+		"email": "pastor@anchorofhopechurch.org",
+		"website": "http://www.anchorofhopechurch.org"
+	},
+	{
+		"id": "e2b6fcc9-b913-4c2a-bc08-a87d8169b8ab",
+		"name": "Bellingham United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 31265 Bellingham WA 98227",
+		"pastor": "Rev. Benjamin P. Davenport",
+		"phone": "(425) 971-5376",
+		"email": "davenporter@gmail.com",
+		"website": "http://www.bellinghamurc.com"
+	},
+	{
+		"id": "ff90c797-4a27-44f3-91f0-cb9232009083",
+		"name": "Belgrade United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 324 Belgrade MT 59714",
+		"pastor": "Rev. Paul Lindemulder",
+		"phone": "(406) 220-2343",
+		"email": "pastor@urcbelgrade.com",
+		"website": "http://www.urcbelgrade.com"
+	},
+	{
+		"id": "c5a6a793-6c28-419a-9d77-56d3bd363753",
+		"name": "Bethel Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 3847 Smithers BC V0J 2N0",
+		"pastor": "Rev. Simon Lievaart",
+		"phone": "(250) 847-5100",
+		"email": "bethelsmithers@gmail.com",
+		"website": "http://www.bethelsmithers.ca"
+	},
+	{
+		"id": "f27d2cf9-2ab6-4195-b86f-68ff5bdb74f9",
+		"name": "Bethany United Reformed Church",
+		"denom": "URCNA",
+		"address": "5401 Byron Center Ave., SW Wyoming MI 49519",
+		"pastor": "Rev. Eric Van Der Molen",
+		"phone": "(616) 534-0006",
+		"email": "bethany@bethanyurc.com",
+		"website": "http://www.bethanyurc.com"
+	},
+	{
+		"id": "d05953f2-b706-45ae-b496-9f88e3c0fc94",
+		"name": "Bethel United Reformed Church of Brockville",
+		"denom": "URCNA",
+		"address": "3938 County Road 26 Brockville ON K6V 5T2",
+		"pastor": "Rev. Pete Van't Hoff",
+		"phone": "(613) 989-2743",
+		"email": "brockvilleurc@gmail.com",
+		"website": "http://www.brockville-urc.com"
+	},
+	{
+		"id": "cc1a2005-3592-4179-8efd-a835763b3176",
+		"name": "Bethel United Reformed Church of Aylmer",
+		"denom": "URCNA",
+		"address": "P.O. Box 244 Springfield ON N0L 2J0",
+		"pastor": "Rev. Jeremy Veldman",
+		"phone": "(519) 765-1500",
+		"email": "clerk@bethelurcaylmer.com",
+		"website": "http://www.bethelurcaylmer.com"
+	},
+	{
+		"id": "fb5fa4c7-8e8f-4d36-bbbf-f0580ced0ffa",
+		"name": "Bethel United Reformed Church of Calgary",
+		"denom": "URCNA",
+		"address": "730 - 101 St. SW Calgary AB T3H 3Z5",
+		"pastor": "Rev. Keith Davis",
+		"phone": "(403) 249-9971",
+		"email": "office@bethelurc.org",
+		"website": "http://www.bethelurc.org"
+	},
+	{
+		"id": "c1d0f368-ffc0-4f40-bdcd-22f43967ba74",
+		"name": "Bethel United Reformed Church of Jenison",
+		"denom": "URCNA",
+		"address": "8360 Cottonwood Dr. Jenison MI 49428-9319",
+		"pastor": "Rev. Wm. Jason Tuinstra",
+		"phone": "(616) 457-4001",
+		"email": "BethelJenison@gmail.com",
+		"website": "http://www.BethelJenison.com"
+	},
+	{
+		"id": "17afa499-23d6-4e11-8718-e1dcb1f11008",
+		"name": "Bethel United Reformed Church of Woodstock",
+		"denom": "URCNA",
+		"address": "862 Alice Street Woodstock ON N4S 2J6",
+		"pastor": "Rev. James Sinke",
+		"phone": "(519) 533-1536",
+		"email": "clerk@bethelurcwoodstock.com",
+		"website": "http://www.bethelurcwoodstock.com"
+	},
+	{
+		"id": "b8d7b22c-7f6f-442d-b066-997aad11ffe7",
+		"name": "Burlington United Reformed Church",
+		"denom": "URCNA",
+		"address": "778 N. Burlington Blvd. Burlington WA 98233",
+		"pastor": "Rev. Mark Stewart",
+		"phone": "(360) 757-4620",
+		"email": "mstewart25@juno.com",
+		"website": "http://www.burlingtonurc.org"
+	},
+	{
+		"id": "b8d33db8-19ac-4a46-be30-0a302f949f8b",
+		"name": "Big Springs United Reformed Church",
+		"denom": "URCNA",
+		"address": "7220 County Highway A12 Montague CA 96064",
+		"pastor": "Rev. Nollie Malabuyo",
+		"phone": "(530) 598-7584",
+		"email": "threejs@cot.net",
+		"website": "http://www.bigspringscommunitychurch.org"
+	},
+	{
+		"id": "07caea49-7e96-48aa-9c91-5ed13ecb06f1",
+		"name": "Christ Reformed Church of Anaheim",
+		"denom": "URCNA",
+		"address": "900 S. Sunkist St. Anaheim CA 92806",
+		"pastor": "Dr. Kim Riddlebarger",
+		"phone": "(714) 538-1057",
+		"email": "urcanaheim@aol.com",
+		"website": "http://www.christreformed.org"
+	},
+	{
+		"id": "396983b4-e7c2-4636-b0f9-ffe3b1f8b6de",
+		"name": "Christ Reformed Church of Sioux Falls",
+		"denom": "URCNA",
+		"address": "400 E. 41st St Sioux Falls SD 57105",
+		"pastor": "Rev. Spencer Aalsburg",
+		"phone": "(605) 330-0271",
+		"email": "info@christreformedsf.org",
+		"website": "http://www.ChristReformedSF.org"
+	},
+	{
+		"id": "6b90ff86-52df-404d-92f7-2aaf39f739b0",
+		"name": "Calvary United Reformed Church",
+		"denom": "URCNA",
+		"address": "3901 14th St. S.W. Loveland CO 80537",
+		"pastor": "Vacant",
+		"phone": "(970) 667-0603",
+		"email": "office@calvaryurc.org",
+		"website": "http://www.calvaryurc.org/"
+	},
+	{
+		"id": "b526e0d9-bbdc-4e28-bcda-243adf76e701",
+		"name": "Christ Reformed Church of Washington D.C.",
+		"denom": "URCNA",
+		"address": "P.O. Box 6135 Washington DC 20044",
+		"pastor": "Rev. Dr. Brian J. Lee",
+		"phone": "(202) 656-1611",
+		"email": "info@christreformeddc.org",
+		"website": "http://www.ChristReformedDC.org"
+	},
+	{
+		"id": "b989c608-3cfa-459e-81ae-93e1f7e7a1aa",
+		"name": "Christ United Reformed Church of Santee",
+		"denom": "URCNA",
+		"address": "10333 Mast Blvd. Santee CA 92071",
+		"pastor": "Rev. William C. Godfrey",
+		"phone": "(619) 258-8500",
+		"email": "clerk@christurc.org",
+		"website": "http://www.christurc.org"
+	},
+	{
+		"id": "41b6958f-5c98-474e-97f3-86404d5017ce",
+		"name": "Cloverdale United Reformed Church",
+		"denom": "URCNA",
+		"address": "3580 N. Cloverdale Rd. Boise ID 83713",
+		"pastor": "Rev. Russell Herman",
+		"phone": "(208) 375-4219",
+		"email": "curcoffice@cloverdaleurc.net",
+		"website": "http://www.cloverdaleurc.org"
+	},
+	{
+		"id": "ef140c13-5388-4f38-9101-67dc3a3b4be7",
+		"name": "Community United Reformed Church",
+		"denom": "URCNA",
+		"address": "8405 Alexander St. Schererville IN 46373",
+		"pastor": "Vacant",
+		"phone": "(219) 365-9260",
+		"email": "office@communityurc.org",
+		"website": "http://www.communityurc.org"
+	},
+	{
+		"id": "e1b9dc62-190f-45b5-83fa-8caee6841258",
+		"name": "Coram Deo Reformation Church",
+		"denom": "URCNA",
+		"address": "15756 E Indian Brook Cir. Parker CO 80134",
+		"pastor": "Rev. Derrick Vander Meulen",
+		"phone": "(303) 805-1327",
+		"email": "derrickvandermeulen@gmail.com",
+		"website": "http://www.coramdeourc.org"
+	},
+	{
+		"id": "b3d18b0d-e713-46d5-b1ba-aae288848897",
+		"name": "Cornerstone United Reformed Church of Edmonton",
+		"denom": "URCNA",
+		"address": "11610 - 95A St. Edmonton AB T5G 1P8",
+		"pastor": "Rev. William Pols",
+		"phone": "(780) 474-5091",
+		"email": "clerk.CornerstoneURCE@gmail.com",
+		"website": "http://www.cornerstoneurcedmonton.com"
+	},
+	{
+		"id": "2697085a-1562-4f53-9daa-9e191a43e309",
+		"name": "Cornerstone United Reformed Church of Hudsonville",
+		"denom": "URCNA",
+		"address": "6442 36th Avenue Hudsonville MI 49426",
+		"pastor": "Rev. Philip J. Vos",
+		"phone": "(616) 669-2190",
+		"email": "office@cornerstoneurc.com",
+		"website": "http://www.cornerstoneurc.com"
+	},
+	{
+		"id": "b53ee34f-81b6-4308-adbc-623cfd1346d3",
+		"name": "Cornerstone Christian Church, Medford, OR",
+		"denom": "URCNA",
+		"address": "608 North Bartlett Street Medford OR 97501",
+		"pastor": "Rev. Dr. Quentin B. Falkena",
+		"phone": "(541) 773-8163",
+		"email": "churchinfo@cccm.org",
+		"website": "http://cccm.org"
+	},
+	{
+		"id": "c21588bb-d5d1-47a3-bdf5-4786d25ec3b9",
+		"name": "Cornerstone United Reformed Church of London",
+		"denom": "URCNA",
+		"address": "180 Waterloo St. London ON N6B 2M9",
+		"pastor": "Rev. Steve Williamson",
+		"phone": "(519) 432-0808",
+		"email": "clerk@cornerstoneurc.ca",
+		"website": "http://www.cornerstoneurc.ca"
+	},
+	{
+		"id": "85370fc0-2b3d-45c4-b8a2-f02fa5692908",
+		"name": "Covenant Christian Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 774 Wyoming ON N0N 1T0",
+		"pastor": "Rev. Martin Vogel",
+		"phone": "(519) 845-0758",
+		"email": "cccclerk@slicc.ca",
+		"website": "http://www.covchristian.com"
+	},
+	{
+		"id": "0e34db4b-0faf-422d-b48e-c41fcae75b04",
+		"name": "Cornerstone United Reformed Church of Sanborn",
+		"denom": "URCNA",
+		"address": "P.O. Box 544 Sanborn IA 51248",
+		"pastor": "Rev. Dan Donovan",
+		"phone": "(712) 729-3266",
+		"email": "sanborncurc@gmail.com",
+		"website": "http://www.cornerstone-urc.org"
+	},
+	{
+		"id": "c9b76353-2ea5-4c3b-b17a-b26413fa37b6",
+		"name": "Covenant Grace Reformed Church",
+		"denom": "URCNA",
+		"address": "1227 Loomis Trail Road Lynden WA 98264",
+		"pastor": "Rev. Dale J. Van Dyke",
+		"phone": "(360) 354-2781",
+		"email": "cgrchurch@hotmail.com",
+		"website": "http://www.covenantgracereformedchurch.org"
+	},
+	{
+		"id": "336cd886-845e-4e78-afb6-269cc5780c52",
+		"name": "Covenant Reformed Church of Carbondale",
+		"denom": "URCNA",
+		"address": "47 S. Church St. Carbondale PA 18407",
+		"pastor": "Pastor Richard J Miller",
+		"phone": "(570) 282-6400",
+		"email": "info@covenantrc.org",
+		"website": "http://www.covenantrc.org/"
+	},
+	{
+		"id": "0732951b-f386-41fb-99fb-ab2c7700216b",
+		"name": "Covenant Reformed Church of Grande Prairie",
+		"denom": "URCNA",
+		"address": "10803 94th St. Grande Prairie AB T8V 1Y8",
+		"pastor": "Vacant",
+		"phone": "(780) 832-7487",
+		"email": "clerk@grandeprairieurc.org",
+		"website": "http://www.grandeprairieurc.org"
+	},
+	{
+		"id": "36696162-fc95-464f-8d4f-fae33efead24",
+		"name": "Covenant Reformed Church of Kansas City",
+		"denom": "URCNA",
+		"address": "9511 Lane Ave Kansas City MO 64134",
+		"pastor": "Vacant",
+		"phone": "(816) 765-0882",
+		"email": "pastor@covenantreformed.org",
+		"website": "http://www.covenantreformed.org"
+	},
+	{
+		"id": "193e55e8-a910-4f88-a463-cec910b2408f",
+		"name": "Covenant Reformed Church of Missoula",
+		"denom": "URCNA",
+		"address": "2512 Sunset Lane Missoula MT 59804",
+		"pastor": "Rev. Jared Beaird",
+		"phone": "(406) 203-2515",
+		"email": "info@missoulaurc.com",
+		"website": "http://www.missoulaurc.com"
+	},
+	{
+		"id": "1c219c2b-d6b1-4e2e-9dd4-a88eb590a6e1",
+		"name": "Covenant Reformed Church of Pella",
+		"denom": "URCNA",
+		"address": "2805 Fifield Road Pella IA 50219",
+		"pastor": "Vacant",
+		"phone": "(641) 620-1777",
+		"email": "pellacovenant@gmail.com",
+		"website": "http://www.covenantpella.org"
+	},
+	{
+		"id": "f4ddcffd-1f18-4601-833c-a96048d78ecc",
+		"name": "Covenant Reformed Church of Toronto",
+		"denom": "URCNA",
+		"address": "265 Albion Rd. Toronto ON M9W 3P1",
+		"pastor": "Rev. Al Bezuyen",
+		"phone": "(416) 747-1179",
+		"email": "reformedtoronto@gmail.com",
+		"website": "http://www.reformedtoronto.org"
+	},
+	{
+		"id": "8eb777f6-3b7a-4561-bb9e-69be2422155b",
+		"name": "Covenant United Reformed Church of Byron Center",
+		"denom": "URCNA",
+		"address": "58 100th St. Byron Center MI 49315",
+		"pastor": "Rev. Greg Lubbers",
+		"phone": "(616) 877-0326",
+		"email": "lubbersgreg@gmail.com",
+		"website": "http://www.covenanturc.com"
+	},
+	{
+		"id": "3c33354b-bbf2-4ac8-a75d-8711e95117b2",
+		"name": "Covenant United Reformed Church of Colorado Springs",
+		"denom": "URCNA",
+		"address": "8808 Wolf Lake Dr Colorado Springs CO 80924",
+		"pastor": "Vacant",
+		"phone": "(401) 932-1732",
+		"email": "info@urccovenant.org",
+		"website": "http://www.urccovenant.org"
+	},
+	{
+		"id": "c1bcf404-c7de-417d-be5f-e6131a122a3e",
+		"name": "Covenant United Reformed Church of Kalamazoo",
+		"denom": "URCNA",
+		"address": "3724 Lovers Lane Kalamazoo MI 49001",
+		"pastor": "Rev. Phillip Stoffregen",
+		"phone": "(269) 345-3355",
+		"email": "covenanturckazoo@gmail.com",
+		"website": "http://www.covenant-urc.org"
+	},
+	{
+		"id": "185e27a7-9313-4f4b-ad55-b57cf5fa8b6c",
+		"name": "Covenant United Reformed Church of Fresno",
+		"denom": "URCNA",
+		"address": "1715 Minnewawa Ave., Suite #102 Clovis CA 93612",
+		"pastor": "Rev. David Inks",
+		"phone": "(559) 276-7382",
+		"email": "westminsteropc@comcast.net",
+		"website": "http://www.fresnourc.com"
+	},
+	{
+		"id": "345a46f4-0872-44c0-84a8-00d6cf8d1876",
+		"name": "Covenant United Reformed Church of Pantego",
+		"denom": "URCNA",
+		"address": "P.O. Box 9 Pantego NC 27860",
+		"pastor": "Vacant",
+		"phone": "(252) 935-2002",
+		"email": "minister@covenant-urc.net",
+		"website": "http://www.covenant-urc.net"
+	},
+	{
+		"id": "9509a633-320b-4ec1-a4b6-d0701f13adf7",
+		"name": "Dayspring Reformed Church",
+		"denom": "URCNA",
+		"address": "3102 Palouse Street Boise ID 83705",
+		"pastor": "Rev. Jonathan S. Van Hoogen",
+		"phone": "(208) 484-3700",
+		"email": "church@dayspringboise.com",
+		"website": "http://www.dayspringboise.com"
+	},
+	{
+		"id": "575bb0da-8b85-4e6e-a164-a68544926af1",
+		"name": "Doon United Reformed Church",
+		"denom": "URCNA",
+		"address": "608 Rice Ave. Doon IA 51235",
+		"pastor": "Rev. John Vermeer",
+		"phone": "(712) 726-3314",
+		"email": "info@doonurc.org",
+		"website": "http://www.doonurc.org"
+	},
+	{
+		"id": "859e9544-a87d-4e65-92f4-f7000710f299",
+		"name": "Dutton United Reformed Church",
+		"denom": "URCNA",
+		"address": "6950 Hanna Lake Ave. SE Caledonia MI 49316",
+		"pastor": "Rev. Talman Wagenmaker",
+		"phone": "(616) 698-6850",
+		"email": "office@duttonurc.org",
+		"website": "http://www.duttonurc.org"
+	},
+	{
+		"id": "a63715cb-5f0e-45cc-9301-64e2698fcb1f",
+		"name": "El Mesías, Iglesia Reformada Unida de Ontario",
+		"denom": "URCNA",
+		"address": "205 E. Philadelphia St. Ontario CA 91761",
+		"pastor": "Pastor Taylor Kern",
+		"phone": "(909) 362-1469",
+		"email": "pastortaylorkern@yahoo.com",
+		"website": "https://elmesiasontario.com/"
+	},
+	{
+		"id": "34052fca-86eb-4c69-88f4-fc58a3ac2c11",
+		"name": "El Pacto de Gracia (Covenant of Grace)",
+		"denom": "URCNA",
+		"address": "1527 Otto Blvd. Unit 2 Chicago Heights IL 60411",
+		"pastor": "Rev. Ruben Sernas",
+		"phone": "(909) 615-5738",
+		"email": "sernasruben@gmail.com",
+		"website": "http://www.elpactodegracia.org"
+	},
+	{
+		"id": "80a381b9-2086-495e-b245-ee0187c2ea1a",
+		"name": "Emmanuel Reformed Church of Neerlandia",
+		"denom": "URCNA",
+		"address": "61511 Range Road 33 County of Barrhead AB T0G 1R2",
+		"pastor": "Rev. Barry Beukema",
+		"phone": "(780) 674-3552",
+		"email": "neerlandiaurc@xplornet.com",
+		"website": "http://www.emmanuelurc.org"
+	},
+	{
+		"id": "9f3c09e5-7a26-4c45-ac2f-e9afbe3d91c7",
+		"name": "Escondido United Reformed Church",
+		"denom": "URCNA",
+		"address": "1864 N. Broadway Escondido CA 92026",
+		"pastor": "Rev. Christopher J. Gordon",
+		"phone": "(760) 745-1679",
+		"email": "office@escondidourc.org",
+		"website": "http://www.escondidourc.org"
+	},
+	{
+		"id": "1bfb6b6c-d0ed-42a5-8d86-8d204f0594d1",
+		"name": "Faith Reformed Church of Telkwa",
+		"denom": "URCNA",
+		"address": "P.O. Box 504 Telkwa BC V0J 2X0",
+		"pastor": "Rev. Kelvin Tiemstra",
+		"phone": "(250) 643-9440",
+		"email": "frctclerk@gmail.com",
+		"website": "http://www.telkwafaithurc.com"
+	},
+	{
+		"id": "feafe088-53f0-4979-96ab-3a5704de0079",
+		"name": "Faith United Reformed Church of Holland",
+		"denom": "URCNA",
+		"address": "8270 120th Ave. West Olive MI 49460",
+		"pastor": "Rev. Matthew Nuiver",
+		"phone": "(616) 875-7533",
+		"email": "Jh@askourclients.com",
+		"website": "http://www.faithurc.net"
+	},
+	{
+		"id": "cf1fac17-5013-41e9-9b85-17094fb8f825",
+		"name": "Faith United Reformed Church of Beecher",
+		"denom": "URCNA",
+		"address": "P.O. Box 729 Beecher IL 60401",
+		"pastor": "Vacant",
+		"phone": "(708) 946-3210",
+		"email": "faithurcclerk@faithurc.org",
+		"website": "http://www.faithurc.org"
+	},
+	{
+		"id": "632e399c-5d7b-413c-9522-e02921f1cd6d",
+		"name": "First United Reformed Church of Oak Lawn",
+		"denom": "URCNA",
+		"address": "9401 S 54th Ave. Oak Lawn IL 60453",
+		"pastor": "Rev. Harold Miller",
+		"phone": "(708) 636-0758",
+		"email": "oaklawnurc@gmail.com",
+		"website": "http://www.oaklawnurc.org"
+	},
+	{
+		"id": "a65dff9b-c9ee-4a9a-84f6-15a5861a6f0e",
+		"name": "First United Reformed Church of Chino",
+		"denom": "URCNA",
+		"address": "6159 Riverside Drive Chino CA 91710",
+		"pastor": "Rev. Bradd L. Nymeyer",
+		"phone": "(909) 591-9111",
+		"email": "office@chinourc.org",
+		"website": "http://www.chinourc.org"
+	},
+	{
+		"id": "c224026a-5881-4bc7-96e0-7ee0fd754940",
+		"name": "Grace Reformed Church in Kelowna",
+		"denom": "URCNA",
+		"address": "101-2293 Leckie Road Kelowna BC V1X 6Y5",
+		"pastor": "Rev. James Roosma",
+		"phone": "(250) 762-3998",
+		"email": "gracereformedkelowna@gmail.com",
+		"website": "http://www.gracereformedkelowna.com"
+	},
+	{
+		"id": "ca425f42-71f7-4b18-b92d-6815c0d343d6",
+		"name": "Grace Reformed Church of Jersey City",
+		"denom": "URCNA",
+		"address": "924 Bergen Ave. #272 Jersey City NJ 07306",
+		"pastor": "Rev. Sam Perez",
+		"phone": "(917) 204-1775",
+		"email": "jerseycitygrace@gmail.com",
+		"website": "http://www.jerseycitygrace.org"
+	},
+	{
+		"id": "c3db3013-f06f-424d-bd43-27167c7d0f0b",
+		"name": "Gig Harbor United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 593 Lynden WA 98264",
+		"pastor": "Rev. Caleb Janson",
+		"phone": "(218) 316-4409",
+		"email": "info@gigharborurc.org",
+		"website": "http://www.gigharborurc.org"
+	},
+	{
+		"id": "85f1b975-0b98-40ce-a896-c4f692473bbf",
+		"name": "Grace Reformed Church, Dunnville",
+		"denom": "URCNA",
+		"address": "P.O. Box 85 Dunnville ON N1A 2X1",
+		"pastor": "Vacant",
+		"phone": "(905) 774-6877",
+		"email": "grace.clerk@gmail.com",
+		"website": "http://www.dunnvilleurc.com"
+	},
+	{
+		"id": "e642b5cb-77e7-4306-9ffe-a87d01f0309e",
+		"name": "Grace United Reformed Church (of Simcoe County)",
+		"denom": "URCNA",
+		"address": "P.O. Box 2668 Orillia ON L3V 7C1",
+		"pastor": "Rev. Martin Overgaauw",
+		"phone": "(905) 449-7259",
+		"email": "graceurcclerk@gmail.com",
+		"website": "http://www.graceurc.com"
+	},
+	{
+		"id": "85aa9611-cae0-4447-8d04-f3ec1e2008f3",
+		"name": "Grace United Reformed Church of Kennewick",
+		"denom": "URCNA",
+		"address": "2500 W. 4th Ave Kennewick WA 99336-3179",
+		"pastor": "Rev. Craig Davis",
+		"phone": "(509) 586-6657",
+		"email": "clerk@graceurc.org",
+		"website": "http://www.graceurc.org"
+	},
+	{
+		"id": "c859be30-5705-452a-bd4d-f47d592c2e7e",
+		"name": "Grace United Reformed Church of Alto",
+		"denom": "URCNA",
+		"address": "9255 84th St. SE Alto MI 49302",
+		"pastor": "Rev. Doug Barnes",
+		"phone": "(616) 891-8440",
+		"email": "mandcworkman@gmail.com",
+		"website": "http://www.gracealto.com"
+	},
+	{
+		"id": "bee344b7-5830-4b86-96c4-a328b6ba9d2f",
+		"name": "Grace United Reformed Church of Torrance",
+		"denom": "URCNA",
+		"address": "2400 W. Carson St. Suite 120 Torrance CA 90501",
+		"pastor": "Rev. Dr. Daniel Borvan",
+		"phone": "(310) 782-7019",
+		"email": "GraceURC@graceurctorrance.org",
+		"website": "http://www.graceurctorrance.org"
+	},
+	{
+		"id": "7db3173a-788d-4f1c-812d-191dcfb53e2c",
+		"name": "Grace United Reformed Church of Portland",
+		"denom": "URCNA",
+		"address": "2800 Concord Rd Milwaukie OR 97267",
+		"pastor": "Rev. Steve Oeverman",
+		"phone": "(503) 619-7387",
+		"email": "soeverman@gmail.com",
+		"website": "http://www.graceunitedreformedchurch.org"
+	},
+	{
+		"id": "06d21077-4625-4e5b-84b6-44960f182820",
+		"name": "High Desert United Reformed Church",
+		"denom": "URCNA",
+		"address": "P. O. Box 3418 Victorville CA 92395",
+		"pastor": "Rev. Tom Morrison",
+		"phone": "(760) 951-0809",
+		"email": "pastor@highdeserturc.org",
+		"website": "http://www.highdeserturc.org"
+	},
+	{
+		"id": "89d0a98c-0f9f-4cc8-ba08-03c4f09d8f42",
+		"name": "Hills United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 485 Hills MN 56138",
+		"pastor": "Rev. Alan Camarigg",
+		"phone": "(507) 962-3254",
+		"email": "hillsurc@alliancecom.net",
+		"website": "http://www.hillsurc.com"
+	},
+	{
+		"id": "8f7f7a43-a1b9-499e-8e00-dc55d56d185b",
+		"name": "Grace United Reformed Church of Waupun",
+		"denom": "URCNA",
+		"address": "601 Buwalda Drive Waupun WI 53963",
+		"pastor": "Rev. Paul Freswick",
+		"phone": "(920) 324-2924",
+		"email": "pastor@waupungraceurc.org",
+		"website": "http://www.WaupunGraceURC.org"
+	},
+	{
+		"id": "9f408018-b149-44a4-896c-4b1f637b924e",
+		"name": "Immanuel Reformed Church of Nobleton",
+		"denom": "URCNA",
+		"address": "P.O Box 219 Nobleton ON L0G 1N0",
+		"pastor": "Rev. Maurice Luimes",
+		"phone": "(905) 859-3425",
+		"email": "mauricehl@yahoo.com",
+		"website": "http://www.immanuelreformed.com"
+	},
+	{
+		"id": "525503f3-5e83-48ed-843d-beed09828c29",
+		"name": "Immanuel United Reformed Church of DeMotte",
+		"denom": "URCNA",
+		"address": "P.O. Box 638 DeMotte IN 46310",
+		"pastor": "Rev. Roberto Rossi",
+		"phone": "(219) 987-6247",
+		"email": "immanuelurcdemottein@gmail.com",
+		"website": "http://www.immanuelurcdemotte.org"
+	},
+	{
+		"id": "e068df06-67b6-4882-8dce-4112155d8654",
+		"name": "Immanuel United Reformed Church of Jordan",
+		"denom": "URCNA",
+		"address": "P.O. Box 279 Jordan Station ON L0R 1S0",
+		"pastor": "Rev. Ryan Swale",
+		"phone": "(905) 562-8223",
+		"email": "IURC.Jordan@gmail.com",
+		"website": "http://www.immanuelurc.com"
+	},
+	{
+		"id": "c6ee99ab-8d0a-457b-8b6d-593b9d5e50f0",
+		"name": "Immanuel United Reformed Church of Listowel",
+		"denom": "URCNA",
+		"address": "P.O. Box 55 Listowel ON N4W 3H2",
+		"pastor": "Rev. Ancel Merwin",
+		"phone": "(519) 291-6286",
+		"email": "consistoryclerk@urclistowel.com",
+		"website": "http://www.urclistowel.com"
+	},
+	{
+		"id": "f3a02769-f8fd-47d7-965e-4523fbb135bb",
+		"name": "Immanuel's Reformed Church of Salem",
+		"denom": "URCNA",
+		"address": "4653 Sunnyview Road NE Salem OR 97305",
+		"pastor": "Rev. Todd Joling",
+		"phone": "(503) 581-6764",
+		"email": "toddjoling@gmail.com",
+		"website": "http://www.immanuelsreformed.org"
+	},
+	{
+		"id": "4991a43d-541c-4a3a-a3b5-c156bc4c907c",
+		"name": "Living Water Reformed Church",
+		"denom": "URCNA",
+		"address": "1569 Colborne St. E. Brantford ON N3T 5L4",
+		"pastor": "Rev. Greg Bylsma",
+		"phone": "(519) 759-1177",
+		"email": "clerk@livingwaterreformedchurch.com",
+		"website": "http://www.livingwaterreformedchurch.com"
+	},
+	{
+		"id": "4b306f89-1657-4721-9191-a9f50c250605",
+		"name": "Messiah's Reformed Fellowship",
+		"denom": "URCNA",
+		"address": "2152 Ralph Ave. #554 Brooklyn NY 11234",
+		"pastor": "Rev. Paul T. Murphy",
+		"phone": "(917) 747-1193",
+		"email": "pastormurphy@mac.com",
+		"website": "http://www.merfnyc.org"
+	},
+	{
+		"id": "457a255e-b3f2-4d97-b990-29b16f7328a5",
+		"name": "Lynwood United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 685 Lansing IL 60438",
+		"pastor": "Rev. Nick Alons",
+		"phone": "(708) 474-4100",
+		"email": "pastoralons@yahoo.com",
+		"website": "http://www.lynwoodurc.org"
+	},
+	{
+		"id": "af31385c-cf64-4633-bef6-a67c46b4b725",
+		"name": "New Covenant United Reformed Church",
+		"denom": "URCNA",
+		"address": "1306 Filer Ave. E. Twin Falls ID 83301",
+		"pastor": "Rev. Christopher Folkerts",
+		"phone": "(208) 735-8285",
+		"email": "newcovenanturc@gmail.com",
+		"website": "http://www.newcovenanturc.org"
+	},
+	{
+		"id": "0ab8b283-e6af-40ec-ad23-f56c7744dbcc",
+		"name": "New Haven United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 9 New Haven VT 05472",
+		"pastor": "Rev. Andrew S. Knott",
+		"phone": "(802) 388-1345",
+		"email": "newhavenvturc@gmail.com",
+		"website": "http://www.nhurc.org"
+	},
+	{
+		"id": "e035813f-6c78-4f1e-8108-9431b8bf3c42",
+		"name": "Eastmanville United Reformed Church",
+		"denom": "URCNA",
+		"address": "6845 Leonard St. Coopersville MI 49404",
+		"pastor": "Rev. Jephthah Nobel",
+		"phone": "(616) 997-9554",
+		"email": "jephnobel@gmail.com",
+		"website": "http://www.eastmanvilleurc.org"
+	},
+	{
+		"id": "e510b3da-f6cf-40b5-b8e9-136919c125e8",
+		"name": "Newton Covenant Reformed Church",
+		"denom": "URCNA",
+		"address": "PO Box 279 Newton NJ 07860-0279",
+		"pastor": "Rev. Aaron Verhoef",
+		"phone": "(973) 383-9635",
+		"email": "aaron_verhoef@hotmail.com",
+		"website": "http://www.newtoncov.org"
+	},
+	{
+		"id": "1736eae2-a83f-4b8a-897b-f6ac897dcc7f",
+		"name": "Oak Glen United Reformed Church",
+		"denom": "URCNA",
+		"address": "2244 Indiana Ave. Lansing IL 60438",
+		"pastor": "Rev. Ed Marcusse",
+		"phone": "(708) 474-0172",
+		"email": "facolvin@msn.com",
+		"website": "http://www.oakglenurc.org"
+	},
+	{
+		"id": "b79e12c8-e308-4c1b-a369-2bcb4ca119ff",
+		"name": "Immanuel Fellowship U.R.C",
+		"denom": "URCNA",
+		"address": "6015 West H Avenue Kalamazoo MI 49009",
+		"pastor": "Rev. William Boekestein",
+		"phone": "(269) 375-4012",
+		"email": "billboek@hotmail.com",
+		"website": "http://www.reformedIFC.com"
+	},
+	{
+		"id": "6d5c1209-75a8-4b18-a0a8-27f068e8d5d2",
+		"name": "Oceanside United Reformed Church",
+		"denom": "URCNA",
+		"address": "4318 Forest Ranch Way Oceanside CA 92057",
+		"pastor": "Rev. Daniel R. Hyde",
+		"phone": "(760) 803-0981",
+		"email": "pastor@oceansideurc.org",
+		"website": "http://www.oceansideurc.org"
+	},
+	{
+		"id": "738c833c-2ee6-49ac-9bb3-9886f6d88e43",
+		"name": "Ontario United Reformed Church",
+		"denom": "URCNA",
+		"address": "205 East Philadelphia St. Ontario CA 91761",
+		"pastor": "Rev. Adam Kaloostian",
+		"phone": "(909) 986-9889",
+		"email": "pastor@ontariourc.org",
+		"website": "http://www.ontariourc.org"
+	},
+	{
+		"id": "95a942d8-2ceb-4e2b-94f8-fad0124f7bf7",
+		"name": "Parkland Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 4066 Ponoka AB T4J 1R5",
+		"pastor": "Vacant",
+		"phone": "(403) 783-1888",
+		"email": "clerk@parklandurc.org",
+		"website": "http://www.parklandurc.org"
+	},
+	{
+		"id": "7eca578c-b231-4c22-8f9f-f31f6d573832",
+		"name": "Pasadena United Reformed Church",
+		"denom": "URCNA",
+		"address": "P.O. Box 1737 Monrovia CA 91017",
+		"pastor": "Rev. Movses S. Janbazian",
+		"phone": "(626) 437-4944",
+		"email": "mjanbazian@verizon.net",
+		"website": "http://www.pasadenaurc.org"
+	},
+	{
+		"id": "90d60312-6269-4007-b3d0-935b9d2685d4",
+		"name": "Peace United Reformed Church",
+		"denom": "URCNA",
+		"address": "2209 H Street Vancouver WA 98663",
+		"pastor": "Rev. Chris Coleman",
+		"phone": "(360) 506-8318",
+		"email": "chris@peaceurc.com",
+		"website": "http://www.peaceurc.com"
+	},
+	{
+		"id": "29f8aa8e-0a58-4acf-b480-7aa50a777906",
+		"name": "Phoenix United Reformed Church",
+		"denom": "URCNA",
+		"address": "PO Box 44996 Phoenix AZ 85064-44996",
+		"pastor": "Rev. Phil Grotenhuis",
+		"phone": "(480) 258-1358",
+		"email": "clerk@phoenixurc.org",
+		"website": "http://www.phoenixurc.org"
+	},
+	{
+		"id": "47740e51-81c8-4447-846f-c085bf43e73c",
+		"name": "Pocono Reformed Bible Church, East Stroudsburg, PA",
+		"denom": "URCNA",
+		"address": "11 Schoolhouse Road East Stroudsburg PA 18302",
+		"pastor": "Rev. Richard J. Kuiken",
+		"phone": "(272) 200-2585",
+		"email": "revkuiken@ptd.net",
+		"website": "http://www.facebook.com/Pocono.Reformed/"
+	},
+	{
+		"id": "a98132a2-fd17-4be5-b348-41395e06b440",
+		"name": "Preakness Valley United Reformed Church",
+		"denom": "URCNA",
+		"address": "480 Valley Rd. Wayne NJ 07470",
+		"pastor": "Rev. David Klompien",
+		"phone": "(973) 628-1313",
+		"email": "pvconsistory@gmail.com",
+		"website": "http://www.preaknessvalleyurc.org"
+	},
+	{
+		"id": "53898a14-12d7-42f5-be17-126774d5637c",
+		"name": "Pompton Plains Reformed Bible Church",
+		"denom": "URCNA",
+		"address": "415 Boulevard Pompton Plains NJ 07444",
+		"pastor": "Rev. Justin D. Nobel",
+		"phone": "(973) 835-4784",
+		"email": "office@pprbc.org",
+		"website": "http://www.pprbc.org"
+	},
+	{
+		"id": "eaea8356-3590-4c2b-bd42-dee7e1643666",
+		"name": "Providence Reformed Church of Des Moines",
+		"denom": "URCNA",
+		"address": "3615 University Ave. Des Moines IA 50311",
+		"pastor": "Rev. Jody James Lucero",
+		"phone": "(515) 707-8021",
+		"email": "provrefchurch@gmail.com",
+		"website": "http://www.providenceRC.org"
+	},
+	{
+		"id": "08aaba1e-f9df-4280-9d34-a9f833ec5643",
+		"name": "Providence United Reformed Church of Strathroy",
+		"denom": "URCNA",
+		"address": "447 Second Street Strathroy ON N7G 3J1",
+		"pastor": "Rev. Harry Zekveld",
+		"phone": "(519) 245-3600",
+		"email": "clerk@providenceurc.com",
+		"website": "http://www.providenceurc.com"
+	},
+	{
+		"id": "cce8d788-9e72-4829-bede-a91b875c1265",
+		"name": "Providence Reformed Church of Winnipeg",
+		"denom": "URCNA",
+		"address": "P.O.Box 28014 RPO North Kildonan Winnipeg MB R2G 4E9",
+		"pastor": "Rev. Richard Anjema",
+		"phone": "(204) 654-1729",
+		"email": "clerk@providencereformed.net",
+		"website": "http://www.providencereformed.net"
+	},
+	{
+		"id": "74e0bcb4-4cd2-4971-b1c4-d79fa4681969",
+		"name": "Redeemer Reformation Church",
+		"denom": "URCNA",
+		"address": "3717 Hill Avenue Regina SK S4S 0X4",
+		"pastor": "Rev. Brian Cochran",
+		"phone": "(306) 585-1841",
+		"email": "brian@redeemerchurch.ca",
+		"website": "http://www.redeemerchurch.ca"
+	},
+	{
+		"id": "617d3822-a4bb-4674-80fd-71f538620aec",
+		"name": "Redeemer United Reformed Church of Lacombe",
+		"denom": "URCNA",
+		"address": "4519 - 46 Avenue Lacombe AB T4L 0G9",
+		"pastor": "Rev. Robert Van der Woerd",
+		"phone": "(403) 789-9035",
+		"email": "clerk@redeemerurc.ca",
+		"website": "http://www.redeemerurc.ca"
+	},
+	{
+		"id": "b3c4c772-6328-4c36-a561-92c5c7b22f15",
+		"name": "Redeemer United Reformed Church of Orange City",
+		"denom": "URCNA",
+		"address": "302 St. Paul Ave. SE Orange City IA 51041",
+		"pastor": "Rev. Todd De Rooy",
+		"phone": "(712) 737-8749",
+		"email": "redeemerurcclerk@gmail.com",
+		"website": "http://www.redeemerurc.org"
+	},
+	{
+		"id": "87d6abe9-6100-4ea8-b49a-2c69c791e6bc",
+		"name": "Redeemer United Reformed Church of Saint John",
+		"denom": "URCNA",
+		"address": "10681 Park Place, P.O. Box 37 Saint John IN 46373",
+		"pastor": "Rev. Jacques Roets",
+		"phone": "(219) 390-7280",
+		"email": "Secretary@redeemerurc.com",
+		"website": "http://www.redeemerurc.com"
+	},
+	{
+		"id": "74e7f6a4-08f2-48eb-ad0e-c65d7b5a5a96",
+		"name": "Redeeming Grace Reformed Church",
+		"denom": "URCNA",
+		"address": "66 Port Street Brantford ON N3S 1Y4",
+		"pastor": "Vacant",
+		"phone": "(905) 818-3018",
+		"email": "redeeminggraceclerk@gmail.com",
+		"website": "http://www.redeeminggrace.ca"
+	},
+	{
+		"id": "0f625f3b-172e-43f6-86b2-bd37a7ab057a",
+		"name": "Rehoboth United Reformed Church",
+		"denom": "URCNA",
+		"address": "77 Glancaster Rd. Ancaster ON L9G 3K9",
+		"pastor": "Rev. Steve Swets",
+		"phone": "(905) 574-5527",
+		"email": "rurcsecretary@gmail.com",
+		"website": "http://www.rehobothurc.ca"
+	},
+	{
+		"id": "78affd19-8f7c-4f02-bc4d-f0797b1cb700",
+		"name": "Rock Valley United Reformed Church",
+		"denom": "URCNA",
+		"address": "2485 300th St. Rock Valley IA 51247",
+		"pastor": "Rev. Joel Vander Kooi",
+		"phone": "(712) 460-0432",
+		"email": "clerk.rvurc@gmail.com",
+		"website": "http://www.rockvalleyurc.com"
+	},
+	{
+		"id": "c6b1fef9-6741-4444-ba2e-3e38d16d2201",
+		"name": "River of Life Reformed Church",
+		"denom": "URCNA",
+		"address": "6095 Dunn Street Niagara Falls ON L2G 2P3",
+		"pastor": "Rev. Richard Bultje",
+		"phone": "(905) 348-7424",
+		"email": "rbultje@icloud.com",
+		"website": "http://www.riveroflifeniagarafalls.com/"
+	},
+	{
+		"id": "65c4462e-04b0-451c-8e0a-b4b284baf00f",
+		"name": "Salem United Reformed Church",
+		"denom": "URCNA",
+		"address": "Box 321 Bowmanville ON L1C3L1",
+		"pastor": "Rev. Han Gil Lee",
+		"phone": "(905) 263-8333",
+		"email": "clerk@salemurc.org",
+		"website": "http://www.salemurc.org"
+	},
+	{
+		"id": "88f2ef82-76e5-477d-94d5-58fbfdb97ea4",
+		"name": "Sioux Center United Reformed Church",
+		"denom": "URCNA",
+		"address": "744 N. Main Ave. Sioux Center IA 51250",
+		"pastor": "Rev. Jon Bushnell",
+		"phone": "(712) 722-1965",
+		"email": "pastor@siouxcenterurc.org",
+		"website": "http://www.siouxcenterurc.org"
+	},
+	{
+		"id": "9d525f96-c0a7-4c11-9882-d39b8a7c5df9",
+		"name": "The Hope Centre (Congregation)",
+		"denom": "URCNA",
+		"address": "72 Stevenson Road Etobicoke ON M9V 3J5",
+		"pastor": "Rev. Anthony Zekveld",
+		"phone": "(416) 740-0543",
+		"email": "hopecentre@primus.ca",
+		"website": "http://hope-centre.ca/"
+	},
+	{
+		"id": "1e389c06-e2da-4c3d-a9fe-b61a252da193",
+		"name": "Surrey Covenant Reformed Church",
+		"denom": "URCNA",
+		"address": "17400 60 Ave. Surrey BC V3S 1T8",
+		"pastor": "Rev. Jason Vander Horst",
+		"phone": "(604) 574-1929",
+		"email": "surreyurc@gmail.com",
+		"website": "http://www.surreycovenantreformed.com"
+	},
+	{
+		"id": "41adc517-e55a-44dd-914e-c34bccfdfe66",
+		"name": "Trinity Reformed Church of Cape Coral",
+		"denom": "URCNA",
+		"address": "2220 Hancock Bridge Pkwy. Cape Coral FL 33990",
+		"pastor": "Rev. Stephen Wetmore",
+		"phone": "(239) 574-1424",
+		"email": "church@trinityurc.com",
+		"website": "http://www.trinityurc.com"
+	},
+	{
+		"id": "ce3402fd-1f04-4c03-99b3-4695ba7b3a4a",
+		"name": "Trinity Reformed Church of Lethbridge",
+		"denom": "URCNA",
+		"address": "1100 - 40th Ave. North Lethbridge AB T1H 6B7",
+		"pastor": "Rev. John van Eyk",
+		"phone": "(403) 327-6434",
+		"email": "trinityclerk@gmail.com",
+		"website": "http://www.trinityurc.ca"
+	},
+	{
+		"id": "8326e3e4-ad57-4b84-aee4-db961d4b7b64",
+		"name": "Trinity United Reformed Church of Caledonia",
+		"denom": "URCNA",
+		"address": "7350 Kalamazoo Ave. S.E. Caledonia MI 49316",
+		"pastor": "Rev. Brian Vos",
+		"phone": "(616) 554-5763",
+		"email": "secretary@trinityurc.net",
+		"website": "http://www.trinityurc.net"
+	},
+	{
+		"id": "c37f0ba8-7f9a-4b1b-ab91-13880d67de85",
+		"name": "Trinity United Reformed Church of St. Catharines",
+		"denom": "URCNA",
+		"address": "99 Scott St. St. Catharines ON L2N 1G8",
+		"pastor": "Rev. Daniel Hamstra",
+		"phone": "(905) 935-8322",
+		"email": "trinityorc@hotmail.com",
+		"website": "http://www.trinityorc.org"
+	},
+	{
+		"id": "30028e9f-7990-4f05-98de-1deea0ef0a08",
+		"name": "Trinity United Reformed Church of Walnut Creek",
+		"denom": "URCNA",
+		"address": "P.O. Box 3120 Walnut Creek CA 94598-3120",
+		"pastor": "Rev. Joghinda S. Gangar",
+		"phone": "(925) 639-5313",
+		"email": "jwkamphuis@astound.net",
+		"website": "http://www.trinityurcwc.org"
+	},
+	{
+		"id": "ea587b24-97ff-4902-9a3a-bc9cee3420be",
+		"name": "Trinity United Reformed Church of Visalia",
+		"denom": "URCNA",
+		"address": "6400 W Walnut Ave Visalia CA 93277",
+		"pastor": "Rev. Adrian Dieleman",
+		"phone": "(559) 636-2540",
+		"email": "trinityurcvisalia@comcast.net",
+		"website": "http://www.trinityurcvisalia.com"
+	},
+	{
+		"id": "e076a9bb-6d64-4469-b904-515fbdc996d9",
+		"name": "United Reformed Church of Nampa",
+		"denom": "URCNA",
+		"address": "12693 Orchard Ave. Nampa ID 83651",
+		"pastor": "Rev. Nick Smith",
+		"phone": "(208) 466-4444",
+		"email": "office@urcnampa.org",
+		"website": "http://www.urcnampa.org"
+	},
+	{
+		"id": "aa74e918-9e59-450b-9253-c1dfb7f386d6",
+		"name": "United Reformed Church of PEI",
+		"denom": "URCNA",
+		"address": "29 Donald Drive Charlottetown PE C1E 1Z5",
+		"pastor": "Rev. Nathan Zekveld",
+		"phone": "(902) 629-1755",
+		"email": "peiurc@yahoo.com",
+		"website": "http://www.peiurc.org"
+	},
+	{
+		"id": "e9aa77f6-288f-4187-be9f-3ea59cc5ad06",
+		"name": "United Reformed Church of Sunnyside",
+		"denom": "URCNA",
+		"address": "PMB #216, 633 Yakima Valley Highway Sunnyside WA 98944",
+		"pastor": "Vacant",
+		"phone": "(509) 728-5008",
+		"email": "jtsmeenk@yahoo.com",
+		"website": "http://www.sunnysideurc.com"
+	},
+	{
+		"id": "27b3ddfc-2156-44d4-a744-7496ed9a58c3",
+		"name": "Wellandport United Reformed Church",
+		"denom": "URCNA",
+		"address": "74082 Wellandport Rd. RR#1 Wellandport ON L0R 2J0",
+		"pastor": "Rev. Joel Dykstra",
+		"phone": "(905) 386-0737",
+		"email": "secretary.wurc@gmail.com",
+		"website": "http://www.wellandporturc.org"
+	},
+	{
+		"id": "6fc4a88e-0071-4286-bc9e-57f57aafbac7",
+		"name": "United Reformed Church of Wellsburg",
+		"denom": "URCNA",
+		"address": "P.O. Box 10 Wellsburg IA 50680",
+		"pastor": "Rev. Joel Wories",
+		"phone": "(641) 869-3633",
+		"email": "rev.joel.wories@gmail.com",
+		"website": "mailto:rev.joel.wories@gmail.com"
+	},
+	{
+		"id": "7505cb05-1d33-49b1-b55a-22f1694aeb16",
+		"name": "Westside Reformed Church",
+		"denom": "URCNA",
+		"address": "PO Box 112266 Cincinnati OH 45211",
+		"pastor": "Rev. Zachary Wyse",
+		"phone": "(513) 620-6212",
+		"email": "pastor@westsidereformed.org",
+		"website": "http://westsidereformed.org/"
+	},
+	{
+		"id": "25727952-a961-45fa-ad22-8d6dbbe4f124",
+		"name": "Zeltenreich Reformed Church",
+		"denom": "URCNA",
+		"address": "752 Hollander Road New Holland PA 17557",
+		"pastor": "Rev. Robert M. Godfrey",
+		"phone": "(717) 354-9642",
+		"email": "office@zeltenreich.org",
+		"website": "http://www.zeltenreich.org"
+	},
+	{
+		"id": "3f531ec6-ebf3-4f77-bcc2-7a669660245c",
+		"name": "Zion United Reformed Church of Sheffield",
+		"denom": "URCNA",
+		"address": "1238 Old Hwy 8 Sheffield ON L0R 1Z0",
+		"pastor": "Vacant",
+		"phone": "(519) 624-9416",
+		"email": "zionadmin@zurch.ca",
+		"website": "http://www.zurch.ca"
+	},
+	{
+		"id": "fd730fab-f22b-4014-afbf-9ba57e3725be",
+		"name": "West Sayville Reformed Bible Church",
+		"denom": "URCNA",
+		"address": "31 Rollstone Ave. West Sayville NY 11796",
+		"pastor": "Rev. Andrew D. Eenigenburg",
+		"phone": "(631) 589-9281",
+		"email": "office@wsrbc.org",
+		"website": "http://www.wsrbc.org"
+	}
+]

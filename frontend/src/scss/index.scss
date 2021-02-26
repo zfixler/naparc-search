@@ -86,17 +86,17 @@ header {
 
 main {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 2em;
 	justify-items: stretch;
-	max-width: 75%;
+	max-width: 90%;
 	margin: 3em auto;
 }
 
 .card {
 	justify-self: center;
-	width: 280px;
-	height: 400px;
+	width: 260px;
+	height: 380px;
 	background-color: white;
 	box-shadow: $box-shadow;
 	border-radius: 5px;
@@ -143,5 +143,15 @@ main {
 		box-shadow: 0px 0px 3px 1px rgba(216,49,91,0.6);
 		color: $accent-color;
 		outline: none;
+	}
+
+	&.disabled {
+		background: gray;
+		cursor: not-allowed;
+
+		&:hover {
+			color: #FFF;
+			box-shadow: none;
+		}
 	}
 }

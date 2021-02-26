@@ -1,0 +1,72 @@
+[
+	{
+		"id": "d799b33e-61c1-4987-96a3-0a8c7841d4e6",
+		"denom": "PRC",
+		"name": "Presbyterian Reformed Church of Chesley",
+		"pastor": "D. Douglas Gebbie",
+		"address": "1st Ave. S. P.O. Box 538 Chesley, ON N0G 1L0",
+		"phone": "(519) 363-5278",
+		"email": "ddgebbie@gmail.com",
+		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-chesley/"
+	},
+	{
+		"id": "ebd8505a-8f0b-48aa-bd6a-ab5f0d38f9f3",
+		"denom": "PRC",
+		"name": "Presbyterian Reformed Church of Columbus, IN",
+		"pastor": "Bryan Peters",
+		"address": "Hampton Inn of Columbus 12161 U.S. 31 Edinburgh, IN",
+		"phone": "(812) 565-9705",
+		"email": "columbus@presbyterianreformed.org",
+		"website": "https://presbyterianreformed.org/prc-columbus-in/"
+	},
+	{
+		"id": "f45fa6b8-1cc2-48bf-9334-62ebdd1a6d2a",
+		"denom": "PRC",
+		"name": "Presbyterian Reformed Church of Jasper, IN",
+		"pastor": "Brad Freeman",
+		"address": "1330 3rd Ave Jasper, IN",
+		"phone": "(812) 670-9930",
+		"email": "bfreeman@presbyterianreformed.org",
+		"website": "https://presbyterianreformed.org/prc-of-jasper-in/"
+	},
+	{
+		"id": "e1714dbf-6ff5-4851-96e0-ddd2771376a6",
+		"denom": "PRC",
+		"name": "Presbyterian Reformed Church of North Carolina",
+		"pastor": "",
+		"address": "2188 Chestnut Grove Road King, NC27021",
+		"phone": "(336) 577-4661",
+		"email": "jgeorge@providenceindustrial.com",
+		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-north-carolina/"
+	},
+	{
+		"id": "46c20637-6305-48d9-a974-2a45c31d12b2",
+		"denom": "PRC",
+		"name": "Presbyterian Reformed Church of Rhode Island",
+		"pastor": "Michael Ives",
+		"address": "1340 S County Trl East Greenwich, RI 02818",
+		"phone": "(401) 528-7613",
+		"email": "mjives.refparish@gmail.com",
+		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-rhode-island/"
+	},
+	{
+		"id": "bc7ba529-b166-4d66-9e7c-bc9e13365753",
+		"denom": "PRC",
+		"name": "Stockton Presbyterian Reformed Church",
+		"pastor": "Roy Mohon",
+		"address": "THE BIBLE CENTRE, Frederick Street, Stockton-on-Tees, TS18 2BF UK",
+		"phone": "",
+		"email": "",
+		"website": "https://presbyterianreformed.org/stockton-presbyterian-reformed-church/"
+	},
+	{
+		"id": "616000ac-83ad-48a7-b7df-49fb2629c7fa",
+		"denom": "PRC",
+		"name": "Trinity Presbyterian Reformed Church",
+		"pastor": "Michael J. Ericson",
+		"address": "Johnston Lion's Club Building 6401 Merle Hay Rd. Johnston, IA 50131",
+		"phone": "(515) 259-1846",
+		"email": "trinity@presbyterianreformed.org",
+		"website": "https://presbyterianreformed.org/trinity-presbyterian-reformed-church/"
+	}
+]

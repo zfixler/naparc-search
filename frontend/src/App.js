@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import rpcna from './api/rpcna.json';
 import opc from './api/opc.json'
 import hrc from './api/hrc.json'
+import prc from './api/prc.json'
+import urcna from './api/urcna.json'
 import Header from './components/Header';
 import Search from './components/Search';
 import Card from './components/Card';
@@ -16,7 +18,8 @@ function App() {
 
 
 	useEffect(() => {
-		setAllCong(opc.concat(rpcna).concat(hrc));
+		setAllCong(opc.concat(rpcna).concat(hrc).concat(urcna).concat(prc));
+		console.log(urcna.length)
 		searchRef.current.focus()
 
 	}, []);
@@ -35,7 +38,7 @@ function App() {
 
 	}, [searchTerm, allCong]);
 
-	const display = searchResult.slice(0, 10).map((cong) => (
+	const display = searchResult.slice(0, 12).map((cong) => (
 		<Card key={cong.item.id} props={cong.item} />
 	));
 
