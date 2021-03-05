@@ -23,73 +23,23 @@ function getUrls(html) {
 	return congUrl;
 }
 
-async function scrapeCong(html) {
-	const $ = cheerio.load(html);
-	const body = $('body');
-	const name = body.children().first().text().trim();
-	const address = body
-		.children()
-		.first()
-		.next()
-		.children()
-		.first()
-		.html()
-		.replace(/<strong\s*\/?>/g, '')
-		.replace(/<\/strong\s*\/?>/g, '')
-		.replace(/<br\s*\/?>/gi, ' ')
-		.replace(/\s\s+/g, ' ')
-		.replace(/^Address/g, '')
-		.trim();
+function scrapeCong(url) {
 
-	const pastor = body
-		.children()
-		.first()
-		.next()
-		.children()
-		.first()
-		.next()
-		.next()
-		.find('br')[0]
-		.nextSibling.nodeValue.replace(/\(.*/g, '')
-		.replace(/Minister:/g, '')
-		.trim();
+	const decoded = decodeURIComponent(url);
+	const congArr = decoded.split('&')
 
-	const phone = body
-		.children()
-		.first()
-		.next()
-		.children()
-		.first()
-		.next()
-		.next()
-		.find('br')[2]
-		.nextSibling.nodeValue.trim()
-		.replace(/([^\s]+)/m, '')
-		.trim();
-
-	const email = body
-		.children()
-		.first()
-		.next()
-		.children()
-		.first()
-		.next()
-		.next()
-		.find('a')
-		.first()
-		.text();
-
-	const website = body
-		.children()
-		.first()
-		.next()
-		.children()
-		.first()
-		.next()
-		.next()
-		.find('a')
-		.last()
-		.attr('href');
+	const name = congArr.find(str => str.includes('church')).replace(/.*=/g, '')
+	const pastor = congArr.find(str => str.includes('min1')).replace(/.*=/g, '')
+	const addr = congArr.find(str => str.includes('addr')).replace(/.*=/g, '')
+	const city = congArr.find(str => str.includes('city')).replace(/.*=/g, '')
+	const state = congArr.find(str => str.includes('state')).replace(/.*=/g, '')
+	const zip = congArr.find(str => str.includes('zip')).replace(/.*=/g, '')
+	const address = `${addr} ${city}, ${state} ${zip}` 
+	const phone = congArr.find(str => str .includes('phone')).replace(/.*=/g, '')
+	const email = congArr.find(str => str.includes('email')).replace(/.*=/g, '')
+	const website = congArr.find(str => str.includes('web')).replace(/.*=/g, '')
+	const long = congArr.find(str => str.includes('lng')).replace(/.*=/g, '')
+	const lat = congArr.find(str => str .includes('lat')).replace(/.*=/g, '')
 
 	const date = new Date();
 	const update = `Updated on ${
@@ -106,67 +56,12 @@ async function scrapeCong(html) {
 		email: email,
 		website: website,
 		date: update,
+		long: long,
+		lat: lat,
 	};
-
-	if (address.match(/[A-Z][0-9][A-Z]/g)){
-		const zip = address
-			.match(/[A-Z]\d[A-Z]/g)
-			.join()
-			.trim();
-
-		const url = `http://api.zippopotam.us/CA/${zip}`;
-
-		const res = await fetch(url);
-		const json = await res.json();
-
-		const lat = await json.places[0].latitude;
-		const long = await json.places[0].longitude;
-
-		cong.lat = lat;
-		cong.long = long;
-
-	} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
-		const zip = address
-			.match(/\d{5}(?!.*\d{5})/g)
-			.join()
-			.replace(/.*,/g, '')
-			.trim();
-
-		const url = `http://api.zippopotam.us/us/${zip}`;
-
-		const res = await fetch(url);
-		const json = await res.json();
-
-		const lat = await json.places[0].latitude;
-		const long = await json.places[0].longitude;
-
-		cong.lat = lat;
-		cong.long = long;
-	}
-
-	churchArray.push(cong);
+	return cong
 }
 
-async function fetchPage(url) {
-	try {
-		const page = await fetch(
-			`https://www.urcna.org/sysfiles/member/family/${url}`
-		);
-		const html = await page.text();
-		await scrapeCong(html).catch((error) =>
-			console.log(error)
-		);
-		
-	} catch {
-		(error) => console.log(error);
-	}
-
-	if (churchArray.length > 115) {
-		const urcna = JSON.stringify(churchArray);
-		fs.writeFileSync('../../frontend/src/api/urcna.json', urcna);
-		console.log('Created json');
-	}
-}
 
 async function fetchUrl() {
 	try {
@@ -177,12 +72,25 @@ async function fetchUrl() {
 		const scraped = getUrls(html);
 		totalUrls = scraped.length;
 		console.log(totalUrls);
-		for await (url of scraped){
-			fetchPage(url);
-		};
+
+		scraped.forEach((url) => {
+			const cong = scrapeCong(url)
+			console.log(cong)
+			churchArray.push(cong)
+
+			if (churchArray.length === totalUrls) {
+				const urcna = JSON.stringify(churchArray);
+				fs.writeFileSync('../../frontend/src/api/urcna.json', urcna);
+				console.log('Created json');
+			}
+		});
+
 	} catch {
 		(error) => console.log(error);
 	}
 }
 
 fetchUrl();
+
+
+
