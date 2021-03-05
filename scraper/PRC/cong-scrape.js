@@ -50,6 +50,11 @@ async function scrapeCong(arr) {
 
         const email = linkArray.filter(i => i.includes('@')).toString()
 
+		const date = new Date();
+		const update = `Updated on ${
+			date.getMonth() + 1
+		}/${date.getDate()}/${date.getFullYear()}.`;
+
 		const cong = {
 			id: uuidv4(),
             denom: 'PRC',
@@ -58,8 +63,45 @@ async function scrapeCong(arr) {
 			address: address,
             phone: phone,
             email: email,
-            website: url
+            website: url,
+			date: update
 		};
+
+		if (address.match(/[A-Z][0-9][A-Z]/g)) {
+			const zip = address
+				.match(/[A-Z]\d[A-Z]/g)
+				.join()
+				.trim();
+
+			const url = `http://api.zippopotam.us/CA/${zip}`;
+
+			const res = await fetch(url);
+			const json = await res.json();
+
+			const lat = await json.places[0].latitude;
+			const long = await json.places[0].longitude;
+
+			cong.lat = lat;
+			cong.long = long;
+
+		} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
+			const zip = address
+				.match(/\d{5}(?!.*\d{5})/g)
+				.join()
+				.replace(/.*,/g, '')
+				.trim();
+
+			const url = `http://api.zippopotam.us/us/${zip}`;
+
+			const res = await fetch(url);
+			const json = await res.json();
+
+			const lat = await json.places[0].latitude;
+			const long = await json.places[0].longitude;
+
+			cong.lat = lat;
+			cong.long = long;
+		}
 
 		churchArray.push(cong);
 	}

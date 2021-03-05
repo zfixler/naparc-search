@@ -10,14 +10,14 @@ let totalRejects = 0;
 function writeJson(num1, num2) {
 	console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
 
-	if (num1 + num2 === 595) {
+	if (num1 + num2 === 525) {
 		const data = JSON.stringify(churchArray);
 		fs.writeFileSync('../../frontend/src/api/opc.json', data);
 		console.log('JSON Created');
 	}
 }
 
-function getURL(res) {
+async function getURL(res) {
 	const $ = cheerio.load(res);
 
 	if ($('.churchCard').length === 1) {
@@ -43,7 +43,12 @@ function getURL(res) {
 			return $(this).text().trim() === 'Contact Information';
 		});
 
-		const pastor = contact.next().html().replace(/\<.*/g, '').replace(/Pastor:/, '').trim();
+		const pastor = contact
+			.next()
+			.html()
+			.replace(/\<.*/g, '')
+			.replace(/Pastor:/, '')
+			.trim();
 
 		const email = contact.next().find('a').text();
 
@@ -55,7 +60,14 @@ function getURL(res) {
 			.replace(/^(.*?):/, '')
 			.trim();
 
-		const website = card.find('a').last().attr('href');
+		let website = card.find('a').last().attr('href');
+
+		website.includes('/locator.html?presbytery_id') ? website = 'http://www.opc.org' : website
+
+		const date = new Date();
+		const update = `Updated on ${
+			date.getMonth() + 1
+		}/${date.getDate()}/${date.getFullYear()}.`;
 
 		const congregation = {
 			id: uuidv4(),
@@ -66,12 +78,49 @@ function getURL(res) {
 			email: email,
 			website: website,
 			address: address,
+			date: update,
 		};
+		
+		if (address.match(/[A-Z][0-9][A-Z]/g)) {
+			const zip = address
+				.match(/[A-Z]\d[A-Z]/g)
+				.join()
+				.trim();
+
+			const url = `http://api.zippopotam.us/CA/${zip}`;
+
+			const res = await fetch(url);
+			const json = await res.json();
+
+			const lat = await json.places[0].latitude;
+			const long = await json.places[0].longitude;
+
+			congregation.lat = lat;
+			congregation.long = long;
+
+		} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
+			const zip = address
+				.match(/\d{5}(?!.*\d{5})/g)
+				.join()
+				.replace(/.*,/g, '')
+				.trim();
+
+			const url = `http://api.zippopotam.us/us/${zip}`;
+
+			const res = await fetch(url);
+			const json = await res.json();
+
+			const lat = await json.places[0].latitude;
+			const long = await json.places[0].longitude;
+
+			congregation.lat = lat;
+			congregation.long = long;
+		}
+		
 		totalHits += 1;
 		writeJson(totalHits, totalRejects);
 		console.log(congregation);
 		return congregation;
-
 	} else {
 		totalRejects += 1;
 		writeJson(totalHits, totalRejects);
@@ -79,7 +128,7 @@ function getURL(res) {
 }
 
 function scrapeData() {
-	for (let i = 0; i < 600; i++) {
+	for (let i = 0; i < 550; i++) {
 		fetch(`https://opc.org/church.html?church_id=${i}`)
 			.then((res) => res.text())
 			.then((html) => getURL(html))

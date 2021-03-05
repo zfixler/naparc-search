@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 
 const urlList = []
 
-function getData(html) {
+async function getData(html) {
 	const $ = cheerio.load(html);
 
 	const el = $('.church_info');
@@ -57,6 +57,10 @@ function getData(html) {
 		.replace(/\s\s+/g, ' ')
 		.replace(/<br\s*\/?>/gi, ' ');
 
+	const date = new Date()
+	const update = `Updated on ${date.getMonth() +1}/${date.getDate()}/${date.getFullYear()}.`
+
+
 	const congregation = {
 		id: uuidv4(),
 		denom: 'RPCNA',
@@ -66,7 +70,41 @@ function getData(html) {
 		email: email,
 		website: website,
 		address: address,
+		date: update
 	};
+
+	if(address.match(/\d{5}(?!.*\d{5})/g) !== null){
+		const zip = address.match(/\d{5}(?!.*\d{5})/g).join().replace(/.*,/g, '').trim()
+		const url = `http://api.zippopotam.us/us/${zip}`
+			
+		const res = await fetch(url)
+		const json = await res.json()
+		
+		const lat = await json.places[0].latitude
+		const long = await json.places[0].longitude
+
+		congregation.lat = lat
+		congregation.long = long
+
+		} else if (address.match(/[A-Z]\d[A-Z]/g) !== null) {
+
+		const zip = address
+			.match(/[A-Z]\d[A-Z](?!.*[A-Z]\d[A-Z])/g)
+			.join()
+			.replace(/.*,/g, '')
+			.trim();
+
+		const url = `http://api.zippopotam.us/CA/${zip}`;
+
+		const res = await fetch(url);
+		const json = await res.json();
+
+		const lat = await json.places[0].latitude;
+		const long = await json.places[0].longitude;
+
+		congregation.lat = lat;
+		congregation.long = long;
+		}
 
 	console.log(`${churchArray.length} of ${urlList.length} scraped.`);
 	console.log(congregation)
@@ -81,7 +119,7 @@ async function createArray(url) {
 	try {
 		const res = await fetch(`${url}`);
 		const text = await res.text();
-		churchArray.push(getData(text));
+		churchArray.push(await getData(text).catch(error => console.log(error)));
 	} catch {
 		(error) => console.log(error);
 	}

@@ -10,7 +10,7 @@ function scrapeData(html) {
 
 	const churchArray = [];
 
-	main.find('article').each((i, el) => {
+	main.find('article').each(async (i, el) => {
 		const name = $(el)
 			.children()
 			.first()
@@ -66,7 +66,12 @@ function scrapeData(html) {
             .children()
             .first()
             .children()
-            .attr('href')
+            .attr('href');
+
+		const date = new Date();
+		const update = `Updated on ${
+				date.getMonth() + 1
+			}/${date.getDate()}/${date.getFullYear()}.`;
 
 		const cong = {
             id: uuidv4(),
@@ -75,9 +80,9 @@ function scrapeData(html) {
 			address: address,
             phone: phone,
             email: email,
-            website: website
+            website: website,
+			date: update
 		};
-
 		churchArray.push(cong);
 	});
 
@@ -85,15 +90,58 @@ function scrapeData(html) {
 }
 
 async function fetchData() {
-    try{
 	const data = await fetch('https://heritagereformed.com/locations/');
 	const html = await data.text();
-	const congArray = scrapeData(html);
-    const hrc = JSON.stringify(congArray)
-    fs.writeFileSync('../../frontend/src/api/hrc.json', hrc);
-	console.log('Created json');
-
-    } catch {error => console.log(error)}
+	const congArray = await scrapeData(html);
+	return congArray
 }
 
-fetchData();
+async function getLongLat(){
+		const data = await fetchData().catch(error => console.log(error));
+
+		for await (let item of data){
+	
+			if (item.address.match(/[A-Z][0-9][A-Z]/g)) {
+				const zip = item.address
+					.match(/[A-Z]\d[A-Z]/g)
+					.join()
+					.trim();
+
+				const url = `http://api.zippopotam.us/CA/${zip}`;
+
+				const res = await fetch(url);
+				const json = await res.json();
+
+				const lat = await json.places[0].latitude;
+				const long = await json.places[0].longitude;
+
+				item.lat = lat;
+				item.long = long;
+
+			} else if (item.address.match(/\d{5}(?!.*\d{5})/g)) {
+				const zip = item.address
+					.match(/\d{5}(?!.*\d{5})/g)
+					.join()
+					.replace(/.*,/g, '')
+					.trim();
+
+				const url = `http://api.zippopotam.us/us/${zip}`;
+
+				const res = await fetch(url);
+				const json = await res.json();
+
+				const lat = await json.places[0].latitude;
+				const long = await json.places[0].longitude;
+
+				item.lat = lat;
+				item.long = long;
+			}
+
+		} 
+
+    const hrc = JSON.stringify(data)
+    fs.writeFileSync('../../frontend/src/api/hrc.json', hrc);
+	console.log('Created json');
+}
+
+getLongLat().catch(error => console.log(error))
