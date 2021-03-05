@@ -50,6 +50,7 @@ function Card({ props }) {
 					Website
 				</a>}
             </div>
+			<p className="updated">{props.date}</p>
 		</div>
 	);
 }

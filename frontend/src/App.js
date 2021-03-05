@@ -7,19 +7,21 @@ import urcna from './api/urcna.json';
 import Header from './components/Header';
 import Search from './components/Search';
 import Card from './components/Card';
-import {distance} from './utils/utils'
+import { distance } from './utils/utils';
 
 function App() {
 	const [searchTerm, setSearchTerm] = useState('');
 	const [allCong, setAllCong] = useState([]);
 	const [searchResult, setSearchResult] = useState(null);
 	const [location, setLocation] = useState('');
+	const [loading, setLoading] = useState(false);
+	const [error, setError] = useState('');
 
 	const searchRef = useRef(null);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
-
+		setLoading(true);
 		const regexUs = /\d{5}/;
 		const regexCa = /[A-Z]\d[A-Z]/;
 
@@ -29,6 +31,7 @@ function App() {
 			setLocation(searchTerm);
 		} else {
 			setSearchResult(null);
+			setLoading(false);
 		}
 	};
 
@@ -36,20 +39,26 @@ function App() {
 		if (i.length === 5) {
 			const data = await fetch(`http://api.zippopotam.us/us/${i}`);
 			const json = await data.json();
+			if(json.places !== undefined){
+				return { lat: json.places[0].latitude, long: json.places[0].longitude };
+			} else { return 'This ZIP code is incorrect.'}
 
-			return { lat: json.places[0].latitude, long: json.places[0].longitude };
+			
 		} else if (i.length === 3) {
 			const data = await fetch(`http://api.zippopotam.us/CA/${i}`);
 			const json = await data.json();
 
-			return { lat: json.places[0].latitude, long: json.places[0].longitude };
+			if(json.places !== undefined){
+				return { lat: json.places[0].latitude, long: json.places[0].longitude };
+			} else { return 'This postal code is incorrect.'}
 		}
 	};
 
 	const sortSearch = async (location) => {
 		const searchArea = await getPosition(location).catch((error) =>
-			console.log(error)
+			setError(error)
 		);
+		if(typeof searchArea !== 'string'){
 		const filteredArr = allCong.filter((cong) => cong !== null);
 		const congArr = filteredArr.map((cong) => {
 			const d = distance(cong.lat, cong.long, searchArea.lat, searchArea.long);
@@ -58,6 +67,7 @@ function App() {
 			return cong;
 		});
 		return congArr;
+		} else { setError(searchArea); setLoading(false); setSearchResult(null) }
 	};
 
 	useEffect(() => {
@@ -66,16 +76,26 @@ function App() {
 	}, []);
 
 	useEffect(() => {
+		let isCancelled = false;
+
 		const search = async () => {
-			if (location !== '') {
+			if (location !== '' && !isCancelled) {
 				const results = await sortSearch(location).catch((error) =>
-					console.log(error)
+					setError(error)
 				);
-				setSearchResult(results.sort((a, b) => a.d - b.d));
+				if (results !== undefined && !isCancelled) {
+					setLoading(false);
+					setError('')
+					setSearchResult(results.sort((a, b) => a.d - b.d));
+				}
 			}
 		};
 
 		search().catch((error) => console.log(error));
+
+		return () => {
+			isCancelled = true;
+		};
 	}, [location]);
 
 	const instructions =
@@ -93,8 +113,9 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />
-			<main>{display}</main>
+			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />		
+			<main>{loading ? <p>Loading..</p> : error ? <p>{error}</p> : display}</main>
+			
 		</>
 	);
 }
