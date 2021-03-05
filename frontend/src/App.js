@@ -107,14 +107,14 @@ function App() {
 				.slice(0, 12)
 				.map((cong) => <Card key={cong.id} props={cong} />)
 		) : (
-			<p>{instructions}</p>
+			<p className='message'>{instructions}</p>
 		);
 
 	return (
 		<>
 			<Header />
 			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />		
-			<main>{loading ? <p>Loading..</p> : error ? <p>{error}</p> : display}</main>
+			<main>{loading ? <p className='message'>Loading..</p> : error ? <p className='message'>{error}</p> : display}</main>
 			
 		</>
 	);
