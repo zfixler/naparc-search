@@ -123,7 +123,7 @@ async function getUrls() {
 		});
 
 	const data = await scrapeCong(urlArray);
-	const prc = JSON.stringify(data)
+	const pcc = JSON.stringify(data)
     fs.writeFileSync('../../frontend/src/api/prc.json', prc);
 	console.log('Created json');
 }

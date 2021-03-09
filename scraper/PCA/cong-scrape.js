@@ -63,6 +63,7 @@ async function scrapePage(html) {
 			city: city,
 			state: state,
 			date: update,
+            denom: 'PCA'
 		};
 
 		congArr.push(cong);
@@ -86,7 +87,7 @@ async function getStateOptions() {
 		.each((i, el) => {
 			stateSelectorArray.push($(el).attr('value'));
 		});
-
+    count = stateSelectorArray.length
 	return stateSelectorArray;
 }
 
@@ -104,7 +105,8 @@ async function fetchPage(url, data) {
 
 async function getPages() {
 	const states = await getStateOptions().catch((error) => console.log(error));
-	for await (state of states) {
+  
+    for await (state of states) {
 		if (state !== 'Select State') {
 			const data = `State=${state}&orderby=1`;
 			const url = 'https://stat.pcanet.org/ac/directory/directory.cfm';
@@ -112,15 +114,16 @@ async function getPages() {
 			const stateCongs = await scrapePage(html).catch((error) =>
 				console.log(error)
 			);
-            count += stateCongs.length
+            
 			pca.push(stateCongs);
-            console.log(`Scraped ${pca.length} states and ${count} congregations.`)
+            console.log(`${Math.round(pca.length / (count -1) * 100)}%`)
 		}
 	}
-
-	const data = JSON.stringify(pca)
-    fs.writeFileSync('../../frontend/src/api/pca.json', data);
-	console.log('Created json');
+    if(pca.length === (count - 1)){
+        const data = JSON.stringify(pca)
+        fs.writeFileSync('../../frontend/src/api/pca.json', data);
+        console.log('Created json');
+    }
 }
 
 getPages().catch((error) => console.log(error));
