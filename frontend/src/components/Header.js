@@ -2,10 +2,14 @@ import React from 'react'
 
 
 function Header({props}) {
-    const {setInfo} = props
+    const {setInfo, setLoading, setSearchResult, setSearchTerm} = props
     return (
         <header>
-            <h1>NAPARC</h1>
+            <h1 onClick={() => {
+                setLoading(false)
+                setSearchResult(null)
+                setSearchTerm('')
+            }}>NAPARC</h1>
             <p>Search for a Reformed Congregation</p>
             <div className='links'>
                 <p className='link' 

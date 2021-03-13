@@ -5,13 +5,21 @@ const { v4: uuidv4 } = require('uuid');
 
 const pca = [];
 let count = 0;
+const usa = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
 
-async function getLongLat(city, state) {
-	const page = await fetch(`https://stat.pcanet.org/ac/directory/${href}`);
-	const html = await page.text();
-	const $ = cheerio.load(html);
+async function getUsLongLat(city, state) {
+	const res = await fetch(`http://api.zippopotam.us/us/${state}/${city}`)
+	const json = await res.json()
 
-	return $('textarea').text();
+	let lat = null;
+	let long = null;
+
+	if(json.places !== undefined){
+		lat = await json.places[0].latitude;
+		long = await json.places[0].longitude;
+	}
+
+	return [lat, long];
 }
 
 async function scrapePage(html) {
@@ -44,8 +52,8 @@ async function scrapePage(html) {
 			.text();
 		const pastor = $(el).siblings().last().text();
 
-		const city = $(el).next().text().toLowerCase();
-		const state = $(el).next().next().text().toLowerCase();
+		const city = $(el).next().text();
+		const state = $(el).next().next().text();
 
 		const date = new Date();
 		const update = `Updated on ${
@@ -60,8 +68,8 @@ async function scrapePage(html) {
 			email: email,
 			website: website,
 			address: `${city}, ${state}`,
-			city: city,
-			state: state,
+			city: city.toLowerCase(),
+			state: state.toLowerCase(),
 			date: update,
             denom: 'PCA'
 		};
@@ -110,17 +118,39 @@ async function getPages() {
 		if (state !== 'Select State') {
 			const data = `State=${state}&orderby=1`;
 			const url = 'https://stat.pcanet.org/ac/directory/directory.cfm';
-			const html = await fetchPage(url, data);
+			const html = await fetchPage(url, data).catch(error => {
+				if(error.code === 'ECONNRESET'){
+					fetchPage(url, data).catch(error => console.log(error))
+				} else {
+					console.log(error)
+				}
+			});
 			const stateCongs = await scrapePage(html).catch((error) =>
 				console.log(error)
 			);
+
+			if(usa.includes(state)){
+				for await (cong of stateCongs){
+					const locArr = await getUsLongLat(cong.city, cong.state).catch(error => {
+						if(error.code === 'ECONNRESET'){
+							getUsLongLat(cong.city, cong.state).catch(error => console.log(error))
+						} else {
+							console.log(error)
+						}
+					});
+					cong.lat = locArr[0]
+					cong.long = locArr[1]
+				}
+			}
             
 			pca.push(stateCongs);
             console.log(`${Math.round(pca.length / (count -1) * 100)}%`)
 		}
 	}
     if(pca.length === (count - 1)){
-        const data = JSON.stringify(pca)
+		const finArr = pca.flat()
+		console.log(finArr.length)
+        const data = JSON.stringify(finArr)
         fs.writeFileSync('../../frontend/src/api/pca.json', data);
         console.log('Created json');
     }

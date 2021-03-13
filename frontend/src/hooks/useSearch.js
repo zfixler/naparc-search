@@ -6,14 +6,14 @@ import prc from '../api/prc.json';
 import urcna from '../api/urcna.json';
 import { distance } from '../utils/utils';
 
-function useSearch(){
-    const [searchTerm, setSearchTerm] = useState('');
+function useSearch() {
+	const [searchTerm, setSearchTerm] = useState('');
 	const [allCong, setAllCong] = useState([]);
 	const [searchResult, setSearchResult] = useState(null);
 	const [location, setLocation] = useState('');
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
-
+	const [page, setPage] = useState(1);
 
 	const searchRef = useRef(null);
 
@@ -37,18 +37,20 @@ function useSearch(){
 		if (i.length === 5) {
 			const data = await fetch(`http://api.zippopotam.us/us/${i}`);
 			const json = await data.json();
-			if(json.places !== undefined){
+			if (json.places !== undefined) {
 				return { lat: json.places[0].latitude, long: json.places[0].longitude };
-			} else { return 'This ZIP code is incorrect.'}
-
-			
+			} else {
+				return 'This ZIP code is incorrect.';
+			}
 		} else if (i.length === 3) {
 			const data = await fetch(`http://api.zippopotam.us/CA/${i}`);
 			const json = await data.json();
 
-			if(json.places !== undefined){
+			if (json.places !== undefined) {
 				return { lat: json.places[0].latitude, long: json.places[0].longitude };
-			} else { return 'This postal code is incorrect.'}
+			} else {
+				return 'This postal code is incorrect.';
+			}
 		}
 	};
 
@@ -56,16 +58,25 @@ function useSearch(){
 		const searchArea = await getPosition(location).catch((error) =>
 			setError(error)
 		);
-		if(typeof searchArea !== 'string'){
-		const filteredArr = allCong.filter((cong) => cong !== null);
-		const congArr = filteredArr.map((cong) => {
-			const d = distance(cong.lat, cong.long, searchArea.lat, searchArea.long);
+		if (typeof searchArea !== 'string') {
+			const filteredArr = allCong.filter((cong) => cong !== null);
+			const congArr = filteredArr.map((cong) => {
+				const d = distance(
+					cong.lat,
+					cong.long,
+					searchArea.lat,
+					searchArea.long
+				);
 
-			cong.d = d;
-			return cong;
-		});
-		return congArr;
-		} else { setError(searchArea); setLoading(false); setSearchResult(null) }
+				cong.d = d;
+				return cong;
+			});
+			return congArr;
+		} else {
+			setError(searchArea);
+			setLoading(false);
+			setSearchResult(null);
+		}
 	};
 
 	useEffect(() => {
@@ -83,8 +94,9 @@ function useSearch(){
 				);
 				if (results !== undefined && !isCancelled) {
 					setLoading(false);
-					setError('')
+					setError('');
 					setSearchResult(results.sort((a, b) => a.d - b.d));
+					setPage(1);
 				}
 			}
 		};
@@ -96,7 +108,19 @@ function useSearch(){
 		};
 	}, [location]);
 
-    return { searchResult, searchTerm, setSearchTerm, searchRef, handleSubmit, loading, error }
+	return {
+		searchResult,
+		searchTerm,
+		setSearchTerm,
+		searchRef,
+		handleSubmit,
+		loading,
+		error,
+		setLoading,
+		setSearchResult,
+		page,
+		setPage
+	};
 }
 
-export default useSearch
+export default useSearch;
