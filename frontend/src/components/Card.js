@@ -25,7 +25,7 @@ function Card({ props }) {
 			<p className="denom">{props.denom}</p>
 			<h2>{props.name}</h2>
 			<div className="card-info">
-				{isPastor && <p>Pastor: {props.pastor}</p>}
+				{isPastor && <p>{props.pastor.includes('Contact:') ? props.pastor : `Pastor: ${props.pastor}`}</p>}
 				{isPhone && <p>Phone: {props.phone}</p>}
 				<p>{props.address}</p>
 			</div>
@@ -50,7 +50,7 @@ function Card({ props }) {
 					Website
 				</a>}
             </div>
-			<p className="updated">{props.date}</p>
+			<p className="updated">{props.date}   Distance: {Math.round(props.d)} miles.</p>
 		</div>
 	);
 }

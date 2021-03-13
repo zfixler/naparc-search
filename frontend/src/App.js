@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Header, Card, Faq, Key, Search } from './components';
 import useSearch from './hooks/useSearch';
 
@@ -7,7 +7,6 @@ function App() {
 		searchResult,
 		searchTerm,
 		setSearchTerm,
-		searchRef,
 		handleSubmit,
 		loading,
 		error,
@@ -18,6 +17,12 @@ function App() {
 	} = useSearch();
 
 	const [info, setInfo] = useState(0);
+	const searchRef = useRef(null);
+	
+	
+	useEffect(() => {
+		searchRef.current.focus();
+	}, []);
 	
 
 	const instructions =

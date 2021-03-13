@@ -35,6 +35,9 @@ const Key = ({ props }) => {
 					<span className="accent">URCNA</span>: United Reformed Churches in
 					North America
 				</p>
+				<p>
+					<span className="accent">ARP</span>: Associate Reformed Presbyterian Church
+				</p>
 
 				<p>More coming soon!</p>
 			</div>

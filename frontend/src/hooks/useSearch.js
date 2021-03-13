@@ -1,21 +1,21 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import rpcna from '../api/rpcna.json';
 import opc from '../api/opc.json';
 import hrc from '../api/hrc.json';
 import prc from '../api/prc.json';
 import urcna from '../api/urcna.json';
+import arp from '../api/arp.json';
 import { distance } from '../utils/utils';
 
 function useSearch() {
 	const [searchTerm, setSearchTerm] = useState('');
-	const [allCong, setAllCong] = useState([]);
 	const [searchResult, setSearchResult] = useState(null);
 	const [location, setLocation] = useState('');
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
 
-	const searchRef = useRef(null);
+	const allCong = opc.concat(urcna).concat(arp).concat(prc).concat(hrc).concat(rpcna);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -79,10 +79,6 @@ function useSearch() {
 		}
 	};
 
-	useEffect(() => {
-		searchRef.current.focus();
-		setAllCong(opc.concat(rpcna).concat(hrc).concat(urcna).concat(prc));
-	}, []);
 
 	useEffect(() => {
 		let isCancelled = false;
@@ -112,14 +108,13 @@ function useSearch() {
 		searchResult,
 		searchTerm,
 		setSearchTerm,
-		searchRef,
 		handleSubmit,
 		loading,
 		error,
 		setLoading,
 		setSearchResult,
 		page,
-		setPage
+		setPage,
 	};
 }
 
