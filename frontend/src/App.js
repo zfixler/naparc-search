@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Header, Card, Faq, Key, Search } from './components';
+import { Header, Card, Faq, Key, Search, PageNumbers } from './components';
 import useSearch from './hooks/useSearch';
 
 function App() {
@@ -13,7 +13,8 @@ function App() {
 		setLoading,
 		setSearchResult,
 		page,
-		setPage
+		setPage,
+		location
 	} = useSearch();
 
 	const [info, setInfo] = useState(0);
@@ -55,7 +56,7 @@ function App() {
 
 	return (
 		<>
-			<Header props={{ setInfo, setLoading, setSearchResult, setSearchTerm }} />
+			<Header props={{ setInfo, setLoading, setSearchResult, setSearchTerm, searchRef }} />
 			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />
 			<p className="message">
 				{loading
@@ -64,23 +65,15 @@ function App() {
 					? error
 					: !searchResult
 					? instructions
-					: null}
+					: `Showing the results for: ${location}.`}
 			</p>
-			{searchResult && (
-				<div className='pageNumbers'>
-					<p className={page === 1 ? 'pg accent' : 'pg'} onClick={() => changePage(1)}>1</p>
-					<p className={page === 2 ? 'pg accent' : 'pg'} onClick={() => changePage(2)}>2</p>
-					<p className={page === 3 ? 'pg accent' : 'pg'} onClick={() => changePage(3)}>3</p>
-				</div>
-			)}
+			
+			{searchResult && <PageNumbers props={{page, changePage}}/>}
+
 			<main>{displayResults(page, searchResult)}</main>
-			{searchResult && (
-				<div className='pageNumbers'>
-					<p className={page === 1 ? 'pg accent' : 'pg'} onClick={() => changePage(1)}>1</p>
-					<p className={page === 2 ? 'pg accent' : 'pg'} onClick={() => changePage(2)}>2</p>
-					<p className={page === 3 ? 'pg accent' : 'pg'} onClick={() => changePage(3)}>3</p>
-				</div>
-			)}
+
+			{searchResult && <PageNumbers props={{page, changePage}}/>}
+
 			{info === 1 ? (
 				<Faq props={{ setInfo }} />
 			) : info === 2 ? (

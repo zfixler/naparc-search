@@ -5,6 +5,7 @@ import hrc from '../api/hrc.json';
 import prc from '../api/prc.json';
 import urcna from '../api/urcna.json';
 import arp from '../api/arp.json';
+import pca from '../api/pca.json';
 import { distance } from '../utils/utils';
 
 function useSearch() {
@@ -14,8 +15,8 @@ function useSearch() {
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
+	const [allCong, setAllCong] = useState([...opc, ...pca, ...urcna, ...arp, ...prc, ...hrc, ...rpcna])
 
-	const allCong = opc.concat(urcna).concat(arp).concat(prc).concat(hrc).concat(rpcna);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -59,7 +60,7 @@ function useSearch() {
 			setError(error)
 		);
 		if (typeof searchArea !== 'string') {
-			const filteredArr = allCong.filter((cong) => cong !== null);
+			const filteredArr = allCong.filter((cong) => cong !== null && cong.lat !== null);
 			const congArr = filteredArr.map((cong) => {
 				const d = distance(
 					cong.lat,
@@ -71,6 +72,7 @@ function useSearch() {
 				cong.d = d;
 				return cong;
 			});
+			console.log(congArr.length)
 			return congArr;
 		} else {
 			setError(searchArea);
@@ -78,7 +80,6 @@ function useSearch() {
 			setSearchResult(null);
 		}
 	};
-
 
 	useEffect(() => {
 		let isCancelled = false;
@@ -93,6 +94,7 @@ function useSearch() {
 					setError('');
 					setSearchResult(results.sort((a, b) => a.d - b.d));
 					setPage(1);
+					setSearchTerm('');
 				}
 			}
 		};
@@ -115,6 +117,7 @@ function useSearch() {
 		setSearchResult,
 		page,
 		setPage,
+		location,
 	};
 }
 

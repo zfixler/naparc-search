@@ -2,13 +2,14 @@ import React from 'react'
 
 
 function Header({props}) {
-    const {setInfo, setLoading, setSearchResult, setSearchTerm} = props
+    const {setInfo, setLoading, setSearchResult, setSearchTerm, searchRef} = props
     return (
         <header>
             <h1 onClick={() => {
                 setLoading(false)
                 setSearchResult(null)
                 setSearchTerm('')
+                searchRef.current.focus()
             }}>NAPARC</h1>
             <p>Search for a Reformed Congregation</p>
             <div className='links'>

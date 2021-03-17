@@ -38,6 +38,9 @@ const Key = ({ props }) => {
 				<p>
 					<span className="accent">ARP</span>: Associate Reformed Presbyterian Church
 				</p>
+				<p>
+					<span className="accent">PCA</span>: Presbyterian Church in America
+				</p>
 
 				<p>More coming soon!</p>
 			</div>

@@ -5,18 +5,121 @@ const { v4: uuidv4 } = require('uuid');
 
 const pca = [];
 let count = 0;
-const usa = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+let completed = 0
+const usa = [
+	'AL',
+	'AK',
+	'AZ',
+	'AR',
+	'CA',
+	'CO',
+	'CT',
+	'DE',
+	'DC',
+	'FL',
+	'GA',
+	'HI',
+	'ID',
+	'IL',
+	'IN',
+	'IA',
+	'KS',
+	'KY',
+	'LA',
+	'ME',
+	'MD',
+	'MA',
+	'MI',
+	'MN',
+	'MS',
+	'MO',
+	'MT',
+	'NE',
+	'NV',
+	'NH',
+	'NJ',
+	'NM',
+	'NY',
+	'NC',
+	'ND',
+	'OH',
+	'OK',
+	'OR',
+	'PA',
+	'RI',
+	'SC',
+	'SD',
+	'TN',
+	'TX',
+	'UT',
+	'VT',
+	'VA',
+	'WA',
+	'WV',
+	'WI',
+	'WY',
+];
 
 async function getUsLongLat(city, state) {
-	const res = await fetch(`http://api.zippopotam.us/us/${state}/${city}`)
-	const json = await res.json()
+	if(city === undefined || state === undefined){
+		return [null, null]
+	} else {
+
+	let name = null;
+
+	if(city.includes('.')){
+		name = city.replace(/.*\.\s/g, '')
+	} else {
+		name = city.replace(/\s.*/g, '')
+	}
+
+	const res = await fetch(`http://api.zippopotam.us/us/${state}/${name}`);
+	const json = await res.json();
 
 	let lat = null;
 	let long = null;
 
-	if(json.places !== undefined){
-		lat = await json.places[0].latitude;
-		long = await json.places[0].longitude;
+	if (json.places !== undefined) {
+		const location = json.places.filter(ln => ln['place name'].toLowerCase() === city)
+
+		if(location[0] === undefined){
+			lat = json.places[0].latitude
+			long = json.places[0].longitude
+		} else {
+			lat = location[0].latitude;
+			long = location[0].longitude;
+		}
+	}
+
+	return [lat, long];
+	}
+}
+
+async function getCaLongLat(city, state) {
+	let name = null;
+
+	if(city.includes('.')){
+		name = city.replace(/.*\.\s/g, '')
+	} else {
+		name = city.replace(/\s.*/g, '')
+	}
+
+	const res = await fetch(`http://api.zippopotam.us/ca/${state}/${name}`);
+	const json = await res.json();
+
+	let lat = null;
+	let long = null;
+
+	if (json.places !== undefined) {
+		const location = json.places.filter(ln => ln['place name'].toLowerCase() === city)
+		
+		if(location[0] === undefined){
+			lat = json.places[0].latitude;
+			long = json.places[0].longitude;
+		} else {
+			lat = location[0].latitude;
+			long = location[0].longitude;
+		}
 	}
 
 	return [lat, long];
@@ -66,12 +169,12 @@ async function scrapePage(html) {
 			phone: phone,
 			pastor: pastor,
 			email: email,
-			website: website,
+			website: `http://${website}`,
 			address: `${city}, ${state}`,
 			city: city.toLowerCase(),
 			state: state.toLowerCase(),
 			date: update,
-            denom: 'PCA'
+			denom: 'PCA',
 		};
 
 		congArr.push(cong);
@@ -95,7 +198,7 @@ async function getStateOptions() {
 		.each((i, el) => {
 			stateSelectorArray.push($(el).attr('value'));
 		});
-    count = stateSelectorArray.length
+	count = stateSelectorArray.length;
 	return stateSelectorArray;
 }
 
@@ -113,47 +216,76 @@ async function fetchPage(url, data) {
 
 async function getPages() {
 	const states = await getStateOptions().catch((error) => console.log(error));
-  
-    for await (state of states) {
-		if (state !== 'Select State') {
+
+	for await (state of states) {
+		if (state !== 'Select State' || '-') {
 			const data = `State=${state}&orderby=1`;
 			const url = 'https://stat.pcanet.org/ac/directory/directory.cfm';
-			const html = await fetchPage(url, data).catch(error => {
-				if(error.code === 'ECONNRESET'){
-					fetchPage(url, data).catch(error => console.log(error))
+			const html = await fetchPage(url, data).catch((error) => {
+				if (error.code === 'ECONNRESET') {
+					fetchPage(url, data).catch((error) => console.log(error));
 				} else {
-					console.log(error)
+					console.log(error);
 				}
 			});
+
+			if(typeof html === 'string'){
 			const stateCongs = await scrapePage(html).catch((error) =>
 				console.log(error)
 			);
 
-			if(usa.includes(state)){
-				for await (cong of stateCongs){
-					const locArr = await getUsLongLat(cong.city, cong.state).catch(error => {
-						if(error.code === 'ECONNRESET'){
-							getUsLongLat(cong.city, cong.state).catch(error => console.log(error))
-						} else {
-							console.log(error)
+			if (usa.includes(state)) {
+				for await (cong of stateCongs) {
+					if (cong !== undefined) {
+						const locArr = await getUsLongLat(cong.city, cong.state).catch(
+							(error) => {
+								if (error.code === 'ECONNRESET') {
+									getUsLongLat(cong.city, cong.state).catch((error) =>
+										console.log(error)
+									);
+								} else {
+									console.log(error);
+								}
+							}
+						);
+						if(locArr !== undefined){
+							cong.lat = locArr[0];
+							cong.long = locArr[1];
 						}
-					});
-					cong.lat = locArr[0]
-					cong.long = locArr[1]
+					}
+				}
+			} else {
+				for await (cong of stateCongs) {
+					const locArr = await getCaLongLat(cong.city, cong.state).catch(
+						(error) => {
+							if (error.code === 'ECONNRESET') {
+								getCaLongLat(cong.city, cong.state).catch((error) =>
+									console.log(error)
+								);
+							} else {
+								console.log(error);
+							}
+						}
+					);
+					if(locArr !== undefined){
+						cong.lat = locArr[0];
+						cong.long = locArr[1];
+					}
 				}
 			}
-            
 			pca.push(stateCongs);
-            console.log(`${Math.round(pca.length / (count -1) * 100)}%`)
+			completed = Math.round((pca.length / (count - 1)) * 100)
+			console.log(`${completed}% completed.`)
+			}
 		}
 	}
-    if(pca.length === (count - 1)){
-		const finArr = pca.flat()
-		console.log(finArr.length)
-        const data = JSON.stringify(finArr)
-        fs.writeFileSync('../../frontend/src/api/pca.json', data);
-        console.log('Created json');
-    }
+	if (completed >= 100) {
+		const finArr = pca.flat();
+		console.log(finArr.length);
+		const data = JSON.stringify(finArr);
+		fs.writeFileSync('../../frontend/src/api/pca.json', data);
+		console.log('Created json');
+	}
 }
 
 getPages().catch((error) => console.log(error));
