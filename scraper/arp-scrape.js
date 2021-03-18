@@ -60,7 +60,7 @@ async function createArpJson(){
     })
 
     const arr = JSON.stringify(arp)
-        fs.writeFileSync('../../frontend/src/api/arp.json', arr);
+        fs.writeFileSync('../src/api/arp.json', arr);
         console.log('Created json');
 }
 

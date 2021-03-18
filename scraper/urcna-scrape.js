@@ -80,7 +80,7 @@ async function fetchUrl() {
 
 			if (churchArray.length === totalUrls) {
 				const urcna = JSON.stringify(churchArray);
-				fs.writeFileSync('../../frontend/src/api/urcna.json', urcna);
+				fs.writeFileSync('../src/api/urcna.json', urcna);
 				console.log('Created json');
 			}
 		});

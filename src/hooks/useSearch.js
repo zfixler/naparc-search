@@ -15,8 +15,8 @@ function useSearch() {
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
-	const [allCong, setAllCong] = useState([...opc, ...pca, ...urcna, ...arp, ...prc, ...hrc, ...rpcna])
 
+	const [allCong, setAllCong] = useState(pca);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -60,7 +60,9 @@ function useSearch() {
 			setError(error)
 		);
 		if (typeof searchArea !== 'string') {
-			const filteredArr = allCong.filter((cong) => cong !== null && cong.lat !== null);
+			const filteredArr = allCong.filter(
+				(cong) => cong !== null
+			);
 			const congArr = filteredArr.map((cong) => {
 				const d = distance(
 					cong.lat,
@@ -69,10 +71,9 @@ function useSearch() {
 					searchArea.long
 				);
 
-				cong.d = d;
+				cong.d = Math.round(d);
 				return cong;
 			});
-			console.log(congArr.length)
 			return congArr;
 		} else {
 			setError(searchArea);
@@ -92,7 +93,8 @@ function useSearch() {
 				if (results !== undefined && !isCancelled) {
 					setLoading(false);
 					setError('');
-					setSearchResult(results.sort((a, b) => a.d - b.d));
+					const sorted = results.sort((a, b) => a.d - b.d)
+					setSearchResult(sorted);
 					setPage(1);
 					setSearchTerm('');
 				}

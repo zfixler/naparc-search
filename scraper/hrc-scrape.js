@@ -140,7 +140,7 @@ async function getLongLat(){
 		} 
 
     const hrc = JSON.stringify(data)
-    fs.writeFileSync('../../frontend/src/api/hrc.json', hrc);
+    fs.writeFileSync('../src/api/hrc.json', hrc);
 	console.log('Created json');
 }
 
