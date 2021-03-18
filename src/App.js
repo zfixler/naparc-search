@@ -14,17 +14,15 @@ function App() {
 		setSearchResult,
 		page,
 		setPage,
-		location
+		location,
 	} = useSearch();
 
 	const [info, setInfo] = useState(0);
 	const searchRef = useRef(null);
-	
-	
+
 	useEffect(() => {
 		searchRef.current.focus();
 	}, []);
-	
 
 	const instructions =
 		'Please enter a 5 digit U.S. Zip Code, or the first 3 digits of a Canadian postal code.';
@@ -39,6 +37,13 @@ function App() {
 
 	const displayResults = (pageNum, results) => {
 		if (pageNum === 1 && results !== null) {
+			if (results.length === 0) {
+				return (
+					<p className="message">
+						There are no congregations within 100 miles of that location.
+					</p>
+				);
+			}
 			return display.slice(0, 12);
 		} else if (pageNum === 2 && results !== null) {
 			return display.slice(13, 25);
@@ -50,13 +55,21 @@ function App() {
 	};
 
 	const changePage = (num) => {
-		setPage(num)
-		window.scrollTo(0, 225)
-	}
+		setPage(num);
+		window.scrollTo(0, 0);
+	};
 
 	return (
 		<>
-			<Header props={{ setInfo, setLoading, setSearchResult, setSearchTerm, searchRef }} />
+			<Header
+				props={{
+					setInfo,
+					setLoading,
+					setSearchResult,
+					setSearchTerm,
+					searchRef,
+				}}
+			/>
 			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />
 			<p className="message">
 				{loading
@@ -67,12 +80,16 @@ function App() {
 					? instructions
 					: `Showing the results for: ${location}.`}
 			</p>
-			
-			{searchResult && <PageNumbers props={{page, changePage}}/>}
+
+			{searchResult && (
+				<PageNumbers props={{ page, changePage, searchResult }} />
+			)}
 
 			<main>{displayResults(page, searchResult)}</main>
 
-			{searchResult && <PageNumbers props={{page, changePage}}/>}
+			{searchResult && (
+				<PageNumbers props={{ page, changePage, searchResult }} />
+			)}
 
 			{info === 1 ? (
 				<Faq props={{ setInfo }} />

@@ -29,7 +29,6 @@ export default function Search({props}) {
 		return () => { window.removeEventListener('scroll', scroll)}
 	}, [])
 
-	window.addEventListener('scroll', scroll)
 
 	return (
 		<>

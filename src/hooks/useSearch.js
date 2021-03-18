@@ -15,8 +15,7 @@ function useSearch() {
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
-
-	const [allCong, setAllCong] = useState(pca);
+	const [allCong, setAllCong] = useState([...pca, ...opc, ...arp, ...rpcna, ...urcna, ...hrc, ...prc]);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -24,7 +23,9 @@ function useSearch() {
 		const regexUs = /\d{5}/;
 		const regexCa = /[A-Z]\d[A-Z]/;
 
-		if (regexUs.test(searchTerm) && searchTerm.length === 5) {
+		if(searchTerm === location){
+			setLoading(false);
+		} else if (regexUs.test(searchTerm) && searchTerm.length === 5) {
 			setLocation(searchTerm);
 		} else if (regexCa.test(searchTerm) && searchTerm.length === 3) {
 			setLocation(searchTerm);
@@ -93,7 +94,9 @@ function useSearch() {
 				if (results !== undefined && !isCancelled) {
 					setLoading(false);
 					setError('');
-					const sorted = results.sort((a, b) => a.d - b.d)
+					const closestResults = results.filter(cong => cong.d < 100)
+					const sorted = closestResults.sort((a, b) => a.d - b.d)
+					console.log(sorted.length)
 					setSearchResult(sorted);
 					setPage(1);
 					setSearchTerm('');
