@@ -2,7 +2,7 @@
   "name": "naparc-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zfixler.github.io/naparc-search"
+  "homepage": "http://zfixler.github.io/naparc-search",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",

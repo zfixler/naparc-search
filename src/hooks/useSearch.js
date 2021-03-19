@@ -37,7 +37,7 @@ function useSearch() {
 
 	const getPosition = async (i) => {
 		if (i.length === 5) {
-			const data = await fetch(`http://api.zippopotam.us/us/${i}`);
+			const data = await fetch(`https://api.zippopotam.us/us/${i}`);
 			const json = await data.json();
 			if (json.places !== undefined) {
 				return { lat: json.places[0].latitude, long: json.places[0].longitude };
@@ -45,7 +45,7 @@ function useSearch() {
 				return 'This ZIP code is incorrect.';
 			}
 		} else if (i.length === 3) {
-			const data = await fetch(`http://api.zippopotam.us/CA/${i}`);
+			const data = await fetch(`https://api.zippopotam.us/CA/${i}`);
 			const json = await data.json();
 
 			if (json.places !== undefined) {
