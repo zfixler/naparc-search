@@ -100,6 +100,7 @@ function useSearch() {
 					setSearchResult(sorted);
 					setPage(1);
 					setSearchTerm('');
+					window.scrollTo(0, 0);
 				}
 			}
 		};
