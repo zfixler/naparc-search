@@ -27,7 +27,7 @@ function useSearch() {
 			setLoading(false);
 		} else if (regexUs.test(searchTerm) && searchTerm.length === 5) {
 			setLocation(searchTerm);
-		} else if (regexCa.test(searchTerm) && searchTerm.length === 3) {
+		} else if (regexCa.test(searchTerm.toUpperCase()) && searchTerm.length === 3) {
 			setLocation(searchTerm);
 		} else {
 			setSearchResult(null);
