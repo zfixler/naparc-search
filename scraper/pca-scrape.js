@@ -169,7 +169,7 @@ async function scrapePage(html) {
 			phone: phone,
 			pastor: pastor,
 			email: email,
-			website: `http://${website}`,
+			website: website ? `http://${website}` : '',
 			address: `${city}, ${state}`,
 			city: city.toLowerCase(),
 			state: state.toLowerCase(),
