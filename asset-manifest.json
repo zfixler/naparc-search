@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/naparc-search/static/css/main.15f4343f.chunk.css",
+    "main.js": "/naparc-search/static/js/main.39911b19.chunk.js",
+    "main.js.map": "/naparc-search/static/js/main.39911b19.chunk.js.map",
+    "runtime-main.js": "/naparc-search/static/js/runtime-main.41e0d873.js",
+    "runtime-main.js.map": "/naparc-search/static/js/runtime-main.41e0d873.js.map",
+    "static/css/2.96ed7ec5.chunk.css": "/naparc-search/static/css/2.96ed7ec5.chunk.css",
+    "static/js/2.c97e2696.chunk.js": "/naparc-search/static/js/2.c97e2696.chunk.js",
+    "static/js/2.c97e2696.chunk.js.map": "/naparc-search/static/js/2.c97e2696.chunk.js.map",
+    "index.html": "/naparc-search/index.html",
+    "static/css/2.96ed7ec5.chunk.css.map": "/naparc-search/static/css/2.96ed7ec5.chunk.css.map",
+    "static/css/main.15f4343f.chunk.css.map": "/naparc-search/static/css/main.15f4343f.chunk.css.map",
+    "static/js/2.c97e2696.chunk.js.LICENSE.txt": "/naparc-search/static/js/2.c97e2696.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/naparc-search/static/media/remixicon.f2616f59.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41e0d873.js",
+    "static/css/2.96ed7ec5.chunk.css",
+    "static/js/2.c97e2696.chunk.js",
+    "static/css/main.15f4343f.chunk.css",
+    "static/js/main.39911b19.chunk.js"
+  ]
+}
