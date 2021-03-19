@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/naparc-search/static/css/main.9a2f8b11.chunk.css",
-    "main.js": "/naparc-search/static/js/main.a345d049.chunk.js",
-    "main.js.map": "/naparc-search/static/js/main.a345d049.chunk.js.map",
+    "main.js": "/naparc-search/static/js/main.24754764.chunk.js",
+    "main.js.map": "/naparc-search/static/js/main.24754764.chunk.js.map",
     "runtime-main.js": "/naparc-search/static/js/runtime-main.41e0d873.js",
     "runtime-main.js.map": "/naparc-search/static/js/runtime-main.41e0d873.js.map",
     "static/css/2.96ed7ec5.chunk.css": "/naparc-search/static/css/2.96ed7ec5.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.96ed7ec5.chunk.css",
     "static/js/2.c97e2696.chunk.js",
     "static/css/main.9a2f8b11.chunk.css",
-    "static/js/main.a345d049.chunk.js"
+    "static/js/main.24754764.chunk.js"
   ]
 }
