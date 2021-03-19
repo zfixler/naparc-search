@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Header, Card, Faq, Key, Search, PageNumbers } from './components';
+import { Header, Card, Faq, Key, Search, PageNumbers, Footer } from './components';
 import useSearch from './hooks/useSearch';
 
 function App() {
@@ -96,6 +96,7 @@ function App() {
 			) : info === 2 ? (
 				<Key props={{ setInfo }} />
 			) : null}
+			<Footer />
 		</>
 	);
 }
