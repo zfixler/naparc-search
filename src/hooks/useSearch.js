@@ -96,7 +96,6 @@ function useSearch() {
 					setError('');
 					const closestResults = results.filter(cong => cong.d < 100)
 					const sorted = closestResults.sort((a, b) => a.d - b.d)
-					console.log(sorted.length)
 					setSearchResult(sorted);
 					setPage(1);
 					setSearchTerm('');
