@@ -11,7 +11,7 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname, "..", "build", "index.html"));
   });
 
-cron.schedule('0 0 23 ? * TUE,SAT *', () => {
+cron.schedule('* * * * * Sun,Sat', () => {
     require(path.join(__dirname, "arp-scrape.js"))
     require(path.join(__dirname, "rpcna-scrape.js"))
     require(path.join(__dirname, "opc-scrape.js"))
