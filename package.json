@@ -18,6 +18,7 @@
 	"scripts": {
 		"start-client": "react-scripts start",
 		"start": "npm run build && (cd server && npm start)",
+		"heroku-postbuild": "npm install && npm run build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
