@@ -58,7 +58,7 @@ async function getData(html) {
 		.replace(/<br\s*\/?>/gi, ' ');
 
 	const date = new Date()
-	const update = `Updated on ${date.getMonth() +1}/${date.getDate()}/${date.getFullYear()}.`
+	const update = `${date.getMonth() +1}/${date.getDate()}/${date.getFullYear()}`
 
 
 	const congregation = {

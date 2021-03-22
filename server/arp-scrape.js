@@ -38,9 +38,9 @@ async function createArpJson(){
     data.forEach(obj => {
 
         const date = new Date();
-		const update = `Updated on ${
+		const update = `${
 			date.getMonth() + 1
-		}/${date.getDate()}/${date.getFullYear()}.`;
+		}/${date.getDate()}/${date.getFullYear()}`;
 
         const cong = {
             name: obj.store,

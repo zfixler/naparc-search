@@ -65,9 +65,9 @@ async function getURL(res) {
 		website.includes('/locator.html?presbytery_id') ? website = 'http://www.opc.org' : website
 
 		const date = new Date();
-		const update = `Updated on ${
+		const update = `${
 			date.getMonth() + 1
-		}/${date.getDate()}/${date.getFullYear()}.`;
+		}/${date.getDate()}/${date.getFullYear()}`;
 
 		const congregation = {
 			id: uuidv4(),
@@ -127,7 +127,7 @@ async function getURL(res) {
 	}
 }
 
-function scrapeData() {
+function scrapeOpc() {
 	for (let i = 0; i < 550; i++) {
 		fetch(`https://opc.org/church.html?church_id=${i}`)
 			.then((res) => res.text())
@@ -137,4 +137,4 @@ function scrapeData() {
 	}
 }
 
-exports.scrapeData = scrapeData
+exports.scrapeOpc = scrapeOpc

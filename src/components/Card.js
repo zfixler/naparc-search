@@ -56,7 +56,7 @@ function Card({ props }) {
 				)}
 			</div>
 			<p className="updated">
-				{props.date} Distance: {Math.round(props.d)} miles.
+				Updated on {props.date}. Distance: {Math.round(props.d)} miles.
 			</p>
 		</div>
 	);

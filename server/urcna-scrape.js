@@ -42,9 +42,9 @@ function scrapeCong(url) {
 	const lat = congArr.find(str => str .includes('lat')).replace(/.*=/g, '')
 
 	const date = new Date();
-	const update = `Updated on ${
+	const update = `${
 		date.getMonth() + 1
-	}/${date.getDate()}/${date.getFullYear()}.`;
+	}/${date.getDate()}/${date.getFullYear()}`;
 
 	cong = {
 		id: uuidv4(),
