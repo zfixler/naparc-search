@@ -31,6 +31,9 @@ cron.schedule('20 7 * * 1,4', () => {
 	console.log('cron fired')
 });
 
-app.listen(process.env.PORT || 5000, () => {
+const PORT = process.env.PORT || 5000
+const HOST = '0.0.0.0'
+
+app.listen(PORT, HOST, () => {
 	console.log('server started on port 5000');
 });
