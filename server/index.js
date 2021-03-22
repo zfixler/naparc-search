@@ -2,15 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cron = require('node-cron');
-const fetch = require('node-fetch');
-
-const { createArpJson } = require(path.join(__dirname, 'arp-scrape.js'));
-const { getURL } = require(path.join(__dirname, 'rpcna-scrape.js'));
-const { scrapeData } = require(path.join(__dirname, 'opc-scrape.js'));
-const { getPages } = require(path.join(__dirname, 'pca-scrape.js'));
-const { fetchUrl } = require(path.join(__dirname, 'urcna-scrape.js'));
-const { getUrls }= require(path.join(__dirname, 'prc-scrape.js'));
-const { getLongLat } = require(path.join(__dirname, 'hrc-scrape.js'));
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
@@ -19,7 +10,15 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('20 7 * * 1,4', () => {
+cron.schedule('0 8 * * 1,4', () => {
+	const { createArpJson } = require(path.join(__dirname, 'arp-scrape.js'));
+	const { getURL } = require(path.join(__dirname, 'rpcna-scrape.js'));
+	const { scrapeData } = require(path.join(__dirname, 'opc-scrape.js'));
+	const { getPages } = require(path.join(__dirname, 'pca-scrape.js'));
+	const { fetchUrl } = require(path.join(__dirname, 'urcna-scrape.js'));
+	const { getUrls }= require(path.join(__dirname, 'prc-scrape.js'));
+	const { getLongLat } = require(path.join(__dirname, 'hrc-scrape.js'));
+
 	createArpJson().catch(error => console.log(error))
 	getLongLat().catch(error => console.log(error))
 	scrapeData().catch(error => console.log(error))
