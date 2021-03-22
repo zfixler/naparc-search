@@ -90,7 +90,8 @@ async function fetchUrl() {
 	}
 }
 
-fetchUrl();
+
+exports.fetchUrl = fetchUrl
 
 
 

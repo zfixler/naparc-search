@@ -137,4 +137,4 @@ function scrapeData() {
 	}
 }
 
-scrapeData();
+exports.scrapeData = scrapeData

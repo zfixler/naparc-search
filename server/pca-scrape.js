@@ -288,4 +288,4 @@ async function getPages() {
 	}
 }
 
-getPages().catch((error) => console.log(error));
+exports.getPages = getPages

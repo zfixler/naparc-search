@@ -64,4 +64,4 @@ async function createArpJson(){
         console.log('Created json');
 }
 
-createArpJson().catch(error => console.log(error))
+exports.createArpJson = createArpJson

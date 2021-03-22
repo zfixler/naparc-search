@@ -128,4 +128,4 @@ async function getUrls() {
 	console.log('Created json');
 }
 
-getUrls().catch((error) => console.log(error));
+exports.getUrls = getUrls

@@ -148,4 +148,4 @@ async function getURL() {
 	});
 }
 
-getURL()
+exports.getURL = getURL

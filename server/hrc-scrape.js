@@ -144,4 +144,5 @@ async function getLongLat(){
 	console.log('Created json');
 }
 
-getLongLat().catch(error => console.log(error))
+
+exports.getLongLat = getLongLat
