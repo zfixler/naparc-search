@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cron = require('node-cron');
+const fetch = require('node-fetch');
+
 const { createArpJson } = require(path.join(__dirname, 'arp-scrape.js'));
 const { getURL } = require(path.join(__dirname, 'rpcna-scrape.js'));
 const { scrapeData } = require(path.join(__dirname, 'opc-scrape.js'));
@@ -17,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('15 7 * * 1,4', () => {
+cron.schedule('20 7 * * 1,4', () => {
 	createArpJson().catch(error => console.log(error))
 	getLongLat().catch(error => console.log(error))
 	scrapeData().catch(error => console.log(error))
