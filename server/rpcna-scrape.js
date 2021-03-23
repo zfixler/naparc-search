@@ -126,7 +126,7 @@ async function createArray(url) {
 
 	if (churchArray.length === urlList.length) {
 		const data = JSON.stringify(churchArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'src', 'api', 'rpcna.json'), data);
+		fs.writeFileSync(path.join(__dirname, '..', 'src', 'public', 'rpcna.json'), data);
 		console.log('Created json rpcna');
 	}
 }

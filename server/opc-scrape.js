@@ -13,7 +13,7 @@ function writeJson(num1, num2) {
 
 	if (num1 + num2 === 525) {
 		const data = JSON.stringify(churchArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'src', 'api', 'opc.json'), data);
+		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'opc.json'), data);
 		console.log('OPC JSON Created');
 	}
 }

@@ -1,11 +1,4 @@
 import { useState, useEffect } from 'react';
-import rpcna from '../api/rpcna.json';
-import opc from '../api/opc.json';
-import hrc from '../api/hrc.json';
-import prc from '../api/prc.json';
-import urcna from '../api/urcna.json';
-import arp from '../api/arp.json';
-import pca from '../api/pca.json';
 import { distance } from '../utils/utils';
 
 function useSearch() {
@@ -15,7 +8,18 @@ function useSearch() {
 	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
-	const [allCong, setAllCong] = useState([...pca, ...opc, ...arp, ...rpcna, ...urcna, ...hrc, ...prc]);
+	const [allCong, setAllCong] = useState([]);
+
+	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc']
+
+	useEffect(() => {
+		denoms.forEach(denom => {
+			fetch(`/api/${denom}.json`)
+			.then(res => res.json())
+			.then(json => allCong.push(...json))
+			.catch(error => console.log(error))
+		})
+	}, [])
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
