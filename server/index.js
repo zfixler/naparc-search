@@ -8,9 +8,13 @@ const { getPages } = require(path.join(__dirname, 'pca-scrape.js'));
 const { fetchUrl } = require(path.join(__dirname, 'urcna-scrape.js'));
 const { getUrls } = require(path.join(__dirname, 'prc-scrape.js'));
 const { getLongLat } = require(path.join(__dirname, 'hrc-scrape.js'));
-const urcna = require(path.join(__dirname, '..', 'src', 'api', 'urcna.json'));
+
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
+app.use(express.static(path.join(__dirname, '..', 'public')));
+
+const urcna = require(path.join(__dirname, '..', 'public', 'api', 'urcna.json'));
+
 
 app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
