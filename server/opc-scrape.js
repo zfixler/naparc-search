@@ -16,7 +16,7 @@ function writeJson(num1, num2) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'opc.json'), data);
+		fs.writeFileSync(path.join(__dirname, '..', 'api', 'opc.json'), data);
 		console.log('OPC JSON Created');
 	}
 }

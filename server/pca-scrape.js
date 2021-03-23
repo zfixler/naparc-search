@@ -284,7 +284,7 @@ async function getPages() {
 		const finArr = pca.flat();
 		console.log(finArr.length);
 		const data = JSON.stringify(finArr);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'pca.json'), data);
+		fs.writeFileSync(path.join(__dirname, '..', 'api', 'pca.json'), data);
 		console.log('Created json - PCA');
 	}
 }

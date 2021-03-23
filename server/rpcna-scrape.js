@@ -129,7 +129,7 @@ async function createArray(url) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'rpcna.json'), data);
+		fs.writeFileSync(path.join(__dirname, '..', 'api', 'rpcna.json'), data);
 		console.log('Created json rpcna');
 	}
 }
