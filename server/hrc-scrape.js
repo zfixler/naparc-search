@@ -1,8 +1,6 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
-const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
 
 function scrapeData(html) {
 	const $ = cheerio.load(html);
@@ -141,8 +139,7 @@ async function getLongLat(){
 		} 
 
     const hrc = JSON.stringify(data)
-    fs.writeFileSync(path.join(__dirname, '..', 'api', 'hrc.json'), hrc);
-	console.log('Created json HRC');
+    return hrc
 }
 
 

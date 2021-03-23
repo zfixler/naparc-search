@@ -1,8 +1,6 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
-const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
 
 let totalUrls = null;
 let churchArray = [];
@@ -80,8 +78,7 @@ async function fetchUrl() {
 
 			if (churchArray.length === totalUrls) {
 				const urcna = JSON.stringify(churchArray);
-				fs.writeFileSync(path.join(__dirname, '..', 'api', 'urcna.json'), urcna);
-				console.log('Created json urcna');
+				return urcna
 			}
 		});
 

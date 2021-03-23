@@ -1,8 +1,6 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
-const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
 
 const urlList = []
 
@@ -129,8 +127,7 @@ async function createArray(url) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'api', 'rpcna.json'), data);
-		console.log('Created json rpcna');
+		return data
 	}
 }
 

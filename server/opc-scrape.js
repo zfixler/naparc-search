@@ -1,8 +1,6 @@
 const cheerio = require('cheerio');
-const fs = require('fs');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
 
 let totalHits = 0;
 let churchArray = [];
@@ -16,8 +14,7 @@ function writeJson(num1, num2) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'api', 'opc.json'), data);
-		console.log('OPC JSON Created');
+		return data
 	}
 }
 

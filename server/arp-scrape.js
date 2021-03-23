@@ -1,7 +1,5 @@
-const fs = require('fs');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
-const path = require('path');
 
 async function fetchArpData() {
     const arpData = []
@@ -61,8 +59,7 @@ async function createArpJson(){
     })
 
     const arr = JSON.stringify(arp)
-        fs.writeFileSync(path.join(__dirname, '..', 'api', 'arp.json'), arr);
-        console.log('Created json - ARP');
+    return arr
 }
 
 exports.createArpJson = createArpJson
