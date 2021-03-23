@@ -76,7 +76,6 @@ async function fetchUrl() {
 
 		scraped.forEach((url) => {
 			const cong = scrapeCong(url)
-			console.log(cong)
 			churchArray.push(cong)
 
 			if (churchArray.length === totalUrls) {
