@@ -125,7 +125,7 @@ async function getUrls() {
 
 	const data = await scrapeCong(urlArray);
 	const pcc = JSON.stringify(data)
-    fs.writeFileSync(path.join(__dirname, 'api', 'prc.json'), prc);
+    fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'prc.json'), prc);
 	console.log('Created json PRC');
 }
 
