@@ -125,8 +125,11 @@ async function createArray(url) {
 	}
 
 	if (churchArray.length === urlList.length) {
-		const data = JSON.stringify(churchArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'rpcna.json'), data);
+		const filteredArray = churchArray.filter(
+			(cong) => cong !== null || undefined
+		);
+		const data = JSON.stringify(filteredArray);
+		fs.writeFileSync(path.join(__dirname, 'api', 'rpcna.json'), data);
 		console.log('Created json rpcna');
 	}
 }

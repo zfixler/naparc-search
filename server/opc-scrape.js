@@ -12,8 +12,11 @@ function writeJson(num1, num2) {
 	// console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
 
 	if (num1 + num2 === 525) {
-		const data = JSON.stringify(churchArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', 'opc.json'), data);
+		const filteredArray = churchArray.filter(
+			(cong) => cong !== null || undefined
+		);
+		const data = JSON.stringify(filteredArray);
+		fs.writeFileSync(path.join(__dirname, 'api', 'opc.json'), data);
 		console.log('OPC JSON Created');
 	}
 }
@@ -63,7 +66,9 @@ async function getURL(res) {
 
 		let website = card.find('a').last().attr('href');
 
-		website.includes('/locator.html?presbytery_id') ? website = 'http://www.opc.org' : website
+		website.includes('/locator.html?presbytery_id')
+			? (website = 'http://www.opc.org')
+			: website;
 
 		const date = new Date();
 		const update = `${
@@ -81,7 +86,7 @@ async function getURL(res) {
 			address: address,
 			date: update,
 		};
-		
+
 		if (address.match(/[A-Z][0-9][A-Z]/g)) {
 			const zip = address
 				.match(/[A-Z]\d[A-Z]/g)
@@ -98,7 +103,6 @@ async function getURL(res) {
 
 			congregation.lat = lat;
 			congregation.long = long;
-
 		} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
 			const zip = address
 				.match(/\d{5}(?!.*\d{5})/g)
@@ -117,7 +121,7 @@ async function getURL(res) {
 			congregation.lat = lat;
 			congregation.long = long;
 		}
-		
+
 		totalHits += 1;
 		writeJson(totalHits, totalRejects);
 		return congregation;
@@ -137,4 +141,4 @@ function scrapeOpc() {
 	}
 }
 
-exports.scrapeOpc = scrapeOpc
+exports.scrapeOpc = scrapeOpc;

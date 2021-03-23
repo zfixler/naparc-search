@@ -11,9 +11,9 @@ const { getLongLat } = require(path.join(__dirname, 'hrc-scrape.js'));
 
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
-app.use(express.static(path.join(__dirname, '..', 'public')));
 
-const urcna = require(path.join(__dirname, '..', 'public', 'api', 'urcna.json'));
+
+const urcna = require(path.join(__dirname, 'api', 'urcna.json'));
 
 
 app.use((req, res, next) => {
