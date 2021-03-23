@@ -2,6 +2,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
 
 const pca = [];
 let count = 0;
@@ -275,7 +276,7 @@ async function getPages() {
 			}
 			pca.push(stateCongs);
 			completed = Math.round((pca.length / (count - 1)) * 100)
-			console.log(`${completed}% completed.`)
+			// console.log(`${completed}% completed.`)
 			}
 		}
 	}
@@ -283,8 +284,8 @@ async function getPages() {
 		const finArr = pca.flat();
 		console.log(finArr.length);
 		const data = JSON.stringify(finArr);
-		fs.writeFileSync('../src/api/pca.json', data);
-		console.log('Created json');
+		fs.writeFileSync(path.join(__dirname, '..', 'src', 'api', 'pca.json'), data);
+		console.log('Created json - PCA');
 	}
 }
 

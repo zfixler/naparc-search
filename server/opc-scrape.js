@@ -2,18 +2,19 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
 
 let totalHits = 0;
 let churchArray = [];
 let totalRejects = 0;
 
 function writeJson(num1, num2) {
-	console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
+	// console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
 
 	if (num1 + num2 === 525) {
 		const data = JSON.stringify(churchArray);
-		fs.writeFileSync('../src/api/opc.json', data);
-		console.log('JSON Created');
+		fs.writeFileSync(path.join(__dirname, '..', 'src', 'api', 'opc.json'), data);
+		console.log('OPC JSON Created');
 	}
 }
 
@@ -119,7 +120,6 @@ async function getURL(res) {
 		
 		totalHits += 1;
 		writeJson(totalHits, totalRejects);
-		console.log(congregation);
 		return congregation;
 	} else {
 		totalRejects += 1;

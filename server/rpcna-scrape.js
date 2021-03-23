@@ -2,6 +2,7 @@ const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
 
 const urlList = []
 
@@ -106,8 +107,7 @@ async function getData(html) {
 		congregation.long = long;
 		}
 
-	console.log(`${churchArray.length} of ${urlList.length} scraped.`);
-	console.log(congregation)
+	// console.log(`${churchArray.length} of ${urlList.length} scraped.`);
 
 
 	return congregation;
@@ -126,8 +126,8 @@ async function createArray(url) {
 
 	if (churchArray.length === urlList.length) {
 		const data = JSON.stringify(churchArray);
-		fs.writeFileSync('../src/api/rpcna.json', data);
-		console.log('Created json');
+		fs.writeFileSync(path.join(__dirname, '..', 'src', 'api', 'rpcna.json'), data);
+		console.log('Created json rpcna');
 	}
 }
 
