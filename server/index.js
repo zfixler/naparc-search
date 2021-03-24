@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const fs = require('fs');
+const cron = require('node-cron')
 
 const { createArpJson } = require(path.join(__dirname, 'arp-scrape.js'));
 const { getURL } = require(path.join(__dirname, 'rpcna-scrape.js'));
@@ -14,13 +15,6 @@ const { getLongLat } = require(path.join(__dirname, 'hrc-scrape.js'));
 app.use(express.static(path.join(__dirname, '..', 'build')));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-const urcna = require(path.join(
-	__dirname,
-	'..',
-	'public',
-	'api',
-	'urcna.json'
-));
 
 app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
@@ -70,14 +64,9 @@ function runScripts() {
 		.catch(error => console.log(error))
 }
 
-const current = new Date();
-const currentDate = `${
-	current.getMonth() + 1
-}/${current.getDate()}/${current.getFullYear()}`;
-
-if (urcna[0].date !== currentDate) {
-	runScripts()
-}
+cron.schedule('30 7 * * 3,6', () => {
+	runScripts();
+  });
 
 const PORT = 13373;
 
