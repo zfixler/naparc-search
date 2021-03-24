@@ -29,43 +29,43 @@ app.use((req, res, next) => {
 function runScripts() {
 	createArpJson()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `arp.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `arp.json`), json))
 		.then(console.log('ARP json created'))
 		.catch((error) => console.log(error));
 		
 	getLongLat()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `hrc.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `hrc.json`), json))
 		.then(console.log('HRC json created'))
 		.catch((error) => console.log(error));
 
 	scrapeOpc()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `opc.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), json))
 		.then(console.log('OPC json created'))
 		.catch(error => console.log(error))
 	
 	getPages()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `pca.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `pca.json`), json))
 		.then(console.log('PCA json created'))
 		.catch(error => console.log(error))
 
 	getURL()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), json))
 		.then(console.log('RPCNA json created'))
 		.catch(error => console.log(error))
 
 	fetchUrl()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `urcna.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `urcna.json`), json))
 		.then(console.log('URCNA json created'))
 		.catch(error => console.log(error))
 
 	getUrls()
 		.then(res => JSON.stringify(res))
-		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `prc.json`), json))
+		.then(json => fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `prc.json`), json))
 		.then(console.log('PRC json created'))
 		.catch(error => console.log(error))
 }
@@ -79,9 +79,9 @@ if (urcna[0].date !== currentDate) {
 	runScripts()
 }
 
-const PORT = process.env.PORT || 5000;
-const HOST = '0.0.0.0';
+const PORT = 13373;
 
-app.listen(PORT, HOST, () => {
-	console.log('server started on port 5000');
+
+app.listen(PORT, () => {
+	console.log(`Server running on port ${PORT}.`);
 });
