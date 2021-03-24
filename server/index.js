@@ -28,38 +28,45 @@ app.use((req, res, next) => {
 
 function runScripts() {
 	createArpJson()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `arp.json`), json))
+		.then(console.log('ARP json created'))
 		.catch((error) => console.log(error));
 		
 	getLongLat()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `hrc.json`), json))
+		.then(console.log('HRC json created'))
 		.catch((error) => console.log(error));
 
 	scrapeOpc()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `opc.json`), json))
+		.then(console.log('OPC json created'))
 		.catch(error => console.log(error))
 	
 	getPages()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `pca.json`), json))
+		.then(console.log('PCA json created'))
 		.catch(error => console.log(error))
 
 	getURL()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), json))
+		.then(console.log('RPCNA json created'))
 		.catch(error => console.log(error))
 
 	fetchUrl()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `urcna.json`), json))
+		.then(console.log('URCNA json created'))
 		.catch(error => console.log(error))
 
 	getUrls()
-		.then(res => res.json())
+		.then(res => JSON.stringify(res))
 		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `prc.json`), json))
+		.then(console.log('PRC json created'))
 		.catch(error => console.log(error))
 }
 
