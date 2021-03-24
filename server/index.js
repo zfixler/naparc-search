@@ -64,7 +64,7 @@ function runScripts() {
 		.catch(error => console.log(error))
 }
 
-cron.schedule('30 7 * * 3,6', () => {
+cron.schedule('0 8 * * 3,6', () => {
 	runScripts();
   });
 
