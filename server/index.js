@@ -26,29 +26,41 @@ app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
 });
 
-async function runScripts() {
-	const arp = await createArpJson().catch((error) => console.log(error));
-	const hrc = await getLongLat().catch((error) => console.log(error));
-	const opc = scrapeOpc();
-	const pca = await getPages().catch((error) => console.log(error));
-	const rpcna = await getURL().catch((error) => console.log(error));
-	const urcna = await fetchUrl().catch((error) => console.log(error));
-	const prc = await getUrls().catch((error) => console.log(error));
+function runScripts() {
+	createArpJson()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `arp.json`), json))
+		.catch((error) => console.log(error));
+		
+	getLongLat()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `hrc.json`), json))
+		.catch((error) => console.log(error));
 
-	const denoms = [
-		{ json: arp, name: 'arp' },
-		{ json: hrc, name: 'hrc' },
-		{ json: opc, name: 'opc' },
-		{ json: pca, name: 'pca' },
-		{ json: rpcna, name: 'rpcna' },
-		{ json: urcna, name: 'urcna' },
-		{ json: prc, name: 'prc' },
-	];
+	scrapeOpc()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `opc.json`), json))
+		.catch(error => console.log(error))
+	
+	getPages()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `pca.json`), json))
+		.catch(error => console.log(error))
 
-	denoms.forEach(denom => {
-		fs.writeFile(path.join(__dirname, '..', 'public', 'api', `${denom.name}.json`), denom.json)
-		console.log(`JSON created for ${denom.name}`)
-	});
+	getURL()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), json))
+		.catch(error => console.log(error))
+
+	fetchUrl()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `urcna.json`), json))
+		.catch(error => console.log(error))
+
+	getUrls()
+		.then(res => res.json())
+		.then(json => fs.writeFile(path.join(__dirname, '..', 'public', 'api', `prc.json`), json))
+		.catch(error => console.log(error))
 }
 
 const current = new Date();
@@ -57,7 +69,7 @@ const currentDate = `${
 }/${current.getDate()}/${current.getFullYear()}`;
 
 if (urcna[0].date !== currentDate) {
-	runScripts().catch(error => console.log(error))
+	runScripts()
 }
 
 const PORT = process.env.PORT || 5000;

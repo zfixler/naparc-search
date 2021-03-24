@@ -128,7 +128,7 @@ async function getURL(res) {
 	}
 }
 
-function scrapeOpc() {
+async function scrapeOpc() {
 	for (let i = 0; i < 550; i++) {
 		fetch(`https://opc.org/church.html?church_id=${i}`)
 			.then((res) => res.text())
