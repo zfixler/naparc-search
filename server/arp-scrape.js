@@ -28,7 +28,10 @@ async function fetchArpData() {
         arpData.push(data)
 	}
 
-    return arpData.flat()
+    const singleArray = []
+    arpData.forEach(arr => singleArray.concat(arr))
+
+    return singleArray
 }
 
 

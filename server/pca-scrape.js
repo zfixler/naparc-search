@@ -281,9 +281,10 @@ async function getPages() {
 		}
 	}
 	if (completed >= 100) {
-		const finArr = pca.flat();
-		console.log(finArr.length);
-		const data = JSON.stringify(finArr);
+		const singleArray = []
+    	pca.forEach(arr => singleArray.concat(arr))
+		console.log(singleArray.length);
+		const data = JSON.stringify(singleArray);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `pca.json`), data)
 	}
 }
