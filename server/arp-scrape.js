@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const fs = require('fs');
 
 async function fetchArpData() {
     const arpData = []
@@ -59,7 +61,7 @@ async function createArpJson(){
     })
 
     const arr = JSON.stringify(arp)
-    return arr
+    fs.writeFile(path.join(__dirname, '..', 'public', 'api', `arp.json`), arr)
 }
 
-exports.createArpJson = createArpJson
+createArpJson().catch(error => console.log(error))

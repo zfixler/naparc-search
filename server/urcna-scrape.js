@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const fs = require('fs');
 
 let totalUrls = null;
 let churchArray = [];
@@ -78,7 +80,7 @@ async function fetchUrl() {
 
 			if (churchArray.length === totalUrls) {
 				const urcna = JSON.stringify(churchArray);
-				return urcna
+				fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `urcna.json`), urcna)
 			}
 		});
 
@@ -88,7 +90,7 @@ async function fetchUrl() {
 }
 
 
-exports.fetchUrl = fetchUrl
+fetchUrl().catch(error => console.log(error))
 
 
 

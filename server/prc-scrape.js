@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const fs = require('fs');
 
 async function scrapeCong(arr) {
 	const churchArray = [];
@@ -122,8 +124,8 @@ async function getUrls() {
 		});
 
 	const data = await scrapeCong(urlArray);
-	const pcc = JSON.stringify(data)
-    return pcc
+	const prc = JSON.stringify(data)
+    fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `prc.json`), prc)
 }
 
-exports.getUrls = getUrls
+getUrls().catch(error => console.log(error))

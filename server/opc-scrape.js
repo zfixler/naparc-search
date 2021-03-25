@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const fs = require('fs');
 
 let totalHits = 0;
 let churchArray = [];
@@ -14,7 +16,7 @@ function writeJson(num1, num2) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		return data
+		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), data)
 	}
 }
 
@@ -138,4 +140,4 @@ async function scrapeOpc() {
 	}
 }
 
-exports.scrapeOpc = scrapeOpc;
+scrapeOpc().catch(error => console.log(error))

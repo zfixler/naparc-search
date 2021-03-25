@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
+const path = require('path');
+const fs = require('fs');
 
 const urlList = []
 
@@ -127,7 +129,7 @@ async function createArray(url) {
 			(cong) => cong !== null || undefined
 		);
 		const data = JSON.stringify(filteredArray);
-		return data
+		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), data)
 	}
 }
 
@@ -148,4 +150,4 @@ async function getURL() {
 	});
 }
 
-exports.getURL = getURL
+getURL().catch(error => console.log(error))
