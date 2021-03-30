@@ -11,6 +11,7 @@ app.use((req, res, next) => {
 });
 
 cron.schedule('*/2 * * * *', () => {
+	console.log('scrape cron running')
 	fetchUrl.catch(error => console.log(error))
   });
 
