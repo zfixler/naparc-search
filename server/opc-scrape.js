@@ -17,6 +17,7 @@ function writeJson(num1, num2) {
 		);
 		const data = JSON.stringify(filteredArray);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), data)
+		console.log('OPC JSON written.')
 	}
 }
 

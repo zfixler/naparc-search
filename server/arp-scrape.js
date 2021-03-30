@@ -28,10 +28,7 @@ async function fetchArpData() {
         arpData.push(data)
 	}
 
-    const singleArray = []
-    arpData.forEach(arr => singleArray.concat(arr))
-
-    return singleArray
+    return arpData.flat()
 }
 
 
@@ -65,6 +62,7 @@ async function createArpJson(){
 
     const arr = JSON.stringify(arp)
     fs.writeFile(path.join(__dirname, '..', 'public', 'api', `arp.json`), arr)
+    console.log('ARP JSON written.')
 }
 
 createArpJson().catch(error => console.log(error))

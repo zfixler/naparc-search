@@ -142,6 +142,7 @@ async function getLongLat(){
 
     const hrc = JSON.stringify(data)
     fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `hrc.json`), hrc)
+	console.log('HRC JSON written.')
 }
 
 

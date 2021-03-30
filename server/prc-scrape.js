@@ -126,6 +126,7 @@ async function getUrls() {
 	const data = await scrapeCong(urlArray);
 	const prc = JSON.stringify(data)
     fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `prc.json`), prc)
+	console.log('PRC JSON written.')
 }
 
 getUrls().catch(error => console.log(error))

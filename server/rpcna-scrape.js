@@ -130,6 +130,7 @@ async function createArray(url) {
 		);
 		const data = JSON.stringify(filteredArray);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), data)
+		console.log('RPCNA JSON written.')
 	}
 }
 
