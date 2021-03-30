@@ -10,8 +10,12 @@ app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
 });
 
-cron.schedule('*/3 * * * *', () => {
+cron.schedule('*/2 * * * *', () => {
 	fetchUrl.catch(error => console.log(error))
+  });
+
+cron.schedule('* * * * *', () => {
+	console.log('cron running')
   });
 
 
