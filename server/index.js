@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cron = require('node-cron');
-const URCNA = require('/urcna-scrape').fetchUrl
+const URCNA = require('./urcna-scrape.js').fetchUrl
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
