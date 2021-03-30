@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const cron = require('node-cron');
-const URCNA = require('./scrape-urcna').fetchUrl
+const URCNA = require('/urcna-scrape').fetchUrl
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
@@ -10,7 +10,7 @@ app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
 });
 
-cron.schedule('*/5 * * * *', () => {
+cron.schedule('*/3 * * * *', () => {
 	URCNA.catch(error => console.log(error))
   });
 
