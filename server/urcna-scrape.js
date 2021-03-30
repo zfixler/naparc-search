@@ -90,8 +90,9 @@ async function fetchUrl() {
 	}
 }
 
+exports.fetchUrl = fetchUrl
 
-fetchUrl().catch(error => console.log(error))
+
 
 
 
