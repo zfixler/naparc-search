@@ -55,9 +55,10 @@ function Card({ props }) {
 					<a className="btn disabled">Website</a>
 				)}
 			</div>
-			<p className="updated">
-				Updated on {props.date}. Distance: {Math.round(props.d)} miles.
-			</p>
+			<div className="info-pane">
+				<p className="updated">Updated on {props.date}.</p>
+				<p className="distance">Distance: {Math.round(props.d)} miles.</p>
+			</div>
 		</div>
 	);
 }

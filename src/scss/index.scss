@@ -76,7 +76,7 @@ header {
 .info-wrapper {
 	background-color: $primary-background;
 	max-width: 750px;
-	padding: 1em;
+	padding: 1em 2em;
 	border-radius: 5px;
 	margin: 1em;
 	display: flex;
@@ -85,7 +85,7 @@ header {
 	@media (max-width: 600px) {
 		max-width: 90%;
 		margin: 1em;
-		padding: 3em 2em 2em;
+		padding: 2em;
 		max-height: 82%;
 
 		.text-wrapper {
@@ -136,7 +136,7 @@ header {
 		font-family: 'Montserrat', sans-serif;
 		color: $primary-color;
 		padding: 1.5em 4.5em 1.5em 1.5em;
-		border-radius: 1.5em;
+		border-radius: 5px;
 		outline: none;
 		border: none;
 		box-shadow: $box-shadow;
@@ -226,7 +226,7 @@ main {
 	width: 260px;
 	height: 380px;
 	background-color: white;
-	box-shadow: $box-shadow;
+	box-shadow: $box-shadow; 
 	border-radius: 5px;
 	padding: 1.5em 2em;
 	display: flex;
@@ -256,10 +256,13 @@ main {
 		right: 8px;
 	}
 
-	.updated {
+	.info-pane {
 		font-size: 0.75rem;
 		position: absolute;
 		bottom: 0;
+		display: flex;
+		justify-content: space-around;
+		width: 80%;
 	}
 }
 
@@ -272,7 +275,7 @@ main {
 		rgba(5, 102, 141, 0.7290266448376226) 0%,
 		rgba(5, 102, 141, 1) 100%
 	);
-	border-radius: 1em;
+	border-radius: 5px;
 	margin: 10px;
 	position: relative;
 	transition: all 250ms ease;
@@ -301,6 +304,7 @@ main {
 	padding: 0 2em;
 	align-items: center;
 	gap: 2em;
+	margin-bottom: 10px;
 
 	@media (max-width: 600px) {
 		flex-direction: column;
