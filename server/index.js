@@ -3,7 +3,6 @@ const app = express();
 const path = require('path');
 const cron = require('node-cron');
 const shell = require('shelljs');
-const { dir } = require('node:console');
 
 app.use(express.static(path.join(__dirname, '..', 'build')));
 
@@ -12,44 +11,44 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('41 6 * * *', () => {
-	shell.cd(dir).exec('node urcna-scrape.js')
-	console.log('cron fired at 6:41 am')
+cron.schedule('48 6 * * *', () => {
+	shell.cd('server').exec('node urcna-scrape.js')
+	console.log('cron fired at 6:48 am')
   });
 
-cron.schedule('42 6 * * *', () => {
-	shell.cd(dir).exec('node arp-scrape.js')
-	console.log('cron fired at 6:42 am')
+cron.schedule('49 6 * * *', () => {
+	shell.cd('server').exec('node arp-scrape.js')
+	console.log('cron fired at 6:49 am')
   });
 
-cron.schedule('43 6 * * *', () => {
-	shell.cd(dir).exec('node opc-scrape.js')
-	console.log('cron fired at 6:43 am')
+cron.schedule('50 6 * * *', () => {
+	shell.cd('server').exec('node opc-scrape.js')
+	console.log('cron fired at 6:50 am')
   });
 
-  cron.schedule('44 6 * * *', () => {
-	shell.cd(dir).exec('node pca-scrape.js')
-	console.log('cron fired at 6:44 am')
+  cron.schedule('51 6 * * *', () => {
+	shell.cd('server').exec('node pca-scrape.js')
+	console.log('cron fired at 6:51 am')
   });
 
-  cron.schedule('45 6 * * *', () => {
-	shell.cd(dir).exec('node prc-scrape.js')
-	console.log('cron fired at 6:45 am')
+  cron.schedule('52 6 * * *', () => {
+	shell.cd('server').exec('node prc-scrape.js')
+	console.log('cron fired at 6:52 am')
   });
 
-  cron.schedule('46 6 * * *', () => {
-	shell.cd(dir).exec('node hrc-scrape.js')
-	console.log('cron fired at 6:46 am')
+  cron.schedule('53 6 * * *', () => {
+	shell.cd('server').exec('node hrc-scrape.js')
+	console.log('cron fired at 6:53 am')
   });
 
-  cron.schedule('47 6 * * *', () => {
-	shell.cd(dir).exec('node rpcna-scrape.js')
-	console.log('cron fired at 6:47 am')
+  cron.schedule('54 6 * * *', () => {
+	shell.cd('server').exec('node rpcna-scrape.js')
+	console.log('cron fired at 6:54 am')
   });
 
-cron.schedule('53 6 * * *', () => {
+cron.schedule('59 6 * * *', () => {
 	shell.cd(path.join(__dirname, '..')).exec('npm build')
-	console.log('cron fired at 6:53 am. task complete.')
+	console.log('cron fired at 6:59 am. task complete.')
   });
 
 const PORT = 13373;
