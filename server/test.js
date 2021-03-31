@@ -1,1 +1,1 @@
-console.log('Cron job successful.')
+console.log('Test successful.')
