@@ -11,41 +11,44 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('45 22 * * *', () => {
+cron.schedule('45 5 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node urcna-scrape.js')
+	console.log('cron fired')
   });
 
-cron.schedule('46 22 * * *', () => {
+cron.schedule('46 5 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node arp-scrape.js')
+	console.log('cron fired')
   });
 
-cron.schedule('47 22 * * *', () => {
+cron.schedule('47 5 * * *', () => {
 	shell.exec('node opc-scrape.js')
 	console.log('cron fired')
   });
 
-  cron.schedule('48 22 * * *', () => {
+  cron.schedule('48 5 * * *', () => {
 	shell.exec('node pca-scrape.js')
 	console.log('cron fired')
   });
 
-  cron.schedule('49 22 * * *', () => {
+  cron.schedule('49 5 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node prc-scrape.js')
 	console.log('cron fired')
   });
 
-  cron.schedule('50 22 * * *', () => {
+  cron.schedule('50 5 * * *', () => {
 	shell.exec('node hrc-scrape.js')
 	console.log('cron fired')
   });
 
-  cron.schedule('51 22 * * *', () => {
+  cron.schedule('51 5 * * *', () => {
 	shell.exec('node rpcna-scrape.js')
 	console.log('cron fired')
   });
 
-cron.schedule('55 22 * * *', () => {
+cron.schedule('55 5 * * *', () => {
 	shell.cd(path.join(__dirname, '..')).exec('npm build')
+	console.log('cron fired')
   });
 
 const PORT = 13373;
