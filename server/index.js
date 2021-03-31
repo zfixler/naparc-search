@@ -10,8 +10,8 @@ app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
 });
 
-cron.schedule('* * * * *', () => {
-	console.log('cron fired')
+cron.schedule('16 6 * * *', () => {
+	console.log('cron fired at 6:16am')
 })
 
 
