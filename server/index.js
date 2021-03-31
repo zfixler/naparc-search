@@ -11,35 +11,40 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('45 21 * * *', () => {
+cron.schedule('45 22 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node urcna-scrape.js')
   });
 
-cron.schedule('46 21 * * *', () => {
+cron.schedule('46 22 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node arp-scrape.js')
   });
 
-cron.schedule('47 21 * * *', () => {
-	shell.cd(path.join(__dirname)).exec('node opc-scrape.js')
+cron.schedule('47 22 * * *', () => {
+	shell.exec('node opc-scrape.js')
+	console.log('cron fired')
   });
 
-  cron.schedule('48 21 * * *', () => {
-	shell.cd(path.join(__dirname)).exec('node pca-scrape.js')
+  cron.schedule('48 22 * * *', () => {
+	shell.exec('node pca-scrape.js')
+	console.log('cron fired')
   });
 
-  cron.schedule('49 21 * * *', () => {
-	shell.cd(path.join(__dirname)).cd(path.join(__dirname)).exec('node prc-scrape.js')
+  cron.schedule('49 22 * * *', () => {
+	shell.cd(path.join(__dirname)).exec('node prc-scrape.js')
+	console.log('cron fired')
   });
 
-  cron.schedule('50 21 * * *', () => {
-	shell.cd(path.join(__dirname)).exec('node hrc-scrape.js')
+  cron.schedule('50 22 * * *', () => {
+	shell.exec('node hrc-scrape.js')
+	console.log('cron fired')
   });
 
-  cron.schedule('51 21 * * *', () => {
-	shell.cd(path.join(__dirname)).exec('node rpcna-scrape.js')
+  cron.schedule('51 22 * * *', () => {
+	shell.exec('node rpcna-scrape.js')
+	console.log('cron fired')
   });
 
-cron.schedule('55 21 * * *', () => {
+cron.schedule('55 22 * * *', () => {
 	shell.cd(path.join(__dirname, '..')).exec('npm build')
   });
 
