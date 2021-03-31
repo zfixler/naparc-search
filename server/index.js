@@ -10,6 +10,10 @@ app.use((req, res, next) => {
 	res.sendFile(path.join(__dirname, '..', 'build', 'index.html'));
 });
 
+cron.schedule('* * * * *', () => {
+	console.log('cron fired')
+})
+
 
 cron.schedule('45 5 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node urcna-scrape.js')
