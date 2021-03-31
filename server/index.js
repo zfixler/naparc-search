@@ -22,8 +22,8 @@ app.use((req, res, next) => {
 // 	fetchUrl.catch(error => console.log(error))
 //   });
 
-cron.schedule('* * * * *', () => {
-	shell.exec('node test.js')
+cron.schedule('*/3 * * * *', () => {
+	shell.exec('node urcna-scrape.js')
 	console.log('cron ran')
   });
 
