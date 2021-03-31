@@ -22,10 +22,16 @@ app.use((req, res, next) => {
 // 	fetchUrl.catch(error => console.log(error))
 //   });
 
+// cron.schedule('*/3 * * * *', () => {
+// 	shell.exec('node urcna-scrape.js')
+// 	console.log('cron ran')
+//   });
+
 cron.schedule('*/3 * * * *', () => {
-	shell.exec('node urcna-scrape.js')
+	shell.cd(path.join(__dirname, '..')).exec('npm start')
 	console.log('cron ran')
   });
+
 
 
 const PORT = 13373;
