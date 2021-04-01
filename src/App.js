@@ -27,6 +27,8 @@ function App() {
 	useEffect(() => {
 		if(info === 1 || info === 2){
 			document.body.style.overflow = 'hidden'
+		} else if (info === 0){
+			document.body.style.overflow = 'visible'
 		}
 	}, [info])
 
