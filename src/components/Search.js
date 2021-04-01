@@ -1,8 +1,9 @@
+import { sortedLastIndexOf } from 'lodash';
 import React, { useState, useRef, useEffect } from 'react';
 
 
 export default function Search({props}) {
-	const {setSearchTerm, searchTerm, searchRef, handleSubmit} = props
+	const {setSearchTerm, searchTerm, searchRef, handleSubmit, setInfo} = props
 
 	const [hasScrolled, setHasScrolled] = useState(false)
 	const ref = useRef(null)
@@ -46,6 +47,7 @@ export default function Search({props}) {
 					onChange={(e) => {setSearchTerm(e.target.value)}}
 					ref={searchRef} />
 		</form>
+		<p className="small beta" onClick={() => setInfo(2)}>BETA: Which denominations are included?</p>
 		</>
 	);
 }

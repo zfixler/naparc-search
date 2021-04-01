@@ -1,46 +1,47 @@
 import React from 'react';
 
 function Card({ props }) {
+	const {cong, setInfo} = props
 	const isEmail =
-		props.email === null || props.email === undefined || props.email === ''
+		cong.email === null || cong.email === undefined || cong.email === ''
 			? false
 			: true;
 	const isWebsite =
-		props.website === null ||
-		props.website === undefined ||
-		props.website === ''
+		cong.website === null ||
+		cong.website === undefined ||
+		cong.website === ''
 			? false
 			: true;
 	const isPastor =
-		props.pastor === null ||
-		props.pastor === undefined ||
-		props.pastor === '' ||
-		props.pastor === 'Email:'
+		cong.pastor === null ||
+		cong.pastor === undefined ||
+		cong.pastor === '' ||
+		cong.pastor === 'Email:'
 			? false
 			: true;
 	const isPhone =
-		props.phone === null || props.phone === undefined || props.phone === ''
+		cong.phone === null || cong.phone === undefined || cong.phone === ''
 			? false
 			: true;
 
 	return (
 		<div className="card">
-			<p className="denom">{props.denom}</p>
-			<h2>{props.name}</h2>
+			<p className="denom" onClick={() => setInfo(2)}>{cong.denom}</p>
+			<h2>{cong.name}</h2>
 			<div className="card-info">
 				{isPastor && (
 					<p>
-						{props.pastor.includes('Contact:')
-							? props.pastor
-							: `Pastor: ${props.pastor}`}
+						{cong.pastor.includes('Contact:')
+							? <p><span className='bold'>Contact:</span> {cong.pastor.replace(/Contact:/, '')}</p>
+							: <p><span className='bold'>Pastor:</span> {cong.pastor}</p>}
 					</p>
 				)}
-				{isPhone && <p>Phone: {props.phone}</p>}
-				<p>{props.address}</p>
+				{isPhone && <p><span className='bold'>Phone:</span> {cong.phone}</p>}
+				<p><span className='bold'>Address:</span> {cong.address}</p>
 			</div>
 			<div className="card-btns">
 				{isEmail ? (
-					<a className="btn" href={`mailto:${props.email}`}>
+					<a className="btn" href={`mailto:${cong.email}`}>
 						Email
 					</a>
 				) : (
@@ -48,7 +49,7 @@ function Card({ props }) {
 				)}
 
 				{isWebsite ? (
-					<a className="btn" href={props.website} target="_blank">
+					<a className="btn" href={cong.website} target="_blank">
 						Website
 					</a>
 				) : (
@@ -56,8 +57,8 @@ function Card({ props }) {
 				)}
 			</div>
 			<div className="info-pane">
-				<p className="updated">Updated on {props.date}.</p>
-				<p className="distance">Distance: {Math.round(props.d)} miles.</p>
+				<p className="updated">Updated on {cong.date}.</p>
+				<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
 			</div>
 		</div>
 	);

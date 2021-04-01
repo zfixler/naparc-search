@@ -31,7 +31,7 @@ function Header({props}) {
                         setInfo(1)
                       }
                    }}
-                   >Key</p>  
+                   >Denomination Key</p>  
             </div>
         </header>
     )

@@ -41,7 +41,7 @@ function App() {
 		searchResult !== null &&
 		searchResult
 			.slice(0, 38)
-			.map((cong) => <Card key={cong.id} props={cong} />);
+			.map((cong) => <Card key={cong.id} props={{cong, setInfo}} />);
 
 	const displayResults = (pageNum, results) => {
 		if (pageNum === 1 && results !== null) {
@@ -78,7 +78,7 @@ function App() {
 					searchRef,
 				}}
 			/>
-			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit }} />
+			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }} />
 			<p className="message">
 				{loading
 					? loadingMessage

@@ -4,7 +4,15 @@ const Faq = ({ props }) => {
 	const { setInfo } = props;
 
 	return (
-		<div className="info-container">
+		<div
+			className="info-container"
+			onClick={(e) => {
+				e.preventDefault();
+				if (e.target === e.currentTarget) {
+					setInfo(0);
+				}
+			}}
+		>
 			<div className="info-wrapper">
 				<i
 					class="ri-close-circle-line ri-2x close-btn"
@@ -41,6 +49,9 @@ const Faq = ({ props }) => {
 						denominations, and check back with us soon. More will be included
 						shortly!
 					</p>
+
+					<h3>How accurate is this information?</h3>
+					<p>This websited is updated several times per week, in an attempt to provide as up to day information as possible. The information is gathered from the various denomination websites, however, which may not be up to day. If you find information that is out of date, please contact the appropriate denomination directly. If there are congregations listed on a denomination website that are not listed here, please contact me. Thank you!</p>
 				</div>
 			</div>
 		</div>

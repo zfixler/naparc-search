@@ -4,7 +4,15 @@ const Key = ({ props }) => {
 	const { setInfo } = props;
 
 	return (
-		<div className="info-container">
+		<div
+			className="info-container"
+			onClick={(e) => {
+				e.preventDefault();
+				if (e.target === e.currentTarget) {
+					setInfo(0);
+				}
+			}}
+		>
 			<div className="info-wrapper">
 				<i
 					class="ri-close-circle-line ri-2x close-btn"
