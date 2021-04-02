@@ -51,7 +51,22 @@ const Faq = ({ props }) => {
 					</p>
 
 					<h3>How accurate is this information?</h3>
-					<p>This website is updated several times per week, in an attempt to provide as up to day information as possible. The information is gathered from the various denomination websites, however, which may not be up to day. If you find information that is out of date, please contact the appropriate denomination directly. If there are congregations listed on a denomination website that are not listed here, please contact me. Thank you!</p>
+					<p>
+						This website is updated several times per week, in an attempt to
+						provide as up to date information as possible. The information is
+						gathered from the various denomination websites, however, which may
+						not be up to day. If you find information that is out of date,
+						please contact the appropriate denomination directly. If there are
+						congregations listed on a denomination website that are not listed
+						here, please contact me. Thank you!
+					</p>
+
+					<h3>How is the distance calculated?</h3>
+					<p>
+						The distance is calculated straight from longitude and latitude
+						points, or "as the crow flies". This will not necessarily be
+						accurate for travelling miles, unless of course you are a crow.
+					</p>
 				</div>
 			</div>
 		</div>
