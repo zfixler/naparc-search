@@ -139,7 +139,7 @@ async function getURL(res) {
 async function scrapeOpc() {
 	const urlList = []
 	for (let i = 0; i < 550; i++) {
-		urlList.push(`https://opc.org/church.html?church_id=${i}`)
+		urlList.push(`http://opc.org/church.html?church_id=${i}`)
 		// fetch(`https://opc.org/church.html?church_id=${i}`)
 		// 	.then((res) => res.text())
 		// 	.then((html) => getURL(html))
