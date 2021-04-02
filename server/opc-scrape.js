@@ -10,12 +10,8 @@ let totalRejects = 0;
 
 function writeJson(num1, num2) {
 	// console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
-
 	if (num1 + num2 === 525) {
-		const filteredArray = churchArray.filter(
-			(cong) => cong !== null || undefined
-		);
-		const data = JSON.stringify(filteredArray);
+		const data = JSON.stringify(churchArray);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), data)
 		console.log('OPC JSON written.')
 	}
@@ -93,16 +89,21 @@ async function getURL(res) {
 				.join()
 				.trim();
 
-			const url = `http://api.zippopotam.us/CA/${zip}`;
+			const url = `http://api.zippopotam.us/ca/${zip}`;
 
-			const res = await fetch(url);
+			const res = await fetch(url).catch(error => {
+				if (error.code === 'ECONNRESET'){
+					fetch(url).catch(error => console.log(error))
+				} else { return {"places": null} }
+			});
 			const json = await res.json();
-
-			const lat = await json.places[0].latitude;
-			const long = await json.places[0].longitude;
-
-			congregation.lat = lat;
-			congregation.long = long;
+			if(json.places !== null){
+				const lat = await json.places[0].latitude;
+				const long = await json.places[0].longitude;
+				congregation.lat = lat;
+				congregation.long = long;
+			}
+			
 		} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
 			const zip = address
 				.match(/\d{5}(?!.*\d{5})/g)
@@ -112,14 +113,18 @@ async function getURL(res) {
 
 			const url = `http://api.zippopotam.us/us/${zip}`;
 
-			const res = await fetch(url);
+			const res = await fetch(url).catch(error => {
+				if (error.code === 'ECONNRESET'){
+					fetch(url).catch(error => console.log(error))
+				} else { return {"places": null}}
+			});
 			const json = await res.json();
-
-			const lat = await json.places[0].latitude;
-			const long = await json.places[0].longitude;
-
-			congregation.lat = lat;
-			congregation.long = long;
+			if(json.places !== null){
+				const lat = await json.places[0].latitude;
+				const long = await json.places[0].longitude;
+				congregation.lat = lat;
+				congregation.long = long;
+			}
 		}
 
 		totalHits += 1;
@@ -132,12 +137,27 @@ async function getURL(res) {
 }
 
 async function scrapeOpc() {
+	const urlList = []
 	for (let i = 0; i < 550; i++) {
-		fetch(`https://opc.org/church.html?church_id=${i}`)
-			.then((res) => res.text())
-			.then((html) => getURL(html))
-			.then((data) => churchArray.push(data))
-			.catch((error) => console.log(error));
+		urlList.push(`https://opc.org/church.html?church_id=${i}`)
+		// fetch(`https://opc.org/church.html?church_id=${i}`)
+		// 	.then((res) => res.text())
+		// 	.then((html) => getURL(html))
+		// 	.then((data) => churchArray.push(data))
+		// 	.catch((error) => console.log(error));
+	}
+
+	for await (url of urlList){
+		const page = await fetch(url).catch(error => {
+			if (error.code === 'ECONNRESET'){
+				fetch(url).catch(error => console.log(error))
+			} else { console.log(error)}
+		})
+		const html = await page.text()
+		const cong = await getURL(html)
+		if(cong !== undefined){
+			churchArray.push(cong)
+		}
 	}
 }
 
