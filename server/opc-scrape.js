@@ -3,6 +3,7 @@ const fetch = require('node-fetch');
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const fs = require('fs');
+const https = require('https');
 
 let totalHits = 0;
 let churchArray = [];
@@ -136,10 +137,11 @@ async function getURL(res) {
 	}
 }
 
+
 async function scrapeOpc() {
 	const urlList = []
 	for (let i = 0; i < 550; i++) {
-		urlList.push(`http://www.opc.org/church.html?church_id=${i}`)
+		urlList.push(`https://www.opc.org/church.html?church_id=${i}`)
 		// fetch(`https://opc.org/church.html?church_id=${i}`)
 		// 	.then((res) => res.text())
 		// 	.then((html) => getURL(html))
@@ -147,8 +149,15 @@ async function scrapeOpc() {
 		// 	.catch((error) => console.log(error));
 	}
 
+	const httpsAgent = new https.Agent({
+		rejectUnauthorized: false,
+	  });
+
 	for await (url of urlList){
-		const page = await fetch(url).catch(error => {
+		const page = await fetch(url, {
+			method: 'GET',
+			agent: httpsAgent,
+		}).catch(error => {
 			if (error.code === 'ECONNREFUSED'){
 				fetch(url).catch(error => console.log(error))
 			} else { console.log(error)}
