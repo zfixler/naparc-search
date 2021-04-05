@@ -156,12 +156,9 @@ async function scrapeOpc() {
 	for await (url of urlList){
 		const page = await fetch(url, {
 			method: 'GET',
+			redirect: 'manual',
 			agent: httpsAgent,
-		}).catch(error => {
-			if (error.code === 'ECONNREFUSED'){
-				fetch(url).catch(error => console.log(error))
-			} else { console.log(error)}
-		})
+		}).catch(error => console.log(error))
 
 		if(page !== undefined){
 			const html = await page.text()
