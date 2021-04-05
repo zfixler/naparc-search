@@ -153,12 +153,13 @@ async function scrapeOpc() {
 				fetch(url).catch(error => console.log(error))
 			} else { console.log(error)}
 		})
-		
+
 		if(page !== undefined){
 			const html = await page.text()
 			const cong = await getURL(html)
 				if(cong !== undefined){
 				churchArray.push(cong)
+				console.log(cong)
 			}
 		} 	
 	}
