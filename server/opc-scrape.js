@@ -149,15 +149,18 @@ async function scrapeOpc() {
 
 	for await (url of urlList){
 		const page = await fetch(url).catch(error => {
-			if (error.code === 'ECONNRESET'){
+			if (error.code === 'ECONNREFUSED'){
 				fetch(url).catch(error => console.log(error))
 			} else { console.log(error)}
 		})
-		const html = await page.text()
-		const cong = await getURL(html)
-		if(cong !== undefined){
-			churchArray.push(cong)
-		}
+		
+		if(page !== undefined){
+			const html = await page.text()
+			const cong = await getURL(html)
+				if(cong !== undefined){
+				churchArray.push(cong)
+			}
+		} 	
 	}
 }
 
