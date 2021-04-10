@@ -21,10 +21,10 @@ cron.schedule('6 2 * * *', () => {
 	console.log('cron fired at 2:06 am')
   });
 
-cron.schedule('7 2 * * *', () => {
-	shell.cd(path.join(__dirname)).exec('node opc-scrape.js')
-	console.log('cron fired at 2:07 am')
-  });
+// cron.schedule('7 2 * * *', () => {
+// 	shell.cd(path.join(__dirname)).exec('node opc-scrape.js')
+// 	console.log('cron fired at 2:07 am')
+//   });
 
   cron.schedule('8 2 * * *', () => {
 	shell.cd(path.join(__dirname)).exec('node pca-scrape.js')

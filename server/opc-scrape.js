@@ -10,7 +10,9 @@ let churchArray = [];
 let totalRejects = 0;
 
 function writeJson(num1, num2) {
-	// console.log(`Total hits: ${num1}. Total rejects: ${num2}.`);
+	process.stdout.clearLine();
+    process.stdout.cursorTo(0);
+    process.stdout.write(`Total hits: ${num1}. Total rejects: ${num2}.`);
 	if (num1 + num2 === 525) {
 		const data = JSON.stringify(churchArray);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), data)
@@ -117,10 +119,10 @@ async function getURL(res) {
 			const res = await fetch(url).catch(error => {
 				if (error.code === 'ECONNRESET'){
 					fetch(url).catch(error => console.log(error))
-				} else { return {"places": null}}
+				} else { return {"places": "null"}}
 			});
 			const json = await res.json();
-			if(json.places !== null){
+			if(json.places !== undefined || null){
 				const lat = await json.places[0].latitude;
 				const long = await json.places[0].longitude;
 				congregation.lat = lat;
@@ -165,7 +167,6 @@ async function scrapeOpc() {
 			const cong = await getURL(html)
 				if(cong !== undefined){
 				churchArray.push(cong)
-				console.log(cong)
 			}
 		} 	
 	}
