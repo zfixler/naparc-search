@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 const Key = ({ props }) => {
-	const { setInfo } = props;
+	const { setInfo, info } = props;
 
 	return (
 		<div

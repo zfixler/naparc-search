@@ -57,7 +57,6 @@ function Card({ props }) {
 				)}
 			</div>
 			<div className="info-pane">
-				<p className="updated">Updated on {cong.date}.</p>
 				<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
 			</div>
 		</div>

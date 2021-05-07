@@ -102,7 +102,7 @@ function App() {
 			{info === 1 ? (
 				<Faq props={{ setInfo }} />
 			) : info === 2 ? (
-				<Key props={{ setInfo }} />
+				<Key props={{ setInfo, info }} />
 			) : null}
 			<Footer />
 		</>

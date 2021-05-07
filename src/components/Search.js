@@ -5,38 +5,13 @@ import React, { useState, useRef, useEffect } from 'react';
 export default function Search({props}) {
 	const {setSearchTerm, searchTerm, searchRef, handleSubmit, setInfo} = props
 
-	const [hasScrolled, setHasScrolled] = useState(false)
 	const ref = useRef(null)
-
-	const scroll = () => {
-		if(window.innerWidth > 500){
-			if(window.scrollY >= 225){
-				setHasScrolled(true)
-			} else {
-				setHasScrolled(false)
-			}
-		} else {
-			if(window.scrollY >= 184){
-				setHasScrolled(true)
-			} else {
-				setHasScrolled(false)
-			}
-		}
-	
-	}
-
-	useEffect(() => {
-		window.addEventListener('scroll', scroll)
-		return () => { window.removeEventListener('scroll', scroll)}
-	}, [])
-
 
 	return (
 		<>
-		<div className={hasScrolled ? 'spacer' : null}></div>
 
 		<form ref={ref} 
-			  className={hasScrolled ? "search-container active" : "search-container"}
+			  className={"search-container"}
 			  onSubmit={(e) => handleSubmit(e)}
 			>
 			<button type="submit">

@@ -23,7 +23,7 @@ async function getData(html) {
 		.children()
 		.last()
 		.text()
-		.replace(/\s\s+/g, ' ')
+		// .replace(/\s\s+/g, ' ')
 		.trim();
 
 	const email = $(el)

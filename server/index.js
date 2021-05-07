@@ -11,12 +11,12 @@ app.use((req, res, next) => {
 });
 
 
-cron.schedule('5 2 * * *', () => {
+cron.schedule('5 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node urcna-scrape.js')
 	console.log('cron fired at 2:05 am')
   });
 
-cron.schedule('6 2 * * *', () => {
+cron.schedule('6 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node arp-scrape.js')
 	console.log('cron fired at 2:06 am')
   });
@@ -26,27 +26,27 @@ cron.schedule('6 2 * * *', () => {
 // 	console.log('cron fired at 2:07 am')
 //   });
 
-  cron.schedule('8 2 * * *', () => {
+  cron.schedule('8 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node pca-scrape.js')
 	console.log('cron fired at 2:08 am')
   });
 
-  cron.schedule('9 2 * * *', () => {
+  cron.schedule('9 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node prc-scrape.js')
 	console.log('cron fired at 2:09 am')
   });
 
-  cron.schedule('10 2 * * *', () => {
+  cron.schedule('10 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node hrc-scrape.js')
 	console.log('cron fired at 2:10 am')
   });
 
-  cron.schedule('11 2 * * *', () => {
+  cron.schedule('11 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname)).exec('node rpcna-scrape.js')
 	console.log('cron fired at 2:11 am')
   });
 
-cron.schedule('40 2 * * *', () => {
+cron.schedule('40 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname, '..')).exec('npm run build')
 	console.log('cron fired at 2:40 am. task complete.')
   });
