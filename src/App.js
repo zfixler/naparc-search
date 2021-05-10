@@ -35,7 +35,15 @@ function App() {
 	const instructions =
 		'Please enter a 5 digit U.S. Zip Code, or the first 3 digits of a Canadian postal code.';
 
-	const loadingMessage = 'Loading...';
+	let loadingMessage = 'Loading...';
+
+	useEffect(() => {
+		setTimeout(() => {
+			if(loading){
+				loadingMessage = 'Something went wrong. Please try again later.'
+			}
+		}, 5000)
+	}, [loading])
 
 	const display =
 		searchResult !== null &&

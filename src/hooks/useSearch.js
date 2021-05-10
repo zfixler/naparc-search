@@ -10,16 +10,16 @@ function useSearch() {
 	const [page, setPage] = useState(1);
 	const [allCong, setAllCong] = useState([]);
 
-	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc']
+	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc'];
 
 	useEffect(() => {
-		denoms.forEach(denom => {
+		denoms.forEach((denom) => {
 			fetch(`/api/${denom}.json`)
-			.then(res => res.json())
-			.then(json => allCong.push(...json))
-			.catch(error => console.log(error))
-		})
-	}, [])
+				.then((res) => res.json())
+				.then((json) => allCong.push(...json))
+				.catch((error) => console.log(error));
+		});
+	}, []);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -37,6 +37,15 @@ function useSearch() {
 			setSearchResult(null);
 			setLoading(false);
 		}
+
+		const checkLoading = () => {
+				if(loading === true){
+					setLoading(false);
+					setError('Something went wrong. Please try again.');
+				} 
+		};
+
+		setTimeout(checkLoading, 5000);
 	};
 
 	const getPosition = async (i) => {
@@ -65,9 +74,7 @@ function useSearch() {
 			setError(error)
 		);
 		if (typeof searchArea !== 'string') {
-			const filteredArr = allCong.filter(
-				(cong) => cong !== null
-			);
+			const filteredArr = allCong.filter((cong) => cong !== null);
 			const congArr = filteredArr.map((cong) => {
 				const d = distance(
 					cong.lat,
@@ -98,8 +105,8 @@ function useSearch() {
 				if (results !== undefined && !isCancelled) {
 					setLoading(false);
 					setError('');
-					const closestResults = results.filter(cong => cong.d < 100)
-					const sorted = closestResults.sort((a, b) => a.d - b.d)
+					const closestResults = results.filter((cong) => cong.d < 100);
+					const sorted = closestResults.sort((a, b) => a.d - b.d);
 					setSearchResult(sorted);
 					setPage(1);
 					setSearchTerm('');
