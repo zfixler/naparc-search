@@ -55,7 +55,7 @@ function scrapeCong(url) {
 		pastor: pastor,
 		phone: phone,
 		email: email,
-		website: website,
+		website: `http://${website}`,
 		date: update,
 		long: long,
 		lat: lat,
