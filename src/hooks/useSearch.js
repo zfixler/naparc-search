@@ -12,6 +12,13 @@ function useSearch() {
 
 	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc'];
 
+	const checkLoading = () => {
+		if(loading === true){
+			setLoading(false);
+			setError('Something went wrong. Please try again.');
+		} 
+};
+
 	useEffect(() => {
 		denoms.forEach((denom) => {
 			fetch(`/api/${denom}.json`)
@@ -20,6 +27,11 @@ function useSearch() {
 				.catch((error) => console.log(error));
 		});
 	}, []);
+
+	useEffect(() => {
+		let loadingTimeout = setTimeout(checkLoading, 5000);
+		return () => clearTimeout(loadingTimeout)
+	}, [loading])
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -37,15 +49,6 @@ function useSearch() {
 			setSearchResult(null);
 			setLoading(false);
 		}
-
-		const checkLoading = () => {
-				if(loading === true){
-					setLoading(false);
-					setError('Something went wrong. Please try again.');
-				} 
-		};
-
-		setTimeout(checkLoading, 5000);
 	};
 
 	const getPosition = async (i) => {
