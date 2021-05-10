@@ -39,9 +39,9 @@ function scrapeCong(url) {
 	const phone = congArr.find(str => str .includes('phone')).replace(/.*=/g, '')
 	const email = congArr.find(str => str.includes('email')).replace(/.*=/g, '')
 	let website = congArr.find(str => str.includes('web')).replace(/.*=/g, '')
-	
+
 		if(website === 'www.gracealto.com'){
-			return website = 'www.graceurcmi.com' 
+		   website = 'www.graceurcmi.com' 
 		}
 
 	const long = congArr.find(str => str.includes('lng')).replace(/.*=/g, '')
