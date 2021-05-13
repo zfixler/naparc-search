@@ -42,7 +42,7 @@ cron.schedule('6 2 * * 2,6', () => {
   });
 
   cron.schedule('11 2 * * 2,6', () => {
-	shell.cd(path.join(__dirname)).exec('node rpcna-scrape.js')
+	shell.cd(path.join(__dirname)).exec('node rpcna-scrape2.js')
 	console.log('cron fired at 2:11 am')
   });
 
