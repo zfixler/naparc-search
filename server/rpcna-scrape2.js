@@ -86,7 +86,7 @@ async function scrapeCong(url) {
 		name: name,
 		denom: 'RPCNA',
 		phone: phone,
-		emai: email,
+		email: email,
 		website: website,
 		pastor: pastor,
 		address: address,
