@@ -4,91 +4,112 @@ const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const fs = require('fs');
 
-const urlList = []
+function presbyteries(html) {
+	const $ = cheerio.load(html);
+	const urls = [];
 
-async function getData(html) {
+	$('ul')
+		.children()
+		.each((i, el) => {
+			let url = $(el).children().attr('href');
+			if (url !== undefined && url.includes('category')) {
+				urls.push(url);
+			}
+		});
+
+	return urls;
+}
+
+function congregations(html) {
+	const $ = cheerio.load(html);
+	const urls = [];
+	$('tbody')
+		.children()
+		.each((i, el) => {
+			const url = $(el).find('a').attr('href');
+			if (url !== undefined && !url.includes('@')) {
+				urls.push(url);
+			}
+		});
+	return urls;
+}
+
+async function scrapeCong(url) {
+	const resp = await fetch(url);
+	const html = await resp.text();
 	const $ = cheerio.load(html);
 
-	const el = $('.church_info');
+	let phone = '';
+	let email = '';
+	let website = '';
+	let pastor = '';
 
-	const congName = $(el).find('h1').html().replace(/\<.*/g, '').trim();
+	$('.church_info')
+		.find('th')
+		.each((i, el) => {
+			const content = $(el).text();
+			if (content.includes('Phone')) {
+				phone = $(el).next().text().trim();
+			} else if (content.includes('Email')) {
+				email = $(el).next().children().text().trim();
+			} else if (content.includes('Web')) {
+				website = $(el).next().children().attr('href');
+			}
+		});
 
-	const pastor = $(el).find('p').first().text().replace(/,.*/g, '').trim();
+	$('.church_info')
+		.find('p')
+		.each((i, el) => {
+			if ($(el).text().includes('Pastor')) {
+				pastor = $(el).text().replace(/,.*/g, '').trim();
+			} else if ($(el).text().includes('Contact')) {
+				pastor = $(el).text().trim();
+			}
+		});
 
-	const phone = $(el)
-		.find('table')
-		.children()
-		.children()
-		.first()
-		.children()
-		.last()
-		.text()
-		// .replace(/\s\s+/g, ' ')
+	const address = $('[name=daddr]')
+		.attr('value')
+		.replace(/<br\s*\/?>/gi, ' ')
+		.replace(/\s\s+/g, ' ')
+		.replace(/.\s,/g, '.,')
 		.trim();
 
-	const email = $(el)
-		.find('table')
-		.children()
-		.children()
-		.first()
-		.next()
-		.children()
-		.last()
-		.children()
-		.text()
-		.replace(/\s\s+/g, ' ');
+	const name = $('.church_info').find('h1').html().replace(/\<.*/g, '').trim();
 
-	const website = $(el)
-		.find('table')
-		.children()
-		.children()
-		.first()
-		.next()
-		.next()
-		.children()
-		.last()
-		.children()
-		.first()
-		.attr('href');
-
-	const address = $('.address')
-		.find('p')
-		.first()
-		.html()
-		.replace(/\s\s+/g, ' ')
-		.replace(/<br\s*\/?>/gi, ' ');
-
-	const date = new Date()
-	const update = `${date.getMonth() +1}/${date.getDate()}/${date.getFullYear()}`
-
+	const date = new Date();
+	const update = `${
+		date.getMonth() + 1
+	}/${date.getDate()}/${date.getFullYear()}`;
 
 	const congregation = {
 		id: uuidv4(),
+		name: name,
 		denom: 'RPCNA',
-		name: congName,
-		pastor: pastor,
 		phone: phone,
 		email: email,
 		website: website,
+		pastor: pastor,
 		address: address,
-		date: update
+		date: update,
 	};
 
-	if(address.match(/\d{5}(?!.*\d{5})/g) !== null){
-		const zip = address.match(/\d{5}(?!.*\d{5})/g).join().replace(/.*,/g, '').trim()
-		const url = `http://api.zippopotam.us/us/${zip}`
-			
-		const res = await fetch(url)
-		const json = await res.json()
-		
-		const lat = await json.places[0].latitude
-		const long = await json.places[0].longitude
+	if (address.match(/\d{5}(?!.*\d{5})/g) !== null) {
+		const zip = address
+			.match(/\d{5}(?!.*\d{5})/g)
+			.join()
+			.replace(/.*,/g, '')
+			.trim();
+		const url = `http://api.zippopotam.us/us/${zip}`;
 
-		congregation.lat = lat
-		congregation.long = long
+		const res = await fetch(url);
+		const json = await res.json();
 
-		} else if (address.match(/[A-Z]\d[A-Z]/g) !== null) {
+		const lat = await json.places[0].latitude;
+		const long = await json.places[0].longitude;
 
+		congregation.lat = lat;
+		congregation.long = long;
+	} else if (address.match(/[A-Z]\d[A-Z]/g) !== null) {
 		const zip = address
 			.match(/[A-Z]\d[A-Z](?!.*[A-Z]\d[A-Z])/g)
 			.join()
@@ -105,50 +126,41 @@ async function getData(html) {
 
 		congregation.lat = lat;
 		congregation.long = long;
-		}
-
-	// console.log(`${churchArray.length} of ${urlList.length} scraped.`);
-
+	}
 
 	return congregation;
 }
 
-let churchArray = [];
+async function scrapeRpcna() {
+	const response = await fetch('https://rpcna.org/trunk/page/congregations');
+	const html = await response.text();
+	const presbyteryUrlList = presbyteries(html);
 
-async function createArray(url) {
-	try {
-		const res = await fetch(`${url}`);
-		const text = await res.text();
-		churchArray.push(await getData(text).catch(error => console.log(error)));
-	} catch {
-		(error) => console.log(error);
+	const allUrls = [];
+
+	for await (presb of presbyteryUrlList) {
+		const response = await fetch(presb);
+		const html = await response.text();
+		const congUrls = congregations(html);
+		allUrls.push(congUrls);
 	}
 
-	if (churchArray.length === urlList.length) {
-		const filteredArray = churchArray.filter(
-			(cong) => cong !== null || undefined
-		);
-		const data = JSON.stringify(filteredArray);
-		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `rpcna.json`), data)
-		console.log('RPCNA JSON written.')
+	const rpcna = [];
+	let count = 0;
+
+	for await (url of allUrls.flat()) {
+		const cong = await scrapeCong(url).catch((error) => console.log(error));
+		rpcna.push(cong);
+		console.log(`${count + 1} congregations scraped.`);
+		count++;
 	}
+
+	const data = JSON.stringify(rpcna);
+	fs.writeFileSync(
+		path.join(__dirname, '..', 'public', 'api', `rpcna.json`),
+		data
+	);
+	console.log('RPCNA JSON written.');
 }
 
-async function getURL() {
-	const page = await fetch('https://reformedpresbyterian.org/congregations/list/category/usa')
-	const html = await page.text()
-	
-	const $ = cheerio.load(html);
-	
-
-	$('.church_directory table tbody tr').each((i, el) => {
-		const churchURL = $(el).find('a').first().attr('href');
-		urlList.push(churchURL);
-	});
-
-	urlList.forEach((url) => {
-		createArray(url);
-	});
-}
-
-getURL().catch(error => console.log(error))
+scrapeRpcna().catch((error) => console.log(error));
