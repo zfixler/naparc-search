@@ -60,7 +60,7 @@ async function createArpJson(){
         arp.push(cong)
     })
 
-    const arr = JSON.stringify(arp)
+    const arr = JSON.stringify(arp, null, 4)
     fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `arp.json`), arr)
     console.log('ARP JSON written.')
 }

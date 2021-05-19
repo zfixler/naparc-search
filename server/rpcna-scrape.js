@@ -155,7 +155,7 @@ async function scrapeRpcna() {
 		count++;
 	}
 
-	const data = JSON.stringify(rpcna);
+	const data = JSON.stringify(rpcna, null, 4);
 	fs.writeFileSync(
 		path.join(__dirname, '..', 'public', 'api', `rpcna.json`),
 		data

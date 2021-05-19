@@ -50,6 +50,9 @@ const Key = ({ props }) => {
 					<p>
 						<span className="accent">PCA</span>: Presbyterian Church in America
 					</p>
+					<p>
+						<span className="accent">FRCNA</span>: Free Reformed Churches of North America
+					</p>
 
 					<p>More coming soon!</p>
 				</div>

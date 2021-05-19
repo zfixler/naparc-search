@@ -10,7 +10,7 @@ function useSearch() {
 	const [page, setPage] = useState(1);
 	const [allCong, setAllCong] = useState([]);
 
-	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc'];
+	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc', 'frcna'];
 
 	const checkLoading = () => {
 		if(loading === true){

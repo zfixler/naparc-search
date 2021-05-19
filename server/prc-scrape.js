@@ -123,7 +123,7 @@ async function getUrls() {
 			urlArray.push($(el).find('a').attr('href'));
 		});
 
-	const data = await scrapeCong(urlArray);
+	const data = await scrapeCong(urlArray, null, 4);
 	const prc = JSON.stringify(data)
     fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `prc.json`), prc)
 	console.log('PRC JSON written.')

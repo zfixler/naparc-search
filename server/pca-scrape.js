@@ -282,7 +282,7 @@ async function getPages() {
 	}
 	if (completed >= 100) {
 		const finArr = pca.flat()
-		const data = JSON.stringify(finArr);
+		const data = JSON.stringify(finArr, null, 4);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `pca.json`), data)
 		console.log('ARP JSON written.')
 	}

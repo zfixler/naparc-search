@@ -14,7 +14,7 @@ function writeJson(num1, num2) {
     process.stdout.cursorTo(0);
     process.stdout.write(`Total hits: ${num1}. Total rejects: ${num2}.`);
 	if (num1 + num2 === 525) {
-		const data = JSON.stringify(churchArray);
+		const data = JSON.stringify(churchArray, null, 4);
 		fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `opc.json`), data)
 		console.log('OPC JSON written.')
 	}

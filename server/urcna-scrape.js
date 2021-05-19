@@ -84,7 +84,7 @@ async function fetchUrl() {
 			churchArray.push(cong)
 
 			if (churchArray.length === totalUrls) {
-				const urcna = JSON.stringify(churchArray);
+				const urcna = JSON.stringify(churchArray, null, 4);
 				fs.writeFileSync(path.join(__dirname, '..', 'public', 'api', `urcna.json`), urcna)
 				console.log('URCNA JSON written.')
 			}
