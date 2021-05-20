@@ -3,7 +3,8 @@
 @import './variables';
 @import 'remixicon/fonts/remixicon.css';
 
-html, body {
+html,
+body {
 	background-color: $primary-background;
 	color: $primary-color;
 }
@@ -76,7 +77,8 @@ header {
 .info-wrapper {
 	background-color: $primary-background;
 	max-width: 750px;
-	padding: 1em 2em;
+	max-height: 90%;
+	padding: 1em 2em 2em;
 	border-radius: 5px;
 	margin: 2em;
 	display: flex;
@@ -89,15 +91,16 @@ header {
 		margin: 1em;
 		padding: 2em;
 		max-height: 82%;
-
-		.text-wrapper {
-			overflow: scroll;
-		}
 	}
 
+	.text-wrapper {
+		overflow: auto;
+		padding: 0 2em;
+		margin-top: 2em;
+	}
 
 	.close-btn {
-		margin: 0;
+		margin: 10px 0 0;
 		align-self: flex-end;
 		justify-content: center;
 		padding-bottom: 7px;
@@ -108,6 +111,13 @@ header {
 			color: $accent-color;
 			outline: none;
 		}
+	}
+
+	.info-title {
+		position: absolute;
+		margin: 0;
+		padding: 7px;
+		font-size: 2rem;
 	}
 }
 
@@ -233,7 +243,7 @@ main {
 	width: 260px;
 	height: 380px;
 	background-color: white;
-	box-shadow: $box-shadow; 
+	box-shadow: $box-shadow;
 	border-radius: 5px;
 	padding: 1.5em 2em;
 	display: flex;
@@ -274,6 +284,24 @@ main {
 		display: flex;
 		justify-content: space-around;
 		width: 80%;
+	}
+}
+
+.closest {
+	&:first-of-type {
+		border: 1px solid #04e762;
+		transform: scale(1.03);
+
+		&:before {
+			position: absolute;
+			color: #04e762;
+			content: 'Closest Result';
+			font-size: 0.75rem;
+			font-weight: bold;
+			letter-spacing: 1px;
+			top: 8px;
+			left: 8px;
+		}
 	}
 }
 
@@ -336,6 +364,6 @@ main {
 	}
 
 	& > * {
-		margin: 0 .5em;
+		margin: 0 0.5em;
 	}
 }

@@ -13,11 +13,11 @@ function useSearch() {
 	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc', 'frcna'];
 
 	const checkLoading = () => {
-		if(loading === true){
+		if (loading === true) {
 			setLoading(false);
 			setError('Something went wrong. Please try again.');
-		} 
-};
+		}
+	};
 
 	useEffect(() => {
 		denoms.forEach((denom) => {
@@ -30,8 +30,8 @@ function useSearch() {
 
 	useEffect(() => {
 		let loadingTimeout = setTimeout(checkLoading, 5000);
-		return () => clearTimeout(loadingTimeout)
-	}, [loading])
+		return () => clearTimeout(loadingTimeout);
+	}, [loading]);
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -39,11 +39,14 @@ function useSearch() {
 		const regexUs = /\d{5}/;
 		const regexCa = /[A-Z]\d[A-Z]/;
 
-		if(searchTerm === location){
+		if (searchTerm === location) {
 			setLoading(false);
 		} else if (regexUs.test(searchTerm) && searchTerm.length === 5) {
 			setLocation(searchTerm);
-		} else if (regexCa.test(searchTerm.toUpperCase()) && searchTerm.length === 3) {
+		} else if (
+			regexCa.test(searchTerm.toUpperCase()) &&
+			searchTerm.length === 3
+		) {
 			setLocation(searchTerm);
 		} else {
 			setSearchResult(null);
@@ -137,6 +140,8 @@ function useSearch() {
 		page,
 		setPage,
 		location,
+		allCong,
+		setLocation,
 	};
 }
 

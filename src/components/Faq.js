@@ -24,6 +24,7 @@ const Faq = ({ props }) => {
 						}
 					}}
 				></i>
+				<h2 className="info-title">FAQ</h2>
 				<div className="text-wrapper">
 					<h3>What is NAPARC?</h3>
 					<p>

@@ -1,5 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
-import { Header, Card, Faq, Key, Search, PageNumbers, Footer } from './components';
+import {
+	Header,
+	Card,
+	Faq,
+	Key,
+	Search,
+	PageNumbers,
+	Footer,
+} from './components';
 import useSearch from './hooks/useSearch';
 
 function App() {
@@ -15,6 +23,7 @@ function App() {
 		page,
 		setPage,
 		location,
+		setLocation,
 	} = useSearch();
 
 	const [info, setInfo] = useState(0);
@@ -25,12 +34,12 @@ function App() {
 	}, []);
 
 	useEffect(() => {
-		if(info === 1 || info === 2){
-			document.body.style.overflow = 'hidden'
-		} else if (info === 0){
-			document.body.style.overflow = 'visible'
+		if (info === 1 || info === 2) {
+			document.body.style.overflow = 'hidden';
+		} else if (info === 0) {
+			document.body.style.overflow = 'visible';
 		}
-	}, [info])
+	}, [info]);
 
 	const instructions =
 		'Please enter a 5 digit U.S. Zip Code, or the first 3 digits of a Canadian postal code.';
@@ -39,17 +48,17 @@ function App() {
 
 	useEffect(() => {
 		setTimeout(() => {
-			if(loading){
-				loadingMessage = 'Something went wrong. Please try again later.'
+			if (loading) {
+				loadingMessage = 'Something went wrong. Please try again later.';
 			}
-		}, 5000)
-	}, [loading])
+		}, 5000);
+	}, [loading]);
 
 	const display =
 		searchResult !== null &&
 		searchResult
 			.slice(0, 38)
-			.map((cong) => <Card key={cong.id} props={{cong, setInfo}} />);
+			.map((cong) => <Card key={cong.id} props={{ cong, setInfo, page }} />);
 
 	const displayResults = (pageNum, results) => {
 		if (pageNum === 1 && results !== null) {
@@ -84,9 +93,12 @@ function App() {
 					setSearchResult,
 					setSearchTerm,
 					searchRef,
+					setLocation,
 				}}
 			/>
-			<Search props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }} />
+			<Search
+				props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }}
+			/>
 			<p className="message">
 				{loading
 					? loadingMessage
