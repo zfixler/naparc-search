@@ -75,7 +75,7 @@ header {
 }
 
 .info-wrapper {
-	background-color: $primary-background;
+	background-color: white;
 	max-width: 750px;
 	max-height: 90%;
 	padding: 1em 2em 2em;
@@ -115,8 +115,8 @@ header {
 
 	.info-title {
 		position: absolute;
-		margin: 0;
-		padding: 7px;
+		margin: 0 0 0 1em;
+		padding: 7px 7px 7px 0;
 		font-size: 2rem;
 	}
 }
