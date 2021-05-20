@@ -24,7 +24,7 @@ const Key = ({ props }) => {
 						}
 					}}
 				></i>
-				<h2 className="info-title">Denomination Key</h2>
+				<h2 className="info-title">Key</h2>
 				<div className="text-wrapper">
 					<p>
 						<span className="accent">HRC</span>: Heritage Reformed Congregations
