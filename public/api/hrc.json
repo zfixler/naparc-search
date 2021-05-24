@@ -1,1 +1,134 @@
-[{"id":"53bf163d-a05b-4f31-9a2b-cf3578064f61","denom":"HRC","name":"Heritage Reformed Church of Chilliwack","address":"46336 First Ave, Chilliwack, BC V2P 1W7","phone":"604-794-7109","email":"jimbeeke@shaw.ca","website":"https://heritagereformed.com/locations/heritage-reformed-church-of-chilliwack/","date":"3/22/2021","lat":"49.1551","long":"-121.9459"},{"id":"f7253b0b-9c8a-4a7d-9539-13f992e2c2aa","denom":"HRC","name":"Heritage Reformed Church of Plymouth","address":"1419 Roberts Place, Plymouth, Wisconsin 53073","phone":"920-894-2394","email":"mngplants@tcei.com","website":"https://heritagereformed.com/locations/heritage-reformed-church-of-plymouth/","date":"3/22/2021","lat":"43.7526","long":"-87.9779"},{"id":"ac44652d-1077-49a6-a147-9bfa564edf5d","denom":"HRC","name":"Heritage Reformed Congregation of Jordan","address":"4171 Fifteenth St., Jordan, Ontario L0R 1S0","phone":"905-892-6391","email":"arie.dehaan@dehaanhomes.ca","website":"https://heritagereformed.com/locations/heritage-reformed-congregation-of-jordan/","date":"3/22/2021","lat":"43.1661","long":"-80.0702"},{"id":"e84c6513-be0d-4dec-b3a7-ca86749f2560","denom":"HRC","name":"Heritage Reformed Congregation of Hull","address":"1204 3rd St, Hull, Iowa 51239","phone":"712-439-1630","email":"bob_groeneweg@hotmail.com","website":"https://heritagereformed.com/locations/heritage-reformed-congregation-of-hull/","date":"3/22/2021","lat":"43.1952","long":"-96.1392"},{"id":"6b9498ce-464a-4523-a786-ef60efcb72dc","denom":"HRC","name":"Grace Reformed Christian Church of Harrison","address":"6911 Highway 62 East,, Harrison, Arkansas 72601","phone":"870-280-9218","email":"terreth.klaver@gmail.com","website":"https://heritagereformed.com/locations/grace-reformed-christian-church-of-harrison/","date":"3/22/2021","lat":"36.2417","long":"-93.1062"},{"id":"b450209a-27a4-40cb-bef1-a84ab034aaab","denom":"HRC","name":"Heritage Reformed Congregation of Burgessville","address":"685 Main Street South (PO Box 105),, Burgessville, ON N0J 1C0","phone":"519-424-3066","email":"clerk@hnrc.ca","website":"https://heritagereformed.com/locations/heritage-reformed-congregation-of-burgessville/","date":"3/22/2021","lat":"43.221","long":"-80.5613"},{"id":"48c87d58-e566-4402-b4d0-e4370705a78c","denom":"HRC","name":"Heritage Reformed Church of Bradford","address":"81 Industrial Pkwy N. Aurora, ON L4G 4C4","phone":"905-539-4510","email":"overbeek610@gmail.com","website":"https://heritagereformed.com/locations/heritage-reformed-church-of-bradford/","date":"3/22/2021","lat":"43.9909","long":"-79.4639"},{"id":"eff74f29-c007-494e-996e-104be83ae43d","denom":"HRC","name":"Heritage Reformed Congregation of Grand Rapids","address":"540 Crescent St NE, Grand Rapids, MI 49503","phone":"(616) 427-1996","email":"admin@hrcgr.org","website":"https://heritagereformed.com/locations/grand-rapids-michigan-heritage-reformed-congregation-of-grand-rapids/","date":"3/22/2021","lat":"42.9659","long":"-85.6527"},{"id":"5e26f615-fa6d-498e-9471-5a372cff5061","denom":"HRC","name":"Heritage Reformed Congregation of New Jersey","address":"129 Boonton Avenue, Kinnelon, NJ 07405","phone":"(973) 907-7485","email":"welcome@hrcnj.org","website":"https://heritagereformed.com/locations/hrc-new-jersey/","date":"3/22/2021","lat":"40.9988","long":"-74.4261"},{"id":"ae7a04e3-e73b-4ea2-86b3-6322dbb78ccc","denom":"HRC","name":"Florida Reformed Fellowship","address":"1306 Manatee Ave W, Bradenton, Florida 34205","phone":"616-608-5464","email":"makelderman@gmail.com","website":"https://heritagereformed.com/locations/florida-reformed-fellowship/","date":"3/22/2021","lat":"27.4841","long":"-82.5834"}]
+[
+    {
+        "id": "4f4ab5f7-df63-419c-94da-1a54c2a0b03e",
+        "denom": "HRC",
+        "name": "Hope Reformed Church of Tillsonburg",
+        "address": "Currently Meeting at:, Oxford Reformed Christian School gymnasium, 333182 Plank Line, Mt. Elgin, ON, N0J 1N0",
+        "phone": "(226) 231-8619",
+        "email": "jesseltine@orcschool.ca",
+        "website": "https://heritagereformed.com/locations/tilsonburg-ontar/",
+        "date": "5/24/2021",
+        "lat": "43.221",
+        "long": "-80.5613"
+    },
+    {
+        "id": "69f4b8e3-6ff6-4d14-a81a-9c918d6e80d8",
+        "denom": "HRC",
+        "name": "Heritage Reformed Church of Chilliwack",
+        "address": "46336 First Ave, Chilliwack, BC V2P 1W7",
+        "phone": "604-794-7109",
+        "email": "jimbeeke@shaw.ca",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-church-of-chilliwack/",
+        "date": "5/24/2021",
+        "lat": "49.1551",
+        "long": "-121.9459"
+    },
+    {
+        "id": "ebf0d962-b0e1-4da3-9a00-6066acc30b31",
+        "denom": "HRC",
+        "name": "Heritage Reformed Church of Plymouth",
+        "address": "1419 Roberts Place, Plymouth, Wisconsin 53073",
+        "phone": "920-894-2394",
+        "email": "mngplants@tcei.com",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-church-of-plymouth/",
+        "date": "5/24/2021",
+        "lat": "43.7526",
+        "long": "-87.9779"
+    },
+    {
+        "id": "58c02395-e595-49ad-b0ac-101b9436cda4",
+        "denom": "HRC",
+        "name": "Heritage Reformed Congregation of Jordan",
+        "address": "4171 Fifteenth St., Jordan, Ontario L0R 1S0",
+        "phone": "905-892-6391",
+        "email": "arie.dehaan@dehaanhomes.ca",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-congregation-of-jordan/",
+        "date": "5/24/2021",
+        "lat": "43.1661",
+        "long": "-80.0702"
+    },
+    {
+        "id": "90e6a342-7846-4a5c-a958-96cf5cd2b601",
+        "denom": "HRC",
+        "name": "Heritage Reformed Congregation of Hull",
+        "address": "1204 3rd St, Hull, Iowa 51239",
+        "phone": "712-439-1630",
+        "email": "bob_groeneweg@hotmail.com",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-congregation-of-hull/",
+        "date": "5/24/2021",
+        "lat": "43.1952",
+        "long": "-96.1392"
+    },
+    {
+        "id": "fee2fa4c-d587-4b99-af4b-d21bf7a1b31c",
+        "denom": "HRC",
+        "name": "Grace Reformed Christian Church of Harrison",
+        "address": "6911 Highway 62 East,, Harrison, Arkansas 72601",
+        "phone": "870-280-9218",
+        "email": "terreth.klaver@gmail.com",
+        "website": "https://heritagereformed.com/locations/grace-reformed-christian-church-of-harrison/",
+        "date": "5/24/2021",
+        "lat": "36.2417",
+        "long": "-93.1062"
+    },
+    {
+        "id": "52087dfc-a8cc-4f4e-b4e8-37900110f892",
+        "denom": "HRC",
+        "name": "Heritage Reformed Congregation of Burgessville",
+        "address": "685 Main Street South (PO Box 105),, Burgessville, ON N0J 1C0",
+        "phone": "519-424-3066",
+        "email": "clerk@hnrc.ca",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-congregation-of-burgessville/",
+        "date": "5/24/2021",
+        "lat": "43.221",
+        "long": "-80.5613"
+    },
+    {
+        "id": "19763187-e175-42cd-a963-e70d73d65a2b",
+        "denom": "HRC",
+        "name": "Heritage Reformed Church of Bradford",
+        "address": "81 Industrial Pkwy N. Aurora, ON L4G 4C4",
+        "phone": "905-539-4510",
+        "email": "overbeek610@gmail.com",
+        "website": "https://heritagereformed.com/locations/heritage-reformed-church-of-bradford/",
+        "date": "5/24/2021",
+        "lat": "43.9909",
+        "long": "-79.4639"
+    },
+    {
+        "id": "beb2a1eb-1c51-4086-9462-857006b5d519",
+        "denom": "HRC",
+        "name": "Heritage Reformed Congregation of Grand Rapids",
+        "address": "540 Crescent St NE, Grand Rapids, MI 49503",
+        "phone": "(616) 427-1996",
+        "email": "admin@hrcgr.org",
+        "website": "https://heritagereformed.com/locations/grand-rapids-michigan-heritage-reformed-congregation-of-grand-rapids/",
+        "date": "5/24/2021",
+        "lat": "42.9659",
+        "long": "-85.6527"
+    },
+    {
+        "id": "8387e0e6-fda6-468d-b25c-f0337e7f0fc6",
+        "denom": "HRC",
+        "name": "Heritage Reformed Congregation of New Jersey",
+        "address": "129 Boonton Avenue, Kinnelon, NJ 07405",
+        "phone": "(973) 907-7485",
+        "email": "welcome@hrcnj.org",
+        "website": "https://heritagereformed.com/locations/hrc-new-jersey/",
+        "date": "5/24/2021",
+        "lat": "40.9988",
+        "long": "-74.4261"
+    },
+    {
+        "id": "ae33fae0-d038-4a35-8f64-dff9818b92c8",
+        "denom": "HRC",
+        "name": "Florida Reformed Fellowship",
+        "address": "1306 Manatee Ave W, Bradenton, Florida 34205",
+        "phone": "616-608-5464",
+        "email": "makelderman@gmail.com",
+        "website": "https://heritagereformed.com/locations/florida-reformed-fellowship/",
+        "date": "5/24/2021",
+        "lat": "27.4841",
+        "long": "-82.5834"
+    }
+]

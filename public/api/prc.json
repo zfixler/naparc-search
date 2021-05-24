@@ -1,6 +1,6 @@
 [
 	{
-		"id": "00177e4e-c075-4891-9c32-6c1675437fe2",
+		"id": "8672a38c-3fc2-4319-b756-7015a74ac218",
 		"denom": "PRC",
 		"name": "Presbyterian Reformed Church of Chesley",
 		"pastor": "D. Douglas Gebbie",
@@ -8,12 +8,12 @@
 		"phone": "(519) 363-5278",
 		"email": "ddgebbie@gmail.com",
 		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-chesley/",
-		"date": "Updated on 3/2/2021.",
+		"date": "5/24/2021",
 		"lat": "43.8567",
 		"long": "-81.4023"
 	},
 	{
-		"id": "ed3f7ade-a489-4318-bf71-af0f826b0803",
+		"id": "7ff6c367-a8d6-404a-bcb1-b7b277c4bc84",
 		"denom": "PRC",
 		"name": "Presbyterian Reformed Church of Columbus, IN",
 		"pastor": "Bryan Peters",
@@ -21,12 +21,12 @@
 		"phone": "(812) 565-9705",
 		"email": "columbus@presbyterianreformed.org",
 		"website": "https://presbyterianreformed.org/prc-columbus-in/",
-		"date": "Updated on 3/2/2021.",
-		"lat": "42.521",
-		"long": "-73.8519"
+		"date": "5/24/2021",
+		"lat": "39.3626",
+		"long": "-85.9707"
 	},
 	{
-		"id": "2c0c29dd-9910-44ea-95be-b18b4e14ca42",
+		"id": "96ca9182-a5e2-4af7-afa9-1ae2f2430408",
 		"denom": "PRC",
 		"name": "Presbyterian Reformed Church of Jasper, IN",
 		"pastor": "Brad Freeman",
@@ -34,10 +34,12 @@
 		"phone": "(812) 670-9930",
 		"email": "bfreeman@presbyterianreformed.org",
 		"website": "https://presbyterianreformed.org/prc-of-jasper-in/",
-		"date": "Updated on 3/2/2021."
+		"date": "5/24/2021",
+		"lat": "38.3604",
+		"long": "-86.9295"
 	},
 	{
-		"id": "c757a6fa-0b3a-4a28-98d1-bf263fd8781f",
+		"id": "9efb57e6-2d25-4990-8bdc-ba38dc4ea4b1",
 		"denom": "PRC",
 		"name": "Presbyterian Reformed Church of North Carolina",
 		"pastor": "",
@@ -45,12 +47,12 @@
 		"phone": "(336) 577-4661",
 		"email": "jgeorge@providenceindustrial.com",
 		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-north-carolina/",
-		"date": "Updated on 3/2/2021.",
+		"date": "5/24/2021",
 		"lat": "36.295",
 		"long": "-80.356"
 	},
 	{
-		"id": "b83d5914-9aaf-4f09-acc9-62a8eb4df01c",
+		"id": "e57d0a44-2baf-4cd3-b572-ae902a569b98",
 		"denom": "PRC",
 		"name": "Presbyterian Reformed Church of Rhode Island",
 		"pastor": "Michael Ives",
@@ -58,12 +60,12 @@
 		"phone": "(401) 528-7613",
 		"email": "mjives.refparish@gmail.com",
 		"website": "https://presbyterianreformed.org/presbyterian-reformed-church-rhode-island/",
-		"date": "Updated on 3/2/2021.",
+		"date": "5/24/2021",
 		"lat": "41.6498",
 		"long": "-71.474"
 	},
 	{
-		"id": "085190d6-742b-4427-8c95-06eadb2b8b2c",
+		"id": "3d85711e-56f6-4a0a-96e1-f5d5def3d782",
 		"denom": "PRC",
 		"name": "Stockton Presbyterian Reformed Church",
 		"pastor": "Roy Mohon",
@@ -71,10 +73,10 @@
 		"phone": "",
 		"email": "",
 		"website": "https://presbyterianreformed.org/stockton-presbyterian-reformed-church/",
-		"date": "Updated on 3/2/2021."
+		"date": "5/24/2021"
 	},
 	{
-		"id": "84f2d63f-e9e7-4378-a9eb-c6fae29d4b35",
+		"id": "ac9fc7ce-3cd9-4a53-887b-6f3ee671fdc8",
 		"denom": "PRC",
 		"name": "Trinity Presbyterian Reformed Church",
 		"pastor": "Michael J. Ericson",
@@ -82,7 +84,7 @@
 		"phone": "(515) 259-1846",
 		"email": "trinity@presbyterianreformed.org",
 		"website": "https://presbyterianreformed.org/trinity-presbyterian-reformed-church/",
-		"date": "Updated on 3/2/2021.",
+		"date": "5/24/2021",
 		"lat": "41.673",
 		"long": "-93.7028"
 	}
