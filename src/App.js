@@ -33,13 +33,7 @@ function App() {
 		searchRef.current.focus();
 	}, []);
 
-	useEffect(() => {
-		if (info === 1 || info === 2) {
-			document.body.style.overflow = 'hidden';
-		} else if (info === 0) {
-			document.body.style.overflow = 'visible';
-		}
-	}, [info]);
+
 
 	const instructions =
 		'Please enter a 5 digit U.S. Zip Code, or the first 3 digits of a Canadian postal code.';

@@ -23,7 +23,7 @@ function Card({ props }) {
 			: true;
 
 	return (
-		<div className={page === 1 ? 'card closest' : 'card'}>
+		<div className={'card'}>
 			<p className="denom" onClick={() => setInfo(2)}>
 				{cong.denom}
 			</p>

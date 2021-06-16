@@ -92,22 +92,20 @@ async function getURL(res) {
 				.join()
 				.trim();
 
-			const url = `http://api.zippopotam.us/ca/${zip}`;
+			const url = `http://api.zippopotam.us/CA/${zip}`;
 
-			const res = await fetch(url).catch(error => {
-				if (error.code === 'ECONNRESET'){
-					fetch(url).catch(error => console.log(error))
-				} else { return {"places": null} }
-			});
+			const res = await fetch(url);
 			const json = await res.json();
-			if(json.places !== null){
+
+			if(json.places !== undefined){
 				const lat = await json.places[0].latitude;
 				const long = await json.places[0].longitude;
+	
 				congregation.lat = lat;
 				congregation.long = long;
 			}
-			
-		} else if (address.match(/\d{5}(?!.*\d{5})/g)) {
+
+		} else if (address.match(/[A-Z][a-z]+,\s[A-Z]{2}[0-9]{5}/g) || address.match(/[A-Z][a-z]+,\s[A-Z]{2}\s[0-9]{5}/g)) {
 			const zip = address
 				.match(/\d{5}(?!.*\d{5})/g)
 				.join()
@@ -116,15 +114,32 @@ async function getURL(res) {
 
 			const url = `http://api.zippopotam.us/us/${zip}`;
 
-			const res = await fetch(url).catch(error => {
-				if (error.code === 'ECONNRESET'){
-					fetch(url).catch(error => console.log(error))
-				} else { return {"places": "null"}}
-			});
+			const res = await fetch(url);
 			const json = await res.json();
-			if(json.places !== undefined || null){
+
+			if(json.places !== undefined){
 				const lat = await json.places[0].latitude;
 				const long = await json.places[0].longitude;
+	
+				congregation.lat = lat;
+				congregation.long = long;
+			}
+
+		} else if (address.match(/[A-Z][a-z]+,\s[A-Z]{2}/g)) {
+
+			let str = address.match(/[A-Z][a-z]+,\s[A-Z]{2}/g)[0]
+			let state = str.match(/[A-Z]{2}/g)[0]
+			let town = str.match(/[A-Z][a-z]+/g)[0]
+
+			const url = `http://api.zippopotam.us/us/${state}/${town}`;
+
+			const res = await fetch(url);
+			const json = await res.json();
+
+			if(json.places !== undefined){
+				const lat = await json.places[0].latitude;
+				const long = await json.places[0].longitude;
+	
 				congregation.lat = lat;
 				congregation.long = long;
 			}

@@ -3,6 +3,10 @@
 @import './variables';
 @import 'remixicon/fonts/remixicon.css';
 
+html {
+	overflow-y: scroll;
+}
+
 html,
 body {
 	background-color: $primary-background;
@@ -287,23 +291,6 @@ main {
 	}
 }
 
-.closest {
-	&:first-of-type {
-		border: 1px solid #04e762;
-		transform: scale(1.03);
-
-		&:before {
-			position: absolute;
-			color: #04e762;
-			content: 'Closest Result';
-			font-size: 0.75rem;
-			font-weight: bold;
-			letter-spacing: 1px;
-			top: 8px;
-			left: 8px;
-		}
-	}
-}
 
 .btn {
 	text-decoration: none;
