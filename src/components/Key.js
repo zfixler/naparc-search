@@ -53,6 +53,9 @@ const Key = ({ props }) => {
 					<p>
 						<span className="accent">FRCNA</span>: Free Reformed Churches of North America
 					</p>
+					<p>
+						<span className="accent">RCUS</span>: Reformed Church in the United States
+					</p>
 
 					<p>More coming soon!</p>
 				</div>
