@@ -23,7 +23,7 @@ function Header({ props }) {
 			>
 				NAPARC
 			</h1>
-			<p>Search for a Reformed Congregation</p>
+			<p>Find a Reformed Congregation</p>
 			<div className="links">
 				<p
 					className="link"

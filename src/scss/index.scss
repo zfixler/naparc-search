@@ -19,7 +19,7 @@ h1 {
 }
 
 header {
-	padding: 3em 1em;
+	padding: 5em 1em 4em;
 	text-align: center;
 	position: relative;
 	max-width: 100%;
@@ -91,7 +91,7 @@ header {
 	width: 100%;
 	height: 100%;
 	z-index: 1500;
-	background-color: rgba(5, 102, 141, 0.9);
+	background-color: rgba(239, 244, 251, 0.8);
 	display: grid;
 	align-items: center;
 }
@@ -108,6 +108,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	z-index: 1001;
+	box-shadow: $box-shadow;
 
 	@media (max-width: 600px) {
 		max-width: 90%;
@@ -288,7 +289,7 @@ main {
 	background-color: white;
 	box-shadow: $box-shadow;
 	border-radius: 5px;
-	padding: 1.5em 2em .5em;
+	padding: 1.5em 2em 1em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -305,7 +306,16 @@ main {
 	}
 
 	.contact {
-		max-height: 45%;
+		max-height: 50%;
+		padding-top: 2em;
+		
+		p {
+			margin: 0 0 .75em;
+
+			&:last-of-type {
+				margin: 0;
+			}
+		}
 	}
 
 	.card-btns {
@@ -333,13 +343,17 @@ main {
 	}
 
 	.info-pane {
-		font-size: 0.75rem;
-		text-align: center;
+
+		min-height: 96px;
 
 		.distance {
-			margin: 0 0 .5em;
+			margin: 0;
+			font-size: 0.75rem;
+			text-align: center;
 		}
+
 	}
+	
 
 	@media (max-width: 300px){
 		h2 {
@@ -357,21 +371,18 @@ main {
 	text-decoration: none;
 	color: #fff;
 	padding: 0.5em 1.25em;
-	background: linear-gradient(
-		270deg,
-		rgba(5, 102, 141, 0.7290266448376226) 0%,
-		rgba(5, 102, 141, 1) 100%
-	);
-	border-radius: 5px;
+	background-color: $primary-color;
+	border-radius: 2px;
 	margin: .75em;
 	position: relative;
 	transition: all 250ms ease;
 	text-align: center;
+	box-shadow: rgba(5,102,141, 0.25) 0px 0.0625em 0.0625em, rgba(5,102,141, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 
 	&:hover,
 	&:focus {
-		box-shadow: 0px 0px 3px 1px rgba(216, 49, 91, 0.6);
-		color: $accent-color;
+		
+		background-color: $accent-color;
 		outline: none;
 	}
 

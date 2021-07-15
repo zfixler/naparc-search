@@ -30,7 +30,7 @@ function Card({ props }) {
 			<h2>{cong.name}</h2>
 			<div className="contact">
 				{isPastor && (
-					<div>
+					<>
 						{cong.pastor.includes('Contact:') ? (
 							<p>
 								<span className="bold">Contact:</span>{' '}
@@ -41,7 +41,7 @@ function Card({ props }) {
 								<span className="bold">Pastor:</span> {cong.pastor}
 							</p>
 						)}
-					</div>
+					</>
 				)}
 				{isPhone && (
 					<p>
@@ -52,7 +52,7 @@ function Card({ props }) {
 					<span className="bold">Address:</span> {cong.address}
 				</p>
 			</div>
-			<div>
+			<div className="info-pane">
 				<div className="card-btns">
 					{isEmail ? (
 						<a className="btn" href={`mailto:${cong.email}`}>
@@ -70,9 +70,9 @@ function Card({ props }) {
 						<a className="btn disabled">Website</a>
 					)}
 				</div>
-				<div className="info-pane">
-					<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
-				</div>
+				
+				<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
+				
 			</div>
 		</div>
 	);
