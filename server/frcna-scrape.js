@@ -4,7 +4,6 @@ const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const fs = require('fs');
 
-
 function getUrlList(html) {
 	const $ = cheerio.load(html);
 
@@ -24,6 +23,11 @@ async function scrapeCong(html, url) {
 
 		const info = $('.itemExtraFields');
 
+		const date = new Date();
+		const update = `${
+			date.getMonth() + 1
+		}/${date.getDate()}/${date.getFullYear()}`;
+
 		let congregation = {
 			id: uuidv4(),
 			denom: 'FRCNA',
@@ -34,7 +38,8 @@ async function scrapeCong(html, url) {
 			website: null,
 			email: null,
 			long: null,
-			lat: null
+			lat: null,
+			date: update
 		};
 
 		congregation.name = $('h2').text().trim();
@@ -42,7 +47,10 @@ async function scrapeCong(html, url) {
 		info.find('span').each((i, el) => {
 			if ($(el).text().includes('Minister')) {
 				congregation.pastor = $(el).next().text().trim();
-			} else if ($(el).html().includes('Address') && congregation.address === null) {
+			} else if (
+				$(el).html().includes('Address') &&
+				congregation.address === null
+			) {
 				congregation.address = $(el)
 					.next()
 					.html()
@@ -56,26 +64,48 @@ async function scrapeCong(html, url) {
 					.replace(/Bulletin:(.*)/g, '')
 					.replace(/\(\d\d\d\)(.*)/g, '')
 					.replace(/\s\s+/g, ' ')
-					.trim();		
-			} else if ($(el).text().includes('Website')){
-				congregation.website = $(el).next().text()
-			} else if(congregation.website === null){
-				congregation.website = `https://www.frcna.org${url}`
+					.trim();
+			} else if ($(el).text().includes('Website')) {
+				congregation.website = $(el).next().text();
+			} else if (congregation.website === null) {
+				congregation.website = `https://www.frcna.org${url}`;
 			}
 		});
 
 		info.find('span').each((i, el) => {
-			if($(el).html().match(/[(]?[0-9]{3}[)][ ][0-9]{3}[-][0-9]{4}/)){
-					congregation.phone = $(el).html().match(/[(]?[0-9]{3}[)][ ][0-9]{3}[-][0-9]{4}/g)[0]
-				} else if( $(el).html().match(/[[0-9]{3}[-][0-9]{3}[-][0-9]{4}/)) {
-					congregation.phone = $(el).html().match(/[[0-9]{3}[-][0-9]{3}[-][0-9]{4}/)[0]
-				} else if( $(el).html().match(/[[0-9]{3}[ ][0-9]{3}[-][0-9]{4}/)) {
-					congregation.phone = $(el).html().match(/[[0-9]{3}[ ][0-9]{3}[-][0-9]{4}/)[0]
-				} else {return null}
+			if (
+				$(el)
+					.html()
+					.match(/[(]?[0-9]{3}[)][ ][0-9]{3}[-][0-9]{4}/)
+			) {
+				congregation.phone = $(el)
+					.html()
+					.match(/[(]?[0-9]{3}[)][ ][0-9]{3}[-][0-9]{4}/g)[0];
+			} else if (
+				$(el)
+					.html()
+					.match(/[[0-9]{3}[-][0-9]{3}[-][0-9]{4}/)
+			) {
+				congregation.phone = $(el)
+					.html()
+					.match(/[[0-9]{3}[-][0-9]{3}[-][0-9]{4}/)[0];
+			} else if (
+				$(el)
+					.html()
+					.match(/[[0-9]{3}[ ][0-9]{3}[-][0-9]{4}/)
+			) {
+				congregation.phone = $(el)
+					.html()
+					.match(/[[0-9]{3}[ ][0-9]{3}[-][0-9]{4}/)[0];
+			} else {
+				return null;
 			}
-		)
+		});
 
-		if (congregation.address.match(/\d{5}/g) && !congregation.address.match(/[A-Z]\d[A-Z]/g)) {
+		if (
+			congregation.address.match(/\d{5}/g) &&
+			!congregation.address.match(/[A-Z]\d[A-Z]/g)
+		) {
 			const zip = congregation.address.match(/\d{5}/g)[0];
 			const url = `http://api.zippopotam.us/us/${zip}`;
 
@@ -87,9 +117,8 @@ async function scrapeCong(html, url) {
 
 			congregation.lat = lat;
 			congregation.long = long;
-
 		} else if (congregation.address.match(/[A-Z]\d[A-Z]/g) !== null) {
-			const zip = congregation.address.match(/[A-Z]\d[A-Z]/g)[0]
+			const zip = congregation.address.match(/[A-Z]\d[A-Z]/g)[0];
 			const url = `http://api.zippopotam.us/CA/${zip}`;
 
 			const res = await fetch(url);
@@ -101,9 +130,8 @@ async function scrapeCong(html, url) {
 			congregation.lat = lat;
 			congregation.long = long;
 		}
-		
-		return congregation;
 
+		return congregation;
 	} catch {
 		(error) => console.log(error);
 	}
@@ -123,9 +151,9 @@ async function scrapeFrcna() {
 			const response = await fetch(`https://www.frcna.org${url}`);
 			const html = await response.text();
 			const cong = await scrapeCong(html, url);
-			console.log(cong)
+			console.log(cong);
 
-			if(cong.lat !== null){
+			if (cong.lat !== null) {
 				frcna.push(cong);
 			}
 		}

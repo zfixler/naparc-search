@@ -51,6 +51,11 @@ cron.schedule('6 2 * * 2,6', () => {
 	console.log('cron fired at 2:12 am')
   });
 
+  cron.schedule('20 2 * * 2,6', () => {
+	shell.cd(path.join(__dirname)).exec('node rcus-scrape.js')
+	console.log('cron fired at 2:20 am')
+  });
+
   cron.schedule('40 2 * * 2,6', () => {
 	shell.cd(path.join(__dirname, '..')).exec('npm run build')
 	console.log('cron fired at 2:40 am. task complete.')

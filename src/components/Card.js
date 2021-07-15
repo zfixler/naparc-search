@@ -23,14 +23,14 @@ function Card({ props }) {
 			: true;
 
 	return (
-		<div className={'card'}>
+		<div className="card">
 			<p className="denom" onClick={() => setInfo(2)}>
 				{cong.denom}
 			</p>
 			<h2>{cong.name}</h2>
-			<div className="card-info">
+			<div className="contact">
 				{isPastor && (
-					<p>
+					<div>
 						{cong.pastor.includes('Contact:') ? (
 							<p>
 								<span className="bold">Contact:</span>{' '}
@@ -41,7 +41,7 @@ function Card({ props }) {
 								<span className="bold">Pastor:</span> {cong.pastor}
 							</p>
 						)}
-					</p>
+					</div>
 				)}
 				{isPhone && (
 					<p>
@@ -52,25 +52,27 @@ function Card({ props }) {
 					<span className="bold">Address:</span> {cong.address}
 				</p>
 			</div>
-			<div className="card-btns">
-				{isEmail ? (
-					<a className="btn" href={`mailto:${cong.email}`}>
-						Email
-					</a>
-				) : (
-					<a className="btn disabled">Email</a>
-				)}
+			<div>
+				<div className="card-btns">
+					{isEmail ? (
+						<a className="btn" href={`mailto:${cong.email}`}>
+							Email
+						</a>
+					) : (
+						<a className="btn disabled">Email</a>
+					)}
 
-				{isWebsite ? (
-					<a className="btn" href={cong.website} target="_blank">
-						Website
-					</a>
-				) : (
-					<a className="btn disabled">Website</a>
-				)}
-			</div>
-			<div className="info-pane">
-				<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
+					{isWebsite ? (
+						<a className="btn" href={cong.website} target="_blank">
+							Website
+						</a>
+					) : (
+						<a className="btn disabled">Website</a>
+					)}
+				</div>
+				<div className="info-pane">
+					<p className="distance">Distance: {Math.round(cong.d)} miles.</p>
+				</div>
 			</div>
 		</div>
 	);
