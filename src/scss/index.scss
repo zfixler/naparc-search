@@ -262,6 +262,58 @@ header {
 	}
 }
 
+.filter {
+
+	display: grid;
+	place-items: center;
+	position: relative;
+
+	.btn {
+
+		min-width: 125px;
+	}
+
+	.btn-open {
+		background-color: $accent-color;
+	}
+
+	.filter-menu {
+		@keyframes growDown {
+			0% {
+				transform: scaleY(0)
+			}
+			
+			100% {
+				transform: scaleY(1)
+			}
+		}
+		
+		width: 125px;
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 2.5em;
+		background-color: #FFF;
+		border-radius: 0 0 5px 5px;
+		padding: 1em 0 0;
+		box-shadow: $box-shadow;
+		z-index: 2000;
+		margin-bottom: 2em;
+		animation: growDown .25s 1 forwards;
+		transform-origin: top center;
+
+		label {
+			margin-bottom: 1em;
+			padding-left: 1.5em;
+		}
+	}
+
+	.closed {
+		z-index: -3000;
+		display: none;
+	}
+}
+
 main {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -369,10 +421,12 @@ main {
 
 .btn {
 	text-decoration: none;
+	cursor: pointer;
 	color: #fff;
 	padding: 0.5em 1.25em;
 	background-color: $primary-color;
 	border-radius: 2px;
+	border: none;
 	margin: .75em;
 	position: relative;
 	transition: all 250ms ease;
@@ -384,6 +438,10 @@ main {
 		
 		background-color: $accent-color;
 		outline: none;
+	}
+
+	&:visited {
+		background-color: $primary-color;
 	}
 
 	&.disabled {

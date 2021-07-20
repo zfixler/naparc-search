@@ -9,8 +9,8 @@ function useSearch() {
 	const [error, setError] = useState('');
 	const [page, setPage] = useState(1);
 	const [allCong, setAllCong] = useState([]);
-
-	const denoms = ['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc', 'frcna', 'rcus'];
+	const [denoms, setDenoms] = useState(['pca', 'opc', 'arp', 'rpcna', 'urcna', 'hrc', 'prc', 'frcna', 'rcus'])
+	
 
 	const checkLoading = () => {
 		if (loading === true) {
@@ -26,7 +26,8 @@ function useSearch() {
 				.then((json) => allCong.push(...json))
 				.catch((error) => console.log(error));
 		});
-	}, []);
+	}, [denoms]);
+
 
 	useEffect(() => {
 		let loadingTimeout = setTimeout(checkLoading, 5000);
@@ -118,6 +119,7 @@ function useSearch() {
 					setSearchTerm('');
 					window.scrollTo(0, 0);
 				}
+				
 			}
 		};
 

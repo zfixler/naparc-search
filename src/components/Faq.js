@@ -56,7 +56,7 @@ const Faq = ({ props }) => {
 						This website is updated several times per week, in an attempt to
 						provide as up to date information as possible. The information is
 						gathered from the various denomination websites, however, which may
-						not be up to day. If you find information that is out of date,
+						not be up to date. If you find information that is out of date,
 						please contact the appropriate denomination directly. If there are
 						congregations listed on a denomination website that are not listed
 						here, please contact me. Thank you!

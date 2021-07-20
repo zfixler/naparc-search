@@ -7,6 +7,7 @@ import {
 	Search,
 	PageNumbers,
 	Footer,
+	Filter,
 } from './components';
 import useSearch from './hooks/useSearch';
 
@@ -28,12 +29,22 @@ function App() {
 
 	const [info, setInfo] = useState(0);
 	const searchRef = useRef(null);
+	const [display, setDisplay] = useState(null);
+	const [denomFilter, setDenomFilter] = useState({
+		PCA: true,
+		OPC: true,
+		ARP: true,
+		RPCNA: true,
+		URCNA: true,
+		HRC: true,
+		PRC: true,
+		FRCNA: true,
+		RCUS: true
+	})
 
 	useEffect(() => {
 		searchRef.current.focus();
 	}, []);
-
-
 
 	const instructions =
 		'Please enter a 5 digit U.S. Zip Code, or the first 3 digits of a Canadian postal code.';
@@ -48,11 +59,17 @@ function App() {
 		}, 5000);
 	}, [loading]);
 
-	const display =
-		searchResult !== null &&
-		searchResult
-			.slice(0, 38)
-			.map((cong) => <Card key={cong.id} props={{ cong, setInfo, page }} />);
+	useEffect(() => {
+		let final = null;
+		if (searchResult !== null) {
+			const filtered = searchResult.filter(cong => denomFilter[`${cong.denom}`] !== false);
+			final = filtered
+				.slice(0, 38)
+				.map((cong) => <Card key={cong.id} props={{ cong, setInfo, page }} />);
+		}
+		setDisplay(final);
+		console.log(display)
+	}, [searchResult, denomFilter]);
 
 	const displayResults = (pageNum, results) => {
 		if (pageNum === 1 && results !== null) {
@@ -93,6 +110,7 @@ function App() {
 			<Search
 				props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }}
 			/>
+			<Filter denomFilter={denomFilter} setDenomFilter={setDenomFilter} />
 			<p className="message">
 				{loading
 					? loadingMessage
@@ -103,14 +121,14 @@ function App() {
 					: `Showing the results for: ${location}.`}
 			</p>
 
-			{searchResult && (
-				<PageNumbers props={{ page, changePage, searchResult }} />
+			{display !== null && (
+				<PageNumbers props={{ page, changePage, display }} />
 			)}
 
-			<main>{displayResults(page, searchResult)}</main>
+			<main>{display !== null && displayResults(page, display)}</main>
 
-			{searchResult && (
-				<PageNumbers props={{ page, changePage, searchResult }} />
+			{display !== null && (
+				<PageNumbers props={{ page, changePage, display }} />
 			)}
 
 			{info === 1 ? (
