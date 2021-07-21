@@ -2,8 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 
 function Filter({ denomFilter, setDenomFilter }) {
 	const [isOpen, setIsOpen] = useState(false);
-    const filterRef = useRef(null)
-   
+	const [isCleared, setIsCleared] = useState(false)
+	const filterRef = useRef(null);
+
 	const handleChange = (e) => {
 		const { name, checked } = e.target;
 
@@ -15,32 +16,68 @@ function Filter({ denomFilter, setDenomFilter }) {
 		});
 	};
 
-    useEffect(() => {
-        document.addEventListener("click", outsideClick);
-        return () => document.removeEventListener("click", outsideClick)
+	useEffect(() => {
+		document.addEventListener('click', outsideClick);
+		return () => document.removeEventListener('click', outsideClick);
 
-        function outsideClick(e){
-            if(filterRef && filterRef.current){
-                const ref = filterRef.current
-                if(!ref.contains(e.target)){
-                    setIsOpen(false)
-                }
-            }
-        }
-    }, [isOpen])
+		function outsideClick(e) {
+			if (filterRef && filterRef.current) {
+				const ref = filterRef.current;
+				if (!ref.contains(e.target)) {
+					setIsOpen(false);
+				}
+			}
+		}
+	}, [isOpen]);
 
 	return (
 		<div className="filter" ref={filterRef}>
 			<button
-				className={isOpen ? "btn btn-open" : "btn"}
+				className={isOpen ? 'btn btn-open' : 'btn'}
 				onClick={(e) => {
 					setIsOpen(!isOpen);
 					e.target.blur();
 				}}
 			>
-				{isOpen ? '- Filter Results' :  '+ Filter Results'}
+				{isOpen ? '- Filter Results' : '+ Filter Results'}
 			</button>
-			<div className={isOpen === false ? 'closed' : 'filter-menu'} >
+			<div className={isOpen === false ? 'closed' : 'filter-menu'}>
+				<p
+					className="clear"
+					onClick={() => {
+
+						if(isCleared === false){
+							setDenomFilter({
+								PCA: false,
+								OPC: false,
+								ARP: false,
+								RPCNA: false,
+								URCNA: false,
+								HRC: false,
+								PRC: false,
+								FRCNA: false,
+								RCUS: false,
+							})
+							setIsCleared(true)
+						} else {
+							setDenomFilter({
+								PCA: true,
+								OPC: true,
+								ARP: true,
+								RPCNA: true,
+								URCNA: true,
+								HRC: true,
+								PRC: true,
+								FRCNA: true,
+								RCUS: true,
+							})
+							setIsCleared(false)
+						}
+					}
+					}
+				>
+					{isCleared ? 'Select All' : 'Clear All'}
+				</p>
 				<label htmlFor="HRC">
 					<input
 						type="checkbox"
@@ -127,4 +164,4 @@ function Filter({ denomFilter, setDenomFilter }) {
 	);
 }
 
-export default Filter
+export default Filter;

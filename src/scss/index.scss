@@ -312,6 +312,17 @@ header {
 		z-index: -3000;
 		display: none;
 	}
+
+	.clear {
+		text-align: center;
+		margin: 0 0 1em;
+		cursor: pointer;
+		transition: color ease 250ms;
+
+		&:hover, &:focus {
+			color: $accent-color;
+		}
+	}
 }
 
 main {
