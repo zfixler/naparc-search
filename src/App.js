@@ -96,48 +96,50 @@ function App() {
 	};
 
 	return (
-		<>
-			<Header
-				props={{
-					setInfo,
-					setLoading,
-					setSearchResult,
-					setSearchTerm,
-					searchRef,
-					setLocation,
-				}}
-			/>
-			<Search
-				props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }}
-			/>
-			<Filter denomFilter={denomFilter} setDenomFilter={setDenomFilter} />
-			<p className="message">
-				{loading
-					? loadingMessage
-					: error
-					? error
-					: !searchResult
-					? instructions
-					: `Showing the results for: ${location}.`}
-			</p>
+		<div className='app-wrapper'>
+			<div>
+				<Header
+					props={{
+						setInfo,
+						setLoading,
+						setSearchResult,
+						setSearchTerm,
+						searchRef,
+						setLocation,
+					}}
+				/>
+				<Search
+					props={{ searchTerm, setSearchTerm, searchRef, handleSubmit, setInfo }}
+				/>
+				<Filter denomFilter={denomFilter} setDenomFilter={setDenomFilter} />
+				<p className="message">
+					{loading
+						? loadingMessage
+						: error
+						? error
+						: !searchResult
+						? instructions
+						: `Showing the results for: ${location}.`}
+				</p>
 
-			{display !== null && (
-				<PageNumbers props={{ page, changePage, display }} />
-			)}
+				{display !== null && (
+					<PageNumbers props={{ page, changePage, display }} />
+				)}
 
-			<main>{display !== null && displayResults(page, display)}</main>
+				<main>{display !== null && displayResults(page, display)}</main>
 
-			{display !== null && (
-				<PageNumbers props={{ page, changePage, display }} />
-			)}
+				{display !== null && (
+					<PageNumbers props={{ page, changePage, display }} />
+				)}
 
-			{info === 1 ? (
-				<Faq props={{ setInfo }} />
-			) : info === 2 ? (
-				<Key props={{ setInfo, info }} />
-			) : null}
+				{info === 1 ? (
+					<Faq props={{ setInfo }} />
+				) : info === 2 ? (
+					<Key props={{ setInfo, info }} />
+				) : null}
+			</div>
 			<Footer />
-		</>
+		</div>
 	);
 }
 

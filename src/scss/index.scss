@@ -13,6 +13,13 @@ body {
 	color: $primary-color;
 }
 
+.app-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 h1 {
 	margin: 0;
 	cursor: pointer;
@@ -337,7 +344,6 @@ main {
 
 	@media (min-width: 600px) {
 		max-width: 80%;
-		min-height: calc(100vh - 580px);
 	}
 
 	@media (max-width: 400px){
